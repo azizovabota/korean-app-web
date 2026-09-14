@@ -5,115 +5,139 @@ import { colors, typography, spacing } from '@/constants/colors';
 
 export default function Home() {
   return (
-    <div style={{ minHeight: '100vh', backgroundColor: colors.lightGray }}>
+    <div style={{ minHeight: '100vh', backgroundColor: colors.lightGray, paddingBottom: '80px' }}>
+      {/* Header с градиентом */}
       <div
         style={{
-          padding: spacing.lg,
-          maxWidth: '600px',
-          margin: '0 auto',
+          background: colors.gradient,
+          color: colors.white,
+          padding: `${spacing.xl} ${spacing.lg}`,
+          borderRadius: '0 0 24px 24px',
         }}
       >
-        <div style={{ marginBottom: spacing.xl, textAlign: 'center' }}>
-          <h1
+        <div style={{ maxWidth: '600px', margin: '0 auto' }}>
+          <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: spacing.xl }}>
+            <div>
+              <p style={{ fontSize: typography.sizes.sm, opacity: 0.9 }}>20:24</p>
+              <h1 style={{ fontSize: typography.sizes['2xl'], fontWeight: 'bold', margin: 0 }}>
+                Korean App
+              </h1>
+            </div>
+            <div style={{ fontSize: '32px' }}>🎓</div>
+          </div>
+
+          {/* Goal Card */}
+          <div
             style={{
-              fontSize: typography.sizes['3xl'],
-              fontWeight: 'bold',
-              color: colors.black,
-              marginBottom: spacing.xs,
+              backgroundColor: 'rgba(255, 255, 255, 0.2)',
+              borderRadius: '16px',
+              padding: spacing.lg,
+              border: '2px dashed rgba(255, 255, 255, 0.5)',
+              textAlign: 'center',
             }}
           >
-            Korean App
-          </h1>
-          <p style={{ fontSize: typography.sizes.base, color: colors.darkGray }}>
-            한국어 학습 플랫폼
-          </p>
+            <p style={{ fontSize: typography.sizes.sm, margin: 0 }}>+ 설정 목표</p>
+          </div>
         </div>
+      </div>
 
-        <div style={{ display: 'flex', flexDirection: 'column', gap: spacing.md, marginBottom: spacing.xl }}>
-          <Link href="/topik">
-            <div
-              style={{
-                backgroundColor: colors.white,
-                borderRadius: '12px',
-                padding: spacing.lg,
-                display: 'flex',
-                alignItems: 'center',
-                justifyContent: 'space-between',
-                boxShadow: '0 4px 6px rgba(0,0,0,0.1)',
-                cursor: 'pointer',
-                transition: 'transform 0.2s',
-              }}
-              onMouseEnter={(e) => {
-                (e.currentTarget as HTMLElement).style.transform = 'translateY(-2px)';
-              }}
-              onMouseLeave={(e) => {
-                (e.currentTarget as HTMLElement).style.transform = 'translateY(0)';
-              }}
-            >
-              <div style={{ display: 'flex', alignItems: 'center', gap: spacing.md, flex: 1 }}>
+      {/* Main Content */}
+      <div style={{ maxWidth: '600px', margin: '0 auto', padding: spacing.lg }}>
+        {/* Current Goal */}
+        <div
+          style={{
+            backgroundColor: colors.white,
+            borderRadius: '16px',
+            padding: spacing.lg,
+            marginBottom: spacing.xl,
+            boxShadow: '0 4px 12px rgba(124, 58, 237, 0.1)',
+          }}
+        >
+          <div
+            style={{
+              background: colors.gradient,
+              color: colors.white,
+              borderRadius: '12px',
+              padding: spacing.lg,
+              textAlign: 'center',
+              marginBottom: spacing.lg,
+            }}
+          >
+            <p style={{ fontSize: typography.sizes.lg, fontWeight: 'bold', margin: 0 }}>
+              👑 GOAL TOPIK II Level 0
+            </p>
+          </div>
+
+          {/* Daily Streak */}
+          <p style={{ fontSize: typography.sizes.sm, fontWeight: 'bold', color: colors.black, marginBottom: spacing.md }}>
+            TOPIK of the Day
+          </p>
+          <div style={{ display: 'flex', gap: spacing.sm, justifyContent: 'space-between', marginBottom: spacing.lg }}>
+            {['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'].map((day, idx) => (
+              <div key={day} style={{ textAlign: 'center' }}>
                 <div
                   style={{
-                    width: '60px',
-                    height: '60px',
+                    width: '44px',
+                    height: '44px',
                     borderRadius: '12px',
-                    backgroundColor: colors.lightGray,
+                    backgroundColor: idx === 0 ? colors.primary : colors.lightGray,
                     display: 'flex',
                     alignItems: 'center',
                     justifyContent: 'center',
-                    fontSize: '32px',
+                    color: colors.white,
+                    fontWeight: 'bold',
+                    fontSize: '20px',
                   }}
                 >
-                  🎯
+                  ✓
                 </div>
-                <div>
-                  <h3 style={{ fontSize: typography.sizes.lg, fontWeight: 'bold', color: colors.black }}>
-                    TOPIK
-                  </h3>
-                  <p style={{ fontSize: typography.sizes.sm, color: colors.darkGray }}>
-                    시험 준비 및 진단
-                  </p>
-                </div>
-              </div>
-              <span style={{ fontSize: typography.sizes.lg, color: colors.primary }}>→</span>
-            </div>
-          </Link>
-
-          <div
-            style={{
-              backgroundColor: colors.white,
-              borderRadius: '12px',
-              padding: spacing.lg,
-              display: 'flex',
-              alignItems: 'center',
-              justifyContent: 'space-between',
-              opacity: 0.6,
-            }}
-          >
-            <div style={{ display: 'flex', alignItems: 'center', gap: spacing.md, flex: 1 }}>
-              <div
-                style={{
-                  width: '60px',
-                  height: '60px',
-                  borderRadius: '12px',
-                  backgroundColor: colors.lightGray,
-                  display: 'flex',
-                  alignItems: 'center',
-                  justifyContent: 'center',
-                  fontSize: '32px',
-                }}
-              >
-                🔤
-              </div>
-              <div>
-                <h3 style={{ fontSize: typography.sizes.lg, fontWeight: 'bold', color: colors.black }}>
-                  Hangul
-                </h3>
-                <p style={{ fontSize: typography.sizes.sm, color: colors.darkGray }}>
-                  한글 배우기 (예정중)
+                <p style={{ fontSize: typography.sizes.xs, marginTop: spacing.sm, color: colors.darkGray }}>
+                  {day}
                 </p>
               </div>
+            ))}
+          </div>
+        </div>
+
+        {/* My Current Level */}
+        <h2 style={{ fontSize: typography.sizes.lg, fontWeight: 'bold', color: colors.black, marginBottom: spacing.lg }}>
+          My Current Level
+        </h2>
+
+        <div style={{ textAlign: 'center', marginBottom: spacing.xl }}>
+          <div
+            style={{
+              width: '200px',
+              height: '200px',
+              borderRadius: '50%',
+              background: `conic-gradient(${colors.primary} 0%, ${colors.primary} 0%, ${colors.lightGray} 0%)`,
+              margin: '0 auto',
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+              position: 'relative',
+              boxShadow: '0 8px 24px rgba(124, 58, 237, 0.2)',
+            }}
+          >
+            <div
+              style={{
+                width: '160px',
+                height: '160px',
+                borderRadius: '50%',
+                backgroundColor: colors.white,
+                display: 'flex',
+                flexDirection: 'column',
+                alignItems: 'center',
+                justifyContent: 'center',
+              }}
+            >
+              <p style={{ fontSize: '48px', fontWeight: 'bold', margin: 0, color: colors.black }}>
+                0
+              </p>
+              <p style={{ fontSize: typography.sizes.sm, color: colors.primary, fontWeight: 'bold', margin: `${spacing.sm} 0 0 0` }}>
+                Goal 0
+              </p>
             </div>
-            <span style={{ fontSize: typography.sizes.sm, color: colors.darkGray }}>Coming Soon</span>
           </div>
 
           <div
@@ -121,60 +145,129 @@ export default function Home() {
               backgroundColor: colors.white,
               borderRadius: '12px',
               padding: spacing.lg,
+              marginTop: spacing.lg,
               display: 'flex',
               alignItems: 'center',
-              justifyContent: 'space-between',
-              opacity: 0.6,
+              gap: spacing.md,
             }}
           >
-            <div style={{ display: 'flex', alignItems: 'center', gap: spacing.md, flex: 1 }}>
-              <div
-                style={{
-                  width: '60px',
-                  height: '60px',
-                  borderRadius: '12px',
-                  backgroundColor: colors.lightGray,
-                  display: 'flex',
-                  alignItems: 'center',
-                  justifyContent: 'center',
-                  fontSize: '32px',
-                }}
-              >
-                📚
-              </div>
-              <div>
-                <h3 style={{ fontSize: typography.sizes.lg, fontWeight: 'bold', color: colors.black }}>
-                  Vocabulary
-                </h3>
-                <p style={{ fontSize: typography.sizes.sm, color: colors.darkGray }}>
-                  단어 학습 (예정중)
-                </p>
-              </div>
-            </div>
-            <span style={{ fontSize: typography.sizes.sm, color: colors.darkGray }}>Coming Soon</span>
+            <div style={{ fontSize: '32px' }}>🚀</div>
+            <p style={{ fontSize: typography.sizes.base, color: colors.black, margin: 0 }}>
+              Take a level test to see your report!
+            </p>
           </div>
-        </div>
 
-        <div
-          style={{
-            backgroundColor: '#FFF9E6',
-            borderRadius: '8px',
-            padding: spacing.md,
-            borderLeft: `4px solid ${colors.accent}`,
-          }}
-        >
-          <p style={{ fontSize: typography.sizes.sm, color: colors.black }}>
-            💡 TOPIK 진단으로 당신의 한국어 수준을 빠르게 파악하세요!
-          </p>
-        </div>
-
-        <div style={{ marginTop: spacing.xl, textAlign: 'center' }}>
-          <Link href="/admin">
-            <span style={{ fontSize: typography.sizes.xs, color: colors.darkGray, textDecoration: 'underline' }}>
-              🔧 Admin Panel
-            </span>
+          <Link href="/topik">
+            <button
+              style={{
+                width: '100%',
+                background: colors.gradient,
+                color: colors.white,
+                border: 'none',
+                borderRadius: '16px',
+                padding: spacing.lg,
+                fontSize: typography.sizes.base,
+                fontWeight: 'bold',
+                cursor: 'pointer',
+                marginTop: spacing.lg,
+              }}
+            >
+              Start First Level Test &gt;
+            </button>
           </Link>
         </div>
+
+        {/* Question Category */}
+        <h2 style={{ fontSize: typography.sizes.lg, fontWeight: 'bold', color: colors.black, marginBottom: spacing.lg }}>
+          Question Category
+        </h2>
+
+        <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: spacing.lg }}>
+          {[
+            { icon: '🎧', title: 'Listening', korean: '듣기', badge: '+750' },
+            { icon: '📖', title: 'Reading', korean: '읽기', badge: '+750' },
+            { icon: '✍️', title: 'Writing', korean: '쓰기', badge: '+500' },
+            { icon: '📝', title: 'Mock Test', korean: '기출 모의고사', badge: '+1000' },
+          ].map((item) => (
+            <div
+              key={item.title}
+              style={{
+                backgroundColor: colors.white,
+                borderRadius: '16px',
+                padding: spacing.lg,
+                textAlign: 'center',
+                boxShadow: '0 4px 12px rgba(0, 0, 0, 0.05)',
+                position: 'relative',
+              }}
+            >
+              <div
+                style={{
+                  position: 'absolute',
+                  top: '8px',
+                  right: '12px',
+                  backgroundColor: '#F3E8FF',
+                  color: colors.primary,
+                  borderRadius: '8px',
+                  padding: `${spacing.xs} ${spacing.sm}`,
+                  fontSize: typography.sizes.xs,
+                  fontWeight: 'bold',
+                }}
+              >
+                {item.badge}
+              </div>
+
+              <p style={{ fontSize: '40px', margin: `0 0 ${spacing.sm} 0` }}>{item.icon}</p>
+              <p style={{ fontSize: typography.sizes.base, fontWeight: 'bold', color: colors.black, margin: `0 0 ${spacing.xs} 0` }}>
+                {item.title}
+              </p>
+              <p style={{ fontSize: typography.sizes.xs, color: colors.darkGray, margin: 0 }}>
+                {item.korean}
+              </p>
+            </div>
+          ))}
+        </div>
+      </div>
+
+      {/* Bottom Navigation */}
+      <div
+        style={{
+          position: 'fixed',
+          bottom: 0,
+          left: 0,
+          right: 0,
+          backgroundColor: colors.white,
+          borderTop: `1px solid ${colors.gray}`,
+          display: 'flex',
+          justifyContent: 'space-around',
+          padding: `${spacing.md} 0`,
+          maxWidth: '600px',
+          margin: '0 auto',
+          width: '100%',
+        }}
+      >
+        {[
+          { icon: '🏠', label: 'Main', href: '/' },
+          { icon: '❓', label: 'Questions', href: '#' },
+          { icon: '📚', label: 'My Study', href: '#' },
+          { icon: '📊', label: 'Analysis', href: '#' },
+        ].map((item) => (
+          <Link key={item.label} href={item.href}>
+            <div
+              style={{
+                textAlign: 'center',
+                cursor: 'pointer',
+                color: item.href === '/' ? colors.primary : colors.darkGray,
+              }}
+            >
+              <p style={{ fontSize: '24px', margin: `0 0 ${spacing.xs} 0` }}>
+                {item.icon}
+              </p>
+              <p style={{ fontSize: typography.sizes.xs, margin: 0, fontWeight: item.href === '/' ? 'bold' : 'normal' }}>
+                {item.label}
+              </p>
+            </div>
+          </Link>
+        ))}
       </div>
     </div>
   );

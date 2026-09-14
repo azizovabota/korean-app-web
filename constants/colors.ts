@@ -1,11 +1,13 @@
 export const colors = {
-  primary: '#0096B8',
-  accent: '#FFB800',
+  primary: '#7C3AED',      // фиолетовый
+  primaryLight: '#A78BFA', // светлый фиолетовый
+  accent: '#FBBF24',       // жёлтый
   black: '#000000',
   white: '#FFFFFF',
-  gray: '#D1D5DB',
+  gray: '#E5E7EB',
   darkGray: '#6B7280',
-  lightGray: '#F3F4F6',
+  lightGray: '#F9FAFB',
+  gradient: 'linear-gradient(135deg, #7C3AED 0%, #A78BFA 100%)',
 };
 
 export const typography = {
