@@ -12,7 +12,7 @@ interface TopikQuickDiagnosticProps {
 }
 
 export function TopikQuickDiagnostic({ userId, onComplete }: TopikQuickDiagnosticProps) {
-  const { attempt, loading, startQuickDiagnostic, answerQuestion, nextQuestion, submitAttempt } =
+  const { attempt, loading, startQuickDiagnostic, answerQuestion, nextQuestion, prevQuestion, submitAttempt } =
     useTopikStore();
 
   useEffect(() => {
@@ -71,19 +71,21 @@ export function TopikQuickDiagnostic({ userId, onComplete }: TopikQuickDiagnosti
       <div style={{ padding: spacing.lg, borderBottom: `1px solid ${colors.gray}`, backgroundColor: colors.white }}>
         <div style={{ display: 'flex', gap: spacing.md, maxWidth: '600px', margin: '0 auto' }}>
           <button
-            onClick={() => window.history.back()}
+            onClick={prevQuestion}
+            disabled={attempt?.currentIndex === 0}
             style={{
-              backgroundColor: colors.lightGray,
+              backgroundColor: attempt?.currentIndex === 0 ? colors.gray : colors.lightGray,
               color: colors.black,
               border: `1px solid ${colors.gray}`,
               borderRadius: '8px',
               padding: `${spacing.sm} ${spacing.lg}`,
               fontSize: typography.sizes.sm,
               fontWeight: '600',
-              cursor: 'pointer',
+              cursor: attempt?.currentIndex === 0 ? 'not-allowed' : 'pointer',
+              opacity: attempt?.currentIndex === 0 ? 0.5 : 1,
             }}
           >
-            ← Назад
+            ← Предыдущий
           </button>
           <Link href="/">
             <button

@@ -29,6 +29,7 @@ interface TopikStore {
   startQuickDiagnostic: (userId: string) => Promise<void>;
   answerQuestion: (questionId: string, option: string) => void;
   nextQuestion: () => void;
+  prevQuestion: () => void;
   submitAttempt: (userId: string) => Promise<{ score: number; level: string }>;
   reset: () => void;
 }
@@ -148,6 +149,20 @@ export const useTopikStore = create<TopikStore>((set, get) => ({
         attempt: {
           ...attempt,
           currentIndex: attempt.currentIndex + 1,
+        },
+      });
+    }
+  },
+
+  prevQuestion: () => {
+    const { attempt } = get();
+    if (!attempt) return;
+
+    if (attempt.currentIndex > 0) {
+      set({
+        attempt: {
+          ...attempt,
+          currentIndex: attempt.currentIndex - 1,
         },
       });
     }

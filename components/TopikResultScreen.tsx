@@ -33,21 +33,22 @@ export function TopikResultScreen({
   return (
     <div style={{ overflowY: 'auto', padding: spacing.lg, minHeight: '100vh' }}>
       <div style={{ display: 'flex', gap: spacing.md, marginBottom: spacing.lg, maxWidth: '600px', margin: '0 auto 24px' }}>
-        <button
-          onClick={() => window.history.back()}
-          style={{
-            backgroundColor: colors.lightGray,
-            color: colors.black,
-            border: `1px solid ${colors.gray}`,
-            borderRadius: '8px',
-            padding: `${spacing.sm} ${spacing.lg}`,
-            fontSize: typography.sizes.sm,
-            fontWeight: '600',
-            cursor: 'pointer',
-          }}
-        >
-          ← Назад
-        </button>
+        <Link href="/topik">
+          <button
+            style={{
+              backgroundColor: colors.lightGray,
+              color: colors.black,
+              border: `1px solid ${colors.gray}`,
+              borderRadius: '8px',
+              padding: `${spacing.sm} ${spacing.lg}`,
+              fontSize: typography.sizes.sm,
+              fontWeight: '600',
+              cursor: 'pointer',
+            }}
+          >
+            ← Меню
+          </button>
+        </Link>
         <Link href="/">
           <button
             style={{
