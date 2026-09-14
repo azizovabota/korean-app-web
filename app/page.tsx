@@ -167,6 +167,14 @@ export default function Home() {
             💡 TOPIK 진단으로 당신의 한국어 수준을 빠르게 파악하세요!
           </p>
         </div>
+
+        <div style={{ marginTop: spacing.xl, textAlign: 'center' }}>
+          <Link href="/admin">
+            <span style={{ fontSize: typography.sizes.xs, color: colors.darkGray, textDecoration: 'underline' }}>
+              🔧 Admin Panel
+            </span>
+          </Link>
+        </div>
       </div>
     </div>
   );
