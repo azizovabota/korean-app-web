@@ -234,6 +234,8 @@ export default function AdminPage() {
                   marginTop: spacing.sm,
                   fontFamily: 'inherit',
                   minHeight: '80px',
+                  color: colors.black,
+                  backgroundColor: colors.white,
                 }}
                 placeholder="Введи вопрос на корейском"
               />
@@ -259,6 +261,8 @@ export default function AdminPage() {
                       border: `1px solid ${colors.gray}`,
                       padding: spacing.md,
                       fontSize: typography.sizes.sm,
+                      color: colors.black,
+                      backgroundColor: colors.white,
                     }}
                     placeholder={`Вариант ${opt.key}`}
                   />
@@ -283,6 +287,8 @@ export default function AdminPage() {
                     padding: spacing.md,
                     fontSize: typography.sizes.sm,
                     marginTop: spacing.sm,
+                    color: colors.black,
+                    backgroundColor: colors.white,
                   }}
                 >
                   {formData.options.map((opt) => (
@@ -309,6 +315,8 @@ export default function AdminPage() {
                     padding: spacing.md,
                     fontSize: typography.sizes.sm,
                     marginTop: spacing.sm,
+                    color: colors.black,
+                    backgroundColor: colors.white,
                   }}
                 >
                   {[1, 2, 3, 4, 5].map((d) => (
@@ -335,6 +343,8 @@ export default function AdminPage() {
                     padding: spacing.md,
                     fontSize: typography.sizes.sm,
                     marginTop: spacing.sm,
+                    color: colors.black,
+                    backgroundColor: colors.white,
                   }}
                 >
                   <option value="vocabulary">Словарь</option>
@@ -422,6 +432,8 @@ export default function AdminPage() {
                   marginTop: spacing.sm,
                   fontFamily: 'monospace',
                   minHeight: '300px',
+                  color: colors.black,
+                  backgroundColor: colors.white,
                 }}
                 placeholder={`Вопрос 1,Вариант 1,Вариант 2,Вариант 3,Вариант 4,1,Объяснение,2,vocabulary
 Вопрос 2,Вариант 1,Вариант 2,Вариант 3,Вариант 4,2,Объяснение,2,grammar`}
