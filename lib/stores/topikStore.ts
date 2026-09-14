@@ -172,27 +172,28 @@ export const useTopikStore = create<TopikStore>((set, get) => ({
     const { attempt } = get();
     if (!attempt) throw new Error('No active attempt');
 
+    set({ loading: true });
+
+    let correctCount = 0;
+
+    for (const question of attempt.questions) {
+      const selected = attempt.answers[question.id];
+      if (selected === question.correct_option) correctCount++;
+    }
+
+    const percentCorrect = (correctCount / attempt.questions.length) * 100;
+    let predictedScore = Math.round((percentCorrect / 100) * 200);
+    let predictedLevel = '2급';
+
+    if (predictedScore >= 140) {
+      predictedLevel = '1급';
+    } else if (predictedScore < 80) {
+      predictedLevel = '3급 이하';
+    }
+
+    // Try to save to Supabase, but don't fail if it's unavailable
     try {
-      set({ loading: true });
-
-      let correctCount = 0;
-
-      for (const question of attempt.questions) {
-        const selected = attempt.answers[question.id];
-        if (selected === question.correct_option) correctCount++;
-      }
-
-      const percentCorrect = (correctCount / attempt.questions.length) * 100;
-      let predictedScore = Math.round((percentCorrect / 100) * 200);
-      let predictedLevel = '2급';
-
-      if (predictedScore >= 140) {
-        predictedLevel = '1급';
-      } else if (predictedScore < 80) {
-        predictedLevel = '3급 이하';
-      }
-
-      const { error: insertError } = await supabase.from('topik_attempts').insert([
+      await supabase.from('topik_attempts').insert([
         {
           user_id: userId,
           mode: attempt.mode,
@@ -201,15 +202,13 @@ export const useTopikStore = create<TopikStore>((set, get) => ({
           completed_at: new Date().toISOString(),
         },
       ]);
-
-      if (insertError) throw insertError;
-
-      set({ loading: false });
-      return { score: predictedScore, level: predictedLevel };
-    } catch (err: any) {
-      set({ error: err.message, loading: false });
-      throw err;
+    } catch (dbErr) {
+      // Silently fail if Supabase is unavailable; still return results
+      console.log('Failed to save to Supabase, but returning results anyway');
     }
+
+    set({ loading: false });
+    return { score: predictedScore, level: predictedLevel };
   },
 
   reset: () => {
