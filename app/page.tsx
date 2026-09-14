@@ -247,9 +247,9 @@ export default function Home() {
       >
         {[
           { icon: '🏠', label: 'Main', href: '/' },
-          { icon: '❓', label: 'Questions', href: '#' },
-          { icon: '📚', label: 'My Study', href: '#' },
-          { icon: '📊', label: 'Analysis', href: '#' },
+          { icon: '❓', label: 'Questions', href: '/questions' },
+          { icon: '📚', label: 'My Study', href: '/my-study' },
+          { icon: '📊', label: 'Analysis', href: '/analysis' },
         ].map((item) => (
           <Link key={item.label} href={item.href}>
             <div
