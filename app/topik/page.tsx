@@ -56,6 +56,39 @@ export default function TopikPage() {
   return (
     <div style={{ minHeight: '100vh', backgroundColor: colors.lightGray, padding: spacing.lg }}>
       <div style={{ maxWidth: '600px', margin: '0 auto' }}>
+        <div style={{ marginBottom: spacing.lg, display: 'flex', gap: spacing.md }}>
+          <button
+            onClick={() => window.history.back()}
+            style={{
+              backgroundColor: colors.lightGray,
+              color: colors.black,
+              border: `1px solid ${colors.gray}`,
+              borderRadius: '8px',
+              padding: `${spacing.sm} ${spacing.lg}`,
+              fontSize: typography.sizes.sm,
+              fontWeight: '600',
+              cursor: 'pointer',
+            }}
+          >
+            ← Назад
+          </button>
+          <Link href="/">
+            <button
+              style={{
+                backgroundColor: colors.lightGray,
+                color: colors.black,
+                border: `1px solid ${colors.gray}`,
+                borderRadius: '8px',
+                padding: `${spacing.sm} ${spacing.lg}`,
+                fontSize: typography.sizes.sm,
+                fontWeight: '600',
+                cursor: 'pointer',
+              }}
+            >
+              🏠 Домой
+            </button>
+          </Link>
+        </div>
         <div style={{ marginBottom: spacing.xl, textAlign: 'center' }}>
           <h1
             style={{

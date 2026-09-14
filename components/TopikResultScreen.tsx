@@ -1,5 +1,6 @@
 'use client';
 
+import Link from 'next/link';
 import { colors, typography, spacing } from '@/constants/colors';
 
 interface TopikResultScreenProps {
@@ -31,7 +32,41 @@ export function TopikResultScreen({
 
   return (
     <div style={{ overflowY: 'auto', padding: spacing.lg, minHeight: '100vh' }}>
-      <div style={{ textAlign: 'center', marginBottom: spacing.xl }}>
+      <div style={{ display: 'flex', gap: spacing.md, marginBottom: spacing.lg, maxWidth: '600px', margin: '0 auto 24px' }}>
+        <button
+          onClick={() => window.history.back()}
+          style={{
+            backgroundColor: colors.lightGray,
+            color: colors.black,
+            border: `1px solid ${colors.gray}`,
+            borderRadius: '8px',
+            padding: `${spacing.sm} ${spacing.lg}`,
+            fontSize: typography.sizes.sm,
+            fontWeight: '600',
+            cursor: 'pointer',
+          }}
+        >
+          ← Назад
+        </button>
+        <Link href="/">
+          <button
+            style={{
+              backgroundColor: colors.lightGray,
+              color: colors.black,
+              border: `1px solid ${colors.gray}`,
+              borderRadius: '8px',
+              padding: `${spacing.sm} ${spacing.lg}`,
+              fontSize: typography.sizes.sm,
+              fontWeight: '600',
+              cursor: 'pointer',
+            }}
+          >
+            🏠 Домой
+          </button>
+        </Link>
+      </div>
+
+      <div style={{ textAlign: 'center', marginBottom: spacing.xl, maxWidth: '600px', margin: '0 auto' }}>
         <h1 style={{ fontSize: typography.sizes['2xl'], fontWeight: 'bold', color: colors.black }}>
           진단 결과
         </h1>

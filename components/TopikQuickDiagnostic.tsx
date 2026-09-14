@@ -1,6 +1,7 @@
 'use client';
 
 import { useEffect } from 'react';
+import Link from 'next/link';
 import { useTopikStore } from '@/lib/stores/topikStore';
 import { TopikQuestionCard } from './TopikQuestionCard';
 import { colors, typography, spacing } from '@/constants/colors';
@@ -67,6 +68,42 @@ export function TopikQuickDiagnostic({ userId, onComplete }: TopikQuickDiagnosti
 
   return (
     <div style={{ display: 'flex', flexDirection: 'column', height: '100vh' }}>
+      <div style={{ padding: spacing.lg, borderBottom: `1px solid ${colors.gray}`, backgroundColor: colors.white }}>
+        <div style={{ display: 'flex', gap: spacing.md, maxWidth: '600px', margin: '0 auto' }}>
+          <button
+            onClick={() => window.history.back()}
+            style={{
+              backgroundColor: colors.lightGray,
+              color: colors.black,
+              border: `1px solid ${colors.gray}`,
+              borderRadius: '8px',
+              padding: `${spacing.sm} ${spacing.lg}`,
+              fontSize: typography.sizes.sm,
+              fontWeight: '600',
+              cursor: 'pointer',
+            }}
+          >
+            ← Назад
+          </button>
+          <Link href="/">
+            <button
+              style={{
+                backgroundColor: colors.lightGray,
+                color: colors.black,
+                border: `1px solid ${colors.gray}`,
+                borderRadius: '8px',
+                padding: `${spacing.sm} ${spacing.lg}`,
+                fontSize: typography.sizes.sm,
+                fontWeight: '600',
+                cursor: 'pointer',
+              }}
+            >
+              🏠 Домой
+            </button>
+          </Link>
+        </div>
+      </div>
+
       <div style={{ flex: 1, overflowY: 'auto' }}>
         <TopikQuestionCard
           question={currentQuestion}
