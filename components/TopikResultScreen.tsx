@@ -17,9 +17,9 @@ export function TopikResultScreen({
   onBackToHome,
 }: TopikResultScreenProps) {
   const getScoreColor = () => {
-    if (score >= 140) return '#10B981';
-    if (score >= 80) return '#F59E0B';
-    return '#EF4444';
+    if (score >= 140) return '#10B981'; // green
+    if (score >= 80) return '#F59E0B'; // amber
+    return '#EF4444'; // red
   };
 
   const getLevelDescription = () => {
@@ -31,159 +31,185 @@ export function TopikResultScreen({
   const scoreColor = getScoreColor();
 
   return (
-    <div style={{ overflowY: 'auto', padding: spacing.lg, minHeight: '100vh' }}>
-      <div style={{ display: 'flex', gap: spacing.md, marginBottom: spacing.lg, maxWidth: '600px', margin: '0 auto 24px' }}>
-        <Link href="/topik">
-          <button
-            style={{
-              backgroundColor: colors.lightGray,
-              color: colors.black,
-              border: `1px solid ${colors.gray}`,
-              borderRadius: '8px',
-              padding: `${spacing.sm} ${spacing.lg}`,
-              fontSize: typography.sizes.sm,
-              fontWeight: '600',
-              cursor: 'pointer',
-            }}
-          >
-            ← Меню
-          </button>
-        </Link>
-        <Link href="/">
-          <button
-            style={{
-              backgroundColor: colors.lightGray,
-              color: colors.black,
-              border: `1px solid ${colors.gray}`,
-              borderRadius: '8px',
-              padding: `${spacing.sm} ${spacing.lg}`,
-              fontSize: typography.sizes.sm,
-              fontWeight: '600',
-              cursor: 'pointer',
-            }}
-          >
-            🏠 Домой
-          </button>
-        </Link>
-      </div>
-
-      <div style={{ textAlign: 'center', marginBottom: spacing.xl, maxWidth: '600px', margin: '0 auto' }}>
-        <h1 style={{ fontSize: typography.sizes['2xl'], fontWeight: 'bold', color: colors.black }}>
-          진단 결과
-        </h1>
-      </div>
-
+    <div style={{ minHeight: '100vh', backgroundColor: colors.lightGray, paddingBottom: '80px' }}>
+      {/* Header */}
       <div
         style={{
-          backgroundColor: colors.white,
-          borderRadius: '12px',
-          padding: spacing.xl,
-          marginBottom: spacing.lg,
-          borderTop: `4px solid ${scoreColor}`,
-          textAlign: 'center',
-          boxShadow: colors.darkGray,
+          background: colors.gradient,
+          color: colors.white,
+          padding: `${spacing.xl} ${spacing.lg}`,
+          borderRadius: '0 0 24px 24px',
         }}
       >
-        <p style={{ fontSize: typography.sizes.sm, color: colors.darkGray, marginBottom: spacing.sm }}>
-          예상 점수
-        </p>
-        <p style={{ fontSize: '56px', fontWeight: 'bold', color: scoreColor }}>
-          {score}
-        </p>
-        <p style={{ fontSize: typography.sizes.base, color: colors.darkGray }}>
-          / 200
-        </p>
-      </div>
-
-      <div
-        style={{
-          backgroundColor: scoreColor + '15',
-          borderRadius: '12px',
-          padding: spacing.lg,
-          marginBottom: spacing.lg,
-          textAlign: 'center',
-        }}
-      >
-        <p style={{ fontSize: typography.sizes.lg, fontWeight: 'bold', color: colors.primary }}>
-          {level}
-        </p>
-        <p style={{ fontSize: typography.sizes.base, color: colors.black, marginTop: spacing.sm }}>
-          {getLevelDescription()}
-        </p>
-      </div>
-
-      <div
-        style={{
-          backgroundColor: colors.white,
-          borderRadius: '12px',
-          padding: spacing.lg,
-          marginBottom: spacing.lg,
-        }}
-      >
-        <h3 style={{ fontSize: typography.sizes.lg, fontWeight: 'bold', color: colors.black }}>
-          📚 다음 단계
-        </h3>
-
-        <div style={{ marginTop: spacing.md }}>
-          <div style={{ display: 'flex', gap: spacing.md, marginBottom: spacing.md, alignItems: 'flex-start' }}>
-            <span>1️⃣</span>
-            <p style={{ fontSize: typography.sizes.sm, color: colors.black }}>
-              {level === '1급'
-                ? '고급 문법과 표현 학습'
-                : level === '2급'
-                ? '일상 회화와 읽기 능력 강화'
-                : '기본 문법과 어휘 학습'}
-            </p>
-          </div>
-
-          <div style={{ display: 'flex', gap: spacing.md, marginBottom: spacing.md, alignItems: 'flex-start' }}>
-            <span>2️⃣</span>
-            <p style={{ fontSize: typography.sizes.sm, color: colors.black }}>
-              약한 부분에 대한 집중 연습
-            </p>
-          </div>
-
-          <div style={{ display: 'flex', gap: spacing.md, alignItems: 'flex-start' }}>
-            <span>3️⃣</span>
-            <p style={{ fontSize: typography.sizes.sm, color: colors.black }}>
-              주 3-4회 정기적인 학습
-            </p>
+        <div style={{ maxWidth: '600px', margin: '0 auto' }}>
+          <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+            <h1 style={{ fontSize: typography.sizes['2xl'], fontWeight: 'bold', margin: 0 }}>
+              진단 결과
+            </h1>
+            <div style={{ fontSize: '40px' }}>🎉</div>
           </div>
         </div>
       </div>
 
-      <div style={{ display: 'flex', flexDirection: 'column', gap: spacing.md }}>
-        <button
-          onClick={onRetakeDiagnostic}
+      {/* Content */}
+      <div style={{ maxWidth: '600px', margin: '0 auto', padding: spacing.lg }}>
+        {/* Score Card */}
+        <div
           style={{
-            backgroundColor: colors.primary,
-            color: colors.white,
-            border: 'none',
-            borderRadius: '8px',
-            padding: `${spacing.md} ${spacing.lg}`,
-            fontSize: typography.sizes.base,
-            fontWeight: '600',
-            cursor: 'pointer',
+            backgroundColor: colors.white,
+            borderRadius: '16px',
+            padding: spacing.xl,
+            marginBottom: spacing.lg,
+            textAlign: 'center',
+            boxShadow: '0 8px 24px rgba(124, 58, 237, 0.15)',
+            borderTop: `6px solid ${scoreColor}`,
           }}
         >
-          다시 진단하기
-        </button>
+          <p style={{ fontSize: typography.sizes.sm, color: colors.darkGray, marginBottom: spacing.md }}>
+            예상 점수
+          </p>
+          <p style={{ fontSize: '60px', fontWeight: 'bold', color: scoreColor, margin: 0 }}>
+            {score}
+          </p>
+          <p style={{ fontSize: typography.sizes.base, color: colors.darkGray, margin: `${spacing.sm} 0 0 0` }}>
+            / 200
+          </p>
+        </div>
 
-        <button
-          onClick={onBackToHome}
+        {/* Level Badge */}
+        <div
           style={{
-            backgroundColor: colors.lightGray,
-            color: colors.black,
-            border: 'none',
-            borderRadius: '8px',
-            padding: `${spacing.md} ${spacing.lg}`,
-            fontSize: typography.sizes.base,
-            fontWeight: '600',
-            cursor: 'pointer',
+            backgroundColor: scoreColor + '20',
+            border: `2px solid ${scoreColor}`,
+            borderRadius: '16px',
+            padding: spacing.lg,
+            marginBottom: spacing.xl,
+            textAlign: 'center',
           }}
         >
-          홈으로
-        </button>
+          <p style={{ fontSize: typography.sizes['2xl'], fontWeight: 'bold', color: scoreColor, margin: 0 }}>
+            {level}
+          </p>
+          <p style={{ fontSize: typography.sizes.base, color: colors.black, marginTop: spacing.md }}>
+            {getLevelDescription()}
+          </p>
+        </div>
+
+        {/* Recommendations */}
+        <div
+          style={{
+            backgroundColor: colors.white,
+            borderRadius: '16px',
+            padding: spacing.lg,
+            marginBottom: spacing.xl,
+            boxShadow: '0 4px 12px rgba(124, 58, 237, 0.1)',
+          }}
+        >
+          <h3 style={{ fontSize: typography.sizes.lg, fontWeight: 'bold', color: colors.black, marginBottom: spacing.lg }}>
+            📚 다음 단계
+          </h3>
+
+          <div style={{ display: 'flex', flexDirection: 'column', gap: spacing.lg }}>
+            {[
+              { icon: '1️⃣', text: level === '1급' ? '고급 문법과 표현 학습' : level === '2급' ? '일상 회화와 읽기 능력 강화' : '기본 문법과 어휘 학습' },
+              { icon: '2️⃣', text: '약한 부분에 대한 집중 연습' },
+              { icon: '3️⃣', text: '주 3-4회 정기적인 학습' },
+            ].map((item, idx) => (
+              <div key={idx} style={{ display: 'flex', gap: spacing.md, alignItems: 'flex-start' }}>
+                <span style={{ fontSize: '24px' }}>{item.icon}</span>
+                <p style={{ fontSize: typography.sizes.base, color: colors.black, margin: 0, lineHeight: '1.5' }}>
+                  {item.text}
+                </p>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        {/* Stats */}
+        <div
+          style={{
+            display: 'grid',
+            gridTemplateColumns: '1fr 1fr',
+            gap: spacing.lg,
+            marginBottom: spacing.xl,
+          }}
+        >
+          {[
+            { label: '문제 맞힌 것', value: Math.floor(score / 20) },
+            { label: '예상 급수', value: level },
+          ].map((stat, idx) => (
+            <div
+              key={idx}
+              style={{
+                backgroundColor: colors.white,
+                borderRadius: '12px',
+                padding: spacing.lg,
+                textAlign: 'center',
+                boxShadow: '0 2px 8px rgba(0, 0, 0, 0.05)',
+              }}
+            >
+              <p style={{ fontSize: typography.sizes.sm, color: colors.darkGray, margin: 0, marginBottom: spacing.sm }}>
+                {stat.label}
+              </p>
+              <p style={{ fontSize: typography.sizes.xl, fontWeight: 'bold', color: colors.primary, margin: 0 }}>
+                {stat.value}
+              </p>
+            </div>
+          ))}
+        </div>
+
+        {/* Action Buttons */}
+        <div style={{ display: 'flex', flexDirection: 'column', gap: spacing.md }}>
+          <button
+            onClick={onRetakeDiagnostic}
+            style={{
+              width: '100%',
+              background: colors.gradient,
+              color: colors.white,
+              border: 'none',
+              borderRadius: '12px',
+              padding: spacing.lg,
+              fontSize: typography.sizes.base,
+              fontWeight: '600',
+              cursor: 'pointer',
+            }}
+          >
+            다시 진단하기
+          </button>
+
+          <Link href="/">
+            <button
+              style={{
+                width: '100%',
+                backgroundColor: colors.white,
+                color: colors.black,
+                border: `2px solid ${colors.gray}`,
+                borderRadius: '12px',
+                padding: spacing.lg,
+                fontSize: typography.sizes.base,
+                fontWeight: '600',
+                cursor: 'pointer',
+              }}
+            >
+              🏠 홈으로
+            </button>
+          </Link>
+        </div>
+
+        {/* Tips */}
+        <div
+          style={{
+            marginTop: spacing.xl,
+            backgroundColor: '#FEF3C7',
+            borderRadius: '12px',
+            padding: spacing.lg,
+            borderLeft: `4px solid ${colors.accent}`,
+          }}
+        >
+          <p style={{ fontSize: typography.sizes.sm, color: colors.black, margin: 0, lineHeight: '1.5' }}>
+            💡 <strong>팁:</strong> 정기적인 학습과 연습으로 당신의 한국어 수준을 높여보세요!
+          </p>
+        </div>
       </div>
     </div>
   );
