@@ -297,8 +297,8 @@ export default function QuestionsPage() {
         {[
           { icon: '🏠', label: 'Main', href: '/' },
           { icon: '❓', label: 'Questions', href: '/questions', active: true },
-          { icon: '📚', label: 'My Study', href: '#' },
-          { icon: '📊', label: 'Analysis', href: '#' },
+          { icon: '📚', label: 'My Study', href: '/my-study' },
+          { icon: '📊', label: 'Analysis', href: '/analysis' },
         ].map((item) => (
           <Link key={item.label} href={item.href}>
             <div

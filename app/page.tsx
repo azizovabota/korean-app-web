@@ -27,17 +27,27 @@ export default function Home() {
           </div>
 
           {/* Goal Card */}
-          <div
-            style={{
-              backgroundColor: 'rgba(255, 255, 255, 0.2)',
-              borderRadius: '16px',
-              padding: spacing.lg,
-              border: '2px dashed rgba(255, 255, 255, 0.5)',
-              textAlign: 'center',
-            }}
-          >
-            <p style={{ fontSize: typography.sizes.sm, margin: 0 }}>+ 설정 목표</p>
-          </div>
+          <Link href="/edit-goal">
+            <div
+              style={{
+                backgroundColor: 'rgba(255, 255, 255, 0.2)',
+                borderRadius: '16px',
+                padding: spacing.lg,
+                border: '2px dashed rgba(255, 255, 255, 0.5)',
+                textAlign: 'center',
+                cursor: 'pointer',
+                transition: 'all 0.2s',
+              }}
+              onMouseEnter={(e) => {
+                (e.currentTarget as HTMLElement).style.backgroundColor = 'rgba(255, 255, 255, 0.3)';
+              }}
+              onMouseLeave={(e) => {
+                (e.currentTarget as HTMLElement).style.backgroundColor = 'rgba(255, 255, 255, 0.2)';
+              }}
+            >
+              <p style={{ fontSize: typography.sizes.sm, margin: 0 }}>✏️ Edit My Goal</p>
+            </div>
+          </Link>
         </div>
       </div>
 
