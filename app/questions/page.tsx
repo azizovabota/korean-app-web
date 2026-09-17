@@ -242,21 +242,41 @@ export default function QuestionsPage() {
               </div>
 
               {/* CTA Button */}
-              <button
-                style={{
-                  width: '100%',
-                  background: colors.gradient,
-                  color: colors.white,
-                  border: 'none',
-                  borderRadius: '8px',
-                  padding: spacing.md,
-                  fontSize: typography.sizes.sm,
-                  fontWeight: '600',
-                  cursor: 'pointer',
-                }}
-              >
-                시작하기 →
-              </button>
+              {set.category === 'reading' ? (
+                <Link href="/reading" style={{ width: '100%' }}>
+                  <button
+                    style={{
+                      width: '100%',
+                      background: colors.gradient,
+                      color: colors.white,
+                      border: 'none',
+                      borderRadius: '8px',
+                      padding: spacing.md,
+                      fontSize: typography.sizes.sm,
+                      fontWeight: '600',
+                      cursor: 'pointer',
+                    }}
+                  >
+                    시작하기 →
+                  </button>
+                </Link>
+              ) : (
+                <button
+                  style={{
+                    width: '100%',
+                    background: colors.gradient,
+                    color: colors.white,
+                    border: 'none',
+                    borderRadius: '8px',
+                    padding: spacing.md,
+                    fontSize: typography.sizes.sm,
+                    fontWeight: '600',
+                    cursor: 'pointer',
+                  }}
+                >
+                  시작하기 →
+                </button>
+              )}
             </div>
           ))}
         </div>
