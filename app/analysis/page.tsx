@@ -16,10 +16,10 @@ export default function AnalysisPage() {
   const stats: UserStats = {
     totalScore: 0,
     level: 'LV.0',
-    userName: 'Hi Akbota Azizova,',
+    userName: 'Привет, Akbota Azizova,',
     correctCount: 0,
     totalQuestions: 0,
-    lastUpdated: 'Never',
+    lastUpdated: 'Никогда',
   };
 
   const getScorePercentage = () => {
@@ -28,7 +28,7 @@ export default function AnalysisPage() {
   };
 
   const scorePercentage = getScorePercentage();
-  const scoreColor = stats.totalScore >= 140 ? '#10B981' : stats.totalScore >= 80 ? '#F59E0B' : '#7C3AED';
+  const scoreColor = stats.totalScore >= 140 ? '#10B981' : stats.totalScore >= 80 ? '#F59E0B' : '#00B4D8';
 
   return (
     <div style={{ minHeight: '100vh', backgroundColor: colors.lightGray, paddingBottom: '100px' }}>
@@ -46,7 +46,7 @@ export default function AnalysisPage() {
             Analysis
           </h1>
           <p style={{ fontSize: typography.sizes.sm, opacity: 0.9, margin: 0 }}>
-            분석
+            Анализ
           </p>
         </div>
       </div>
@@ -60,11 +60,11 @@ export default function AnalysisPage() {
             borderRadius: '16px',
             padding: spacing.xl,
             marginBottom: spacing.xl,
-            boxShadow: '0 4px 12px rgba(124, 58, 237, 0.1)',
+            boxShadow: '0 4px 12px rgba(0, 180, 216, 0.1)',
           }}
         >
           <h3 style={{ fontSize: typography.sizes.base, fontWeight: 'bold', color: colors.black, margin: 0, marginBottom: spacing.xl }}>
-            Total score
+            Общий балл
           </h3>
 
           {/* Circular Progress Chart */}
@@ -99,7 +99,7 @@ export default function AnalysisPage() {
                   {stats.totalScore}
                 </p>
                 <p style={{ fontSize: typography.sizes.sm, color: colors.primary, margin: `${spacing.sm} 0 0 0` }}>
-                  Goal 0
+                  Цель 0
                 </p>
               </div>
             </div>
@@ -120,14 +120,14 @@ export default function AnalysisPage() {
                 whiteSpace: 'nowrap',
               }}
             >
-              Reading {stats.correctCount}
+              Чтение {stats.correctCount}
             </div>
           </div>
 
           {/* User Level Card */}
           <div
             style={{
-              backgroundColor: '#F3E8FF',
+              backgroundColor: '#E0F7FA',
               border: `2px solid ${colors.primary}`,
               borderRadius: '12px',
               padding: spacing.lg,
@@ -164,17 +164,17 @@ export default function AnalysisPage() {
               (e.currentTarget as HTMLElement).style.transform = 'scale(1)';
             }}
           >
-            Get Precise Analysis &gt;
+            Подробный анализ &gt;
           </button>
         </div>
 
         {/* Stats Grid */}
         <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: spacing.lg, marginBottom: spacing.xl }}>
           {[
-            { label: 'Correct Answers', value: stats.correctCount },
-            { label: 'Total Questions', value: stats.totalQuestions },
-            { label: 'Accuracy', value: stats.totalQuestions > 0 ? `${Math.round(scorePercentage)}%` : '0%' },
-            { label: 'Last Updated', value: stats.lastUpdated },
+            { label: 'Правильных ответов', value: stats.correctCount },
+            { label: 'Всего вопросов', value: stats.totalQuestions },
+            { label: 'Точность', value: stats.totalQuestions > 0 ? `${Math.round(scorePercentage)}%` : '0%' },
+            { label: 'Обновлено', value: stats.lastUpdated },
           ].map((stat, idx) => (
             <div
               key={idx}
@@ -199,7 +199,7 @@ export default function AnalysisPage() {
         {/* Info Box */}
         <div
           style={{
-            backgroundColor: '#F3E8FF',
+            backgroundColor: '#E0F7FA',
             borderRadius: '12px',
             padding: spacing.lg,
             borderLeft: `4px solid ${colors.primary}`,
@@ -207,7 +207,7 @@ export default function AnalysisPage() {
           }}
         >
           <p style={{ fontSize: typography.sizes.sm, color: colors.black, margin: 0, lineHeight: '1.5' }}>
-            💡 <strong>팁:</strong> 더 많은 문제를 풀고 분석을 해보세요!
+            💡 <strong>Совет:</strong> Решайте больше вопросов и анализируйте результаты!
           </p>
         </div>
 
@@ -226,7 +226,7 @@ export default function AnalysisPage() {
               cursor: 'pointer',
             }}
           >
-            시작 → Question Bank로 이동
+            Начать → перейти в банк вопросов
           </button>
         </Link>
       </div>
@@ -245,7 +245,7 @@ export default function AnalysisPage() {
           alignItems: 'center',
           justifyContent: 'center',
           cursor: 'pointer',
-          boxShadow: '0 4px 12px rgba(124, 58, 237, 0.3)',
+          boxShadow: '0 4px 12px rgba(0, 180, 216, 0.3)',
           transition: 'transform 0.2s',
         }}
         onMouseEnter={(e) => {
@@ -276,10 +276,10 @@ export default function AnalysisPage() {
         }}
       >
         {[
-          { icon: '🏠', label: 'Main', href: '/' },
-          { icon: '❓', label: 'Questions', href: '/questions' },
-          { icon: '📚', label: 'My Study', href: '/my-study' },
-          { icon: '📊', label: 'Analysis', href: '/analysis', active: true },
+          { icon: '🏠', label: 'Главная', href: '/' },
+          { icon: '❓', label: 'Уроки', href: '/questions' },
+          { icon: '📚', label: 'Моё обучение', href: '/my-study' },
+          { icon: '📊', label: 'Анализ', href: '/analysis', active: true },
         ].map((item) => (
           <Link key={item.label} href={item.href}>
             <div

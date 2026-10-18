@@ -1,9 +1,38 @@
 'use client';
 
+import { useEffect, useState } from 'react';
 import Link from 'next/link';
 import { colors, typography, spacing } from '@/constants/colors';
+import { getLessonProgress, getProfile, goalLabels, type Goal } from '@/lib/account';
+
+function mondayBasedIndex(date: Date) {
+  return (date.getDay() + 6) % 7;
+}
+
+function startOfWeek(now: Date) {
+  const start = new Date(now);
+  start.setHours(0, 0, 0, 0);
+  start.setDate(start.getDate() - mondayBasedIndex(now));
+  return start;
+}
 
 export default function Home() {
+  const [goal, setGoal] = useState<Goal | null>(null);
+  const [doneDays, setDoneDays] = useState<Set<number>>(new Set());
+
+  useEffect(() => {
+    getProfile().then((p) => setGoal(p?.goal ?? null));
+    getLessonProgress().then((rows) => {
+      const weekStart = startOfWeek(new Date());
+      const days = new Set<number>();
+      rows.forEach((row) => {
+        const completed = new Date(row.completed_at);
+        if (completed >= weekStart) days.add(mondayBasedIndex(completed));
+      });
+      setDoneDays(days);
+    });
+  }, []);
+
   return (
     <div style={{ minHeight: '100vh', backgroundColor: colors.lightGray, paddingBottom: '80px' }}>
       {/* Header с градиентом */}
@@ -20,7 +49,7 @@ export default function Home() {
             <div>
               <p style={{ fontSize: typography.sizes.sm, opacity: 0.9 }}>20:24</p>
               <h1 style={{ fontSize: typography.sizes['2xl'], fontWeight: 'bold', margin: 0 }}>
-                Korean App
+                Корейский язык
               </h1>
             </div>
             <div style={{ fontSize: '32px' }}>🎓</div>
@@ -45,7 +74,7 @@ export default function Home() {
                 (e.currentTarget as HTMLElement).style.backgroundColor = 'rgba(255, 255, 255, 0.2)';
               }}
             >
-              <p style={{ fontSize: typography.sizes.sm, margin: 0 }}>✏️ Edit My Goal</p>
+              <p style={{ fontSize: typography.sizes.sm, margin: 0 }}>✏️ Изменить цель</p>
             </div>
           </Link>
         </div>
@@ -60,7 +89,7 @@ export default function Home() {
             borderRadius: '16px',
             padding: spacing.lg,
             marginBottom: spacing.xl,
-            boxShadow: '0 4px 12px rgba(124, 58, 237, 0.1)',
+            boxShadow: '0 4px 12px rgba(0, 180, 216, 0.1)',
           }}
         >
           <div
@@ -74,23 +103,23 @@ export default function Home() {
             }}
           >
             <p style={{ fontSize: typography.sizes.lg, fontWeight: 'bold', margin: 0 }}>
-              👑 GOAL TOPIK II Level 0
+              👑 ЦЕЛЬ {goal ? goalLabels[goal] : 'не выбрана'}
             </p>
           </div>
 
           {/* Daily Streak */}
           <p style={{ fontSize: typography.sizes.sm, fontWeight: 'bold', color: colors.black, marginBottom: spacing.md }}>
-            TOPIK of the Day
+            TOPIK дня
           </p>
           <div style={{ display: 'flex', gap: spacing.sm, justifyContent: 'space-between', marginBottom: spacing.lg }}>
-            {['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'].map((day, idx) => (
+            {['Пн', 'Вт', 'Ср', 'Чт', 'Пт', 'Сб', 'Вс'].map((day, idx) => (
               <div key={day} style={{ textAlign: 'center' }}>
                 <div
                   style={{
                     width: '44px',
                     height: '44px',
                     borderRadius: '12px',
-                    backgroundColor: idx === 0 ? colors.primary : colors.lightGray,
+                    backgroundColor: doneDays.has(idx) ? colors.primary : colors.lightGray,
                     display: 'flex',
                     alignItems: 'center',
                     justifyContent: 'center',
@@ -99,7 +128,7 @@ export default function Home() {
                     fontSize: '20px',
                   }}
                 >
-                  ✓
+                  {doneDays.has(idx) ? '✓' : ''}
                 </div>
                 <p style={{ fontSize: typography.sizes.xs, marginTop: spacing.sm, color: colors.darkGray }}>
                   {day}
@@ -109,9 +138,9 @@ export default function Home() {
           </div>
         </div>
 
-        {/* My Current Level */}
+        {/* Мой текущий уровень */}
         <h2 style={{ fontSize: typography.sizes.lg, fontWeight: 'bold', color: colors.black, marginBottom: spacing.lg }}>
-          My Current Level
+          Мой текущий уровень
         </h2>
 
         <div style={{ textAlign: 'center', marginBottom: spacing.xl }}>
@@ -126,7 +155,7 @@ export default function Home() {
               alignItems: 'center',
               justifyContent: 'center',
               position: 'relative',
-              boxShadow: '0 8px 24px rgba(124, 58, 237, 0.2)',
+              boxShadow: '0 8px 24px rgba(0, 180, 216, 0.2)',
             }}
           >
             <div
@@ -145,7 +174,7 @@ export default function Home() {
                 0
               </p>
               <p style={{ fontSize: typography.sizes.sm, color: colors.primary, fontWeight: 'bold', margin: `${spacing.sm} 0 0 0` }}>
-                Goal 0
+                Цель 0
               </p>
             </div>
           </div>
@@ -163,7 +192,7 @@ export default function Home() {
           >
             <div style={{ fontSize: '32px' }}>🚀</div>
             <p style={{ fontSize: typography.sizes.base, color: colors.black, margin: 0 }}>
-              Take a level test to see your report!
+              Пройдите тест уровня, чтобы увидеть отчёт!
             </p>
           </div>
 
@@ -182,58 +211,43 @@ export default function Home() {
                 marginTop: spacing.lg,
               }}
             >
-              Start First Level Test &gt;
+              Пройти тест уровня &gt;
             </button>
           </Link>
         </div>
 
-        {/* Question Category */}
+        {/* Категории заданий */}
         <h2 style={{ fontSize: typography.sizes.lg, fontWeight: 'bold', color: colors.black, marginBottom: spacing.lg }}>
-          Question Category
+          Категории заданий
         </h2>
 
-        <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: spacing.lg }}>
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: spacing.md }}>
           {[
-            { icon: '🎧', title: 'Listening', korean: '듣기', badge: '+750' },
-            { icon: '📖', title: 'Reading', korean: '읽기', badge: '+750' },
-            { icon: '✍️', title: 'Writing', korean: '쓰기', badge: '+500' },
-            { icon: '📝', title: 'Mock Test', korean: '기출 모의고사', badge: '+1000' },
+            { icon: '📘', title: 'Topik', korean: 'Чтение · аудирование · письмо' },
+            { icon: '🧩', title: 'CI', korean: 'Культура речи' },
+            { icon: '🔤', title: 'Практика слов', korean: 'Слова' },
           ].map((item) => (
-            <div
-              key={item.title}
-              style={{
-                backgroundColor: colors.white,
-                borderRadius: '16px',
-                padding: spacing.lg,
-                textAlign: 'center',
-                boxShadow: '0 4px 12px rgba(0, 0, 0, 0.05)',
-                position: 'relative',
-              }}
-            >
+            <Link key={item.title} href="/questions" style={{ textDecoration: 'none' }}>
               <div
                 style={{
-                  position: 'absolute',
-                  top: '8px',
-                  right: '12px',
-                  backgroundColor: '#F3E8FF',
-                  color: colors.primary,
-                  borderRadius: '8px',
-                  padding: `${spacing.xs} ${spacing.sm}`,
-                  fontSize: typography.sizes.xs,
-                  fontWeight: 'bold',
+                  backgroundColor: colors.white,
+                  borderRadius: '16px',
+                  padding: spacing.lg,
+                  textAlign: 'center',
+                  boxShadow: '0 4px 12px rgba(0, 0, 0, 0.05)',
+                  height: '100%',
+                  boxSizing: 'border-box',
                 }}
               >
-                {item.badge}
+                <p style={{ fontSize: '32px', margin: `0 0 ${spacing.sm} 0` }}>{item.icon}</p>
+                <p style={{ fontSize: typography.sizes.sm, fontWeight: 'bold', color: colors.black, margin: `0 0 ${spacing.xs} 0` }}>
+                  {item.title}
+                </p>
+                <p style={{ fontSize: typography.sizes.xs, color: colors.darkGray, margin: 0 }}>
+                  {item.korean}
+                </p>
               </div>
-
-              <p style={{ fontSize: '40px', margin: `0 0 ${spacing.sm} 0` }}>{item.icon}</p>
-              <p style={{ fontSize: typography.sizes.base, fontWeight: 'bold', color: colors.black, margin: `0 0 ${spacing.xs} 0` }}>
-                {item.title}
-              </p>
-              <p style={{ fontSize: typography.sizes.xs, color: colors.darkGray, margin: 0 }}>
-                {item.korean}
-              </p>
-            </div>
+            </Link>
           ))}
         </div>
       </div>
@@ -256,10 +270,10 @@ export default function Home() {
         }}
       >
         {[
-          { icon: '🏠', label: 'Main', href: '/' },
-          { icon: '❓', label: 'Questions', href: '/questions' },
-          { icon: '📚', label: 'My Study', href: '/my-study' },
-          { icon: '📊', label: 'Analysis', href: '/analysis' },
+          { icon: '🏠', label: 'Главная', href: '/' },
+          { icon: '❓', label: 'Уроки', href: '/questions' },
+          { icon: '📚', label: 'Моё обучение', href: '/my-study' },
+          { icon: '📊', label: 'Анализ', href: '/analysis' },
         ].map((item) => (
           <Link key={item.label} href={item.href}>
             <div

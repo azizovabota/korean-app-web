@@ -23,9 +23,9 @@ export function TopikResultScreen({
   };
 
   const getLevelDescription = () => {
-    if (level === '1급') return '뛰어난 수준입니다! 고급 과정을 시작하세요.';
-    if (level === '2급') return '중급 수준입니다. 꾸준한 연습이 필요합니다.';
-    return '초급 수준입니다. 기초부터 시작하세요.';
+    if (level === '1급') return 'Отличный уровень! Начните продвинутый курс.';
+    if (level === '2급') return 'Средний уровень. Нужна регулярная практика.';
+    return 'Начальный уровень. Начните с основ.';
   };
 
   const scoreColor = getScoreColor();
@@ -44,7 +44,7 @@ export function TopikResultScreen({
         <div style={{ maxWidth: '600px', margin: '0 auto' }}>
           <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
             <h1 style={{ fontSize: typography.sizes['2xl'], fontWeight: 'bold', margin: 0 }}>
-              진단 결과
+              Результаты диагностики
             </h1>
             <div style={{ fontSize: '40px' }}>🎉</div>
           </div>
@@ -61,12 +61,12 @@ export function TopikResultScreen({
             padding: spacing.xl,
             marginBottom: spacing.lg,
             textAlign: 'center',
-            boxShadow: '0 8px 24px rgba(124, 58, 237, 0.15)',
+            boxShadow: '0 8px 24px rgba(0, 180, 216, 0.15)',
             borderTop: `6px solid ${scoreColor}`,
           }}
         >
           <p style={{ fontSize: typography.sizes.sm, color: colors.darkGray, marginBottom: spacing.md }}>
-            예상 점수
+            Прогнозируемый балл
           </p>
           <p style={{ fontSize: '60px', fontWeight: 'bold', color: scoreColor, margin: 0 }}>
             {score}
@@ -102,18 +102,18 @@ export function TopikResultScreen({
             borderRadius: '16px',
             padding: spacing.lg,
             marginBottom: spacing.xl,
-            boxShadow: '0 4px 12px rgba(124, 58, 237, 0.1)',
+            boxShadow: '0 4px 12px rgba(0, 180, 216, 0.1)',
           }}
         >
           <h3 style={{ fontSize: typography.sizes.lg, fontWeight: 'bold', color: colors.black, marginBottom: spacing.lg }}>
-            📚 다음 단계
+            📚 Следующие шаги
           </h3>
 
           <div style={{ display: 'flex', flexDirection: 'column', gap: spacing.lg }}>
             {[
-              { icon: '1️⃣', text: level === '1급' ? '고급 문법과 표현 학습' : level === '2급' ? '일상 회화와 읽기 능력 강화' : '기본 문법과 어휘 학습' },
-              { icon: '2️⃣', text: '약한 부분에 대한 집중 연습' },
-              { icon: '3️⃣', text: '주 3-4회 정기적인 학습' },
+              { icon: '1️⃣', text: level === '1급' ? 'Изучение продвинутой грамматики и выражений' : level === '2급' ? 'Разговорная практика и развитие чтения' : 'Изучение базовой грамматики и лексики' },
+              { icon: '2️⃣', text: 'Целевая практика слабых тем' },
+              { icon: '3️⃣', text: 'Занятия 3–4 раза в неделю' },
             ].map((item, idx) => (
               <div key={idx} style={{ display: 'flex', gap: spacing.md, alignItems: 'flex-start' }}>
                 <span style={{ fontSize: '24px' }}>{item.icon}</span>
@@ -135,8 +135,8 @@ export function TopikResultScreen({
           }}
         >
           {[
-            { label: '문제 맞힌 것', value: Math.floor(score / 20) },
-            { label: '예상 급수', value: level },
+            { label: 'Верных ответов', value: Math.floor(score / 20) },
+            { label: 'Прогнозируемый уровень', value: level },
           ].map((stat, idx) => (
             <div
               key={idx}
@@ -174,7 +174,7 @@ export function TopikResultScreen({
               cursor: 'pointer',
             }}
           >
-            다시 진단하기
+            Пройти диагностику снова
           </button>
 
           <Link href="/">
@@ -191,7 +191,7 @@ export function TopikResultScreen({
                 cursor: 'pointer',
               }}
             >
-              🏠 홈으로
+              🏠 На главную
             </button>
           </Link>
         </div>
@@ -207,7 +207,7 @@ export function TopikResultScreen({
           }}
         >
           <p style={{ fontSize: typography.sizes.sm, color: colors.black, margin: 0, lineHeight: '1.5' }}>
-            💡 <strong>팁:</strong> 정기적인 학습과 연습으로 당신의 한국어 수준을 높여보세요!
+            💡 <strong>Совет:</strong> Регулярные занятия и практика помогут поднять ваш уровень!
           </p>
         </div>
       </div>

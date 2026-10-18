@@ -31,7 +31,7 @@ export function TopikQuickDiagnostic({ userId, onComplete }: TopikQuickDiagnosti
         }}
       >
         <div style={{ fontSize: '20px' }}>⏳</div>
-        <p style={{ color: colors.darkGray, marginTop: spacing.lg }}>문제를 불러오는 중...</p>
+        <p style={{ color: colors.darkGray, marginTop: spacing.lg }}>Загрузка вопросов...</p>
       </div>
     );
   }
@@ -39,7 +39,7 @@ export function TopikQuickDiagnostic({ userId, onComplete }: TopikQuickDiagnosti
   if (!attempt) {
     return (
       <div style={{ textAlign: 'center', padding: spacing.lg }}>
-        <p style={{ color: '#ef4444' }}>문제를 불러올 수 없습니다</p>
+        <p style={{ color: '#ef4444' }}>Не удалось загрузить вопросы</p>
       </div>
     );
   }
@@ -50,7 +50,7 @@ export function TopikQuickDiagnostic({ userId, onComplete }: TopikQuickDiagnosti
 
   const handleNextOrSubmit = async () => {
     if (!selectedOption) {
-      alert('답을 선택해주세요');
+      alert('Выберите ответ');
       return;
     }
 
@@ -139,7 +139,7 @@ export function TopikQuickDiagnostic({ userId, onComplete }: TopikQuickDiagnosti
             opacity: !selectedOption || loading ? 0.6 : 1,
           }}
         >
-          {isLastQuestion ? '결과 보기' : '다음 →'}
+          {isLastQuestion ? 'Результаты' : 'Далее →'}
         </button>
       </div>
     </div>

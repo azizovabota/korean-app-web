@@ -68,10 +68,10 @@ export default function TopikPage() {
           <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: spacing.xl }}>
             <div>
               <h1 style={{ fontSize: typography.sizes['2xl'], fontWeight: 'bold', margin: 0, marginBottom: spacing.sm }}>
-                TOPIK 준비
+                Подготовка к TOPIK
               </h1>
               <p style={{ fontSize: typography.sizes.sm, opacity: 0.9, margin: 0 }}>
-                한국어 능력 평가 시험 준비
+                Подготовка к экзамену по корейскому
               </p>
             </div>
             <div style={{ fontSize: '40px' }}>🎯</div>
@@ -103,7 +103,7 @@ export default function TopikPage() {
       <div style={{ maxWidth: '600px', margin: '0 auto', padding: spacing.lg }}>
         {/* Menu Items */}
         <div style={{ display: 'flex', flexDirection: 'column', gap: spacing.lg }}>
-          {/* Quick Diagnostic */}
+          {/* Экспресс-проверка */}
           <div
             onClick={handleStartDiagnostic}
             style={{
@@ -111,32 +111,32 @@ export default function TopikPage() {
               borderRadius: '16px',
               padding: spacing.lg,
               cursor: 'pointer',
-              boxShadow: '0 4px 12px rgba(124, 58, 237, 0.1)',
+              boxShadow: '0 4px 12px rgba(0, 180, 216, 0.1)',
               transition: 'transform 0.2s, box-shadow 0.2s',
               border: `2px solid ${colors.primary}`,
             }}
             onMouseEnter={(e) => {
               (e.currentTarget as HTMLElement).style.transform = 'translateY(-4px)';
-              (e.currentTarget as HTMLElement).style.boxShadow = '0 8px 20px rgba(124, 58, 237, 0.2)';
+              (e.currentTarget as HTMLElement).style.boxShadow = '0 8px 20px rgba(0, 180, 216, 0.2)';
             }}
             onMouseLeave={(e) => {
               (e.currentTarget as HTMLElement).style.transform = 'translateY(0)';
-              (e.currentTarget as HTMLElement).style.boxShadow = '0 4px 12px rgba(124, 58, 237, 0.1)';
+              (e.currentTarget as HTMLElement).style.boxShadow = '0 4px 12px rgba(0, 180, 216, 0.1)';
             }}
           >
             <div style={{ display: 'flex', alignItems: 'center', gap: spacing.lg, marginBottom: spacing.lg }}>
               <div style={{ fontSize: '40px' }}>🔍</div>
               <div>
                 <h3 style={{ fontSize: typography.sizes.lg, fontWeight: 'bold', color: colors.black, margin: 0 }}>
-                  빠른 진단
+                  Быстрая диагностика
                 </h3>
                 <p style={{ fontSize: typography.sizes.sm, color: colors.darkGray, margin: `${spacing.sm} 0 0 0` }}>
-                  Quick Diagnostic
+                  Экспресс-проверка
                 </p>
               </div>
             </div>
             <p style={{ fontSize: typography.sizes.sm, color: colors.darkGray, lineHeight: '1.5', margin: 0 }}>
-              5분 안에 당신의 한국어 수준을 빠르게 진단하세요
+              Быстро определите свой уровень за 5 минут
             </p>
             <button
               onClick={(e) => {
@@ -155,11 +155,36 @@ export default function TopikPage() {
                 cursor: 'pointer',
               }}
             >
-              시작하기 →
+              Начать →
             </button>
           </div>
 
-          {/* Full Diagnostic - Coming Soon */}
+          {/* TOPIK Beginner 1/2 */}
+          <Link href="/topik/beginner" style={{ textDecoration: 'none' }}>
+            <div
+              style={{
+                backgroundColor: colors.white,
+                borderRadius: '16px',
+                padding: spacing.lg,
+                boxShadow: '0 4px 12px rgba(0, 180, 216, 0.1)',
+                border: `2px solid ${colors.primary}`,
+              }}
+            >
+              <div style={{ display: 'flex', alignItems: 'center', gap: spacing.lg }}>
+                <div style={{ fontSize: '40px' }}>📘</div>
+                <div>
+                  <h3 style={{ fontSize: typography.sizes.lg, fontWeight: 'bold', color: colors.black, margin: 0 }}>
+                    TOPIK Beginner 1/2
+                  </h3>
+                  <p style={{ fontSize: typography.sizes.sm, color: colors.darkGray, margin: `${spacing.sm} 0 0 0` }}>
+                    Reading Lesson 1–8 · тест с разбором
+                  </p>
+                </div>
+              </div>
+            </div>
+          </Link>
+
+          {/* Полная проверка - Coming Soon */}
           <div
             style={{
               backgroundColor: colors.white,
@@ -172,21 +197,21 @@ export default function TopikPage() {
               <div style={{ fontSize: '40px' }}>📊</div>
               <div>
                 <h3 style={{ fontSize: typography.sizes.lg, fontWeight: 'bold', color: colors.black, margin: 0 }}>
-                  상세 진단
+                  Подробная диагностика
                 </h3>
                 <p style={{ fontSize: typography.sizes.sm, color: colors.darkGray, margin: `${spacing.sm} 0 0 0` }}>
-                  Full Diagnostic
+                  Полная проверка
                 </p>
               </div>
             </div>
             <p style={{ fontSize: typography.sizes.sm, color: colors.darkGray, lineHeight: '1.5', margin: 0 }}>
-              20분간 완전한 모의고사로 정확한 점수를 예측하세요
+              Полный пробный экзамен за 20 минут для точного прогноза балла
             </p>
             <div
               style={{
                 marginTop: spacing.lg,
                 display: 'inline-block',
-                backgroundColor: '#F3E8FF',
+                backgroundColor: '#E0F7FA',
                 color: colors.primary,
                 borderRadius: '8px',
                 padding: `${spacing.sm} ${spacing.lg}`,
@@ -194,11 +219,11 @@ export default function TopikPage() {
                 fontWeight: 'bold',
               }}
             >
-              추후 출시
+              Скоро
             </div>
           </div>
 
-          {/* Targeted Practice - Coming Soon */}
+          {/* Целевая практика - Coming Soon */}
           <div
             style={{
               backgroundColor: colors.white,
@@ -211,21 +236,21 @@ export default function TopikPage() {
               <div style={{ fontSize: '40px' }}>📝</div>
               <div>
                 <h3 style={{ fontSize: typography.sizes.lg, fontWeight: 'bold', color: colors.black, margin: 0 }}>
-                  목표 달성 연습
+                  Тренировка для цели
                 </h3>
                 <p style={{ fontSize: typography.sizes.sm, color: colors.darkGray, margin: `${spacing.sm} 0 0 0` }}>
-                  Targeted Practice
+                  Целевая практика
                 </p>
               </div>
             </div>
             <p style={{ fontSize: typography.sizes.sm, color: colors.darkGray, lineHeight: '1.5', margin: 0 }}>
-              약한 부분에 집중하여 체계적으로 학습하세요
+              Систематически занимайтесь слабыми темами
             </p>
             <div
               style={{
                 marginTop: spacing.lg,
                 display: 'inline-block',
-                backgroundColor: '#F3E8FF',
+                backgroundColor: '#E0F7FA',
                 color: colors.primary,
                 borderRadius: '8px',
                 padding: `${spacing.sm} ${spacing.lg}`,
@@ -233,11 +258,11 @@ export default function TopikPage() {
                 fontWeight: 'bold',
               }}
             >
-              추후 출시
+              Скоро
             </div>
           </div>
 
-          {/* Mock Exam - Coming Soon */}
+          {/* Пробный тест - Coming Soon */}
           <div
             style={{
               backgroundColor: colors.white,
@@ -250,21 +275,21 @@ export default function TopikPage() {
               <div style={{ fontSize: '40px' }}>⏱️</div>
               <div>
                 <h3 style={{ fontSize: typography.sizes.lg, fontWeight: 'bold', color: colors.black, margin: 0 }}>
-                  모의 시험
+                  Пробный экзамен
                 </h3>
                 <p style={{ fontSize: typography.sizes.sm, color: colors.darkGray, margin: `${spacing.sm} 0 0 0` }}>
-                  Mock Exam
+                  Пробный тест
                 </p>
               </div>
             </div>
             <p style={{ fontSize: typography.sizes.sm, color: colors.darkGray, lineHeight: '1.5', margin: 0 }}>
-              실제 시험처럼 시간 제한 하에 문제를 풀어보세요
+              Решайте задания с ограничением по времени, как на настоящем экзамене
             </p>
             <div
               style={{
                 marginTop: spacing.lg,
                 display: 'inline-block',
-                backgroundColor: '#F3E8FF',
+                backgroundColor: '#E0F7FA',
                 color: colors.primary,
                 borderRadius: '8px',
                 padding: `${spacing.sm} ${spacing.lg}`,
@@ -272,7 +297,7 @@ export default function TopikPage() {
                 fontWeight: 'bold',
               }}
             >
-              추후 출시
+              Скоро
             </div>
           </div>
         </div>
@@ -281,14 +306,14 @@ export default function TopikPage() {
         <div
           style={{
             marginTop: spacing.xl,
-            backgroundColor: '#F3E8FF',
+            backgroundColor: '#E0F7FA',
             borderRadius: '12px',
             padding: spacing.lg,
             borderLeft: `4px solid ${colors.primary}`,
           }}
         >
           <p style={{ fontSize: typography.sizes.sm, color: colors.black, margin: 0, lineHeight: '1.5' }}>
-            💡 <strong>팁:</strong> 진단을 통해 당신의 한국어 수준을 파악하고 맞춤형 학습 계획을 세우세요.
+            💡 <strong>Совет:</strong> Диагностика покажет ваш уровень и поможет составить план обучения.
           </p>
         </div>
       </div>

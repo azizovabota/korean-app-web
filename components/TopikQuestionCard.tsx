@@ -22,7 +22,7 @@ export function TopikQuestionCard({
     <div style={{ padding: spacing.lg, maxWidth: '100%' }}>
       <div style={{ marginBottom: spacing.lg }}>
         <p style={{ fontSize: typography.sizes.sm, color: colors.darkGray }}>
-          문제 {questionNumber} / {totalQuestions}
+          Вопрос {questionNumber} / {totalQuestions}
         </p>
       </div>
 
