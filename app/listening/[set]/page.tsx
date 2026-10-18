@@ -22,7 +22,7 @@ function playWithGain(src: string, gainDb: number, onEnd?: () => void): HTMLAudi
   audio.playbackRate = QUESTION_PLAYBACK_RATE;
   if (onEnd) audio.onended = onEnd;
   audio.onerror = () => onEnd?.();
-  if (audioContext && audioContext.state === 'running') {
+  if (audioContext && audioContext.state === 'running' && Math.abs(gainDb) > 0.5) {
     const gain = audioContext.createGain();
     gain.gain.value = Math.pow(10, gainDb / 20);
     audioContext.createMediaElementSource(audio).connect(gain).connect(audioContext.destination);
@@ -86,6 +86,14 @@ export default function ListeningSetPage() {
 
   useEffect(() => {
     if (phase !== 'question' || !question) return;
+    const next = sectionQuestions[qIdx + 1];
+    [question, next].forEach((q) => {
+      q?.segments.forEach((seg: { file: string }) => {
+        const preload = new Audio();
+        preload.preload = 'auto';
+        preload.src = `/audio/listening/q/${seg.file}`;
+      });
+    });
     playQuestion(question);
     return () => audioRef.current?.pause();
     // eslint-disable-next-line react-hooks/exhaustive-deps
