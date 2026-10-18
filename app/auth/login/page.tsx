@@ -18,7 +18,7 @@ export default function LoginPage() {
     setLoading(true);
     const { error: signInError } = await supabase.auth.signInWithPassword({ email: email.trim(), password });
     if (signInError) {
-      setError('Неверный email или пароль');
+      setError(signInError.message === 'Invalid login credentials' ? 'Неверный email или пароль' : signInError.message);
       setLoading(false);
       return;
     }
