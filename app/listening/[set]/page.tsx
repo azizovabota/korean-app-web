@@ -8,7 +8,6 @@ import { clearMistake, getProfile, recordLessonCompleted, recordMistake, type Go
 import data from '@/data/listeningTopik.json';
 
 const RIGHT = '#10B981';
-const ruleGains = (data as { ruleGain?: Record<string, number> }).ruleGain ?? {};
 
 let audioContext: AudioContext | null = null;
 
@@ -61,7 +60,7 @@ export default function ListeningSetPage() {
 
   const playRule = (ruleId: string, onEnd: () => void) => {
     audioRef.current?.pause();
-    audioRef.current = playWithGain(`/audio/listening/rules/${ruleId}.mp3`, ruleGains[ruleId] ?? 0, onEnd);
+    audioRef.current = playWithGain(`/audio/listening/rules/${ruleId}.m4a`, 0, onEnd);
   };
 
   const playQuestion = (q: { segments: { file: string; gainDb?: number }[] }) => {
