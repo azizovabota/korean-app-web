@@ -112,7 +112,7 @@
      "explanation": "무엇을 먹을지 묻는 질문에는 음식을 주문하는 대답이 이어집니다.",
      "segments": [
       {
-       "file": "38669d5dce7fcc92.mp3",
+       "file": "38669d5dce7fcc92.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "어서 오세요. 뭘 드시겠어요?"
@@ -137,7 +137,7 @@
      "explanation": "누구의 것인지 묻는 질문에는 소유를 밝히는 대답이 이어집니다.",
      "segments": [
       {
-       "file": "73f5f935e3cebce1.mp3",
+       "file": "73f5f935e3cebce1.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "이 우산 누구 거예요?"
@@ -162,7 +162,7 @@
      "explanation": "축하 인사에는 감사 인사로 대답하는 것이 자연스럽습니다.",
      "segments": [
       {
-       "file": "8134022ba1dfef81.mp3",
+       "file": "8134022ba1dfef81.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "생일 축하해요!"
@@ -187,7 +187,7 @@
      "explanation": "춥다는 말에는 옷을 따뜻하게 입겠다는 대답이 자연스럽습니다.",
      "segments": [
       {
-       "file": "cc1f04de59ec2e11.mp3",
+       "file": "cc1f04de59ec2e11.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "날씨가 많이 춥네요."
@@ -212,7 +212,7 @@
      "explanation": "주말에 하는 일을 묻는 질문에는 활동으로 대답합니다.",
      "segments": [
       {
-       "file": "4909e62c5fc0ade1.mp3",
+       "file": "4909e62c5fc0ade1.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "주말에 보통 뭐 해요?"
@@ -237,7 +237,7 @@
      "explanation": "도와주겠다는 제안에는 감사하며 부탁하는 대답이 자연스럽습니다.",
      "segments": [
       {
-       "file": "2442692ccaa2eef0.mp3",
+       "file": "2442692ccaa2eef0.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "가방이 무거워 보이는데 제가 들어 드릴까요?"
@@ -262,19 +262,19 @@
      "explanation": "여권을 만드는 곳은 구청(여권과)입니다.",
      "segments": [
       {
-       "file": "87838100545d1a6c.mp3",
+       "file": "87838100545d1a6c.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "어떻게 오셨어요? /"
       },
       {
-       "file": "0f24a308d4ef862d.mp3",
+       "file": "0f24a308d4ef862d.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "여권을 좀 만들고 싶은데요. /"
       },
       {
-       "file": "e4845bbc95728a12.mp3",
+       "file": "e4845bbc95728a12.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "네, 이쪽으로 오세요. 사진 있으세요?"
@@ -301,13 +301,13 @@
      "explanation": "머리를 자르는 곳은 미용실입니다.",
      "segments": [
       {
-       "file": "0b4545123c611a92.mp3",
+       "file": "0b4545123c611a92.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "머리를 좀 짧게 잘라 주세요. /"
       },
       {
-       "file": "de69398f988a1a90.mp3",
+       "file": "de69398f988a1a90.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "네, 어느 정도 잘라 드릴까요?"
@@ -333,13 +333,13 @@
      "explanation": "티셔츠를 입어 보는 곳은 옷 가게입니다.",
      "segments": [
       {
-       "file": "ebf9188cefdc1953.mp3",
+       "file": "ebf9188cefdc1953.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "이 티셔츠 좀 입어 봐도 돼요? /"
       },
       {
-       "file": "52df333bf6651bf1.mp3",
+       "file": "52df333bf6651bf1.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "네, 탈의실은 저쪽에 있습니다."
@@ -365,13 +365,13 @@
      "explanation": "아픈 곳을 묻고 진료하는 곳은 병원입니다.",
      "segments": [
       {
-       "file": "450b3f44600f5ebf.mp3",
+       "file": "450b3f44600f5ebf.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "어디가 아프세요? /"
       },
       {
-       "file": "3f39edd637f5bd3a.mp3",
+       "file": "3f39edd637f5bd3a.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "목이 아프고 기침이 나요."
@@ -397,19 +397,19 @@
      "explanation": "가방의 값을 묻고 깎아 달라고 하므로 '가격'에 대한 내용입니다.",
      "segments": [
       {
-       "file": "e9529788c2728775.mp3",
+       "file": "e9529788c2728775.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "이 가방 얼마예요? /"
       },
       {
-       "file": "5d39402accadbe08.mp3",
+       "file": "5d39402accadbe08.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "오만 원입니다. /"
       },
       {
-       "file": "39d98b2b3f7ecb7c.mp3",
+       "file": "39d98b2b3f7ecb7c.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "좀 깎아 주세요."
@@ -436,13 +436,13 @@
      "explanation": "비가 온다는 내용이므로 '날씨'에 대한 내용입니다.",
      "segments": [
       {
-       "file": "a4dd69a2cfcd353e.mp3",
+       "file": "a4dd69a2cfcd353e.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "내일부터 비가 온대요. /"
       },
       {
-       "file": "9b0d90fc06f63ddb.mp3",
+       "file": "9b0d90fc06f63ddb.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "그래요? 우산을 챙겨야겠네요."
@@ -468,13 +468,13 @@
      "explanation": "방학 계획으로 여행을 말하고 있으므로 '여행'에 대한 내용입니다.",
      "segments": [
       {
-       "file": "d7c2eaa658a3916f.mp3",
+       "file": "d7c2eaa658a3916f.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "이번 방학에 뭐 할 거예요? /"
       },
       {
-       "file": "e185ad543164e593.mp3",
+       "file": "e185ad543164e593.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "저는 제주도에 여행 갈 거예요."
@@ -500,13 +500,13 @@
      "explanation": "몇 시까지 오라는 내용이므로 '시간'에 대한 내용입니다.",
      "segments": [
       {
-       "file": "8b58ffef7284b190.mp3",
+       "file": "8b58ffef7284b190.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "생일 파티에 몇 시까지 와요? /"
       },
       {
-       "file": "e597749e2c391390.mp3",
+       "file": "e597749e2c391390.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "저녁 7시까지 오세요."
@@ -532,13 +532,13 @@
      "explanation": "남자가 카페 직원으로서 손님에게 주문한 커피를 건네는 상황입니다.",
      "segments": [
       {
-       "file": "04518d19757c09c1.mp3",
+       "file": "04518d19757c09c1.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "손님, 여기 주문하신 커피 나왔습니다. /"
       },
       {
-       "file": "8f5c00340c532ccb.mp3",
+       "file": "8f5c00340c532ccb.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "네, 감사합니다."
@@ -564,13 +564,13 @@
      "explanation": "여자가 수업을 시작하며 책을 펴라고 하므로 교실에서 가르치는 상황입니다.",
      "segments": [
       {
-       "file": "1fe9acec080b11db.mp3",
+       "file": "1fe9acec080b11db.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "수업 시작하겠습니다. 책을 펴세요. /"
       },
       {
-       "file": "9cfba65fcc495aba.mp3",
+       "file": "9cfba65fcc495aba.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "네, 선생님."
@@ -596,13 +596,13 @@
      "explanation": "회의 시간이 3시에서 4시로 바뀌었다고 했습니다.",
      "segments": [
       {
-       "file": "6a10482b028de14f.mp3",
+       "file": "6a10482b028de14f.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "오늘 회의가 3시에서 4시로 바뀌었어요. /"
       },
       {
-       "file": "a8cbd717c477029a.mp3",
+       "file": "a8cbd717c477029a.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "네, 알겠습니다. 다른 사람들한테도 알릴게요."
@@ -628,13 +628,13 @@
      "explanation": "남자가 복사를 바로 하겠다고 했습니다.",
      "segments": [
       {
-       "file": "e65f86cb3f491aea.mp3",
+       "file": "e65f86cb3f491aea.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "민수 씨, 이 서류 좀 복사해 주세요. 열 장씩이요. /"
       },
       {
-       "file": "619ef922a7fb0fd6.mp3",
+       "file": "619ef922a7fb0fd6.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "네, 바로 할게요."
@@ -660,13 +660,13 @@
      "explanation": "여자가 꽃을 선물로 추천했습니다.",
      "segments": [
       {
-       "file": "55d8f5620658e7ed.mp3",
+       "file": "55d8f5620658e7ed.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "수미 씨 생일 선물로 뭐가 좋을까요? /"
       },
       {
-       "file": "213c15c98a3a8ad1.mp3",
+       "file": "213c15c98a3a8ad1.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "수미 씨가 요즘 꽃을 좋아하던데 꽃이 어때요?"
@@ -692,13 +692,13 @@
      "explanation": "남자가 영화를 세 번 봤다고 했으므로 여러 번 봤습니다.",
      "segments": [
       {
-       "file": "072afea65add6777.mp3",
+       "file": "072afea65add6777.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "이 영화 재미있어요? /"
       },
       {
-       "file": "1eb6a8ba22810c35.mp3",
+       "file": "1eb6a8ba22810c35.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "네, 저는 세 번이나 봤어요. 정말 재미있어요."
@@ -724,13 +724,13 @@
      "explanation": "여자가 내일 약속이 있다고 했습니다.",
      "segments": [
       {
-       "file": "ba1f47725b0117b6.mp3",
+       "file": "ba1f47725b0117b6.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "내일 등산 갈 건데 같이 갈래요? /"
       },
       {
-       "file": "321f27506b636cf8.mp3",
+       "file": "321f27506b636cf8.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "저도 가고 싶은데 내일 약속이 있어요. 다음에 같이 가요."
@@ -756,13 +756,13 @@
      "explanation": "아침 운동이 하루를 상쾌하게 한다는 것이 여자의 중심 생각입니다.",
      "segments": [
       {
-       "file": "80af159838bbaab5.mp3",
+       "file": "80af159838bbaab5.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "요즘 운동을 시작했는데 아침에 운동하니까 하루가 상쾌해요. /"
       },
       {
-       "file": "9fba1678df340f71.mp3",
+       "file": "9fba1678df340f71.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "좋네요. 저도 한번 해 볼까요?"
@@ -788,13 +788,13 @@
      "explanation": "사기 전에 생각하면 충동구매를 줄일 수 있다는 것이 여자의 중심 생각입니다.",
      "segments": [
       {
-       "file": "06382b4079043ca2.mp3",
+       "file": "06382b4079043ca2.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "요즘 물건을 많이 사는데 필요 없는 것도 자꾸 사게 돼요. /"
       },
       {
-       "file": "fcb0e40dc2b1f8af.mp3",
+       "file": "fcb0e40dc2b1f8af.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "저는 사기 전에 꼭 필요한지 하루 더 생각해 봐요. 그러면 충동구매를 줄일 수 있어요."
@@ -820,13 +820,13 @@
      "explanation": "드라마 시청이 외국어 학습에 도움이 됐다는 것이 여자의 중심 생각입니다.",
      "segments": [
       {
-       "file": "a6d007ab8b295326.mp3",
+       "file": "a6d007ab8b295326.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "저는 외국어를 배울 때 그 나라 드라마를 보는 게 도움이 많이 됐어요. /"
       },
       {
-       "file": "e4bbb217f20a1aa7.mp3",
+       "file": "e4bbb217f20a1aa7.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "아, 저도 한번 시도해 봐야겠어요."
@@ -852,7 +852,7 @@
      "explanation": "3시 기차 출발과 승강장 번호를 안내하는 방송입니다.",
      "segments": [
       {
-       "file": "29fd56a1f81f7900.mp3",
+       "file": "29fd56a1f81f7900.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "승객 여러분께 안내 말씀드립니다. 잠시 후 3시 기차가 2번 승강장에서 출발하니, 탑승하실 승객께서는 서둘러 주시기 바랍니다. 감사합니다."
@@ -878,7 +878,7 @@
      "explanation": "기차가 3시에 출발한다고 안내했습니다.",
      "segments": [
       {
-       "file": "29fd56a1f81f7900.mp3",
+       "file": "29fd56a1f81f7900.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "승객 여러분께 안내 말씀드립니다. 잠시 후 3시 기차가 2번 승강장에서 출발하니, 탑승하실 승객께서는 서둘러 주시기 바랍니다. 감사합니다."
@@ -904,25 +904,25 @@
      "explanation": "두 사람이 함께 책상을 들어서 옮기려고 하는 상황입니다.",
      "segments": [
       {
-       "file": "474dc50596079416.mp3",
+       "file": "474dc50596079416.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "여기 책상을 좀 옮겨야 할 것 같은데 같이 들어 줄 수 있어요? /"
       },
       {
-       "file": "5d9ffc33bc9efbe4.mp3",
+       "file": "5d9ffc33bc9efbe4.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "네, 어디로 옮길까요? /"
       },
       {
-       "file": "733435a0a15834a6.mp3",
+       "file": "733435a0a15834a6.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "창문 쪽으로요. 거기가 더 밝을 것 같아요. /"
       },
       {
-       "file": "500a7f1de0d7da7b.mp3",
+       "file": "500a7f1de0d7da7b.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "좋아요. 하나, 둘, 셋!"
@@ -950,25 +950,25 @@
      "explanation": "두 사람이 함께 책상을 창문 쪽으로 옮기기로 했습니다.",
      "segments": [
       {
-       "file": "474dc50596079416.mp3",
+       "file": "474dc50596079416.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "여기 책상을 좀 옮겨야 할 것 같은데 같이 들어 줄 수 있어요? /"
       },
       {
-       "file": "5d9ffc33bc9efbe4.mp3",
+       "file": "5d9ffc33bc9efbe4.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "네, 어디로 옮길까요? /"
       },
       {
-       "file": "733435a0a15834a6.mp3",
+       "file": "733435a0a15834a6.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "창문 쪽으로요. 거기가 더 밝을 것 같아요. /"
       },
       {
-       "file": "500a7f1de0d7da7b.mp3",
+       "file": "500a7f1de0d7da7b.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "좋아요. 하나, 둘, 셋!"
@@ -996,7 +996,7 @@
      "explanation": "깨끗해진 공원을 보면 기분이 좋아서 계속한다고 했습니다.",
      "segments": [
       {
-       "file": "dd4dd8473f0bf47e.mp3",
+       "file": "dd4dd8473f0bf47e.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "저는 매주 토요일 아침에 동네 공원에서 쓰레기를 줍는 봉사 활동을 합니다. 처음에는 친구가 같이 하자고 해서 시작했는데, 깨끗해진 공원을 보면 기분이 좋아서 계속하고 있습니다. 요즘은 같이 하는 사람도 점점 늘고 있습니다."
@@ -1021,7 +1021,7 @@
      "explanation": "같이 하는 사람이 점점 늘고 있다고 했습니다.",
      "segments": [
       {
-       "file": "dd4dd8473f0bf47e.mp3",
+       "file": "dd4dd8473f0bf47e.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "저는 매주 토요일 아침에 동네 공원에서 쓰레기를 줍는 봉사 활동을 합니다. 처음에는 친구가 같이 하자고 해서 시작했는데, 깨끗해진 공원을 보면 기분이 좋아서 계속하고 있습니다. 요즘은 같이 하는 사람도 점점 늘고 있습니다."
@@ -1145,7 +1145,7 @@
      "explanation": "날씨가 좋다는 말에 어울리는 긍정적 반응은 산책 제안입니다.",
      "segments": [
       {
-       "file": "b3b6f0df0085b96e.mp3",
+       "file": "b3b6f0df0085b96e.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "오늘 날씨가 정말 좋네요."
@@ -1170,7 +1170,7 @@
      "explanation": "가격을 묻는 질문에는 가격으로 답해야 합니다.",
      "segments": [
       {
-       "file": "e8826e6f86b21ee3.mp3",
+       "file": "e8826e6f86b21ee3.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "이 가방 얼마예요?"
@@ -1195,7 +1195,7 @@
      "explanation": "축하 인사에는 감사로 답하는 것이 자연스럽습니다.",
      "segments": [
       {
-       "file": "8134022ba1dfef81.mp3",
+       "file": "8134022ba1dfef81.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "생일 축하해요!"
@@ -1220,7 +1220,7 @@
      "explanation": "바빠서 전화를 못 받는다는 말에는 나중에 다시 하겠다는 응답이 자연스럽습니다.",
      "segments": [
       {
-       "file": "48aedef34d7dbe1a.mp3",
+       "file": "48aedef34d7dbe1a.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "저 지금 바빠서 전화 못 받아요."
@@ -1245,13 +1245,13 @@
      "explanation": "시간이 있다는 대답 뒤에는 제안이 이어지는 것이 자연스럽습니다.",
      "segments": [
       {
-       "file": "8c0c11ccf78c9221.mp3",
+       "file": "8c0c11ccf78c9221.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "민수 씨, 이번 주말에 시간 있어요?"
       },
       {
-       "file": "8b52795b369875d2.mp3",
+       "file": "8b52795b369875d2.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "네, 왜요?"
@@ -1278,7 +1278,7 @@
      "explanation": "자리가 없다는 문제에는 해결책 제안이 자연스럽습니다.",
      "segments": [
       {
-       "file": "c15a330106f952a9.mp3",
+       "file": "c15a330106f952a9.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "기차표를 예매했는데 자리가 없대요."
@@ -1304,13 +1304,13 @@
      "explanation": "책을 찾아달라는 요청과 컴퓨터로 검색하는 상황은 도서관(서점)의 전형적 장면입니다.",
      "segments": [
       {
-       "file": "603cb4202a2d03c3.mp3",
+       "file": "603cb4202a2d03c3.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "이 책 좀 찾아 주시겠어요? 어디에 있는지 모르겠어요."
       },
       {
-       "file": "e0323635d6eb160d.mp3",
+       "file": "e0323635d6eb160d.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "네, 제목이 뭐예요? 컴퓨터로 찾아 드릴게요."
@@ -1336,19 +1336,19 @@
      "explanation": "증상을 묻고 열을 재는 상황은 병원 진료 장면입니다.",
      "segments": [
       {
-       "file": "3401b25a2ffc83cb.mp3",
+       "file": "3401b25a2ffc83cb.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "어디가 아프세요?"
       },
       {
-       "file": "97e2990893628c4f.mp3",
+       "file": "97e2990893628c4f.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "어제부터 목이 아프고 기침이 나요."
       },
       {
-       "file": "507a9968e71b4032.mp3",
+       "file": "507a9968e71b4032.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "그럼 열도 재 볼게요."
@@ -1375,13 +1375,13 @@
      "explanation": "산이 보이는 곳에서 사진을 찍는 상황은 공원과 같은 야외 장소입니다.",
      "segments": [
       {
-       "file": "268f93494b026810.mp3",
+       "file": "268f93494b026810.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "여기 사진 좀 찍어 주시겠어요?"
       },
       {
-       "file": "a9888cf0274d989e.mp3",
+       "file": "a9888cf0274d989e.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "네, 뒤에 산이 잘 보이게 찍어 드릴게요."
@@ -1407,13 +1407,13 @@
      "explanation": "옷을 입어보고 탈의실을 안내하는 상황은 옷가게입니다.",
      "segments": [
       {
-       "file": "cabc95b3f2c5b224.mp3",
+       "file": "cabc95b3f2c5b224.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "이 옷 한번 입어 봐도 돼요?"
       },
       {
-       "file": "8d81e3f912ecc5fb.mp3",
+       "file": "8d81e3f912ecc5fb.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "네, 탈의실은 저쪽에 있어요."
@@ -1439,13 +1439,13 @@
      "explanation": "유리로 만든 색깔 있는 물건에 대한 대화이므로 그릇(공예품)이 주제입니다.",
      "segments": [
       {
-       "file": "28167704b0f19e26.mp3",
+       "file": "28167704b0f19e26.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "이거 뭐로 만들었어요? 색깔이 참 예뻐요."
       },
       {
-       "file": "3fe11b1ca8371774.mp3",
+       "file": "3fe11b1ca8371774.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "유리로 만들었어요. 직접 만든 거예요."
@@ -1471,13 +1471,13 @@
      "explanation": "영화를 보고 느낀 감상을 이야기하고 있습니다.",
      "segments": [
       {
-       "file": "a2896a6822a3e0dd.mp3",
+       "file": "a2896a6822a3e0dd.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "이 영화 어땠어요?"
       },
       {
-       "file": "d99d602ebbf631b2.mp3",
+       "file": "d99d602ebbf631b2.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "너무 슬퍼서 많이 울었어요."
@@ -1503,13 +1503,13 @@
      "explanation": "매운 맛과 재료에 대한 대화이므로 음식이 주제입니다.",
      "segments": [
       {
-       "file": "83e92482a2a3da7d.mp3",
+       "file": "83e92482a2a3da7d.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "이 음식에 뭐가 들어갔어요? 좀 매워요."
       },
       {
-       "file": "0a3a42dcccd63f24.mp3",
+       "file": "0a3a42dcccd63f24.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "고추를 많이 넣었어요."
@@ -1535,13 +1535,13 @@
      "explanation": "표가 매진된 공연에 대한 대화입니다.",
      "segments": [
       {
-       "file": "96c4a94f3f64d107.mp3",
+       "file": "96c4a94f3f64d107.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "다음 달에 공연이 있는데 표가 벌써 다 팔렸대요."
       },
       {
-       "file": "fba754d63073dbb3.mp3",
+       "file": "fba754d63073dbb3.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "정말요? 인기가 많네요."
@@ -1567,19 +1567,19 @@
      "explanation": "분실물을 찾아 안내소 직원이 돌려주는 장면입니다.",
      "segments": [
       {
-       "file": "e54b560f6d0a0b1b.mp3",
+       "file": "e54b560f6d0a0b1b.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "무엇을 도와 드릴까요?"
       },
       {
-       "file": "592f76e55c2fb93e.mp3",
+       "file": "592f76e55c2fb93e.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "이 가방 안에 지갑을 놓고 간 것 같아요. 혹시 찾으셨어요?"
       },
       {
-       "file": "fe65b81a69280ed7.mp3",
+       "file": "fe65b81a69280ed7.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "네, 여기 있어요. 확인해 보세요."
@@ -1606,19 +1606,19 @@
      "explanation": "넘어진 사람을 부축해 일으켜 주는 장면입니다.",
      "segments": [
       {
-       "file": "acf191bfb6f750b3.mp3",
+       "file": "acf191bfb6f750b3.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "민수야, 괜찮아? 넘어진 것 같은데."
       },
       {
-       "file": "7d18e21b84dfc884.mp3",
+       "file": "7d18e21b84dfc884.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "어, 다리가 아파서 못 일어나겠어."
       },
       {
-       "file": "70cb86baaa1380b4.mp3",
+       "file": "70cb86baaa1380b4.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "그럼 내가 부축해 줄게. 천천히 일어나 봐."
@@ -1645,25 +1645,25 @@
      "explanation": "남자는 학교에서 걸어서 십 분 거리로 가까운 곳으로 이사했습니다.",
      "segments": [
       {
-       "file": "c0302e191f055c73.mp3",
+       "file": "c0302e191f055c73.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "수미 씨, 이사했다면서요? 집은 어때요?"
       },
       {
-       "file": "a79cafda34cb07b5.mp3",
+       "file": "a79cafda34cb07b5.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "네, 학교에서 가까워서 좋아요. 그런데 방이 좀 작아요."
       },
       {
-       "file": "4c6cd5980fa413ed.mp3",
+       "file": "4c6cd5980fa413ed.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "그래도 가까우면 편하겠어요."
       },
       {
-       "file": "e8a7e4b1d8cdae99.mp3",
+       "file": "e8a7e4b1d8cdae99.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "맞아요. 걸어서 십 분이면 돼요."
@@ -1691,19 +1691,19 @@
      "explanation": "여자는 이 식당이 맛집으로 유명하다고 말했습니다.",
      "segments": [
       {
-       "file": "b71e71bb466af08f.mp3",
+       "file": "b71e71bb466af08f.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "이 식당 처음 와 봤는데 사람이 정말 많네요."
       },
       {
-       "file": "afecf4cddcc80aa8.mp3",
+       "file": "afecf4cddcc80aa8.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "네, 여기가 맛집으로 유명해요. 주말에는 더 기다려야 해요."
       },
       {
-       "file": "f9c523bb8461e8b0.mp3",
+       "file": "f9c523bb8461e8b0.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "그럼 오늘은 평일이라서 그나마 빨리 들어왔네요."
@@ -1730,25 +1730,25 @@
      "explanation": "남자는 오늘 밤에 자료를 다 찾아 준비를 끝내야 한다고 말했습니다.",
      "segments": [
       {
-       "file": "610fdf410b7faa3a.mp3",
+       "file": "610fdf410b7faa3a.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "내일 발표 준비 다 했어요?"
       },
       {
-       "file": "ba0c628ec060e756.mp3",
+       "file": "ba0c628ec060e756.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "아니요, 아직 자료를 다 못 찾았어요. 오늘 밤에 끝내야 해요."
       },
       {
-       "file": "227f16bf760f9c84.mp3",
+       "file": "227f16bf760f9c84.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "도와줄까요?"
       },
       {
-       "file": "30443becc829fbdb.mp3",
+       "file": "30443becc829fbdb.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "네, 그럼 같이 찾아 봐요."
@@ -1776,25 +1776,25 @@
      "explanation": "소독은 월요일 오전에 한다고 공지되었습니다.",
      "segments": [
       {
-       "file": "3cc99bb11ea72e8c.mp3",
+       "file": "3cc99bb11ea72e8c.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "저기 공지 보셨어요? 이번 주에 아파트 소독이 있대요."
       },
       {
-       "file": "bcdbb757751039d3.mp3",
+       "file": "bcdbb757751039d3.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "네, 봤어요. 월요일 오전에 한다고 했어요."
       },
       {
-       "file": "328d4f375ca75716.mp3",
+       "file": "328d4f375ca75716.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "그때 집에 없어도 되나요?"
       },
       {
-       "file": "706b1804d8744fd5.mp3",
+       "file": "706b1804d8744fd5.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "네, 창문만 열어 두면 된대요."
@@ -1822,25 +1822,25 @@
      "explanation": "비행기 표가 비싸서 남자는 집에서 쉬기로 했습니다.",
      "segments": [
       {
-       "file": "aff45d720b940e6d.mp3",
+       "file": "aff45d720b940e6d.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "이번 휴가 때 뭐 할 거예요?"
       },
       {
-       "file": "73dcd4b5510b62b0.mp3",
+       "file": "73dcd4b5510b62b0.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "고향에 갈까 했는데 비행기 표가 너무 비싸서 그냥 집에서 쉬려고요."
       },
       {
-       "file": "23a259495791677f.mp3",
+       "file": "23a259495791677f.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "아쉽겠어요."
       },
       {
-       "file": "1ddf290dcd5cf561.mp3",
+       "file": "1ddf290dcd5cf561.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "괜찮아요. 다음에 가면 되죠."
@@ -1868,7 +1868,7 @@
      "explanation": "남자는 매일 조금씩 운동하는 것이 중요하다고 말하고 있습니다.",
      "segments": [
       {
-       "file": "38725cfea0f45f93.mp3",
+       "file": "38725cfea0f45f93.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "요즘 운동을 시작했는데 생각보다 재미있어요. 몸도 가벼워지고 기분도 좋아져요. 매일 조금씩이라도 하는 게 중요한 것 같아요."
@@ -1893,7 +1893,7 @@
      "explanation": "여자는 처음에는 레시피를 정확히 따르는 것이 중요하다고 말하고 있습니다.",
      "segments": [
       {
-       "file": "25df45d821a57264.mp3",
+       "file": "25df45d821a57264.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "저는 요리할 때 레시피를 꼭 지켜요. 양념을 조금만 바꿔도 맛이 완전히 달라지거든요. 그래서 처음에는 정확하게 따라 하는 게 중요한 것 같아요."
@@ -1918,7 +1918,7 @@
      "explanation": "남자는 책을 직접 보고 사는 것이 후회가 없다고 말하고 있습니다.",
      "segments": [
       {
-       "file": "c4e25ec27ded5688.mp3",
+       "file": "c4e25ec27ded5688.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "저는 책을 살 때 꼭 서점에 가서 직접 봐요. 내용을 조금 읽어 보고 사야 후회가 없거든요. 온라인은 편하지만 실수로 다른 책을 살 때가 있어요."
@@ -1943,7 +1943,7 @@
      "explanation": "방송의 목적은 엘리베이터 점검 일정을 알리는 것입니다.",
      "segments": [
       {
-       "file": "78a495efefffdfe4.mp3",
+       "file": "78a495efefffdfe4.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "주민 여러분께 알려 드립니다. 내일 오전 아홉 시부터 열두 시까지 엘리베이터 점검이 있습니다. 점검하는 동안에는 엘리베이터를 사용하실 수 없으니 계단을 이용해 주시기 바랍니다. 불편을 드려서 죄송합니다."
@@ -1968,7 +1968,7 @@
      "explanation": "점검 시간 동안 엘리베이터를 쓸 수 없으니 계단을 이용하라고 안내했습니다.",
      "segments": [
       {
-       "file": "78a495efefffdfe4.mp3",
+       "file": "78a495efefffdfe4.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "주민 여러분께 알려 드립니다. 내일 오전 아홉 시부터 열두 시까지 엘리베이터 점검이 있습니다. 점검하는 동안에는 엘리베이터를 사용하실 수 없으니 계단을 이용해 주시기 바랍니다. 불편을 드려서 죄송합니다."
@@ -1993,25 +1993,25 @@
      "explanation": "여자는 책상 한쪽을 들겠다고 말했습니다.",
      "segments": [
       {
-       "file": "5b9f3b6f9e635444.mp3",
+       "file": "5b9f3b6f9e635444.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "저기 책상 좀 같이 옮겨 줄 수 있어요? 혼자는 너무 무거워서요."
       },
       {
-       "file": "d8dcb16a12072b91.mp3",
+       "file": "d8dcb16a12072b91.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "네, 어디로 옮길까요?"
       },
       {
-       "file": "466dbe1d527ea61f.mp3",
+       "file": "466dbe1d527ea61f.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "창문 쪽으로요. 거기가 더 밝을 것 같아요."
       },
       {
-       "file": "3f1e46a5816532b3.mp3",
+       "file": "3f1e46a5816532b3.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "알겠어요. 그럼 제가 이쪽을 들게요."
@@ -2039,25 +2039,25 @@
      "explanation": "남자는 책상을 창문 쪽으로 옮기자고 제안했습니다.",
      "segments": [
       {
-       "file": "5b9f3b6f9e635444.mp3",
+       "file": "5b9f3b6f9e635444.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "저기 책상 좀 같이 옮겨 줄 수 있어요? 혼자는 너무 무거워서요."
       },
       {
-       "file": "d8dcb16a12072b91.mp3",
+       "file": "d8dcb16a12072b91.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "네, 어디로 옮길까요?"
       },
       {
-       "file": "466dbe1d527ea61f.mp3",
+       "file": "466dbe1d527ea61f.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "창문 쪽으로요. 거기가 더 밝을 것 같아요."
       },
       {
-       "file": "3f1e46a5816532b3.mp3",
+       "file": "3f1e46a5816532b3.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "알겠어요. 그럼 제가 이쪽을 들게요."
@@ -2085,7 +2085,7 @@
      "explanation": "남자는 작년에 공원이 더러운 것을 보고 봉사를 시작했다고 말했습니다.",
      "segments": [
       {
-       "file": "85fb5c3b208f8143.mp3",
+       "file": "85fb5c3b208f8143.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "저는 매주 토요일마다 동네 공원에서 쓰레기를 줍는 봉사를 하고 있습니다. 작년에 공원이 너무 더러운 것을 보고 시작하게 됐는데요. 처음에는 혼자였지만 지금은 이웃 몇 분도 같이 하고 있어서 더 즐겁습니다. 공원이 깨끗해지는 걸 보면 뿌듯합니다."
@@ -2110,7 +2110,7 @@
      "explanation": "지금은 이웃 몇 분도 함께 봉사하고 있다고 말했습니다.",
      "segments": [
       {
-       "file": "85fb5c3b208f8143.mp3",
+       "file": "85fb5c3b208f8143.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "저는 매주 토요일마다 동네 공원에서 쓰레기를 줍는 봉사를 하고 있습니다. 작년에 공원이 너무 더러운 것을 보고 시작하게 됐는데요. 처음에는 혼자였지만 지금은 이웃 몇 분도 같이 하고 있어서 더 즐겁습니다. 공원이 깨끗해지는 걸 보면 뿌듯합니다."
@@ -2234,7 +2234,7 @@
      "explanation": "길을 묻는 질문에는 방향을 알려주는 답이 자연스럽습니다.",
      "segments": [
       {
-       "file": "5ccc35f67ac6bed2.mp3",
+       "file": "5ccc35f67ac6bed2.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "길 좀 알려 주시겠어요? 역이 어디예요?"
@@ -2259,7 +2259,7 @@
      "explanation": "부탁에는 허락하는 대답이 자연스럽습니다.",
      "segments": [
       {
-       "file": "4f70cd798bd5b8d5.mp3",
+       "file": "4f70cd798bd5b8d5.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "이 우산 좀 빌려 주시겠어요?"
@@ -2284,7 +2284,7 @@
      "explanation": "첫인사에는 반갑다는 인사로 답하는 것이 자연스럽습니다.",
      "segments": [
       {
-       "file": "2404654b0f084ac7.mp3",
+       "file": "2404654b0f084ac7.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "오늘 처음 뵙겠습니다. 잘 부탁드립니다."
@@ -2309,7 +2309,7 @@
      "explanation": "이사 간다는 말에는 어디로 가는지 묻는 것이 자연스럽습니다.",
      "segments": [
       {
-       "file": "d93ef13f2d3dbe76.mp3",
+       "file": "d93ef13f2d3dbe76.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "저 다음 주에 이사 가요."
@@ -2334,13 +2334,13 @@
      "explanation": "아직 안 먹었다는 대답 뒤에는 같이 먹자는 제안이 자연스럽습니다.",
      "segments": [
       {
-       "file": "bbd336790c71fd31.mp3",
+       "file": "bbd336790c71fd31.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "수미 씨, 점심 먹었어요?"
       },
       {
-       "file": "2b7f843e70d439b4.mp3",
+       "file": "2b7f843e70d439b4.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "아니요, 아직이요."
@@ -2367,13 +2367,13 @@
      "explanation": "비가 온다는 소식 뒤에는 우산을 챙기라는 조언이 자연스럽습니다.",
      "segments": [
       {
-       "file": "a33269bdd05d68f0.mp3",
+       "file": "a33269bdd05d68f0.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "내일 비가 온대요."
       },
       {
-       "file": "bf9d44bffa6f8846.mp3",
+       "file": "bf9d44bffa6f8846.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "그래요?"
@@ -2400,13 +2400,13 @@
      "explanation": "정찰제로 가격을 깎을 수 없다는 상황은 마트의 전형적 장면입니다.",
      "segments": [
       {
-       "file": "b3c07086605cae02.mp3",
+       "file": "b3c07086605cae02.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "이거 얼마예요? 좀 깎아 주세요."
       },
       {
-       "file": "004722319d16947a.mp3",
+       "file": "004722319d16947a.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "손님, 여기는 정찰제라서 깎아 드릴 수 없어요."
@@ -2432,13 +2432,13 @@
      "explanation": "여권과 표를 확인하는 상황은 공항입니다.",
      "segments": [
       {
-       "file": "bbacb9855c2778aa.mp3",
+       "file": "bbacb9855c2778aa.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "여권이랑 표 좀 보여 주시겠어요?"
       },
       {
-       "file": "47ad026e590a9385.mp3",
+       "file": "47ad026e590a9385.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "네, 여기 있습니다."
@@ -2464,13 +2464,13 @@
      "explanation": "머리를 자르는 상황은 미용실입니다.",
      "segments": [
       {
-       "file": "b78a195954ebe523.mp3",
+       "file": "b78a195954ebe523.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "머리를 좀 짧게 잘라 주세요."
       },
       {
-       "file": "808d65234c6d31b7.mp3",
+       "file": "808d65234c6d31b7.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "네, 어느 정도로 잘라 드릴까요?"
@@ -2496,13 +2496,13 @@
      "explanation": "책을 반납하는 상황은 도서관입니다.",
      "segments": [
       {
-       "file": "cac344b42bd77c04.mp3",
+       "file": "cac344b42bd77c04.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "이 책 반납하려고요."
       },
       {
-       "file": "9d54891dd00c6e5e.mp3",
+       "file": "9d54891dd00c6e5e.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "네, 반납일이 지났는데 괜찮으세요?"
@@ -2528,13 +2528,13 @@
      "explanation": "옷을 세탁하는 방법에 대한 대화입니다.",
      "segments": [
       {
-       "file": "ccb6f67925af0923.mp3",
+       "file": "ccb6f67925af0923.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "이 옷 세탁하면 줄어들까요?"
       },
       {
-       "file": "8df800aed7753d72.mp3",
+       "file": "8df800aed7753d72.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "찬물로 빨면 괜찮을 거예요."
@@ -2560,13 +2560,13 @@
      "explanation": "시험이 어땠는지에 대한 대화입니다.",
      "segments": [
       {
-       "file": "0b683954d25bf096.mp3",
+       "file": "0b683954d25bf096.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "이번 시험 어땠어요?"
       },
       {
-       "file": "3806ccf05f3b2304.mp3",
+       "file": "3806ccf05f3b2304.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "생각보다 어려웠어요. 시간도 부족했고요."
@@ -2592,13 +2592,13 @@
      "explanation": "동생이 그린 그림에 대한 대화입니다.",
      "segments": [
       {
-       "file": "a2bd2069a0cc247a.mp3",
+       "file": "a2bd2069a0cc247a.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "이 그림 누가 그렸어요? 색이 참 특이하네요."
       },
       {
-       "file": "ab72cc0c226b0895.mp3",
+       "file": "ab72cc0c226b0895.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "제 동생이 그렸어요. 취미로 그림을 그려요."
@@ -2624,13 +2624,13 @@
      "explanation": "새로 생기는 지하철역에 대한 대화입니다.",
      "segments": [
       {
-       "file": "07be76d71026305e.mp3",
+       "file": "07be76d71026305e.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "다음 달에 이 동네에 새 지하철역이 생긴대요."
       },
       {
-       "file": "8b389b46d3c3f628.mp3",
+       "file": "8b389b46d3c3f628.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "정말요? 그럼 더 편해지겠네요."
@@ -2656,19 +2656,19 @@
      "explanation": "손님을 자리로 안내하는 식당 장면입니다.",
      "segments": [
       {
-       "file": "7422d79daf91a5da.mp3",
+       "file": "7422d79daf91a5da.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "어서 오세요. 몇 분이세요?"
       },
       {
-       "file": "d5dcfeeca1588e2d.mp3",
+       "file": "d5dcfeeca1588e2d.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "두 명이요. 창가 자리로 주세요."
       },
       {
-       "file": "c1f1c2d0353181e1.mp3",
+       "file": "c1f1c2d0353181e1.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "네, 이쪽으로 오세요."
@@ -2695,13 +2695,13 @@
      "explanation": "남자가 여자의 짐을 들어 도와주는 장면입니다.",
      "segments": [
       {
-       "file": "b4e75d73c1120791.mp3",
+       "file": "b4e75d73c1120791.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "짐이 많으시네요. 제가 들어 드릴게요."
       },
       {
-       "file": "6422f8434f74b22f.mp3",
+       "file": "6422f8434f74b22f.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "아, 감사합니다. 무거운데 도와주셔서 고마워요."
@@ -2727,19 +2727,19 @@
      "explanation": "여자는 영수증을 가지고 있다고 말했습니다.",
      "segments": [
       {
-       "file": "6366c39fd9a40412.mp3",
+       "file": "6366c39fd9a40412.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "어제 산 신발이 좀 작아요. 교환할 수 있을까요?"
       },
       {
-       "file": "63548360b9ccbe40.mp3",
+       "file": "63548360b9ccbe40.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "네, 영수증 있으시면 더 큰 사이즈로 바꿔 드릴게요."
       },
       {
-       "file": "08c178e96bce9c2b.mp3",
+       "file": "08c178e96bce9c2b.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "다행이네요. 여기 영수증이요."
@@ -2766,19 +2766,19 @@
      "explanation": "회의 시간이 세 시에서 네 시로 바뀌었습니다.",
      "segments": [
       {
-       "file": "37933b96a0ccf5b5.mp3",
+       "file": "37933b96a0ccf5b5.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "오늘 회의 몇 시예요?"
       },
       {
-       "file": "6704631f1b4f4fbb.mp3",
+       "file": "6704631f1b4f4fbb.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "원래 세 시였는데 네 시로 바뀌었어요."
       },
       {
-       "file": "24dc52a0766124c7.mp3",
+       "file": "24dc52a0766124c7.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "아, 그럼 시간이 더 있네요."
@@ -2805,13 +2805,13 @@
      "explanation": "친구가 와서 같이 영화를 보러 갔다고 했습니다.",
      "segments": [
       {
-       "file": "e4ce97046ee45858.mp3",
+       "file": "e4ce97046ee45858.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "어제 뭐 했어요?"
       },
       {
-       "file": "81376acc03d7ff60.mp3",
+       "file": "81376acc03d7ff60.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "집에서 쉬려고 했는데 친구가 와서 같이 영화 보러 갔어요."
@@ -2837,13 +2837,13 @@
      "explanation": "수리하는 데 이틀 정도 걸린다고 했습니다.",
      "segments": [
       {
-       "file": "bdb8de68396d9534.mp3",
+       "file": "bdb8de68396d9534.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "이 노트북 좀 고쳐 주세요. 화면이 안 켜져요."
       },
       {
-       "file": "d5bbcf5c5002ea24.mp3",
+       "file": "d5bbcf5c5002ea24.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "네, 확인해 볼게요. 수리하는 데 이틀 정도 걸려요."
@@ -2869,19 +2869,19 @@
      "explanation": "여자는 여분의 등산화를 빌려줄 수 있다고 했습니다.",
      "segments": [
       {
-       "file": "4ee1922ee6d6171b.mp3",
+       "file": "4ee1922ee6d6171b.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "이번 주말에 등산 갈래요?"
       },
       {
-       "file": "fafd63134c879f59.mp3",
+       "file": "fafd63134c879f59.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "좋아요. 그런데 저는 등산화가 없어요."
       },
       {
-       "file": "b97071b83bad8c1a.mp3",
+       "file": "b97071b83bad8c1a.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "그럼 하나 빌려줄까요? 저한테 여분이 있어요."
@@ -2908,7 +2908,7 @@
      "explanation": "여자는 호박이 다른 보석과 다르게 특별하고 신기하다고 말하고 있습니다.",
      "segments": [
       {
-       "file": "cd3abfe830d93059.mp3",
+       "file": "cd3abfe830d93059.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "호박은 나무에서 나온 진이 굳어서 만들어진 보석이에요. 다른 보석과 다르게 가볍고, 안에 작은 곤충이 보이기도 해요. 그래서 사람들이 신기하게 생각해요."
@@ -2933,7 +2933,7 @@
      "explanation": "남자는 왕이 밥상의 음식을 통해 지역 사정을 알 수 있었다고 말하고 있습니다.",
      "segments": [
       {
-       "file": "bd8c060f71f0cfea.mp3",
+       "file": "bd8c060f71f0cfea.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "옛날 왕들은 밥을 먹을 때 전국에서 온 여러 가지 음식을 먹었대요. 그 음식을 보면서 각 지역 사정도 알 수 있었다고 해요."
@@ -2958,7 +2958,7 @@
      "explanation": "여자는 오랑우탄이 아플 때 스스로 치료하려 한다는 점을 신기하게 이야기하고 있습니다.",
      "segments": [
       {
-       "file": "db62382d5a85e86d.mp3",
+       "file": "db62382d5a85e86d.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "오랑우탄이 아플 때 나뭇잎을 씹어서 몸에 바른대요. 사람처럼 아픈 곳을 치료하려고 하는 거예요. 정말 신기하지 않아요?"
@@ -2983,7 +2983,7 @@
      "explanation": "방송의 목적은 다음 역과 환승 정보를 안내하는 것입니다.",
      "segments": [
       {
-       "file": "aab5a62c454ab4a0.mp3",
+       "file": "aab5a62c454ab4a0.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "승객 여러분께 안내 말씀 드립니다. 다음 역은 시청역입니다. 내리실 문은 오른쪽입니다. 환승하실 분은 2호선으로 갈아타시기 바랍니다."
@@ -3008,7 +3008,7 @@
      "explanation": "다음 역은 시청역이라고 안내했습니다.",
      "segments": [
       {
-       "file": "aab5a62c454ab4a0.mp3",
+       "file": "aab5a62c454ab4a0.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "승객 여러분께 안내 말씀 드립니다. 다음 역은 시청역입니다. 내리실 문은 오른쪽입니다. 환승하실 분은 2호선으로 갈아타시기 바랍니다."
@@ -3033,25 +3033,25 @@
      "explanation": "여자는 다른 프린터로 자료를 뽑아 오겠다고 말했습니다.",
      "segments": [
       {
-       "file": "ec572626c441e4c4.mp3",
+       "file": "ec572626c441e4c4.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "오늘 발표에 쓸 자료 다 인쇄했어요?"
       },
       {
-       "file": "af43f06314b3c47c.mp3",
+       "file": "af43f06314b3c47c.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "아직이요. 프린터가 고장 나서요."
       },
       {
-       "file": "72dea76ea584901e.mp3",
+       "file": "72dea76ea584901e.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "그럼 제가 다른 프린터로 뽑아 올게요."
       },
       {
-       "file": "0f484c8020c86d1d.mp3",
+       "file": "0f484c8020c86d1d.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "고마워요. 그동안 저는 발표 연습을 좀 더 할게요."
@@ -3079,25 +3079,25 @@
      "explanation": "프린터가 고장 났다고 말했습니다.",
      "segments": [
       {
-       "file": "ec572626c441e4c4.mp3",
+       "file": "ec572626c441e4c4.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "오늘 발표에 쓸 자료 다 인쇄했어요?"
       },
       {
-       "file": "af43f06314b3c47c.mp3",
+       "file": "af43f06314b3c47c.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "아직이요. 프린터가 고장 나서요."
       },
       {
-       "file": "72dea76ea584901e.mp3",
+       "file": "72dea76ea584901e.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "그럼 제가 다른 프린터로 뽑아 올게요."
       },
       {
-       "file": "0f484c8020c86d1d.mp3",
+       "file": "0f484c8020c86d1d.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "고마워요. 그동안 저는 발표 연습을 좀 더 할게요."
@@ -3125,7 +3125,7 @@
      "explanation": "예전 방법으로는 실력이 잘 늘지 않아서 방법을 바꿨다고 했습니다.",
      "segments": [
       {
-       "file": "b0198d8013dc5ae2.mp3",
+       "file": "b0198d8013dc5ae2.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "저는 요즘 아침마다 삼십 분씩 한국어 단어를 외우고 있습니다. 예전에는 시간이 날 때만 공부했는데 그러다 보니 실력이 잘 안 늘었어요. 그래서 올해부터는 매일 같은 시간에 조금씩 하기로 했습니다. 확실히 전보다 단어가 더 잘 기억나는 것 같습니다."
@@ -3150,7 +3150,7 @@
      "explanation": "여자는 올해부터 매일 아침 같은 시간에 공부하기로 했다고 말했습니다.",
      "segments": [
       {
-       "file": "b0198d8013dc5ae2.mp3",
+       "file": "b0198d8013dc5ae2.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "저는 요즘 아침마다 삼십 분씩 한국어 단어를 외우고 있습니다. 예전에는 시간이 날 때만 공부했는데 그러다 보니 실력이 잘 안 늘었어요. 그래서 올해부터는 매일 같은 시간에 조금씩 하기로 했습니다. 확실히 전보다 단어가 더 잘 기억나는 것 같습니다."
@@ -3274,7 +3274,7 @@
      "explanation": "저녁 식사 제안에 가장 자연스러운 대답은 수락하고 시간을 묻는 것이다.",
      "segments": [
       {
-       "file": "cb99e403122ec7a6.mp3",
+       "file": "cb99e403122ec7a6.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "저녁 같이 먹을래요? 제가 맛있는 식당을 알아요."
@@ -3299,7 +3299,7 @@
      "explanation": "추운 날씨에 대한 공감으로 옷을 더 입었다는 응답이 가장 자연스럽다.",
      "segments": [
       {
-       "file": "ef8504b2d73f3a31.mp3",
+       "file": "ef8504b2d73f3a31.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "오늘 날씨가 정말 춥네요."
@@ -3324,7 +3324,7 @@
      "explanation": "선물을 받았을 때 감사 인사와 함께 열어 봐도 되는지 묻는 것이 자연스럽다.",
      "segments": [
       {
-       "file": "3aeee11dc2dbd0e4.mp3",
+       "file": "3aeee11dc2dbd0e4.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "생일 축하해요! 이 선물 받으세요."
@@ -3349,7 +3349,7 @@
      "explanation": "오랜만에 만난 반가움에 안부를 묻는 응답이 가장 자연스럽다.",
      "segments": [
       {
-       "file": "a5db8abc4f3edf7e.mp3",
+       "file": "a5db8abc4f3edf7e.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "어, 오랜만이에요! 여기서 만나다니 신기하네요."
@@ -3374,7 +3374,7 @@
      "explanation": "주말에 하는 일을 묻는 질문에 맞는 대답이다.",
      "segments": [
       {
-       "file": "67bc85e0f1e3a2b3.mp3",
+       "file": "67bc85e0f1e3a2b3.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "주말에 보통 뭐 해요?"
@@ -3399,7 +3399,7 @@
      "explanation": "걸리는 시간을 묻는 질문에는 구체적인 시간으로 답해야 한다.",
      "segments": [
       {
-       "file": "e3cffc52496c0061.mp3",
+       "file": "e3cffc52496c0061.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "집에서 회사까지 얼마나 걸려요?"
@@ -3424,13 +3424,13 @@
      "explanation": "머리를 잘라 주는 대화이므로 미용실이다.",
      "segments": [
       {
-       "file": "26c7a080dcba1d82.mp3",
+       "file": "26c7a080dcba1d82.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "어서 오세요. 머리 어떻게 해 드릴까요? /"
       },
       {
-       "file": "aa3922ecc52538ef.mp3",
+       "file": "aa3922ecc52538ef.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "짧게 잘라 주세요."
@@ -3456,13 +3456,13 @@
      "explanation": "책을 반납하는 대화이므로 도서관이다.",
      "segments": [
       {
-       "file": "c3214051d3360c78.mp3",
+       "file": "c3214051d3360c78.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "이 책 반납하려고 하는데요. /"
       },
       {
-       "file": "1eafd5c55fa7e6f8.mp3",
+       "file": "1eafd5c55fa7e6f8.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "네, 여기 카드 주세요. 확인해 드릴게요."
@@ -3488,13 +3488,13 @@
      "explanation": "창문 쪽 자리, 짐 보관, 좋은 여행이라는 인사로 보아 비행기 안이다.",
      "segments": [
       {
-       "file": "5985980cc322025b.mp3",
+       "file": "5985980cc322025b.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "여기 짐 좀 올려 주세요. 창문 쪽 자리인가요? /"
       },
       {
-       "file": "a42c3bdf374a09e1.mp3",
+       "file": "a42c3bdf374a09e1.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "네, 맞아요. 좋은 여행 되세요."
@@ -3520,13 +3520,13 @@
      "explanation": "옷의 치수를 줄여 주는 대화이므로 수선집이다.",
      "segments": [
       {
-       "file": "dbd6819332426dc3.mp3",
+       "file": "dbd6819332426dc3.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "이 옷 좀 줄여 주시겠어요? 너무 커서요. /"
       },
       {
-       "file": "81f120be731f7572.mp3",
+       "file": "81f120be731f7572.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "네, 내일까지 해 드릴게요."
@@ -3552,13 +3552,13 @@
      "explanation": "새 집을 구한 것에 대한 대화이므로 주제는 이사이다.",
      "segments": [
       {
-       "file": "563a4d5ef6371a4d.mp3",
+       "file": "563a4d5ef6371a4d.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "다음 주에 이사해요? 집은 구했어요? /"
       },
       {
-       "file": "a32c670ca2361f7d.mp3",
+       "file": "a32c670ca2361f7d.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "네, 회사 근처로 구했어요. 방이 두 개예요."
@@ -3584,13 +3584,13 @@
      "explanation": "매일 조깅한다는 내용이므로 주제는 운동이다.",
      "segments": [
       {
-       "file": "41f9a5926438a3c9.mp3",
+       "file": "41f9a5926438a3c9.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "요즘 운동 하세요? /"
       },
       {
-       "file": "51f6114923092a07.mp3",
+       "file": "51f6114923092a07.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "네, 매일 아침에 조깅해요. 살도 빠지고 기분도 좋아요."
@@ -3616,13 +3616,13 @@
      "explanation": "날씨가 추워지고 곧 겨울이 온다는 내용이므로 계절 변화가 주제이다.",
      "segments": [
       {
-       "file": "d0c373cb867a36fc.mp3",
+       "file": "d0c373cb867a36fc.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "요즘 날씨가 많이 쌀쌀해졌어요. /"
       },
       {
-       "file": "e579d51eecfa46a0.mp3",
+       "file": "e579d51eecfa46a0.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "네, 곧 겨울이 올 것 같아요. 옷을 따뜻하게 입어야겠어요."
@@ -3648,13 +3648,13 @@
      "explanation": "좋아하는 활동에 대한 대화이므로 주제는 취미이다.",
      "segments": [
       {
-       "file": "459b09f5452bbbf4.mp3",
+       "file": "459b09f5452bbbf4.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "주말에 보통 뭐 해요? /"
       },
       {
-       "file": "053cf96f28e72c6e.mp3",
+       "file": "053cf96f28e72c6e.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "저는 사진 찍는 걸 좋아해서 공원에 자주 가요."
@@ -3680,13 +3680,13 @@
      "explanation": "남자가 할머니께 자리를 양보하는 상황이다.",
      "segments": [
       {
-       "file": "0005451f33c87311.mp3",
+       "file": "0005451f33c87311.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "할머니, 여기 앉으세요. /"
       },
       {
-       "file": "d38d3e2a179f22a0.mp3",
+       "file": "d38d3e2a179f22a0.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "아이고, 고마워요. 젊은이가 참 착하네요."
@@ -3712,13 +3712,13 @@
      "explanation": "여자가 남자에게 우산을 같이 쓰자고 제안하는 상황이다.",
      "segments": [
       {
-       "file": "9befe51464b3be08.mp3",
+       "file": "9befe51464b3be08.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "우산 없으신가봐요. 같이 쓰고 가실래요? /"
       },
       {
-       "file": "e81547e6eac4d3fa.mp3",
+       "file": "e81547e6eac4d3fa.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "아, 감사합니다. 비가 많이 오네요."
@@ -3744,7 +3744,7 @@
      "explanation": "이번 달 행사에 유명한 소설가가 참석한다고 했다.",
      "segments": [
       {
-       "file": "d3619b66ba103bf6.mp3",
+       "file": "d3619b66ba103bf6.m4a",
        "speaker": "none",
        "voice": "echo",
        "text": "저희 서점은 매달 마지막 주 금요일에 작가와의 만남 행사를 진행합니다. 이번 달에는 유명한 소설가가 참석할 예정이니 많은 분들의 참여를 부탁드립니다. 행사는 오후 세 시부터 한 시간 동안 진행됩니다."
@@ -3769,13 +3769,13 @@
      "explanation": "여자가 일곱 시에 네 명으로 예약했다고 말했다.",
      "segments": [
       {
-       "file": "06288ffc6a80dda2.mp3",
+       "file": "06288ffc6a80dda2.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "이 식당 예약했어요? 사람이 너무 많아서 걱정돼요. /"
       },
       {
-       "file": "bbb7805000ddc271.mp3",
+       "file": "bbb7805000ddc271.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "네, 어제 전화로 예약했어요. 일곱 시에 네 명으로 했어요."
@@ -3801,7 +3801,7 @@
      "explanation": "공사 기간 동안 후문을 이용해야 한다고 안내했다.",
      "segments": [
       {
-       "file": "2fc4fb7af66ca9c4.mp3",
+       "file": "2fc4fb7af66ca9c4.m4a",
        "speaker": "none",
        "voice": "echo",
        "text": "다음 주 월요일부터 건물 공사로 인해 정문을 사용할 수 없습니다. 후문을 이용해 주시기 바랍니다. 공사는 이 주 동안 계속될 예정입니다."
@@ -3826,13 +3826,13 @@
      "explanation": "지금 세일가로 사면 삼만 원이라고 했다.",
      "segments": [
       {
-       "file": "82a7f9555efbac5a.mp3",
+       "file": "82a7f9555efbac5a.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "이 가방 세일 중이에요? /"
       },
       {
-       "file": "dea44e099559b906.mp3",
+       "file": "dea44e099559b906.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "네, 원래 오만 원인데 지금 삼만 원이에요. 이번 주까지만 세일해요."
@@ -3858,7 +3858,7 @@
      "explanation": "비 때문에 오늘 음악회가 취소되었다고 안내했다.",
      "segments": [
       {
-       "file": "afdb469fb581e2de.mp3",
+       "file": "afdb469fb581e2de.m4a",
        "speaker": "none",
        "voice": "echo",
        "text": "오늘 공원에서 열리는 음악회가 비 때문에 취소되었습니다. 다음 주 토요일 같은 시간에 다시 열릴 예정입니다. 양해해 주시기 바랍니다."
@@ -3883,7 +3883,7 @@
      "explanation": "화자는 독서가 생각과 세상을 넓게 보는 데 도움이 된다고 말하고 있다.",
      "segments": [
       {
-       "file": "4bdf714a567fa20b.mp3",
+       "file": "4bdf714a567fa20b.m4a",
        "speaker": "none",
        "voice": "echo",
        "text": "저는 어릴 때부터 책을 많이 읽었습니다. 책을 읽으면 다른 사람의 생각을 알 수 있고 세상을 더 넓게 볼 수 있습니다. 그래서 바쁘더라도 매일 조금씩 책을 읽으려고 노력합니다."
@@ -3908,7 +3908,7 @@
      "explanation": "화자는 작은 실천을 꾸준히 하면 변화를 만들 수 있다고 말하고 있다.",
      "segments": [
       {
-       "file": "108194427e10bd81.mp3",
+       "file": "108194427e10bd81.m4a",
        "speaker": "none",
        "voice": "echo",
        "text": "요즘 저는 가까운 거리는 차 대신 자전거를 타고 다닙니다. 처음에는 불편했지만 환경에도 좋고 운동도 되어서 지금은 습관이 되었습니다. 작은 실천이지만 꾸준히 하면 큰 변화를 만들 수 있다고 생각합니다."
@@ -3933,7 +3933,7 @@
      "explanation": "화자는 계획을 세우는 것이 시간을 효율적으로 쓰는 데 도움이 된다고 말하고 있다.",
      "segments": [
       {
-       "file": "d86188c9237015f6.mp3",
+       "file": "d86188c9237015f6.m4a",
        "speaker": "none",
        "voice": "echo",
        "text": "저는 하루를 시작하기 전에 할 일을 순서대로 적어 봅니다. 그렇게 하면 중요한 일을 먼저 끝낼 수 있고 시간을 낭비하지 않게 됩니다. 계획 없이 하루를 보내는 것보다 훨씬 효율적입니다."
@@ -3958,7 +3958,7 @@
      "explanation": "화자는 자신의 독서 모임을 소개하기 위해 이 말을 하고 있다.",
      "segments": [
       {
-       "file": "77a1b79dbe880f4f.mp3",
+       "file": "77a1b79dbe880f4f.m4a",
        "speaker": "none",
        "voice": "echo",
        "text": "안녕하세요. 저는 작은 독서 모임을 운영하고 있는 사람입니다. 혼자 책을 읽을 때는 쉽게 포기하게 되는데, 같이 읽고 이야기를 나누니까 꾸준히 책을 읽을 수 있었습니다. 그래서 더 많은 사람들과 이 경험을 나누고 싶어서 오늘 이 자리에서 모임을 소개하게 되었습니다."
@@ -3983,7 +3983,7 @@
      "explanation": "남자는 작은 독서 모임을 운영하고 있다고 말했다.",
      "segments": [
       {
-       "file": "77a1b79dbe880f4f.mp3",
+       "file": "77a1b79dbe880f4f.m4a",
        "speaker": "none",
        "voice": "echo",
        "text": "안녕하세요. 저는 작은 독서 모임을 운영하고 있는 사람입니다. 혼자 책을 읽을 때는 쉽게 포기하게 되는데, 같이 읽고 이야기를 나누니까 꾸준히 책을 읽을 수 있었습니다. 그래서 더 많은 사람들과 이 경험을 나누고 싶어서 오늘 이 자리에서 모임을 소개하게 되었습니다."
@@ -4008,19 +4008,19 @@
      "explanation": "여자는 자료를 더 찾기 위해 지금 도서관에 가려고 한다고 말했다.",
      "segments": [
       {
-       "file": "75b9277f22fdac15.mp3",
+       "file": "75b9277f22fdac15.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "미나 씨, 내일 발표 준비 다 됐어요? /"
       },
       {
-       "file": "5bdc8756526cd728.mp3",
+       "file": "5bdc8756526cd728.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "거의 다 했는데 자료 몇 개를 더 찾아야 해요. 지금 도서관에 가려고요. /"
       },
       {
-       "file": "528f42aa3b199d57.mp3",
+       "file": "528f42aa3b199d57.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "그럼 저도 같이 가서 도와줄게요."
@@ -4047,19 +4047,19 @@
      "explanation": "여자는 자료를 더 찾기 위해 도서관에 가려고 한다.",
      "segments": [
       {
-       "file": "75b9277f22fdac15.mp3",
+       "file": "75b9277f22fdac15.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "미나 씨, 내일 발표 준비 다 됐어요? /"
       },
       {
-       "file": "5bdc8756526cd728.mp3",
+       "file": "5bdc8756526cd728.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "거의 다 했는데 자료 몇 개를 더 찾아야 해요. 지금 도서관에 가려고요. /"
       },
       {
-       "file": "528f42aa3b199d57.mp3",
+       "file": "528f42aa3b199d57.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "그럼 저도 같이 가서 도와줄게요."
@@ -4086,7 +4086,7 @@
      "explanation": "아침을 거르면 집중이 안 되고 두통이 생겼기 때문에 챙겨 먹기로 했다.",
      "segments": [
       {
-       "file": "d44d4a56541550bf.mp3",
+       "file": "d44d4a56541550bf.m4a",
        "speaker": "none",
        "voice": "echo",
        "text": "저는 예전에 아침을 거르고 다녔는데, 그렇게 하니까 오전에 집중이 잘 안 되고 두통도 자주 생겼어요. 그래서 요즘은 간단하게라도 아침을 꼭 챙겨 먹으려고 합니다. 아침을 먹은 날은 확실히 몸도 가볍고 일도 더 잘 됩니다."
@@ -4111,7 +4111,7 @@
      "explanation": "여자는 요즘 간단하게라도 아침을 챙겨 먹는다고 말했다.",
      "segments": [
       {
-       "file": "d44d4a56541550bf.mp3",
+       "file": "d44d4a56541550bf.m4a",
        "speaker": "none",
        "voice": "echo",
        "text": "저는 예전에 아침을 거르고 다녔는데, 그렇게 하니까 오전에 집중이 잘 안 되고 두통도 자주 생겼어요. 그래서 요즘은 간단하게라도 아침을 꼭 챙겨 먹으려고 합니다. 아침을 먹은 날은 확실히 몸도 가볍고 일도 더 잘 됩니다."
@@ -4235,7 +4235,7 @@
      "explanation": "요청에 대한 자연스러운 대답은 바로 닫겠다고 하는 것이다.",
      "segments": [
       {
-       "file": "fb28f5e9f4c04866.mp3",
+       "file": "fb28f5e9f4c04866.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "창문 좀 닫아 주시겠어요? 바람이 많이 들어와서요."
@@ -4260,7 +4260,7 @@
      "explanation": "속상한 상황에는 위로하는 말이 가장 자연스럽다.",
      "segments": [
       {
-       "file": "d27f33f9e9da6c0e.mp3",
+       "file": "d27f33f9e9da6c0e.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "시험에 떨어졌어요. 너무 속상해요."
@@ -4285,7 +4285,7 @@
      "explanation": "제안을 수락하며 시간과 장소를 묻는 대답이 가장 자연스럽다.",
      "segments": [
       {
-       "file": "caeb25e10fc9dc5b.mp3",
+       "file": "caeb25e10fc9dc5b.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "이번 주말에 등산 가는데 같이 갈래요?"
@@ -4310,7 +4310,7 @@
      "explanation": "감사 인사에는 겸손하게 받아들이는 응답이 자연스럽다.",
      "segments": [
       {
-       "file": "c9cc188b881c462c.mp3",
+       "file": "c9cc188b881c462c.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "숙제 도와주셔서 정말 고마워요."
@@ -4335,7 +4335,7 @@
      "explanation": "배운 기간을 묻는 질문에는 구체적인 기간으로 답해야 한다.",
      "segments": [
       {
-       "file": "d9ed19146c4b999f.mp3",
+       "file": "d9ed19146c4b999f.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "한국어를 배운 지 얼마나 됐어요?"
@@ -4360,7 +4360,7 @@
      "explanation": "저녁에 먹는 음식 или 방식을 묻는 질문에 맞는 대답이다.",
      "segments": [
       {
-       "file": "3682d95e21d609ae.mp3",
+       "file": "3682d95e21d609ae.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "보통 저녁에 뭐 먹어요?"
@@ -4385,13 +4385,13 @@
      "explanation": "여권을 확인하고 목적지를 묻는 대화이므로 공항이다.",
      "segments": [
       {
-       "file": "6784e3c410f87729.mp3",
+       "file": "6784e3c410f87729.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "여권 좀 보여 주시겠어요? 어디로 가세요? /"
       },
       {
-       "file": "7cc1235ea1dbbc40.mp3",
+       "file": "7cc1235ea1dbbc40.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "네, 여기요. 서울로 가요."
@@ -4417,13 +4417,13 @@
      "explanation": "증상을 묻고 설명하는 대화이므로 병원이다.",
      "segments": [
       {
-       "file": "450b3f44600f5ebf.mp3",
+       "file": "450b3f44600f5ebf.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "어디가 아프세요? /"
       },
       {
-       "file": "47b6a4fc27bf2527.mp3",
+       "file": "47b6a4fc27bf2527.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "머리가 아프고 열이 좀 있어요."
@@ -4449,13 +4449,13 @@
      "explanation": "신어 본다는 표현으로 보아 신발 가게이다.",
      "segments": [
       {
-       "file": "af8ade8ec88913c2.mp3",
+       "file": "af8ade8ec88913c2.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "이 사이즈로 한번 신어 봐도 될까요? /"
       },
       {
-       "file": "916c0931819f88e0.mp3",
+       "file": "916c0931819f88e0.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "네, 저쪽에 거울 있어요."
@@ -4481,13 +4481,13 @@
      "explanation": "물건을 보내는 대화이므로 우체국이다.",
      "segments": [
       {
-       "file": "46873ca1934f8050.mp3",
+       "file": "46873ca1934f8050.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "여기 이 주소로 좀 보내 주세요. 얼마나 걸려요? /"
       },
       {
-       "file": "87faa72050e6a1dc.mp3",
+       "file": "87faa72050e6a1dc.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "이틀 정도 걸려요."
@@ -4513,13 +4513,13 @@
      "explanation": "영화를 보고 느낀 점을 나누는 대화이므로 주제는 영화 감상이다.",
      "segments": [
       {
-       "file": "167e74b85b27ceb9.mp3",
+       "file": "167e74b85b27ceb9.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "이 영화 어땠어요? /"
       },
       {
-       "file": "b0ed8c64a485e8ea.mp3",
+       "file": "b0ed8c64a485e8ea.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "너무 슬펐어요. 마지막 장면에서 눈물이 났어요."
@@ -4545,13 +4545,13 @@
      "explanation": "집값과 이사 걱정에 대한 대화이므로 주제는 집값이다.",
      "segments": [
       {
-       "file": "96626ee2e60e436d.mp3",
+       "file": "96626ee2e60e436d.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "요즘 집값이 많이 올랐대요. /"
       },
       {
-       "file": "1c5512accd2bb4a4.mp3",
+       "file": "1c5512accd2bb4a4.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "네, 저도 이사 가기가 걱정이에요."
@@ -4577,13 +4577,13 @@
      "explanation": "사진 수업을 듣고 있다는 내용이므로 주제는 사진 배우기이다.",
      "segments": [
       {
-       "file": "6a5efe200d7928dd.mp3",
+       "file": "6a5efe200d7928dd.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "요즘 뭐 배워요? /"
       },
       {
-       "file": "dcc0593328ddff41.mp3",
+       "file": "dcc0593328ddff41.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "사진 수업을 듣고 있어요. 생각보다 재미있어요."
@@ -4609,13 +4609,13 @@
      "explanation": "스마트폰으로 자주 보는 것에 대한 대화이므로 주제는 스마트폰 사용이다.",
      "segments": [
       {
-       "file": "a9b6445b922197a4.mp3",
+       "file": "a9b6445b922197a4.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "요즘 스마트폰으로 뭐 자주 봐요? /"
       },
       {
-       "file": "cb70f1ff0e395f51.mp3",
+       "file": "cb70f1ff0e395f51.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "저는 요리 영상을 많이 봐요."
@@ -4641,13 +4641,13 @@
      "explanation": "남자가 여자 대신 사진을 찍어 주는 상황이다.",
      "segments": [
       {
-       "file": "1895444545906143.mp3",
+       "file": "1895444545906143.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "제가 사진 좀 찍어 드릴까요? /"
       },
       {
-       "file": "98b3a7cdd9155f1f.mp3",
+       "file": "98b3a7cdd9155f1f.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "네, 감사합니다! 여기 눌러 주시면 돼요."
@@ -4673,13 +4673,13 @@
      "explanation": "남자가 손이 찬 여자를 위해 문을 열어 주는 상황이다.",
      "segments": [
       {
-       "file": "6ca0c514159e1b64.mp3",
+       "file": "6ca0c514159e1b64.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "문이 안 열려요. 손이 꽉 찼어서요. /"
       },
       {
-       "file": "15103ee43680ee4c.mp3",
+       "file": "15103ee43680ee4c.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "잠깐만요, 제가 열어 드릴게요."
@@ -4705,7 +4705,7 @@
      "explanation": "참여하려면 관리실에 미리 신청해야 한다고 안내했다.",
      "segments": [
       {
-       "file": "71b3fc459d934501.mp3",
+       "file": "71b3fc459d934501.m4a",
        "speaker": "none",
        "voice": "echo",
        "text": "이번 주 토요일 오전 열 시부터 아파트 단지 내에서 벼룩시장이 열립니다. 안 쓰는 물건을 가져오시면 무료로 자리를 빌려 드립니다. 참여하실 분은 관리실에 미리 신청해 주세요."
@@ -4730,13 +4730,13 @@
      "explanation": "여자가 전광판을 보고 버스가 십 분 후에 온다고 말했다.",
      "segments": [
       {
-       "file": "b400610ead8b587e.mp3",
+       "file": "b400610ead8b587e.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "다음 버스 몇 분 후에 와요? /"
       },
       {
-       "file": "c91ac703dd16c39f.mp3",
+       "file": "c91ac703dd16c39f.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "방금 전광판 봤는데 십 분 후에 온대요."
@@ -4762,7 +4762,7 @@
      "explanation": "두 시부터 네 시까지는 임시 주차장을 이용해야 한다고 안내했다.",
      "segments": [
       {
-       "file": "8197f2db2b1a3146.mp3",
+       "file": "8197f2db2b1a3146.m4a",
        "speaker": "none",
        "voice": "echo",
        "text": "건물 지하 일 층 주차장이 청소 작업으로 오늘 오후 두 시부터 네 시까지 이용이 제한됩니다. 그 시간에는 건물 옆 임시 주차장을 이용해 주세요."
@@ -4787,13 +4787,13 @@
      "explanation": "지금 하얀색이 품절이라고 했으므로 살 수 없다.",
      "segments": [
       {
-       "file": "e8bca6984cdb13bd.mp3",
+       "file": "e8bca6984cdb13bd.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "이 티셔츠 다른 색도 있어요? /"
       },
       {
-       "file": "afd368a0b8016671.mp3",
+       "file": "afd368a0b8016671.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "네, 하얀색이랑 검은색이 있는데 지금 하얀색은 품절이에요."
@@ -4819,7 +4819,7 @@
      "explanation": "공사로 인해 배차 간격이 평소보다 길어진다고 안내했다.",
      "segments": [
       {
-       "file": "2e0fb1a68231e0bc.mp3",
+       "file": "2e0fb1a68231e0bc.m4a",
        "speaker": "none",
        "voice": "echo",
        "text": "오늘부터 지하철 2호선 일부 구간에서 공사가 진행되어 배차 간격이 평소보다 길어집니다. 이용에 불편을 드려 죄송합니다."
@@ -4844,7 +4844,7 @@
      "explanation": "화자는 작은 습관이 건강에 큰 영향을 준다고 말하고 있다.",
      "segments": [
       {
-       "file": "db28f12cdae679c3.mp3",
+       "file": "db28f12cdae679c3.m4a",
        "speaker": "none",
        "voice": "echo",
        "text": "저는 요즘 하루에 물을 두 리터씩 마시려고 노력합니다. 처음에는 쉽지 않았지만 꾸준히 하다 보니 피부도 좋아지고 몸도 가벼워진 것 같습니다. 작은 습관이 건강에 큰 영향을 준다는 걸 느꼈습니다."
@@ -4869,7 +4869,7 @@
      "explanation": "화자는 문맥으로 뜻을 짐작하는 방법이 기억에 효과적이라고 말하고 있다.",
      "segments": [
       {
-       "file": "83f6a1d84c1f4271.mp3",
+       "file": "83f6a1d84c1f4271.m4a",
        "speaker": "none",
        "voice": "echo",
        "text": "저는 모르는 단어가 나오면 바로 사전을 찾아보지 않고 먼저 문장 전체를 읽어 봅니다. 그렇게 하면 앞뒤 내용으로 뜻을 짐작할 수 있어서 기억에 더 오래 남습니다. 이 방법으로 공부한 후부터 단어를 훨씬 잘 외우게 됐습니다."
@@ -4894,7 +4894,7 @@
      "explanation": "화자는 계획 없는 자유로운 여행이 더 즐거운 경험을 준다고 말하고 있다.",
      "segments": [
       {
-       "file": "4eed39959f333640.mp3",
+       "file": "4eed39959f333640.m4a",
        "speaker": "none",
        "voice": "echo",
        "text": "저는 여행을 갈 때 미리 계획을 세우지 않습니다. 그날그날 가고 싶은 곳을 정해서 움직이는데, 그렇게 하면 예상하지 못한 재미있는 경험을 많이 하게 됩니다. 계획에 얽매이지 않는 여행이 저에게는 더 즐겁습니다."
@@ -4919,7 +4919,7 @@
      "explanation": "화자는 그림책 읽어주기 봉사자를 모집하기 위해 이 말을 하고 있다.",
      "segments": [
       {
-       "file": "bd2335c985a4c5cb.mp3",
+       "file": "bd2335c985a4c5cb.m4a",
        "speaker": "none",
        "voice": "echo",
        "text": "안녕하세요. 저는 동네 도서관에서 어린이를 위한 그림책 읽어주기 봉사를 하고 있습니다. 아이들에게 책을 읽어 주다 보니 아이들이 책과 더 친해지는 모습을 보게 되어 큰 보람을 느꼈습니다. 그래서 오늘은 이 봉사 활동에 관심 있는 분들을 모집하려고 이 자리에 섰습니다."
@@ -4944,7 +4944,7 @@
      "explanation": "남자는 동네 도서관에서 그림책 읽어주기 봉사를 하고 있다고 말했다.",
      "segments": [
       {
-       "file": "bd2335c985a4c5cb.mp3",
+       "file": "bd2335c985a4c5cb.m4a",
        "speaker": "none",
        "voice": "echo",
        "text": "안녕하세요. 저는 동네 도서관에서 어린이를 위한 그림책 읽어주기 봉사를 하고 있습니다. 아이들에게 책을 읽어 주다 보니 아이들이 책과 더 친해지는 모습을 보게 되어 큰 보람을 느꼈습니다. 그래서 오늘은 이 봉사 활동에 관심 있는 분들을 모집하려고 이 자리에 섰습니다."
@@ -4969,19 +4969,19 @@
      "explanation": "여자는 지금 바로 컴퓨터를 수리 센터에 가져가 보겠다고 말했다.",
      "segments": [
       {
-       "file": "68a2877ae6e8b8e0.mp3",
+       "file": "68a2877ae6e8b8e0.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "수호 씨, 컴퓨터가 또 안 켜져요. /"
       },
       {
-       "file": "68dcdcad2cec81aa.mp3",
+       "file": "68dcdcad2cec81aa.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "어디 봐요? 음, 이건 제가 고칠 수 있는 게 아니네요. 수리 센터에 맡기는 게 좋겠어요. /"
       },
       {
-       "file": "709e8834d6a5ea68.mp3",
+       "file": "709e8834d6a5ea68.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "그래요? 그럼 지금 바로 가져가 볼게요."
@@ -5008,19 +5008,19 @@
      "explanation": "여자는 컴퓨터를 수리 센터에 가져가려고 한다.",
      "segments": [
       {
-       "file": "68a2877ae6e8b8e0.mp3",
+       "file": "68a2877ae6e8b8e0.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "수호 씨, 컴퓨터가 또 안 켜져요. /"
       },
       {
-       "file": "68dcdcad2cec81aa.mp3",
+       "file": "68dcdcad2cec81aa.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "어디 봐요? 음, 이건 제가 고칠 수 있는 게 아니네요. 수리 센터에 맡기는 게 좋겠어요. /"
       },
       {
-       "file": "709e8834d6a5ea68.mp3",
+       "file": "709e8834d6a5ea68.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "그래요? 그럼 지금 바로 가져가 볼게요."
@@ -5047,7 +5047,7 @@
      "explanation": "잠이 안 오고 가슴이 두근거렸기 때문에 커피 양을 줄이기로 했다.",
      "segments": [
       {
-       "file": "217e4609cb69f9c0.mp3",
+       "file": "217e4609cb69f9c0.m4a",
        "speaker": "none",
        "voice": "echo",
        "text": "저는 전에는 매일 커피를 세 잔씩 마셨는데, 밤에 잠이 잘 안 오고 가슴이 두근거리는 날이 많았어요. 그래서 요즘은 커피를 하루에 한 잔만 마시기로 했습니다. 양을 줄인 후로는 잠도 잘 오고 훨씬 편안해졌어요."
@@ -5072,7 +5072,7 @@
      "explanation": "남자는 요즘 커피를 하루에 한 잔만 마신다고 말했다.",
      "segments": [
       {
-       "file": "217e4609cb69f9c0.mp3",
+       "file": "217e4609cb69f9c0.m4a",
        "speaker": "none",
        "voice": "echo",
        "text": "저는 전에는 매일 커피를 세 잔씩 마셨는데, 밤에 잠이 잘 안 오고 가슴이 두근거리는 날이 많았어요. 그래서 요즘은 커피를 하루에 한 잔만 마시기로 했습니다. 양을 줄인 후로는 잠도 잘 오고 훨씬 편안해졌어요."
@@ -5196,7 +5196,7 @@
      "explanation": "제안을 수락하며 시간을 묻는 대답이 가장 자연스럽다.",
      "segments": [
       {
-       "file": "a4b45f0e418100fe.mp3",
+       "file": "a4b45f0e418100fe.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "이번에 새로 생긴 카페 가 볼래요? 분위기가 좋대요."
@@ -5221,7 +5221,7 @@
      "explanation": "사과에 대해 괜찮다고 안심시키는 응답이 자연스럽다.",
      "segments": [
       {
-       "file": "c98c284def987321.mp3",
+       "file": "c98c284def987321.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "늦어서 미안해요. 차가 많이 막혔어요."
@@ -5246,7 +5246,7 @@
      "explanation": "칭찬에 겸손하게 답하는 응답이 가장 자연스럽다.",
      "segments": [
       {
-       "file": "494e160954b906f8.mp3",
+       "file": "494e160954b906f8.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "발표 정말 잘하시네요. 목소리도 좋고 설명도 이해하기 쉬웠어요."
@@ -5271,7 +5271,7 @@
      "explanation": "걱정하는 질문에 이유를 설명하는 응답이 자연스럽다.",
      "segments": [
       {
-       "file": "829c78625a9de49b.mp3",
+       "file": "829c78625a9de49b.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "요즘 얼굴이 안 좋아 보여요. 무슨 일 있어요?"
@@ -5296,7 +5296,7 @@
      "explanation": "점심 먹는 장소를 묻는 질문에 맞는 대답이다.",
      "segments": [
       {
-       "file": "ef53a8020d3a1d59.mp3",
+       "file": "ef53a8020d3a1d59.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "점심은 어디에서 드세요?"
@@ -5321,7 +5321,7 @@
      "explanation": "구입 장소를 묻는 질문에 맞는 대답이다.",
      "segments": [
       {
-       "file": "fcf70cfa7f40bd0f.mp3",
+       "file": "fcf70cfa7f40bd0f.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "그 가방 어디서 샀어요?"
@@ -5346,13 +5346,13 @@
      "explanation": "영화 시작 시간과 표에 대한 대화이므로 영화관이다.",
      "segments": [
       {
-       "file": "d0629daef74cfec5.mp3",
+       "file": "d0629daef74cfec5.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "이 영화 몇 시에 시작해요? /"
       },
       {
-       "file": "be3c1cd89860507f.mp3",
+       "file": "be3c1cd89860507f.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "일곱 시 반이요. 표는 제가 가지고 있어요."
@@ -5378,13 +5378,13 @@
      "explanation": "머리를 감겨 준다는 표현으로 보아 미용실이다.",
      "segments": [
       {
-       "file": "ca609021e5c9ba5f.mp3",
+       "file": "ca609021e5c9ba5f.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "머리 감겨 드릴까요? /"
       },
       {
-       "file": "21ff70384457ad98.mp3",
+       "file": "21ff70384457ad98.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "네, 부탁드려요."
@@ -5410,13 +5410,13 @@
      "explanation": "사진을 인화해 주는 대화이므로 사진관이다.",
      "segments": [
       {
-       "file": "a8d5a8bc05691623.mp3",
+       "file": "a8d5a8bc05691623.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "이 사진 어떻게 인화해 드릴까요? 크기는요? /"
       },
       {
-       "file": "8159b645cb7db07b.mp3",
+       "file": "8159b645cb7db07b.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "큰 걸로 두 장 부탁드려요."
@@ -5442,13 +5442,13 @@
      "explanation": "비행기표 예약을 도와주는 대화이므로 여행사이다.",
      "segments": [
       {
-       "file": "2fb4a71a1c457ac5.mp3",
+       "file": "2fb4a71a1c457ac5.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "비행기표 좀 예약하고 싶은데요. /"
       },
       {
-       "file": "fbe3eb0b483b54a3.mp3",
+       "file": "fbe3eb0b483b54a3.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "네, 날짜와 목적지를 말씀해 주세요."
@@ -5474,13 +5474,13 @@
      "explanation": "기름값이 오른 것에 대한 대화이므로 주제는 기름값이다.",
      "segments": [
       {
-       "file": "348a78b75cc8723b.mp3",
+       "file": "348a78b75cc8723b.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "요즘 뉴스 보니까 기름값이 또 올랐대요. /"
       },
       {
-       "file": "d771af10c7016c14.mp3",
+       "file": "d771af10c7016c14.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "네, 그래서 요즘 차 대신 지하철을 타요."
@@ -5506,13 +5506,13 @@
      "explanation": "고양이를 키운다는 내용이므로 주제는 반려동물이다.",
      "segments": [
       {
-       "file": "d7fc4ea52720bb68.mp3",
+       "file": "d7fc4ea52720bb68.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "요즘 반려동물 키우는 사람이 많아졌대요. /"
       },
       {
-       "file": "69a3bba744c21f29.mp3",
+       "file": "69a3bba744c21f29.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "네, 저도 작년에 고양이를 키우기 시작했어요."
@@ -5538,13 +5538,13 @@
      "explanation": "집에서 일하는 것에 대한 대화이므로 주제는 재택근무이다.",
      "segments": [
       {
-       "file": "b7a89c12b27bb13b.mp3",
+       "file": "b7a89c12b27bb13b.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "요즘 재택근무하는 회사가 많아졌죠? /"
       },
       {
-       "file": "27152f87536020be.mp3",
+       "file": "27152f87536020be.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "네, 저희 회사도 일주일에 두 번은 집에서 일해요."
@@ -5570,13 +5570,13 @@
      "explanation": "안 쓰는 물건을 앱으로 판 것에 대한 대화이므로 주제는 중고 거래이다.",
      "segments": [
       {
-       "file": "24292046e8807487.mp3",
+       "file": "24292046e8807487.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "요즘 중고 거래 앱 많이 쓰죠? /"
       },
       {
-       "file": "f494af15fe59f3de.mp3",
+       "file": "f494af15fe59f3de.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "네, 저도 안 쓰는 물건을 그 앱으로 많이 팔았어요."
@@ -5602,13 +5602,13 @@
      "explanation": "남자가 여자가 떨어뜨린 핸드폰을 주워 주는 상황이다.",
      "segments": [
       {
-       "file": "81254f7d9f318f1f.mp3",
+       "file": "81254f7d9f318f1f.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "어, 핸드폰을 떨어뜨렸어요! /"
       },
       {
-       "file": "5570771b0e1cc8af.mp3",
+       "file": "5570771b0e1cc8af.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "제가 주워 드릴게요."
@@ -5634,13 +5634,13 @@
      "explanation": "남자가 여자 대신 유모차를 밀어 주는 상황이다.",
      "segments": [
       {
-       "file": "d43e01baddfd3a7d.mp3",
+       "file": "d43e01baddfd3a7d.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "제가 밀게요, 유모차 미는 게 힘드시죠? /"
       },
       {
-       "file": "79d437eab1eda81d.mp3",
+       "file": "79d437eab1eda81d.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "아, 감사합니다. 정말 큰 도움이 되네요."
@@ -5666,7 +5666,7 @@
      "explanation": "다음 달 요금에서 차액을 빼 준다고 안내했다.",
      "segments": [
       {
-       "file": "1cf3352ae9840e7a.mp3",
+       "file": "1cf3352ae9840e7a.m4a",
        "speaker": "none",
        "voice": "echo",
        "text": "이번 달 전기 요금 고지서에 오류가 있었습니다. 실제보다 많이 청구된 고객님들께는 다음 달 요금에서 차액을 빼 드리겠습니다. 불편을 드려 죄송합니다."
@@ -5691,13 +5691,13 @@
      "explanation": "부품을 주문해야 해서 삼 일 정도 걸린다고 말했다.",
      "segments": [
       {
-       "file": "b434030f03d0cad7.mp3",
+       "file": "b434030f03d0cad7.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "이 노트북 수리 얼마나 걸려요? /"
       },
       {
-       "file": "e844ab5043affd05.mp3",
+       "file": "e844ab5043affd05.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "부품이 있으면 오늘 안에 되는데, 지금은 주문해야 해서 삼 일 정도 걸려요."
@@ -5723,7 +5723,7 @@
      "explanation": "주말은 오후 다섯 시까지 운영한다고 안내했다.",
      "segments": [
       {
-       "file": "e989bab0330e6878.mp3",
+       "file": "e989bab0330e6878.m4a",
        "speaker": "none",
        "voice": "echo",
        "text": "다음 주부터 도서관 운영 시간이 변경됩니다. 평일은 오전 아홉 시부터 오후 여덜 시까지, 주말은 오후 다섯 시까지 운영합니다."
@@ -5748,13 +5748,13 @@
      "explanation": "남자가 중간 맵기를 추천했다.",
      "segments": [
       {
-       "file": "d8a41213dbfec5e2.mp3",
+       "file": "d8a41213dbfec5e2.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "이 음식 좀 맵게 해 주실 수 있어요? /"
       },
       {
-       "file": "5b46c2cc5394594d.mp3",
+       "file": "5b46c2cc5394594d.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "네, 그런데 너무 맵게 하면 맛이 없을 수도 있어요. 중간 맵기로 해 드릴까요?"
@@ -5780,7 +5780,7 @@
      "explanation": "오후 세 시부터 다섯 시까지 수돗물 공급이 중단된다고 안내했다.",
      "segments": [
       {
-       "file": "fee5bd28f92f5a8d.mp3",
+       "file": "fee5bd28f92f5a8d.m4a",
        "speaker": "none",
        "voice": "echo",
        "text": "오늘 오후 세 시부터 다섯 시까지 아파트 전체 수돗물 공급이 중단됩니다. 물을 미리 받아 두시기 바랍니다."
@@ -5805,7 +5805,7 @@
      "explanation": "화자는 짧더라도 매일 쓰는 일기가 감정을 이해하는 데 도움이 된다고 말하고 있다.",
      "segments": [
       {
-       "file": "1c6bcd1b13f0d000.mp3",
+       "file": "1c6bcd1b13f0d000.m4a",
        "speaker": "none",
        "voice": "echo",
        "text": "저는 요즘 일기를 쓰기 시작했습니다. 하루를 돌아보면서 좋았던 일과 힘들었던 일을 적다 보니 제 감정을 더 잘 이해하게 되었습니다. 짧게라도 매일 쓰는 게 중요한 것 같습니다."
@@ -5830,7 +5830,7 @@
      "explanation": "화자는 바로 사지 않고 생각해 보는 습관이 후회를 줄여 준다고 말하고 있다.",
      "segments": [
       {
-       "file": "a2cfa510544bf4d6.mp3",
+       "file": "a2cfa510544bf4d6.m4a",
        "speaker": "none",
        "voice": "echo",
        "text": "저는 물건을 살 때 꼭 필요한지 하루 정도 더 생각해 보고 결정합니다. 그렇게 하니까 충동적으로 사서 후회하는 일이 많이 줄었습니다. 조금 불편해도 이 방법이 저에게는 도움이 됩니다."
@@ -5855,7 +5855,7 @@
      "explanation": "화자는 작은 인사가 사람들과의 관계에 도움이 된다고 말하고 있다.",
      "segments": [
       {
-       "file": "5b7e0801c709f256.mp3",
+       "file": "5b7e0801c709f256.m4a",
        "speaker": "none",
        "voice": "echo",
        "text": "저는 모르는 사람에게도 먼저 인사하려고 노력합니다. 처음에는 어색했지만 인사를 하다 보니 주변 사람들과 더 가까워진 느낌이 들었습니다. 작은 인사가 관계를 만드는 데 큰 역할을 하는 것 같습니다."
@@ -5880,7 +5880,7 @@
      "explanation": "화자는 자신이 운영하는 한국어 교실을 소개하기 위해 이 말을 하고 있다.",
      "segments": [
       {
-       "file": "9e22b0c5776c37cf.mp3",
+       "file": "9e22b0c5776c37cf.m4a",
        "speaker": "none",
        "voice": "echo",
        "text": "안녕하세요. 저는 지역 주민센터에서 외국인을 위한 한국어 교실을 운영하고 있습니다. 처음 한국에 와서 언어 때문에 어려움을 겪는 분들을 돕고 싶어서 삼 년 전부터 이 수업을 열었습니다. 혹시 주변에 한국어를 배우고 싶은 분이 있다면 소개해 주시기 바랍니다."
@@ -5905,7 +5905,7 @@
      "explanation": "남자는 삼 년 전부터 한국어 교실을 운영하고 있다고 말했다.",
      "segments": [
       {
-       "file": "9e22b0c5776c37cf.mp3",
+       "file": "9e22b0c5776c37cf.m4a",
        "speaker": "none",
        "voice": "echo",
        "text": "안녕하세요. 저는 지역 주민센터에서 외국인을 위한 한국어 교실을 운영하고 있습니다. 처음 한국에 와서 언어 때문에 어려움을 겪는 분들을 돕고 싶어서 삼 년 전부터 이 수업을 열었습니다. 혹시 주변에 한국어를 배우고 싶은 분이 있다면 소개해 주시기 바랍니다."
@@ -5930,19 +5930,19 @@
      "explanation": "여자는 내일 아침에 가서 이사를 도와주겠다고 말했다.",
      "segments": [
       {
-       "file": "1222f4e74781ab72.mp3",
+       "file": "1222f4e74781ab72.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "민호 씨, 내일 이사 도와줄 사람 구했어요? /"
       },
       {
-       "file": "28623dc49749bf91.mp3",
+       "file": "28623dc49749bf91.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "아직이요. 혼자 하기엔 짐이 너무 많아서 걱정이에요. /"
       },
       {
-       "file": "523d14f11f8cc5dc.mp3",
+       "file": "523d14f11f8cc5dc.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "그럼 제가 내일 아침에 가서 도와줄게요."
@@ -5969,19 +5969,19 @@
      "explanation": "여자는 내일 아침에 가서 이사를 도와주기로 했다.",
      "segments": [
       {
-       "file": "1222f4e74781ab72.mp3",
+       "file": "1222f4e74781ab72.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "민호 씨, 내일 이사 도와줄 사람 구했어요? /"
       },
       {
-       "file": "28623dc49749bf91.mp3",
+       "file": "28623dc49749bf91.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "아직이요. 혼자 하기엔 짐이 너무 많아서 걱정이에요. /"
       },
       {
-       "file": "523d14f11f8cc5dc.mp3",
+       "file": "523d14f11f8cc5dc.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "그럼 제가 내일 아침에 가서 도와줄게요."
@@ -6008,7 +6008,7 @@
      "explanation": "회사 동료들과 자주 매운 음식점에 가면서 조금씩 적응되었다.",
      "segments": [
       {
-       "file": "884f704b3f0e6c31.mp3",
+       "file": "884f704b3f0e6c31.m4a",
        "speaker": "none",
        "voice": "echo",
        "text": "저는 원래 매운 음식을 잘 못 먹었는데, 회사 동료들과 자주 매운 음식점에 가다 보니 조금씩 먹을 수 있게 되었습니다. 이제는 매운 음식을 꽤 즐기게 됐고, 가끔 제가 먼저 매운 식당에 가자고 할 때도 있습니다."
@@ -6033,7 +6033,7 @@
      "explanation": "남자는 이제 매운 음식을 꽤 즐긴다고 말했다.",
      "segments": [
       {
-       "file": "884f704b3f0e6c31.mp3",
+       "file": "884f704b3f0e6c31.m4a",
        "speaker": "none",
        "voice": "echo",
        "text": "저는 원래 매운 음식을 잘 못 먹었는데, 회사 동료들과 자주 매운 음식점에 가다 보니 조금씩 먹을 수 있게 되었습니다. 이제는 매운 음식을 꽤 즐기게 됐고, 가끔 제가 먼저 매운 식당에 가자고 할 때도 있습니다."
@@ -6157,7 +6157,7 @@
      "explanation": "긍정 질문에 같은 서술어로 답하는 것이 자연스럽다.",
      "segments": [
       {
-       "file": "e941b5fe8d30bc6a.mp3",
+       "file": "e941b5fe8d30bc6a.m4a",
        "speaker": "none",
        "voice": "echo",
        "text": "가: 커피를 마셔요? 나: ___"
@@ -6182,7 +6182,7 @@
      "explanation": "오늘 가느냐는 질문에는 같은 시제 или 서술어로 답해야 한다.",
      "segments": [
       {
-       "file": "3c3f645a549d4231.mp3",
+       "file": "3c3f645a549d4231.m4a",
        "speaker": "none",
        "voice": "echo",
        "text": "가: 오늘 학교에 가요? 나: ___"
@@ -6207,7 +6207,7 @@
      "explanation": "장소를 묻는 긍정 질문에는 같은 서술어로 답해야 한다.",
      "segments": [
       {
-       "file": "dc0ea9bcd86b1ac1.mp3",
+       "file": "dc0ea9bcd86b1ac1.m4a",
        "speaker": "none",
        "voice": "echo",
        "text": "가: 거기에서 운동해요? 나: ___"
@@ -6232,7 +6232,7 @@
      "explanation": "맵냐는 질문에 같은 형용사로 긍정하는 답이 자연스럽다.",
      "segments": [
       {
-       "file": "f4ca7628861b843b.mp3",
+       "file": "f4ca7628861b843b.m4a",
        "speaker": "none",
        "voice": "echo",
        "text": "가: 이거 매워요? 나: ___"
@@ -6257,7 +6257,7 @@
      "explanation": "헤어질 때 하는 인사에 자연스럽게 이어지는 말이다.",
      "segments": [
       {
-       "file": "a2e5ef2fb7e7846b.mp3",
+       "file": "a2e5ef2fb7e7846b.m4a",
        "speaker": "none",
        "voice": "echo",
        "text": "가: 또 봐요! 나: ___"
@@ -6282,7 +6282,7 @@
      "explanation": "식사 전 인사에 자연스럽게 이어지는 말이다.",
      "segments": [
       {
-       "file": "8d0363e21d32558f.mp3",
+       "file": "8d0363e21d32558f.m4a",
        "speaker": "none",
        "voice": "echo",
        "text": "가: 맛있게 드세요. 나: ___"
@@ -6307,13 +6307,13 @@
      "explanation": "공책과 연필을 파는 곳이므로 문구점이다.",
      "segments": [
       {
-       "file": "2c664a6441adf60d.mp3",
+       "file": "2c664a6441adf60d.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "공책이랑 연필 어디 있어요? /"
       },
       {
-       "file": "b930331ca12f29c1.mp3",
+       "file": "b930331ca12f29c1.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "저쪽 진열대에 있어요."
@@ -6339,13 +6339,13 @@
      "explanation": "책을 찾는 대화이므로 서점이다.",
      "segments": [
       {
-       "file": "f5c66cb98edbee38.mp3",
+       "file": "f5c66cb98edbee38.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "이 책 좀 찾아 주세요. 요리책이에요. /"
       },
       {
-       "file": "a2b2379fdf3e3c0c.mp3",
+       "file": "a2b2379fdf3e3c0c.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "네, 저쪽 코너에 있어요."
@@ -6371,13 +6371,13 @@
      "explanation": "가방 가격과 세일에 대한 대화이므로 백화점이다.",
      "segments": [
       {
-       "file": "e9529788c2728775.mp3",
+       "file": "e9529788c2728775.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "이 가방 얼마예요? /"
       },
       {
-       "file": "e16bdfa67ea9519a.mp3",
+       "file": "e16bdfa67ea9519a.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "오만 원이에요. 세일 중이에요."
@@ -6403,13 +6403,13 @@
      "explanation": "사진을 인화해 주는 대화이므로 사진관이다.",
      "segments": [
       {
-       "file": "f3b30c9c1c715e04.mp3",
+       "file": "f3b30c9c1c715e04.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "사진 좀 뽑아 주세요. 큰 사이즈로요. /"
       },
       {
-       "file": "88cbbee718fc6637.mp3",
+       "file": "88cbbee718fc6637.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "네, 내일 찾으러 오세요."
@@ -6435,13 +6435,13 @@
      "explanation": "출신 국가를 묻는 대화이므로 주제는 나라이다.",
      "segments": [
       {
-       "file": "edcfa07da2d1e62b.mp3",
+       "file": "edcfa07da2d1e62b.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "어느 나라에서 왔어요? /"
       },
       {
-       "file": "67f5806346a2fa0f.mp3",
+       "file": "67f5806346a2fa0f.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "저는 베트남에서 왔어요."
@@ -6467,13 +6467,13 @@
      "explanation": "주말에 하는 활동에 대한 대화이므로 주제는 취미이다.",
      "segments": [
       {
-       "file": "459b09f5452bbbf4.mp3",
+       "file": "459b09f5452bbbf4.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "주말에 보통 뭐 해요? /"
       },
       {
-       "file": "cd4acefaaad7fd47.mp3",
+       "file": "cd4acefaaad7fd47.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "저는 등산을 자주 가요."
@@ -6499,13 +6499,13 @@
      "explanation": "하는 일에 대한 대화이므로 주제는 직업이다.",
      "segments": [
       {
-       "file": "7e0c61a1364930e9.mp3",
+       "file": "7e0c61a1364930e9.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "전에 무슨 일 하셨어요? /"
       },
       {
-       "file": "824c34d5d61e94e2.mp3",
+       "file": "824c34d5d61e94e2.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "간호사였어요. 지금은 선생님이에요."
@@ -6531,13 +6531,13 @@
      "explanation": "음식이 맛있다는 대화이므로 주제는 맛이다.",
      "segments": [
       {
-       "file": "2f27a4752b330eab.mp3",
+       "file": "2f27a4752b330eab.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "이 가게 라면이 참 맛있어요. /"
       },
       {
-       "file": "611d3320aaf3b4bc.mp3",
+       "file": "611d3320aaf3b4bc.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "네, 저도 좋아해요."
@@ -6563,13 +6563,13 @@
      "explanation": "여자가 우산을 보여주고 남자가 고르는 상황이다.",
      "segments": [
       {
-       "file": "9cdbfdfd1e087e81.mp3",
+       "file": "9cdbfdfd1e087e81.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "손님, 우산 찾으세요? 이 우산 어떠세요? /"
       },
       {
-       "file": "a461c0380e239ca4.mp3",
+       "file": "a461c0380e239ca4.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "네, 그걸로 주세요."
@@ -6595,13 +6595,13 @@
      "explanation": "여자가 할아버지께 자리를 양보하는 상황이다.",
      "segments": [
       {
-       "file": "120ace0d67f972b0.mp3",
+       "file": "120ace0d67f972b0.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "할아버지, 이 자리에 앉으세요. /"
       },
       {
-       "file": "f8079f53ee47eadf.mp3",
+       "file": "f8079f53ee47eadf.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "고마워요, 학생."
@@ -6627,19 +6627,19 @@
      "explanation": "남자는 친구를 만나서 영화를 봤다고 말했다.",
      "segments": [
       {
-       "file": "77ae9b0770b9f602.mp3",
+       "file": "77ae9b0770b9f602.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "주말에 뭐 했어요? /"
       },
       {
-       "file": "c3b30fbfa375a0d5.mp3",
+       "file": "c3b30fbfa375a0d5.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "저는 집에서 책을 읽었어요. 민수 씨는요? /"
       },
       {
-       "file": "4da9cf232187a30f.mp3",
+       "file": "4da9cf232187a30f.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "저는 친구를 만나서 영화를 봤어요."
@@ -6666,13 +6666,13 @@
      "explanation": "남자는 어머니께 요리를 배웠다고 말했다.",
      "segments": [
       {
-       "file": "96f0505d2ad2ec1c.mp3",
+       "file": "96f0505d2ad2ec1c.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "이 반찬 정말 맛있어요. 어떻게 만들어요? /"
       },
       {
-       "file": "26a54fb5da14adb1.mp3",
+       "file": "26a54fb5da14adb1.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "어머니께 배웠어요. 간단해요."
@@ -6698,13 +6698,13 @@
      "explanation": "여자는 오후에 수업이 하나 더 있다고 말했다.",
      "segments": [
       {
-       "file": "a5f3f61141bfff7f.mp3",
+       "file": "a5f3f61141bfff7f.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "지금 수업 끝났어요? 같이 영화 볼래요? /"
       },
       {
-       "file": "54e9454aff5079b0.mp3",
+       "file": "54e9454aff5079b0.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "미안해요, 오후에 수업이 하나 더 있어요."
@@ -6730,13 +6730,13 @@
      "explanation": "남자가 여자에게 책상을 팔기로 했다.",
      "segments": [
       {
-       "file": "6f6c70cf5115d7a4.mp3",
+       "file": "6f6c70cf5115d7a4.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "이 책상 안 쓰면 저한테 파실래요? /"
       },
       {
-       "file": "4e55942a8f281129.mp3",
+       "file": "4e55942a8f281129.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "네, 좋아요. 인터넷에 올리려고 했는데 잘됐네요."
@@ -6762,19 +6762,19 @@
      "explanation": "남자는 수요일 오전으로 예약했다.",
      "segments": [
       {
-       "file": "9b02b3a66dfe24c9.mp3",
+       "file": "9b02b3a66dfe24c9.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "치과 예약하려고 하는데요. /"
       },
       {
-       "file": "44825a96b7e2295d.mp3",
+       "file": "44825a96b7e2295d.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "네, 수요일 오전은 어떠세요? /"
       },
       {
-       "file": "b6e89686bb69499e.mp3",
+       "file": "b6e89686bb69499e.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "좋아요, 그때로 할게요."
@@ -6801,7 +6801,7 @@
      "explanation": "화자는 동생이 그림 그리기를 좋아했으면 좋겠다고 말하고 있다.",
      "segments": [
       {
-       "file": "bc82828b140e1e9f.mp3",
+       "file": "bc82828b140e1e9f.m4a",
        "speaker": "none",
        "voice": "echo",
        "text": "저는 제 동생이 저처럼 그림 그리는 걸 좋아했으면 좋겠어요. 같이 그림도 그리고 전시회도 가고 싶거든요."
@@ -6826,7 +6826,7 @@
      "explanation": "화자는 신발을 수선해서 더 오래 신고 싶다고 말하고 있다.",
      "segments": [
       {
-       "file": "7d1ce837dcba8522.mp3",
+       "file": "7d1ce837dcba8522.m4a",
        "speaker": "none",
        "voice": "echo",
        "text": "이 신발이 편하긴 한데 벌써 많이 낡았어요. 그래도 오래 신은 거라 정이 들어서 당장 버리고 싶지는 않아요. 수선해서 좀 더 신고 싶어요."
@@ -6851,7 +6851,7 @@
      "explanation": "화자는 재즈 공연을 더 많이 보러 다니고 싶다고 말하고 있다.",
      "segments": [
       {
-       "file": "e32824f6529929a9.mp3",
+       "file": "e32824f6529929a9.m4a",
        "speaker": "none",
        "voice": "echo",
        "text": "요즘 재즈 공연을 자주 보러 다니는데, 악기를 직접 연주하면서 즉흥적으로 어울리는 연주자들을 보면 정말 멋있어요. 그런 공연을 더 많이 보러 다니고 싶어요."
@@ -6876,7 +6876,7 @@
      "explanation": "화자는 사내 건강 검진이라는 회사 행사를 알리기 위해 이 말을 하고 있다.",
      "segments": [
       {
-       "file": "3cd781b69d3e0dab.mp3",
+       "file": "3cd781b69d3e0dab.m4a",
        "speaker": "none",
        "voice": "echo",
        "text": "안녕하세요, 직원 여러분. 다음 주 수요일부터 금요일까지 사내 건강 검진이 진행됩니다. 참여를 원하시는 분은 이번 주 금요일까지 인사팀에 신청해 주시기 바랍니다. 검진은 근무 시간 중에 받으실 수 있습니다."
@@ -6901,7 +6901,7 @@
      "explanation": "인사팀에 신청해 달라고 안내했다.",
      "segments": [
       {
-       "file": "3cd781b69d3e0dab.mp3",
+       "file": "3cd781b69d3e0dab.m4a",
        "speaker": "none",
        "voice": "echo",
        "text": "안녕하세요, 직원 여러분. 다음 주 수요일부터 금요일까지 사내 건강 검진이 진행됩니다. 참여를 원하시는 분은 이번 주 금요일까지 인사팀에 신청해 주시기 바랍니다. 검진은 근무 시간 중에 받으실 수 있습니다."
@@ -6926,19 +6926,19 @@
      "explanation": "어머니가 떠 주신 목도리에 대한 대화이다.",
      "segments": [
       {
-       "file": "5795cdaa3fb33695.mp3",
+       "file": "5795cdaa3fb33695.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "이 목도리 저번에 산 거예요? 색깔이 참 따뜻해 보여요. /"
       },
       {
-       "file": "9c1fe54d8c7f9d4b.mp3",
+       "file": "9c1fe54d8c7f9d4b.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "네, 사실 어머니가 직접 떠 주신 거예요. /"
       },
       {
-       "file": "377f6f4b51b3dc2a.mp3",
+       "file": "377f6f4b51b3dc2a.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "와, 손재주가 좋으시네요. 저도 하나 배우고 싶어요."
@@ -6965,19 +6965,19 @@
      "explanation": "남자의 어머니가 목도리를 직접 떠 주셨다고 말했다.",
      "segments": [
       {
-       "file": "5795cdaa3fb33695.mp3",
+       "file": "5795cdaa3fb33695.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "이 목도리 저번에 산 거예요? 색깔이 참 따뜻해 보여요. /"
       },
       {
-       "file": "9c1fe54d8c7f9d4b.mp3",
+       "file": "9c1fe54d8c7f9d4b.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "네, 사실 어머니가 직접 떠 주신 거예요. /"
       },
       {
-       "file": "377f6f4b51b3dc2a.mp3",
+       "file": "377f6f4b51b3dc2a.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "와, 손재주가 좋으시네요. 저도 하나 배우고 싶어요."
@@ -7004,7 +7004,7 @@
      "explanation": "어르신들에게 오히려 힘을 얻었기 때문에 봉사를 계속하고 있다.",
      "segments": [
       {
-       "file": "8dccf82d33851e10.mp3",
+       "file": "8dccf82d33851e10.m4a",
        "speaker": "none",
        "voice": "echo",
        "text": "저는 몸이 불편한 이웃들을 위해 음식을 배달하는 봉사를 오 년째 하고 있습니다. 처음에는 단순히 시간이 남아서 시작했는데, 어르신들이 반갑게 맞아 주시고 고마워하시는 모습을 보면서 오히려 제가 더 큰 힘을 얻었습니다. 그래서 지금까지 이 일을 계속하고 있습니다."
@@ -7029,7 +7029,7 @@
      "explanation": "남자는 오 년째 음식 배달 봉사를 하고 있다고 말했다.",
      "segments": [
       {
-       "file": "8dccf82d33851e10.mp3",
+       "file": "8dccf82d33851e10.m4a",
        "speaker": "none",
        "voice": "echo",
        "text": "저는 몸이 불편한 이웃들을 위해 음식을 배달하는 봉사를 오 년째 하고 있습니다. 처음에는 단순히 시간이 남아서 시작했는데, 어르신들이 반갑게 맞아 주시고 고마워하시는 모습을 보면서 오히려 제가 더 큰 힘을 얻었습니다. 그래서 지금까지 이 일을 계속하고 있습니다."
@@ -7153,7 +7153,7 @@
      "explanation": "긍정 질문에 같은 서술어로 답하는 것이 자연스럽다.",
      "segments": [
       {
-       "file": "3e950c1982c95169.mp3",
+       "file": "3e950c1982c95169.m4a",
        "speaker": "none",
        "voice": "echo",
        "text": "가: 사과를 좋아해요? 나: ___"
@@ -7178,7 +7178,7 @@
      "explanation": "지금 있느냐는 질문에는 같은 시제 или 서술어로 답해야 한다.",
      "segments": [
       {
-       "file": "aa379241976ebccd.mp3",
+       "file": "aa379241976ebccd.m4a",
        "speaker": "none",
        "voice": "echo",
        "text": "가: 지금 집에 있어요? 나: ___"
@@ -7203,7 +7203,7 @@
      "explanation": "재미있냐는 질문에 같은 형용사로 긍정하는 답이 자연스럽다.",
      "segments": [
       {
-       "file": "ec4de157a152d7e5.mp3",
+       "file": "ec4de157a152d7e5.m4a",
        "speaker": "none",
        "voice": "echo",
        "text": "가: 그 영화 재미있어요? 나: ___"
@@ -7228,7 +7228,7 @@
      "explanation": "시간이 있냐는 질문에 같은 서술어로 긍정하는 답이 자연스럽다.",
      "segments": [
       {
-       "file": "991ac9ecf768bd4e.mp3",
+       "file": "991ac9ecf768bd4e.m4a",
        "speaker": "none",
        "voice": "echo",
        "text": "가: 내일 시간 있어요? 나: ___"
@@ -7253,7 +7253,7 @@
      "explanation": "첫인사에 자연스럽게 이어지는 말이다.",
      "segments": [
       {
-       "file": "ff702b7f77bf20a3.mp3",
+       "file": "ff702b7f77bf20a3.m4a",
        "speaker": "none",
        "voice": "echo",
        "text": "가: 처음 뵙겠습니다. 나: ___"
@@ -7278,7 +7278,7 @@
      "explanation": "들어오라는 말에 자연스럽게 이어지는 응답이다.",
      "segments": [
       {
-       "file": "290e0f0d8486f0a6.mp3",
+       "file": "290e0f0d8486f0a6.m4a",
        "speaker": "none",
        "voice": "echo",
        "text": "가: 들어오세요. 나: ___"
@@ -7303,13 +7303,13 @@
      "explanation": "자리를 안내받는 대화이므로 식당이다.",
      "segments": [
       {
-       "file": "a2b7fdebdb590590.mp3",
+       "file": "a2b7fdebdb590590.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "여기 네 명인데 자리 있어요? /"
       },
       {
-       "file": "fa54d15c322ff2d1.mp3",
+       "file": "fa54d15c322ff2d1.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "네, 창가 자리로 안내해 드릴게요."
@@ -7335,13 +7335,13 @@
      "explanation": "편지를 부치는 대화이므로 우체국이다.",
      "segments": [
       {
-       "file": "0c205721fb3e1835.mp3",
+       "file": "0c205721fb3e1835.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "이 편지 좀 부쳐 주세요. /"
       },
       {
-       "file": "1bba178daec21be6.mp3",
+       "file": "1bba178daec21be6.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "네, 빠른 우편으로 보내 드릴까요?"
@@ -7367,13 +7367,13 @@
      "explanation": "안경 도수를 맞추는 대화이므로 안경 가게이다.",
      "segments": [
       {
-       "file": "03dfabf704446b8b.mp3",
+       "file": "03dfabf704446b8b.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "이 안경 도수 좀 맞춰 주세요. /"
       },
       {
-       "file": "fa1d4eb07382826d.mp3",
+       "file": "fa1d4eb07382826d.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "네, 시력 검사부터 할게요."
@@ -7399,13 +7399,13 @@
      "explanation": "책상과 의자를 파는 곳이므로 가구점이다.",
      "segments": [
       {
-       "file": "980716f482c3025b.mp3",
+       "file": "980716f482c3025b.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "여기 책상이랑 의자 세트로 사면 더 싸요? /"
       },
       {
-       "file": "27e516336c774e7d.mp3",
+       "file": "27e516336c774e7d.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "네, 세트로 사시면 할인해 드려요."
@@ -7431,13 +7431,13 @@
      "explanation": "날씨가 추워졌다는 대화이므로 주제는 날씨이다.",
      "segments": [
       {
-       "file": "82e63956b9cb5ddc.mp3",
+       "file": "82e63956b9cb5ddc.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "거기 날씨 어때요? /"
       },
       {
-       "file": "2c8f8c948352c00d.mp3",
+       "file": "2c8f8c948352c00d.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "요즘 많이 추워졌어요. 눈도 왔어요."
@@ -7463,13 +7463,13 @@
      "explanation": "방학 때 할 일에 대한 대화이므로 주제는 계획이다.",
      "segments": [
       {
-       "file": "d7c2eaa658a3916f.mp3",
+       "file": "d7c2eaa658a3916f.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "이번 방학에 뭐 할 거예요? /"
       },
       {
-       "file": "41e90bb4db183bcf.mp3",
+       "file": "41e90bb4db183bcf.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "저는 제주도로 여행 가려고요."
@@ -7495,13 +7495,13 @@
      "explanation": "생일 날짜를 묻는 대화이므로 주제는 날짜이다.",
      "segments": [
       {
-       "file": "710ee5de062b645e.mp3",
+       "file": "710ee5de062b645e.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "생일이 언제예요? /"
       },
       {
-       "file": "74de37e35b921b9c.mp3",
+       "file": "74de37e35b921b9c.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "다음 달 오일이에요."
@@ -7527,13 +7527,13 @@
      "explanation": "가격에 대한 대화이므로 주제는 값이다.",
      "segments": [
       {
-       "file": "e9529788c2728775.mp3",
+       "file": "e9529788c2728775.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "이 가방 얼마예요? /"
       },
       {
-       "file": "f6a1fd459efb5072.mp3",
+       "file": "f6a1fd459efb5072.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "삼만 원이에요. 지금 세일 중이에요."
@@ -7559,13 +7559,13 @@
      "explanation": "남자가 사지 않고 인사하며 가게를 나가는 상황이다.",
      "segments": [
       {
-       "file": "2fedc168e3af453f.mp3",
+       "file": "2fedc168e3af453f.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "어떤 가방을 찾으세요? /"
       },
       {
-       "file": "2439c7d469c2f09f.mp3",
+       "file": "2439c7d469c2f09f.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "생각 좀 해 보고 다시 올게요. 감사합니다."
@@ -7591,13 +7591,13 @@
      "explanation": "청소를 끝내고 둘이 커피를 마시며 쉬는 상황이다.",
      "segments": [
       {
-       "file": "a13e4c09248be935.mp3",
+       "file": "a13e4c09248be935.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "드디어 청소 다 끝났네요. /"
       },
       {
-       "file": "e69eb3ff0f971a55.mp3",
+       "file": "e69eb3ff0f971a55.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "고생하셨어요. 커피 한잔 하면서 쉬어요."
@@ -7623,19 +7623,19 @@
      "explanation": "남자는 가족과 부산에 다녀왔다고 말했다.",
      "segments": [
       {
-       "file": "11f0eec2cab0bd5f.mp3",
+       "file": "11f0eec2cab0bd5f.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "방학 때 뭐 했어요? /"
       },
       {
-       "file": "548ecfa5eca4a1b2.mp3",
+       "file": "548ecfa5eca4a1b2.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "저는 아르바이트를 했어요. 민수 씨는 여행 갔어요? /"
       },
       {
-       "file": "c539aeb07e30509d.mp3",
+       "file": "c539aeb07e30509d.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "네, 가족이랑 부산에 다녀왔어요."
@@ -7662,13 +7662,13 @@
      "explanation": "남자는 자신이 좋아하는 가수라고 말했다.",
      "segments": [
       {
-       "file": "eac4316d3a1ac25b.mp3",
+       "file": "eac4316d3a1ac25b.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "이 음악 누구 노래예요? 정말 좋네요. /"
       },
       {
-       "file": "23701c73c1378027.mp3",
+       "file": "23701c73c1378027.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "제가 좋아하는 가수예요. 다음 달에 콘서트도 해요."
@@ -7694,13 +7694,13 @@
      "explanation": "여자는 사이즈가 작아서 교환하러 가려고 한다.",
      "segments": [
       {
-       "file": "1684e2aac55fbd04.mp3",
+       "file": "1684e2aac55fbd04.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "어제 산 신발 어때요? 편해요? /"
       },
       {
-       "file": "5f2097b953102681.mp3",
+       "file": "5f2097b953102681.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "네, 근데 한 사이즈 작은 것 같아서 교환하러 가려고요."
@@ -7726,13 +7726,13 @@
      "explanation": "남자가 건전지를 바꿔서 고쳐 주겠다고 말했다.",
      "segments": [
       {
-       "file": "33e952ed97347dd5.mp3",
+       "file": "33e952ed97347dd5.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "이 시계 고장 났어요? /"
       },
       {
-       "file": "a7d065bb80289b3e.mp3",
+       "file": "a7d065bb80289b3e.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "네, 건전지만 바꾸면 될 것 같아요. 제가 봐 드릴게요."
@@ -7758,13 +7758,13 @@
      "explanation": "지하철역 앞에서 만나기로 했다.",
      "segments": [
       {
-       "file": "c39826c469859fa6.mp3",
+       "file": "c39826c469859fa6.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "내일 등산 몇 시에 출발해요? /"
       },
       {
-       "file": "28da52c36a940722.mp3",
+       "file": "28da52c36a940722.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "아침 일곱 시에 지하철역 앞에서 만나요."
@@ -7790,7 +7790,7 @@
      "explanation": "화자는 사람들과 같이 먹으면 더 즐겁다고 말하고 있다.",
      "segments": [
       {
-       "file": "cff2ab8dc1ac6b59.mp3",
+       "file": "cff2ab8dc1ac6b59.m4a",
        "speaker": "none",
        "voice": "echo",
        "text": "저는 혼자 밥 먹는 게 싫어서 일부러 사람들과 약속을 잡는 편이에요. 같이 먹으면 대화도 하고 더 즐겁게 식사할 수 있잖아요."
@@ -7815,7 +7815,7 @@
      "explanation": "화자는 짐을 적게 싸면 이동이 편하다고 말하고 있다.",
      "segments": [
       {
-       "file": "275d046ff6de72e7.mp3",
+       "file": "275d046ff6de72e7.m4a",
        "speaker": "none",
        "voice": "echo",
        "text": "저는 여행 갈 때 짐을 최대한 적게 싸려고 해요. 필요한 것만 챙기면 이동할 때도 편하고 짐 걱정도 덜 하게 되거든요."
@@ -7840,7 +7840,7 @@
      "explanation": "화자는 손으로 먼저 쓰면 생각 정리에 도움이 된다고 말하고 있다.",
      "segments": [
       {
-       "file": "dd97dccb5f7ffc11.mp3",
+       "file": "dd97dccb5f7ffc11.m4a",
        "speaker": "none",
        "voice": "echo",
        "text": "저는 글을 쓸 때 일부러 손으로 먼저 써 봐요. 손으로 쓰면 생각이 천천히 정리되는 느낌이 들어서 나중에 타자를 칠 때 훨씬 수월해요."
@@ -7865,7 +7865,7 @@
      "explanation": "화자는 재활용 쓰레기 배출 요일 변경을 안내하기 위해 이 말을 하고 있다.",
      "segments": [
       {
-       "file": "8eefca9f2216c126.mp3",
+       "file": "8eefca9f2216c126.m4a",
        "speaker": "none",
        "voice": "echo",
        "text": "안녕하세요, 입주민 여러분. 다음 달부터 재활용 쓰레기 배출 요일이 변경됩니다. 플라스틱과 종이는 화요일과 금요일에, 병과 캔은 목요일에 배출해 주시기 바랍니다. 변경된 내용을 꼭 확인해 주세요."
@@ -7890,7 +7890,7 @@
      "explanation": "플라스틱과 종이는 화요일과 금요일에 배출한다고 안내했다.",
      "segments": [
       {
-       "file": "8eefca9f2216c126.mp3",
+       "file": "8eefca9f2216c126.m4a",
        "speaker": "none",
        "voice": "echo",
        "text": "안녕하세요, 입주민 여러분. 다음 달부터 재활용 쓰레기 배출 요일이 변경됩니다. 플라스틱과 종이는 화요일과 금요일에, 병과 캔은 목요일에 배출해 주시기 바랍니다. 변경된 내용을 꼭 확인해 주세요."
@@ -7915,19 +7915,19 @@
      "explanation": "남자가 직접 만든 그릇에 대한 대화이다.",
      "segments": [
       {
-       "file": "a9b5610cae1abf51.mp3",
+       "file": "a9b5610cae1abf51.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "이 그릇 새로 산 거예요? 디자인이 독특하네요. /"
       },
       {
-       "file": "a44101e79996c8e2.mp3",
+       "file": "a44101e79996c8e2.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "네, 요즘 도자기 공방에 다니면서 직접 만들기 시작했어요. /"
       },
       {
-       "file": "cbb6cd945839dc0a.mp3",
+       "file": "cbb6cd945839dc0a.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "와, 대단하네요. 저도 한번 배워 보고 싶어요."
@@ -7954,19 +7954,19 @@
      "explanation": "남자는 도자기 공방에 다니며 배우고 있다고 말했다.",
      "segments": [
       {
-       "file": "a9b5610cae1abf51.mp3",
+       "file": "a9b5610cae1abf51.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "이 그릇 새로 산 거예요? 디자인이 독특하네요. /"
       },
       {
-       "file": "a44101e79996c8e2.mp3",
+       "file": "a44101e79996c8e2.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "네, 요즘 도자기 공방에 다니면서 직접 만들기 시작했어요. /"
       },
       {
-       "file": "cbb6cd945839dc0a.mp3",
+       "file": "cbb6cd945839dc0a.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "와, 대단하네요. 저도 한번 배워 보고 싶어요."
@@ -7993,7 +7993,7 @@
      "explanation": "할 일이 분명해져서 덜 피곤하게 느껴졌기 때문에 계속하고 있다.",
      "segments": [
       {
-       "file": "1f27d26136d6415e.mp3",
+       "file": "1f27d26136d6415e.m4a",
        "speaker": "none",
        "voice": "echo",
        "text": "저는 원래 아침에 일어나는 게 너무 힘들었는데, 작년부터 자기 전에 다음 날 할 일을 미리 적어 두기 시작했어요. 그러니까 눈을 뜨자마자 뭘 해야 할지 분명해져서 덜 피곤하게 느껴지더라고요. 그래서 요즘도 계속 그렇게 하고 있어요."
@@ -8018,7 +8018,7 @@
      "explanation": "남자는 작년부터 자기 전에 할 일을 미리 적는다고 말했다.",
      "segments": [
       {
-       "file": "1f27d26136d6415e.mp3",
+       "file": "1f27d26136d6415e.m4a",
        "speaker": "none",
        "voice": "echo",
        "text": "저는 원래 아침에 일어나는 게 너무 힘들었는데, 작년부터 자기 전에 다음 날 할 일을 미리 적어 두기 시작했어요. 그러니까 눈을 뜨자마자 뭘 해야 할지 분명해져서 덜 피곤하게 느껴지더라고요. 그래서 요즘도 계속 그렇게 하고 있어요."
@@ -8142,7 +8142,7 @@
      "explanation": "지금 나가느냐는 질문에 같은 서술어로 답하는 것이 자연스럽다.",
      "segments": [
       {
-       "file": "579ddd4568bcb1ad.mp3",
+       "file": "579ddd4568bcb1ad.m4a",
        "speaker": "none",
        "voice": "echo",
        "text": "가: 지금 나가요? 나: ___"
@@ -8167,7 +8167,7 @@
      "explanation": "다 먹었냐는 질문에 같은 서술어로 긍정하는 답이 자연스럽다.",
      "segments": [
       {
-       "file": "247fbfd5d9f78b46.mp3",
+       "file": "247fbfd5d9f78b46.m4a",
        "speaker": "none",
        "voice": "echo",
        "text": "가: 이거 다 먹었어요? 나: ___"
@@ -8192,7 +8192,7 @@
      "explanation": "바쁘냐는 질문에 같은 형용사로 긍정하는 답이 자연스럽다.",
      "segments": [
       {
-       "file": "7600c7cc5395872d.mp3",
+       "file": "7600c7cc5395872d.m4a",
        "speaker": "none",
        "voice": "echo",
        "text": "가: 지금 바빠요? 나: ___"
@@ -8217,7 +8217,7 @@
      "explanation": "멀다는 질문에 같은 형용사로 긍정하는 답이 자연스럽다.",
      "segments": [
       {
-       "file": "008436a8c4c10f9a.mp3",
+       "file": "008436a8c4c10f9a.m4a",
        "speaker": "none",
        "voice": "echo",
        "text": "가: 지하철역이 멀어요? 나: ___"
@@ -8242,7 +8242,7 @@
      "explanation": "나가는 인사에 자연스럽게 이어지는 말이다.",
      "segments": [
       {
-       "file": "440817f8252d754a.mp3",
+       "file": "440817f8252d754a.m4a",
        "speaker": "none",
        "voice": "echo",
        "text": "가: 다녀오겠습니다. 나: ___"
@@ -8267,7 +8267,7 @@
      "explanation": "자리를 권하는 말에 자연스럽게 이어지는 응답이다.",
      "segments": [
       {
-       "file": "3bd9e4fd402b0f34.mp3",
+       "file": "3bd9e4fd402b0f34.m4a",
        "speaker": "none",
        "voice": "echo",
        "text": "가: 여기 앉으세요. 나: ___"
@@ -8292,13 +8292,13 @@
      "explanation": "그림을 액자에 넣어 주는 대화이므로 액자 가게이다.",
      "segments": [
       {
-       "file": "47a0fdec93ac24b9.mp3",
+       "file": "47a0fdec93ac24b9.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "이 그림 액자에 넣어 주세요. /"
       },
       {
-       "file": "c203c036a82cccef.mp3",
+       "file": "c203c036a82cccef.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "네, 내일 오후에 찾으러 오세요."
@@ -8324,13 +8324,13 @@
      "explanation": "머리를 염색하는 대화이므로 미용실이다.",
      "segments": [
       {
-       "file": "bbc9b83881349eee.mp3",
+       "file": "bbc9b83881349eee.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "머리를 염색하고 싶은데요. /"
       },
       {
-       "file": "af636ecf45f63fcd.mp3",
+       "file": "af636ecf45f63fcd.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "네, 원하시는 색깔 골라 보세요."
@@ -8356,13 +8356,13 @@
      "explanation": "짐을 부치고 여권을 보여 주는 대화이므로 공항이다.",
      "segments": [
       {
-       "file": "9d8958223725b6b6.mp3",
+       "file": "9d8958223725b6b6.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "이 짐 몇 킬로예요? 부칠게요. /"
       },
       {
-       "file": "3bb1aa102eb82ea6.mp3",
+       "file": "3bb1aa102eb82ea6.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "이십 킬로예요. 여기 여권 보여 주세요."
@@ -8388,13 +8388,13 @@
      "explanation": "영화 좌석에 대한 대화이므로 극장이다.",
      "segments": [
       {
-       "file": "d8479f7bc6db5c89.mp3",
+       "file": "d8479f7bc6db5c89.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "이 영화 좌석 어디가 좋아요? /"
       },
       {
-       "file": "1136c91ddda047ff.mp3",
+       "file": "1136c91ddda047ff.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "가운데 자리가 잘 보여요."
@@ -8420,13 +8420,13 @@
      "explanation": "잠을 잘 잤는지 묻는 대화이므로 주제는 잠이다.",
      "segments": [
       {
-       "file": "46ea7c200971944b.mp3",
+       "file": "46ea7c200971944b.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "어제 잠 잘 잤어요? /"
       },
       {
-       "file": "6a85511e7baf38ad.mp3",
+       "file": "6a85511e7baf38ad.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "아니요, 더워서 잠을 못 잤어요."
@@ -8452,13 +8452,13 @@
      "explanation": "끝나는 시각을 묻는 대화이므로 주제는 시간이다.",
      "segments": [
       {
-       "file": "d6c849efccd8c75c.mp3",
+       "file": "d6c849efccd8c75c.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "이거 몇 시에 끝나요? /"
       },
       {
-       "file": "9efd645112fed541.mp3",
+       "file": "9efd645112fed541.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "아홉 시에 끝나요."
@@ -8484,13 +8484,13 @@
      "explanation": "노래와 가수에 대한 대화이므로 주제는 음악이다.",
      "segments": [
       {
-       "file": "0975a09ddeda67df.mp3",
+       "file": "0975a09ddeda67df.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "이 노래 가사가 참 좋아요. /"
       },
       {
-       "file": "cd91150dc971dbdd.mp3",
+       "file": "cd91150dc971dbdd.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "네, 저도 이 가수 노래 좋아해요."
@@ -8516,13 +8516,13 @@
      "explanation": "영화를 본 느낌에 대한 대화이므로 주제는 영화 감상이다.",
      "segments": [
       {
-       "file": "f128ea7d20ad6e83.mp3",
+       "file": "f128ea7d20ad6e83.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "이 영화 어땠어요? /"
       },
       {
-       "file": "8feb4ed59b65cb02.mp3",
+       "file": "8feb4ed59b65cb02.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "배우들 연기가 정말 좋았어요."
@@ -8548,13 +8548,13 @@
      "explanation": "남자가 여자의 무거운 상자를 들어 주는 상황이다.",
      "segments": [
       {
-       "file": "f723e1a23d8b4ad4.mp3",
+       "file": "f723e1a23d8b4ad4.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "이 상자 좀 들어 드릴까요? /"
       },
       {
-       "file": "3478672a574fa2af.mp3",
+       "file": "3478672a574fa2af.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "아, 감사합니다. 너무 무거웠어요."
@@ -8580,13 +8580,13 @@
      "explanation": "남자가 여자에게 거스름돈을 주는 상황이다.",
      "segments": [
       {
-       "file": "862e98de1485b6bf.mp3",
+       "file": "862e98de1485b6bf.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "저기요, 거스름돈을 안 주셨어요. /"
       },
       {
-       "file": "f0d45619866a0547.mp3",
+       "file": "f0d45619866a0547.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "아, 죄송합니다. 여기 있습니다."
@@ -8612,13 +8612,13 @@
      "explanation": "남자는 길이 막혀서 늦었다고 말했다.",
      "segments": [
       {
-       "file": "557af1c3cc387d5d.mp3",
+       "file": "557af1c3cc387d5d.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "오늘 왜 이렇게 늦었어요? /"
       },
       {
-       "file": "ff87b2209ba4a130.mp3",
+       "file": "ff87b2209ba4a130.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "길이 너무 막혀서요. 죄송합니다."
@@ -8644,13 +8644,13 @@
      "explanation": "여자는 일주일에 두 번 정도 온다고 말했다.",
      "segments": [
       {
-       "file": "2b3e38be0a498c06.mp3",
+       "file": "2b3e38be0a498c06.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "이 식당 자주 와요? /"
       },
       {
-       "file": "16c20e464a37273b.mp3",
+       "file": "16c20e464a37273b.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "네, 일주일에 두 번 정도 와요."
@@ -8676,13 +8676,13 @@
      "explanation": "남자는 내일 비가 온다고 말했다.",
      "segments": [
       {
-       "file": "a165f3e214ac580f.mp3",
+       "file": "a165f3e214ac580f.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "내일 날씨 어때요? /"
       },
       {
-       "file": "c15953fedffbf5a8.mp3",
+       "file": "c15953fedffbf5a8.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "일기예보 보니까 비 온대요. 우산 챙기세요."
@@ -8708,13 +8708,13 @@
      "explanation": "여자가 컴퓨터를 봐 주겠다고 말했다.",
      "segments": [
       {
-       "file": "eec5470c17bea8e8.mp3",
+       "file": "eec5470c17bea8e8.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "이 컴퓨터 느려졌어요. 바이러스인가 봐요. /"
       },
       {
-       "file": "898a88c12f83c044.mp3",
+       "file": "898a88c12f83c044.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "제가 한번 봐 드릴게요. 백신 프로그램 돌려 볼게요."
@@ -8740,13 +8740,13 @@
      "explanation": "여자는 다음 주에 이사 간다고 말했다.",
      "segments": [
       {
-       "file": "73c3360f11035b8e.mp3",
+       "file": "73c3360f11035b8e.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "저 다음 주에 이사 가요. /"
       },
       {
-       "file": "24e7324219afe136.mp3",
+       "file": "24e7324219afe136.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "어디로 가요? 멀어요?"
@@ -8772,7 +8772,7 @@
      "explanation": "화자는 가끔 다른 길로 가면 좋은 점이 있다고 말하고 있다.",
      "segments": [
       {
-       "file": "2cdfaedb7396671e.mp3",
+       "file": "2cdfaedb7396671e.m4a",
        "speaker": "none",
        "voice": "echo",
        "text": "저는 매일 같은 길로 가지 않고 가끔 다른 길로 돌아가 봐요. 그러면 몰랐던 가게도 발견하고 기분 전환도 돼서 좋아요."
@@ -8797,7 +8797,7 @@
      "explanation": "화자는 시간을 두고 이야기하면 더 차분해진다고 말하고 있다.",
      "segments": [
       {
-       "file": "31af14b7fb1ff5a4.mp3",
+       "file": "31af14b7fb1ff5a4.m4a",
        "speaker": "none",
        "voice": "echo",
        "text": "저는 화가 날 때 바로 말하지 않고 하루 정도 생각한 다음에 이야기해요. 그러면 감정적으로 말하지 않게 되고 더 차분하게 대화할 수 있어요."
@@ -8822,7 +8822,7 @@
      "explanation": "화자는 처음에는 레시피대로 따라 하는 게 좋다고 말하고 있다.",
      "segments": [
       {
-       "file": "9a749753aa115179.mp3",
+       "file": "9a749753aa115179.m4a",
        "speaker": "none",
        "voice": "echo",
        "text": "저는 새로운 요리를 배울 때 레시피대로 정확하게 따라 하려고 해요. 처음부터 마음대로 바꾸면 왜 맛이 없는지 알기 어렵거든요."
@@ -8847,7 +8847,7 @@
      "explanation": "화자는 리모델링으로 인한 매장 휴업을 안내하기 위해 이 말을 하고 있다.",
      "segments": [
       {
-       "file": "682392811b5eb6d5.mp3",
+       "file": "682392811b5eb6d5.m4a",
        "speaker": "none",
        "voice": "echo",
        "text": "안녕하세요, 고객 여러분. 저희 매장이 이번 주말부터 두 달간 리모델링 공사에 들어갑니다. 공사 기간에는 매장을 이용하실 수 없으며, 근처에 있는 지점을 이용해 주시기 바랍니다. 불편을 드려 죄송합니다."
@@ -8872,7 +8872,7 @@
      "explanation": "공사 기간에는 근처 다른 지점을 이용해야 한다고 안내했다.",
      "segments": [
       {
-       "file": "682392811b5eb6d5.mp3",
+       "file": "682392811b5eb6d5.m4a",
        "speaker": "none",
        "voice": "echo",
        "text": "안녕하세요, 고객 여러분. 저희 매장이 이번 주말부터 두 달간 리모델링 공사에 들어갑니다. 공사 기간에는 매장을 이용하실 수 없으며, 근처에 있는 지점을 이용해 주시기 바랍니다. 불편을 드려 죄송합니다."
@@ -8897,19 +8897,19 @@
      "explanation": "여자가 혼자 다녀온 여행에 대한 대화이다.",
      "segments": [
       {
-       "file": "3a93460afa80b757.mp3",
+       "file": "3a93460afa80b757.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "이 사진 어디서 찍었어요? 풍경이 정말 멋있네요. /"
       },
       {
-       "file": "87acaeed007971f9.mp3",
+       "file": "87acaeed007971f9.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "지난달에 혼자 강원도로 여행 갔을 때 찍었어요. /"
       },
       {
-       "file": "96e9b419adb9809c.mp3",
+       "file": "96e9b419adb9809c.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "혼자 여행 가는 거 안 무서워요? 저도 한번 가 보고 싶어요."
@@ -8936,19 +8936,19 @@
      "explanation": "여자는 지난달에 혼자 강원도로 여행 갔다고 말했다.",
      "segments": [
       {
-       "file": "3a93460afa80b757.mp3",
+       "file": "3a93460afa80b757.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "이 사진 어디서 찍었어요? 풍경이 정말 멋있네요. /"
       },
       {
-       "file": "87acaeed007971f9.mp3",
+       "file": "87acaeed007971f9.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "지난달에 혼자 강원도로 여행 갔을 때 찍었어요. /"
       },
       {
-       "file": "96e9b419adb9809c.mp3",
+       "file": "96e9b419adb9809c.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "혼자 여행 가는 거 안 무서워요? 저도 한번 가 보고 싶어요."
@@ -8975,7 +8975,7 @@
      "explanation": "건강 검진에서 콜레스테롤 수치가 높다는 결과를 듣고 식사를 바꿨다.",
      "segments": [
       {
-       "file": "843e9afb8cc00b09.mp3",
+       "file": "843e9afb8cc00b09.m4a",
        "speaker": "none",
        "voice": "echo",
        "text": "저는 몇 년 전까지 고기를 정말 좋아했는데, 건강 검진에서 콜레스테롤 수치가 높다는 말을 듣고 나서 채소 위주로 식사를 바꿨습니다. 처음엔 힘들었지만 지금은 오히려 몸이 가벼워지고 수치도 많이 좋아졌어요."
@@ -9000,7 +9000,7 @@
      "explanation": "남자는 채소 위주로 식사를 바꿨다고 말했다.",
      "segments": [
       {
-       "file": "843e9afb8cc00b09.mp3",
+       "file": "843e9afb8cc00b09.m4a",
        "speaker": "none",
        "voice": "echo",
        "text": "저는 몇 년 전까지 고기를 정말 좋아했는데, 건강 검진에서 콜레스테롤 수치가 높다는 말을 듣고 나서 채소 위주로 식사를 바꿨습니다. 처음엔 힘들었지만 지금은 오히려 몸이 가벼워지고 수치도 많이 좋아졌어요."
@@ -9124,7 +9124,7 @@
      "explanation": "열어도 되냐는 질문에 허락하는 답이 자연스럽다.",
      "segments": [
       {
-       "file": "06b3d3ee0b2317f7.mp3",
+       "file": "06b3d3ee0b2317f7.m4a",
        "speaker": "none",
        "voice": "echo",
        "text": "가: 창문 열어도 돼요? 나: ___"
@@ -9149,7 +9149,7 @@
      "explanation": "운동했냐는 질문에 같은 서술어로 긍정하는 답이 자연스럽다.",
      "segments": [
       {
-       "file": "2d0859979e762ab9.mp3",
+       "file": "2d0859979e762ab9.m4a",
        "speaker": "none",
        "voice": "echo",
        "text": "가: 오늘 운동했어요? 나: ___"
@@ -9174,7 +9174,7 @@
      "explanation": "예쁘냐는 질문에 같은 형용사로 긍정하는 답이 자연스럽다.",
      "segments": [
       {
-       "file": "142cf8c21f9fd4cf.mp3",
+       "file": "142cf8c21f9fd4cf.m4a",
        "speaker": "none",
        "voice": "echo",
        "text": "가: 이 옷 예뻐요? 나: ___"
@@ -9199,7 +9199,7 @@
      "explanation": "다 했냐는 질문에 같은 서술어로 긍정하는 답이 자연스럽다.",
      "segments": [
       {
-       "file": "cc103ebab39b04fd.mp3",
+       "file": "cc103ebab39b04fd.m4a",
        "speaker": "none",
        "voice": "echo",
        "text": "가: 숙제 다 했어요? 나: ___"
@@ -9224,7 +9224,7 @@
      "explanation": "축하 인사에 자연스럽게 이어지는 응답이다.",
      "segments": [
       {
-       "file": "6778db86409f731e.mp3",
+       "file": "6778db86409f731e.m4a",
        "speaker": "none",
        "voice": "echo",
        "text": "가: 생일 축하해요! 나: ___"
@@ -9249,7 +9249,7 @@
      "explanation": "식사 인사에 자연스럽게 이어지는 응답이다.",
      "segments": [
       {
-       "file": "8af40c07a16105c3.mp3",
+       "file": "8af40c07a16105c3.m4a",
        "speaker": "none",
        "voice": "echo",
        "text": "가: 식사 맛있게 하셨어요? 나: ___"
@@ -9274,13 +9274,13 @@
      "explanation": "필름을 현상해 주는 대화이므로 사진관이다.",
      "segments": [
       {
-       "file": "be2bd48ad2a6108d.mp3",
+       "file": "be2bd48ad2a6108d.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "이 필름 현상해 주세요. /"
       },
       {
-       "file": "b951ec7ddda1bfc3.mp3",
+       "file": "b951ec7ddda1bfc3.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "네, 삼십 분 후에 나와요."
@@ -9306,13 +9306,13 @@
      "explanation": "주운 지갑을 가져다주는 대화이므로 경찰서이다.",
      "segments": [
       {
-       "file": "247021ea2d2090af.mp3",
+       "file": "247021ea2d2090af.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "여기 지갑 주워서 가져왔어요. /"
       },
       {
-       "file": "50ee7a6634a0faef.mp3",
+       "file": "50ee7a6634a0faef.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "감사합니다. 어디서 찾으셨어요?"
@@ -9338,13 +9338,13 @@
      "explanation": "트렁크에 짐을 싣고 목적지를 말하는 대화이므로 택시이다.",
      "segments": [
       {
-       "file": "5743b45539cb1966.mp3",
+       "file": "5743b45539cb1966.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "이 짐 몇 개예요? 트렁크에 실을게요. /"
       },
       {
-       "file": "025e38b9b8045537.mp3",
+       "file": "025e38b9b8045537.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "두 개예요. 공항까지 가 주세요."
@@ -9370,13 +9370,13 @@
      "explanation": "약을 처방받는 대화이므로 약국이다.",
      "segments": [
       {
-       "file": "a994c866192ca8af.mp3",
+       "file": "a994c866192ca8af.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "머리가 많이 아파요. /"
       },
       {
-       "file": "cd4443779ab32606.mp3",
+       "file": "cd4443779ab32606.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "이 약 드시고 좀 쉬세요."
@@ -9402,13 +9402,13 @@
      "explanation": "노트북 배터리에 대한 대화이므로 주제는 노트북이다.",
      "segments": [
       {
-       "file": "43bd3234fb35984b.mp3",
+       "file": "43bd3234fb35984b.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "이 노트북 배터리가 금방 닳아요. /"
       },
       {
-       "file": "6a551dfb3ce3845a.mp3",
+       "file": "6a551dfb3ce3845a.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "네, 오래 써서 그런 것 같아요."
@@ -9434,13 +9434,13 @@
      "explanation": "일기예보에 대한 대화이므로 주제는 날씨이다.",
      "segments": [
       {
-       "file": "93e419f8cca9d186.mp3",
+       "file": "93e419f8cca9d186.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "주말에 등산 갈 건데 날씨 괜찮을까요? /"
       },
       {
-       "file": "a8fe5932156abbd1.mp3",
+       "file": "a8fe5932156abbd1.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "일기예보 보니까 맑대요."
@@ -9466,13 +9466,13 @@
      "explanation": "영업 종료 시간에 대한 대화이므로 주제는 영업시간이다.",
      "segments": [
       {
-       "file": "251cfacb8cb58ac3.mp3",
+       "file": "251cfacb8cb58ac3.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "이 식당 몇 시까지 해요? /"
       },
       {
-       "file": "dac2d04215674a3d.mp3",
+       "file": "dac2d04215674a3d.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "밤 열 시까지 해요."
@@ -9498,13 +9498,13 @@
      "explanation": "학생 할인에 대한 대화이므로 주제는 할인이다.",
      "segments": [
       {
-       "file": "9afe914157c024f0.mp3",
+       "file": "9afe914157c024f0.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "이 영화관 할인 카드 있어요? /"
       },
       {
-       "file": "50d4d73d5cd20f6a.mp3",
+       "file": "50d4d73d5cd20f6a.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "네, 학생증 있으면 할인돼요."
@@ -9530,13 +9530,13 @@
      "explanation": "여자가 남자의 고장 난 자전거를 봐 주는 상황이다.",
      "segments": [
       {
-       "file": "94774357d1a365a1.mp3",
+       "file": "94774357d1a365a1.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "제 자전거가 고장 났는데 좀 봐 주시겠어요? /"
       },
       {
-       "file": "6bea8225d8bbea63.mp3",
+       "file": "6bea8225d8bbea63.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "네, 어디가 문제인지 볼게요."
@@ -9562,13 +9562,13 @@
      "explanation": "남자가 길을 잃은 여자에게 지하철역 가는 길을 알려 주는 상황이다.",
      "segments": [
       {
-       "file": "df5fc5cbb29f21d4.mp3",
+       "file": "df5fc5cbb29f21d4.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "길을 잃었어요. 이 근처에 지하철역이 어디예요? /"
       },
       {
-       "file": "6053a4293dfa63a8.mp3",
+       "file": "6053a4293dfa63a8.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "저기 모퉁이로 돌면 바로 보여요."
@@ -9594,13 +9594,13 @@
      "explanation": "남자는 운동하느라 전화를 못 받았다고 말했다.",
      "segments": [
       {
-       "file": "b5435144377b9f47.mp3",
+       "file": "b5435144377b9f47.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "어제 전화했는데 왜 안 받았어요? /"
       },
       {
-       "file": "7595522209469960.mp3",
+       "file": "7595522209469960.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "미안해요, 운동하느라 못 들었어요."
@@ -9626,13 +9626,13 @@
      "explanation": "여자는 노래 제목을 모른다고 말했다.",
      "segments": [
       {
-       "file": "cae477c7acd803b4.mp3",
+       "file": "cae477c7acd803b4.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "이 노래 제목이 뭐예요? /"
       },
       {
-       "file": "1650dd32a6a81b26.mp3",
+       "file": "1650dd32a6a81b26.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "저도 몰라요. 가사만 기억나요."
@@ -9658,13 +9658,13 @@
      "explanation": "남자는 내일 여섯 시에 출발한다고 말했다.",
      "segments": [
       {
-       "file": "53cc10389b05850d.mp3",
+       "file": "53cc10389b05850d.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "내일 몇 시에 출발해요? /"
       },
       {
-       "file": "ad78070bcff1be32.mp3",
+       "file": "ad78070bcff1be32.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "아침 일찍, 여섯 시에 출발할 거예요."
@@ -9690,13 +9690,13 @@
      "explanation": "유통기한이 삼 일 남았으므로 아직 먹을 수 있다.",
      "segments": [
       {
-       "file": "b1d5bb9c5d9ec6a4.mp3",
+       "file": "b1d5bb9c5d9ec6a4.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "이 우유 유통기한 지났어요? /"
       },
       {
-       "file": "b01c1ca5a8ede97e.mp3",
+       "file": "b01c1ca5a8ede97e.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "아니요, 아직 삼 일 남았어요."
@@ -9722,13 +9722,13 @@
      "explanation": "남자가 환불해 주겠다고 말했다.",
      "segments": [
       {
-       "file": "45d1c756c6e35aa7.mp3",
+       "file": "45d1c756c6e35aa7.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "이 셔츠 환불하고 싶은데요. 영수증 있어요. /"
       },
       {
-       "file": "cb8d18f73f49168c.mp3",
+       "file": "cb8d18f73f49168c.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "네, 확인했습니다. 환불해 드릴게요."
@@ -9754,7 +9754,7 @@
      "explanation": "화자는 집안일을 바로바로 하면 덜 힘들다고 말하고 있다.",
      "segments": [
       {
-       "file": "27d27363f671451a.mp3",
+       "file": "27d27363f671451a.m4a",
        "speaker": "none",
        "voice": "echo",
        "text": "저는 집안일을 미루지 않고 그때그때 바로 하는 편이에요. 그러면 나중에 한꺼번에 하지 않아도 되니까 덜 힘들더라고요."
@@ -9779,7 +9779,7 @@
      "explanation": "화자는 질문하면 정확히 알고 실수를 줄일 수 있다고 말하고 있다.",
      "segments": [
       {
-       "file": "a8e1f360a28a2d6f.mp3",
+       "file": "a8e1f360a28a2d6f.m4a",
        "speaker": "none",
        "voice": "echo",
        "text": "저는 모르는 걸 질문하는 게 부끄럽지 않아요. 질문해야 정확히 알 수 있고, 그래야 나중에 실수도 안 하니까요."
@@ -9804,7 +9804,7 @@
      "explanation": "화자는 같이 운동하면 끝까지 할 힘이 생긴다고 말하고 있다.",
      "segments": [
       {
-       "file": "f2917c4efdd92c85.mp3",
+       "file": "f2917c4efdd92c85.m4a",
        "speaker": "none",
        "voice": "echo",
        "text": "저는 운동할 때 혼자보다 같이 하는 걸 좋아해요. 서로 격려해 주면 힘들어도 끝까지 할 수 있거든요."
@@ -9829,7 +9829,7 @@
      "explanation": "화자는 어린이날 기념 행사 참여 방법을 안내하기 위해 이 말을 하고 있다.",
      "segments": [
       {
-       "file": "f4bd20ee7d036d2a.mp3",
+       "file": "f4bd20ee7d036d2a.m4a",
        "speaker": "none",
        "voice": "echo",
        "text": "안녕하세요, 주민 여러분. 다음 주 토요일 오전 열 시부터 아파트 단지 내에서 어린이날 기념 벼룩시장과 체험 행사가 열립니다. 참여를 원하시는 가정은 관리사무소에 신청해 주시기 바랍니다."
@@ -9854,7 +9854,7 @@
      "explanation": "행사는 토요일 오전 열 시부터 시작한다고 안내했다.",
      "segments": [
       {
-       "file": "f4bd20ee7d036d2a.mp3",
+       "file": "f4bd20ee7d036d2a.m4a",
        "speaker": "none",
        "voice": "echo",
        "text": "안녕하세요, 주민 여러분. 다음 주 토요일 오전 열 시부터 아파트 단지 내에서 어린이날 기념 벼룩시장과 체험 행사가 열립니다. 참여를 원하시는 가정은 관리사무소에 신청해 주시기 바랍니다."
@@ -9879,19 +9879,19 @@
      "explanation": "식물 관리법에 대한 대화이다.",
      "segments": [
       {
-       "file": "3cbdcb1e3a18bf73.mp3",
+       "file": "3cbdcb1e3a18bf73.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "이 식물 잎이 왜 이렇게 노래졌어요? /"
       },
       {
-       "file": "8546a6655d6dd969.mp3",
+       "file": "8546a6655d6dd969.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "물을 너무 많이 줘서 그런 것 같아요. 뿌리가 썩었을 수도 있어요. /"
       },
       {
-       "file": "798d87e73eeb2e50.mp3",
+       "file": "798d87e73eeb2e50.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "아, 그렇군요. 어떻게 해야 할지 좀 알려 주세요."
@@ -9918,19 +9918,19 @@
      "explanation": "물을 너무 많이 줘서 잎이 노래진 것 같다고 말했다.",
      "segments": [
       {
-       "file": "3cbdcb1e3a18bf73.mp3",
+       "file": "3cbdcb1e3a18bf73.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "이 식물 잎이 왜 이렇게 노래졌어요? /"
       },
       {
-       "file": "8546a6655d6dd969.mp3",
+       "file": "8546a6655d6dd969.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "물을 너무 많이 줘서 그런 것 같아요. 뿌리가 썩었을 수도 있어요. /"
       },
       {
-       "file": "798d87e73eeb2e50.mp3",
+       "file": "798d87e73eeb2e50.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "아, 그렇군요. 어떻게 해야 할지 좀 알려 주세요."
@@ -9957,7 +9957,7 @@
      "explanation": "주차 때문에 받던 스트레스 때문에 대중교통을 타기 시작했다.",
      "segments": [
       {
-       "file": "b87efbed4c690e7f.mp3",
+       "file": "b87efbed4c690e7f.m4a",
        "speaker": "none",
        "voice": "echo",
        "text": "저는 몇 달 전부터 대중교통을 타기 시작했습니다. 원래는 차를 가지고 다녔는데, 주차 때문에 스트레스를 많이 받았거든요. 대중교통을 타니까 주차 걱정도 없고 책도 읽을 수 있어서 오히려 더 편해졌습니다."
@@ -9982,7 +9982,7 @@
      "explanation": "남자는 몇 달 전부터 대중교통을 타기 시작했다고 말했다.",
      "segments": [
       {
-       "file": "b87efbed4c690e7f.mp3",
+       "file": "b87efbed4c690e7f.m4a",
        "speaker": "none",
        "voice": "echo",
        "text": "저는 몇 달 전부터 대중교통을 타기 시작했습니다. 원래는 차를 가지고 다녔는데, 주차 때문에 스트레스를 많이 받았거든요. 대중교통을 타니까 주차 걱정도 없고 책도 읽을 수 있어서 오히려 더 편해졌습니다."
@@ -10106,7 +10106,7 @@
      "explanation": "필요한지 묻는 질문에는 '네, 필요해요.'처럼 필요 여부로 답해야 합니다.",
      "segments": [
       {
-       "file": "4f14dccd5705710f.mp3",
+       "file": "4f14dccd5705710f.m4a",
        "speaker": "none",
        "voice": "echo",
        "text": "가: 이 노트 필요해요? 나: ___"
@@ -10131,7 +10131,7 @@
      "explanation": "어제 집에 있었는지 묻는 질문에는 '네, 집에 있었어요.'처럼 사실 여부로 답해야 합니다.",
      "segments": [
       {
-       "file": "7168bf270725f711.mp3",
+       "file": "7168bf270725f711.m4a",
        "speaker": "none",
        "voice": "echo",
        "text": "가: 어제 집에 있었어요? 나: ___"
@@ -10156,7 +10156,7 @@
      "explanation": "아는지 묻는 질문에는 '네, 알아요.'처럼 답해야 합니다.",
      "segments": [
       {
-       "file": "fb2c61d81789f1f8.mp3",
+       "file": "fb2c61d81789f1f8.m4a",
        "speaker": "none",
        "voice": "echo",
        "text": "가: 그 사람 알아요? 나: ___"
@@ -10181,7 +10181,7 @@
      "explanation": "아픈지 묻는 질문에는 '네, 아파요.'처럼 상태로 답해야 합니다.",
      "segments": [
       {
-       "file": "4838288924da28be.mp3",
+       "file": "4838288924da28be.m4a",
        "speaker": "none",
        "voice": "echo",
        "text": "가: 지금 아파요? 나: ___"
@@ -10206,7 +10206,7 @@
      "explanation": "'실례합니다'는 말을 걸 때 쓰는 표현이므로 '네, 말씀하세요.'가 이어지는 것이 자연스럽습니다.",
      "segments": [
       {
-       "file": "c2bf17526e637a06.mp3",
+       "file": "c2bf17526e637a06.m4a",
        "speaker": "none",
        "voice": "echo",
        "text": "가: 실례합니다. 나: ___"
@@ -10231,7 +10231,7 @@
      "explanation": "인사에 대한 자연스러운 응답은 '네, 당신도요.'입니다.",
      "segments": [
       {
-       "file": "e43945bb30b8eb70.mp3",
+       "file": "e43945bb30b8eb70.m4a",
        "speaker": "none",
        "voice": "echo",
        "text": "가: 좋은 하루 보내세요. 나: ___"
@@ -10256,13 +10256,13 @@
      "explanation": "고기를 주문해서 구워 달라고 하는 대화이므로 고깃집입니다.",
      "segments": [
       {
-       "file": "1a27e242a8d9db68.mp3",
+       "file": "1a27e242a8d9db68.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "이 고기 삼인분 주세요. 좀 구워 주세요. /"
       },
       {
-       "file": "698b70ba26022160.mp3",
+       "file": "698b70ba26022160.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "네, 잠시만요."
@@ -10288,13 +10288,13 @@
      "explanation": "서류를 접수하고 번호표를 뽑는 대화이므로 주민센터입니다.",
      "segments": [
       {
-       "file": "96a138a1ccdc9fea.mp3",
+       "file": "96a138a1ccdc9fea.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "여기 서류 접수하려고 하는데요. /"
       },
       {
-       "file": "e5bf4a9e58d0bae5.mp3",
+       "file": "e5bf4a9e58d0bae5.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "네, 번호표 뽑고 기다려 주세요."
@@ -10320,13 +10320,13 @@
      "explanation": "재킷을 입어 보고 탈의실을 안내받는 대화이므로 옷 가게입니다.",
      "segments": [
       {
-       "file": "440ee1126352785f.mp3",
+       "file": "440ee1126352785f.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "이 사이즈 재킷 입어 봐도 돼요? /"
       },
       {
-       "file": "c48b92f3c0473916.mp3",
+       "file": "c48b92f3c0473916.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "네, 탈의실은 저쪽이에요."
@@ -10352,13 +10352,13 @@
      "explanation": "책을 반납하고 빌리는 대화이므로 도서관입니다.",
      "segments": [
       {
-       "file": "3078c3d942678294.mp3",
+       "file": "3078c3d942678294.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "여기 책 반납하고 새로 빌리려고요. /"
       },
       {
-       "file": "4eca8fb18fd8c786.mp3",
+       "file": "4eca8fb18fd8c786.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "네, 회원증 보여 주세요."
@@ -10384,13 +10384,13 @@
      "explanation": "등록금이 올랐다는 이야기이므로 주제는 등록금입니다.",
      "segments": [
       {
-       "file": "dbd69d1cafb1c784.mp3",
+       "file": "dbd69d1cafb1c784.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "이번 학기 등록금이 올랐대요. /"
       },
       {
-       "file": "d6e4f13f80519d17.mp3",
+       "file": "d6e4f13f80519d17.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "네, 저도 들었어요. 걱정이에요."
@@ -10416,13 +10416,13 @@
      "explanation": "뉴스를 보면 우울하다는 이야기이므로 주제는 뉴스입니다.",
      "segments": [
       {
-       "file": "217cced9177be6b4.mp3",
+       "file": "217cced9177be6b4.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "요즘 뉴스 보면 너무 우울해요. /"
       },
       {
-       "file": "5ffa567cdc3f59c8.mp3",
+       "file": "5ffa567cdc3f59c8.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "맞아요, 안 좋은 소식이 많아요."
@@ -10448,13 +10448,13 @@
      "explanation": "식물의 이름과 특징에 대한 대화이므로 주제는 식물입니다.",
      "segments": [
       {
-       "file": "ef636beafb0efb6c.mp3",
+       "file": "ef636beafb0efb6c.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "이 식물 이름이 뭐예요? /"
       },
       {
-       "file": "1835168699612465.mp3",
+       "file": "1835168699612465.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "선인장이에요. 물을 자주 안 줘도 돼요."
@@ -10480,13 +10480,13 @@
      "explanation": "새로 산 신발에 대한 대화이므로 주제는 신발입니다.",
      "segments": [
       {
-       "file": "3cd2f30441bb4f01.mp3",
+       "file": "3cd2f30441bb4f01.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "어제 산 신발 신어 봤어요? /"
       },
       {
-       "file": "ee8ec2a0002317e0.mp3",
+       "file": "ee8ec2a0002317e0.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "네, 정말 편해요."
@@ -10512,13 +10512,13 @@
      "explanation": "남자가 여자의 번호를 확인하고 같이 가자고 안내하는 상황입니다.",
      "segments": [
       {
-       "file": "f9fb45bb4b0dd640.mp3",
+       "file": "f9fb45bb4b0dd640.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "번호표 몇 번이세요? 저랑 같이 가시죠. /"
       },
       {
-       "file": "744449e318c0e8cd.mp3",
+       "file": "744449e318c0e8cd.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "삼십오 번이에요."
@@ -10544,13 +10544,13 @@
      "explanation": "여자의 요청에 남자가 서류에 서명하려는 상황입니다.",
      "segments": [
       {
-       "file": "d90d76129b1174e0.mp3",
+       "file": "d90d76129b1174e0.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "여기 서명 좀 해 주시겠어요? /"
       },
       {
-       "file": "4a70d31698df7f15.mp3",
+       "file": "4a70d31698df7f15.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "네, 여기에 하면 되나요?"
@@ -10576,13 +10576,13 @@
      "explanation": "여자가 남은 음식을 포장해 달라고 요청했습니다.",
      "segments": [
       {
-       "file": "8b6166693e3d9f17.mp3",
+       "file": "8b6166693e3d9f17.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "이 음식 좀 싸 주실 수 있어요? /"
       },
       {
-       "file": "56bb5b70e0532446.mp3",
+       "file": "56bb5b70e0532446.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "네, 포장해 드릴게요."
@@ -10608,13 +10608,13 @@
      "explanation": "할부는 삼 개월까지 가능하다고 했습니다.",
      "segments": [
       {
-       "file": "a3a87c6d6a6fdf09.mp3",
+       "file": "a3a87c6d6a6fdf09.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "이 노트북 할부로 살 수 있어요? /"
       },
       {
-       "file": "3d5a343bb6d6f468.mp3",
+       "file": "3d5a343bb6d6f468.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "네, 삼 개월까지 가능합니다."
@@ -10640,13 +10640,13 @@
      "explanation": "남자는 아직 영화를 보지 않았다고 했습니다.",
      "segments": [
       {
-       "file": "09e4704eb84a595d.mp3",
+       "file": "09e4704eb84a595d.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "이 영화 벌써 봤어요? /"
       },
       {
-       "file": "867e5e4a67148af0.mp3",
+       "file": "867e5e4a67148af0.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "아니요, 아직 안 봤는데 보고 싶었어요."
@@ -10672,13 +10672,13 @@
      "explanation": "회의는 두 시에서 세 시로 변경되었습니다.",
      "segments": [
       {
-       "file": "e3aa51f715ce85b5.mp3",
+       "file": "e3aa51f715ce85b5.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "회의 몇 시로 바뀌었어요? /"
       },
       {
-       "file": "91c44359b4d3294e.mp3",
+       "file": "91c44359b4d3294e.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "두 시에서 세 시로 바뀌었어요."
@@ -10704,13 +10704,13 @@
      "explanation": "바지 수선에 이틀 정도 걸린다고 했습니다.",
      "segments": [
       {
-       "file": "cc015064fd8b01c6.mp3",
+       "file": "cc015064fd8b01c6.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "이 바지 길이 좀 줄여 주시겠어요? /"
       },
       {
-       "file": "a06b8574de3b01f5.mp3",
+       "file": "a06b8574de3b01f5.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "네, 이틀 정도 걸려요."
@@ -10736,7 +10736,7 @@
      "explanation": "여자는 확인 문자를 보내는 것이 시간 낭비를 줄여 준다고 말하고 있습니다.",
      "segments": [
       {
-       "file": "bf76d3257d931a60.mp3",
+       "file": "bf76d3257d931a60.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "\"저는 중요한 약속 전에는 꼭 다시 한번 확인 문자를 보내요. 그러면 서로 시간 낭비하는 일이 줄어들더라고요.\""
@@ -10761,7 +10761,7 @@
      "explanation": "여자의 중심 생각은 실수를 바로 인정하고 사과하는 것이 중요하다는 것입니다.",
      "segments": [
       {
-       "file": "7e04e759fd3a9302.mp3",
+       "file": "7e04e759fd3a9302.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "\"저는 실수했을 때 바로 인정하고 사과하는 게 중요하다고 생각해요. 변명하면 오히려 상황이 더 안 좋아지더라고요.\""
@@ -10786,7 +10786,7 @@
      "explanation": "여자는 여행 전에 역사를 공부하면 더 의미 있게 느껴진다고 말하고 있습니다.",
      "segments": [
       {
-       "file": "d01ad7be78243e8f.mp3",
+       "file": "d01ad7be78243e8f.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "\"저는 여행 가기 전에 그 지역 역사를 미리 공부해요. 그러면 실제로 가서 볼 때 훨씬 더 의미 있게 느껴지거든요.\""
@@ -10811,7 +10811,7 @@
      "explanation": "폭설로 인한 항공편 지연 상황을 안내하기 위한 방송입니다.",
      "segments": [
       {
-       "file": "22488540e1b21c10.mp3",
+       "file": "22488540e1b21c10.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "\"안녕하세요, 승객 여러분. 폭설로 인해 오늘 모든 항공편이 두 시간 이상 지연되고 있습니다. 탑승 시간은 각 게이트 안내판을 통해 다시 확인해 주시기 바랍니다. 불편을 드려 죄송합니다.\""
@@ -10836,7 +10836,7 @@
      "explanation": "탑승 시간은 각 게이트 안내판을 통해 확인해야 한다고 했습니다.",
      "segments": [
       {
-       "file": "22488540e1b21c10.mp3",
+       "file": "22488540e1b21c10.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "\"안녕하세요, 승객 여러분. 폭설로 인해 오늘 모든 항공편이 두 시간 이상 지연되고 있습니다. 탑승 시간은 각 게이트 안내판을 통해 다시 확인해 주시기 바랍니다. 불편을 드려 죄송합니다.\""
@@ -10861,19 +10861,19 @@
      "explanation": "두 사람은 거실에 어울리는 커튼 색깔에 대해 이야기하고 있습니다.",
      "segments": [
       {
-       "file": "e00e643d6c1c6583.mp3",
+       "file": "e00e643d6c1c6583.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "이 커튼 색깔 어때요? 거실에 달려고 하는데. /"
       },
       {
-       "file": "21bf55567a2d5b27.mp3",
+       "file": "21bf55567a2d5b27.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "좀 어두운 것 같아요. 밝은 색이 거실을 더 환하게 만들어 줘요. /"
       },
       {
-       "file": "e6d894791e14ff1d.mp3",
+       "file": "e6d894791e14ff1d.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "그렇군요. 밝은 색으로 다시 골라 볼게요."
@@ -10900,19 +10900,19 @@
      "explanation": "여자는 밝은 색이 거실을 더 환하게 만들어 준다며 밝은 색을 추천했습니다.",
      "segments": [
       {
-       "file": "e00e643d6c1c6583.mp3",
+       "file": "e00e643d6c1c6583.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "이 커튼 색깔 어때요? 거실에 달려고 하는데. /"
       },
       {
-       "file": "21bf55567a2d5b27.mp3",
+       "file": "21bf55567a2d5b27.m4a",
        "speaker": "여자",
        "voice": "nova",
        "text": "좀 어두운 것 같아요. 밝은 색이 거실을 더 환하게 만들어 줘요. /"
       },
       {
-       "file": "e6d894791e14ff1d.mp3",
+       "file": "e6d894791e14ff1d.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "그렇군요. 밝은 색으로 다시 골라 볼게요."
@@ -10939,7 +10939,7 @@
      "explanation": "혼자 찍을 때 실력이 늘지 않는 것 같아서 사진 수업을 듣기 시작했다고 했습니다.",
      "segments": [
       {
-       "file": "4d8674867bb16a01.mp3",
+       "file": "4d8674867bb16a01.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "\"저는 몇 년 동안 사진 찍는 걸 취미로 즐겼는데, 작년부터는 사진 수업도 듣기 시작했습니다. 혼자 찍을 때는 실력이 늘지 않는 것 같아서 전문가에게 제대로 배우고 싶었거든요. 배우고 나니 사진을 보는 눈이 많이 달라졌습니다.\""
@@ -10964,7 +10964,7 @@
      "explanation": "남자는 작년부터 사진 수업을 듣고 있다고 했습니다.",
      "segments": [
       {
-       "file": "4d8674867bb16a01.mp3",
+       "file": "4d8674867bb16a01.m4a",
        "speaker": "남자",
        "voice": "ballad",
        "text": "\"저는 몇 년 동안 사진 찍는 걸 취미로 즐겼는데, 작년부터는 사진 수업도 듣기 시작했습니다. 혼자 찍을 때는 실력이 늘지 않는 것 같아서 전문가에게 제대로 배우고 싶었거든요. 배우고 나니 사진을 보는 눈이 많이 달라졌습니다.\""
@@ -10987,16 +10987,5 @@
   "8d30d79e2b1e": "화자의 중심 생각으로 가장 알맞은 것을 고르십시오.",
   "91f2b7608851": "화자가 왜 이렇게 말하는지 고르십시오.",
   "3514c9a161c4": "화자가 그렇게 말한 이유를 고르십시오."
- },
- "ruleGain": {
-  "6f86c751e07a": 9.22,
-  "0a6780c87db2": 12.0,
-  "e93129f9a472": 9.65,
-  "c3c7db0c072b": 12.0,
-  "8ba2753d7283": 11.01,
-  "3c6fa01cbaaa": 12.0,
-  "8d30d79e2b1e": 12.0,
-  "91f2b7608851": 7.08,
-  "3514c9a161c4": 8.75
  }
 }
