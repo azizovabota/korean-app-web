@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import Link from 'next/link';
 import { useParams } from 'next/navigation';
 import { colors, typography, spacing } from '@/constants/colors';
@@ -9,6 +9,51 @@ import { clearMistake, getProfile, recordLessonCompleted, recordMistake, type Go
 
 const WRONG = '#EF4444';
 const RIGHT = '#10B981';
+
+function RuleGate({ skill, onContinue }: { skill: string; onContinue: () => void }) {
+  const [ended, setEnded] = useState(false);
+  const instruction = (data as { readingRules: Record<string, string> }).readingRules[skill];
+  const src = `/audio/reading/rules/${skill}.m4a`;
+  const audioRef = useRef<HTMLAudioElement | null>(null);
+
+  const play = () => {
+    audioRef.current?.pause();
+    const audio = new Audio(src);
+    audioRef.current = audio;
+    audio.onended = () => setEnded(true);
+    audio.play().catch(() => undefined);
+  };
+
+  useEffect(() => {
+    play();
+    return () => audioRef.current?.pause();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [skill]);
+
+  return (
+    <div style={{ minHeight: '100vh', backgroundColor: colors.lightGray, padding: spacing.lg }}>
+      <div style={{ maxWidth: '600px', margin: '0 auto', paddingTop: spacing.xl }}>
+        <p style={{ fontSize: typography.sizes.sm, color: colors.darkGray, fontWeight: 'bold', margin: `0 0 ${spacing.md} 0` }}>Правило задания</p>
+        <div style={{ backgroundColor: colors.white, borderRadius: '16px', padding: spacing.lg, marginBottom: spacing.lg }}>
+          <p style={{ fontSize: typography.sizes.lg, color: colors.black, fontWeight: '600', lineHeight: '1.8', margin: `0 0 ${spacing.lg} 0` }}>{instruction}</p>
+          <button
+            onClick={play}
+            style={{ width: '100%', backgroundColor: '#F3E8FF', color: colors.primary, border: `2px solid ${colors.primary}`, borderRadius: '12px', padding: spacing.lg, fontSize: typography.sizes.base, fontWeight: '600', cursor: 'pointer' }}
+          >
+            🔊 Прослушать правило
+          </button>
+        </div>
+        <button
+          onClick={onContinue}
+          disabled={!ended}
+          style={{ width: '100%', background: colors.gradient, color: colors.white, border: 'none', borderRadius: '12px', padding: spacing.lg, fontSize: typography.sizes.base, fontWeight: '600', cursor: ended ? 'pointer' : 'not-allowed', opacity: ended ? 1 : 0.5 }}
+        >
+          {ended ? 'Начать →' : 'Слушайте правило...'}
+        </button>
+      </div>
+    </div>
+  );
+}
 
 export default function TopikBeginnerQuizPage() {
   const params = useParams();
@@ -21,6 +66,7 @@ export default function TopikBeginnerQuizPage() {
   const [answers, setAnswers] = useState<(number | null)[]>([]);
   const [finished, setFinished] = useState(false);
   const [goal, setGoal] = useState<Goal | null | undefined>(undefined);
+  const [acknowledged, setAcknowledged] = useState<Set<string>>(new Set());
 
   useEffect(() => {
     getProfile().then((p) => setGoal(p?.goal ?? null));
@@ -52,6 +98,7 @@ export default function TopikBeginnerQuizPage() {
   const lessonKey = `topik12-${lesson.number}`;
 
   const restart = () => {
+    setAcknowledged(new Set());
     setIndex(0);
     setSelected(null);
     setShowStudy(false);
@@ -94,6 +141,17 @@ export default function TopikBeginnerQuizPage() {
   }
 
   const question = lesson.questions[index];
+
+  if (!acknowledged.has(question.skill)) {
+    return (
+      <RuleGate
+        key={question.skill}
+        skill={question.skill}
+        onContinue={() => setAcknowledged(new Set([...acknowledged, question.skill]))}
+      />
+    );
+  }
+
   const answered = selected !== null;
   const isWrong = answered && selected !== question.correct;
 
