@@ -16,9 +16,9 @@ function unlockAudio() {
   audioContext.resume();
 }
 
-function playWithGain(src: string, gainDb: number, onEnd?: () => void): HTMLAudioElement {
+function playWithGain(src: string, gainDb: number, onEnd?: () => void, playbackRate = QUESTION_PLAYBACK_RATE): HTMLAudioElement {
   const audio = new Audio(src);
-  audio.playbackRate = QUESTION_PLAYBACK_RATE;
+  audio.playbackRate = playbackRate;
   if (onEnd) audio.onended = onEnd;
   audio.onerror = () => onEnd?.();
   if (audioContext && audioContext.state === 'running' && Math.abs(gainDb) > 0.5) {
@@ -60,7 +60,7 @@ export default function ListeningSetPage() {
 
   const playRule = (ruleId: string, onEnd: () => void) => {
     audioRef.current?.pause();
-    audioRef.current = playWithGain(`/audio/listening/rules/${ruleId}.m4a`, 0, onEnd);
+    audioRef.current = playWithGain(`/audio/listening/rules/${ruleId}.m4a`, 0, onEnd, 1);
   };
 
   const playQuestion = (q: { segments: { file: string; gainDb?: number }[] }) => {
