@@ -22,6 +22,15 @@ export interface MistakeRow {
   user_answer: string;
   correct_answer: string;
   created_at: string;
+  due_at: string;
+  interval_days: number;
+  reps: number;
+}
+
+const REVIEW_LADDER_DAYS = [1, 3, 7, 14, 30];
+
+function daysFromNow(days: number) {
+  return new Date(Date.now() + days * 24 * 60 * 60 * 1000).toISOString();
 }
 
 export async function getUserId(): Promise<string | null> {
@@ -66,25 +75,65 @@ export async function recordLessonCompleted(lessonKey: string, score: number, to
   });
 }
 
+const MISTAKE_FIELDS = 'question_key, source, prompt, user_answer, correct_answer, created_at, due_at, interval_days, reps';
+
 export async function getMistakes(): Promise<MistakeRow[]> {
   const userId = await getUserId();
   if (!userId) return [];
   const { data } = await supabase
     .from('mistakes')
-    .select('question_key, source, prompt, user_answer, correct_answer, created_at')
+    .select(MISTAKE_FIELDS)
     .eq('user_id', userId)
     .order('created_at', { ascending: false });
   return (data as MistakeRow[]) ?? [];
 }
 
-export async function recordMistake(row: Omit<MistakeRow, 'created_at'>) {
+export async function getDueMistakes(): Promise<MistakeRow[]> {
   const userId = await getUserId();
-  if (!userId) return;
-  await supabase.from('mistakes').upsert({ user_id: userId, ...row, created_at: new Date().toISOString() });
+  if (!userId) return [];
+  const { data } = await supabase
+    .from('mistakes')
+    .select(MISTAKE_FIELDS)
+    .eq('user_id', userId)
+    .lte('due_at', new Date().toISOString())
+    .order('due_at', { ascending: true });
+  return (data as MistakeRow[]) ?? [];
 }
 
-export async function clearMistake(questionKey: string) {
+export async function recordMistake(row: Pick<MistakeRow, 'question_key' | 'source' | 'prompt' | 'user_answer' | 'correct_answer'>) {
   const userId = await getUserId();
   if (!userId) return;
-  await supabase.from('mistakes').delete().eq('user_id', userId).eq('question_key', questionKey);
+  await supabase.from('mistakes').upsert({
+    user_id: userId,
+    ...row,
+    created_at: new Date().toISOString(),
+    due_at: daysFromNow(REVIEW_LADDER_DAYS[0]),
+    interval_days: REVIEW_LADDER_DAYS[0],
+    reps: 0,
+  });
+}
+
+export async function recordReviewResult(questionKey: string, correct: boolean) {
+  const userId = await getUserId();
+  if (!userId) return;
+  const { data } = await supabase
+    .from('mistakes')
+    .select('reps')
+    .eq('user_id', userId)
+    .eq('question_key', questionKey)
+    .maybeSingle();
+  if (!data) return;
+  if (!correct) {
+    await supabase.from('mistakes').update({ reps: 0, interval_days: REVIEW_LADDER_DAYS[0], due_at: daysFromNow(REVIEW_LADDER_DAYS[0]) })
+      .eq('user_id', userId).eq('question_key', questionKey);
+    return;
+  }
+  const reps = data.reps + 1;
+  if (reps >= REVIEW_LADDER_DAYS.length) {
+    await supabase.from('mistakes').delete().eq('user_id', userId).eq('question_key', questionKey);
+    return;
+  }
+  const interval = REVIEW_LADDER_DAYS[reps];
+  await supabase.from('mistakes').update({ reps, interval_days: interval, due_at: daysFromNow(interval) })
+    .eq('user_id', userId).eq('question_key', questionKey);
 }

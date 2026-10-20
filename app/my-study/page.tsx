@@ -3,7 +3,7 @@
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
 import { colors, typography, spacing } from '@/constants/colors';
-import { getLessonProgress, getMistakes, type LessonProgressRow, type MistakeRow } from '@/lib/account';
+import { getDueMistakes, getLessonProgress, getMistakes, type LessonProgressRow, type MistakeRow } from '@/lib/account';
 
 type StudyTab = 'learning' | 'incorrect';
 
@@ -33,10 +33,12 @@ export default function MyStudyPage() {
   const [tab, setTab] = useState<StudyTab>('learning');
   const [lessons, setLessons] = useState<LessonProgressRow[] | null>(null);
   const [mistakes, setMistakes] = useState<MistakeRow[] | null>(null);
+  const [dueCount, setDueCount] = useState(0);
 
   useEffect(() => {
     getLessonProgress().then(setLessons);
     getMistakes().then(setMistakes);
+    getDueMistakes().then((rows) => setDueCount(rows.length));
   }, []);
 
   const tabs: { id: StudyTab; label: string }[] = [
@@ -98,6 +100,11 @@ export default function MyStudyPage() {
 
         {tab === 'incorrect' && (
           <>
+            <Link href="/review" style={{ display: 'block', textDecoration: 'none', marginBottom: spacing.lg }}>
+              <div style={{ background: colors.gradient, color: colors.white, borderRadius: '12px', padding: spacing.lg, textAlign: 'center', fontWeight: '600' }}>
+                🔁 Повторить сегодня ({dueCount})
+              </div>
+            </Link>
             {mistakes === null && <p style={{ color: colors.darkGray }}>Загрузка...</p>}
             {mistakes?.length === 0 && (
               <div style={{ backgroundColor: colors.white, borderRadius: '16px', padding: spacing.lg, color: colors.darkGray, fontSize: typography.sizes.sm }}>

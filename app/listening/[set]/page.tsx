@@ -4,7 +4,7 @@ import { useEffect, useRef, useState } from 'react';
 import Link from 'next/link';
 import { useParams } from 'next/navigation';
 import { colors, typography, spacing } from '@/constants/colors';
-import { clearMistake, getProfile, recordLessonCompleted, recordMistake, type Goal } from '@/lib/account';
+import { getProfile, recordLessonCompleted, recordMistake, type Goal } from '@/lib/account';
 import data from '@/data/listeningTopik.json';
 
 const RIGHT = '#10B981';
@@ -129,7 +129,6 @@ export default function ListeningSetPage() {
     const key = `listening-${question.id}`;
     if (i === question.correct) {
       setCorrectCount((c) => c + 1);
-      clearMistake(key);
     } else {
       recordMistake({
         question_key: key,

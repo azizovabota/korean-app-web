@@ -3,7 +3,7 @@
 import { useState } from 'react';
 import Link from 'next/link';
 import { colors, typography, spacing } from '@/constants/colors';
-import { clearMistake, recordMistake } from '@/lib/account';
+import { recordMistake } from '@/lib/account';
 
 export interface CiItem {
   id: string;
@@ -148,10 +148,7 @@ export function CiExercise({ items, mode, title, backHref, onDecide, onRestart, 
   const finishItem = (wasSolved: boolean) => {
     setChecked(true);
     setSolved(wasSolved);
-    if (wasSolved) {
-      setCorrectCount((c) => c + 1);
-      clearMistake(`ci-${item.id}`);
-    }
+    if (wasSolved) setCorrectCount((c) => c + 1);
   };
 
   const recordWrongAnswer = (guess: string) => {

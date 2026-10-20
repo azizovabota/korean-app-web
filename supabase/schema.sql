@@ -35,3 +35,7 @@ create policy "own progress" on public.lesson_progress for all
   using (auth.uid() = user_id) with check (auth.uid() = user_id);
 create policy "own mistakes" on public.mistakes for all
   using (auth.uid() = user_id) with check (auth.uid() = user_id);
+
+alter table public.mistakes add column if not exists due_at timestamptz not null default now();
+alter table public.mistakes add column if not exists interval_days integer not null default 1;
+alter table public.mistakes add column if not exists reps integer not null default 0;

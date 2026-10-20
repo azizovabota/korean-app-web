@@ -5,7 +5,7 @@ import Link from 'next/link';
 import { useParams } from 'next/navigation';
 import { colors, typography, spacing } from '@/constants/colors';
 import data from '@/data/topikBeginnerReading.json';
-import { clearMistake, getProfile, recordLessonCompleted, recordMistake, type Goal } from '@/lib/account';
+import { getProfile, recordLessonCompleted, recordMistake, type Goal } from '@/lib/account';
 
 const WRONG = '#EF4444';
 const RIGHT = '#10B981';
@@ -116,9 +116,7 @@ export default function TopikBeginnerQuizPage() {
     if (answered) return;
     setSelected(i);
     const mistakeKey = `${lessonKey}-${question.number}`;
-    if (i === question.correct) {
-      clearMistake(mistakeKey);
-    } else {
+    if (i !== question.correct) {
       recordMistake({
         question_key: mistakeKey,
         source: 'topik12',
