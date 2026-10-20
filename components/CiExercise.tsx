@@ -49,8 +49,11 @@ function speakFallback(text: string) {
   window.speechSynthesis.speak(utterance);
 }
 
+const CI_PLAYBACK_RATE = 0.85;
+
 function playItem(item: CiItem) {
   const audio = new Audio(`/audio/ci/${item.id}.mp3`);
+  audio.playbackRate = CI_PLAYBACK_RATE;
   audio.play().catch(() => speakFallback(item.full));
 }
 
