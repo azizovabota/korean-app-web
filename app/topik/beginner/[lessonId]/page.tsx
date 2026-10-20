@@ -101,7 +101,13 @@ export default function TopikBeginnerQuizPage() {
   while (groupLast + 1 < total && lesson.questions[groupLast + 1].skill === question.skill) groupLast += 1;
   const showGroupHeader = groupFirst === index;
   const instruction = (data as { readingRules: Record<string, string> }).readingRules[question.skill];
-  const rangeLabel = `[${lesson.questions[groupFirst].number}～${lesson.questions[groupLast].number}]`;
+  const firstNumber = lesson.questions[groupFirst].number;
+  const lastNumber = lesson.questions[groupLast].number;
+  const rangeLabel = firstNumber === lastNumber ? `[${firstNumber}]` : `[${firstNumber}～${lastNumber}]`;
+  const stem = question.prompt
+    .split(/\n| \/ /)
+    .filter((part) => !/고르십시오|고르세요/.test(part))
+    .join('\n');
 
   const answered = selected !== null;
   const isWrong = answered && selected !== question.correct;
@@ -166,7 +172,7 @@ export default function TopikBeginnerQuizPage() {
             Вопрос #{question.number}
           </p>
           <p style={{ fontSize: typography.sizes.base, color: colors.black, fontWeight: '600', lineHeight: '1.7', whiteSpace: 'pre-line', margin: 0 }}>
-            {question.prompt}
+            {stem}
           </p>
         </div>
 
