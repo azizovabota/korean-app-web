@@ -199,7 +199,7 @@ export default function ListeningSetPage() {
         <div style={{ maxWidth: '600px', margin: '0 auto', padding: spacing.lg }}>
           <div style={cardStyle}>
             <p style={{ fontSize: typography.sizes.sm, color: colors.darkGray, fontWeight: 'bold', margin: `0 0 ${spacing.md} 0` }}>
-              Правило раздела · вопросы {section.start}–{section.end}
+              Правило раздела · {section.start === section.end ? `вопрос ${section.start}` : `вопросы ${section.start}–${section.end}`}
             </p>
             <p style={{ fontSize: typography.sizes.lg, color: colors.black, fontWeight: '600', lineHeight: '1.8', margin: `0 0 ${spacing.lg} 0` }}>
               {section.instruction}

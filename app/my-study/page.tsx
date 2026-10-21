@@ -22,6 +22,8 @@ const sourceLabels: Record<string, string> = {
 
 function lessonTitle(key: string) {
   if (key.startsWith('listening-')) return `Listening ${key.replace('listening-', '')}`;
+  const match = key.match(/^topik12-(\d+)-s(\d+)$/);
+  if (match) return `Reading Lesson ${match[1]} · Question-${match[2]}`;
   return `Reading Lesson ${key.replace('topik12-', '')}`;
 }
 

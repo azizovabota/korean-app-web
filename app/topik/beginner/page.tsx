@@ -5,12 +5,15 @@ import Link from 'next/link';
 import { getLessonProgress, getProfile, type Goal } from '@/lib/account';
 import { colors, typography, spacing } from '@/constants/colors';
 import data from '@/data/topikBeginnerReading.json';
+import { READING_SET_RANGES } from '@/lib/readingSets';
 
 const RIGHT = '#10B981';
 
 export default function TopikBeginnerLessonsPage() {
   const [goal, setGoal] = useState<Goal | null | undefined>(undefined);
   const [completed, setCompleted] = useState<Set<string>>(new Set());
+  const isLessonDone = (number: number) =>
+    READING_SET_RANGES.every((_, i) => completed.has(`topik12-${number}-s${i + 1}`));
 
   useEffect(() => {
     getProfile().then((p) => setGoal(p?.goal ?? null));
@@ -69,8 +72,8 @@ export default function TopikBeginnerLessonsPage() {
                   {lesson.questions.length} вопросов · {lesson.questionSet}
                 </p>
               </div>
-              <span style={{ fontSize: typography.sizes.lg, color: completed.has(`topik12-${lesson.number}`) ? RIGHT : colors.primary }}>
-                {completed.has(`topik12-${lesson.number}`) ? '✓' : '→'}
+              <span style={{ fontSize: typography.sizes.lg, color: isLessonDone(lesson.number) ? RIGHT : colors.primary }}>
+                {isLessonDone(lesson.number) ? '✓' : '→'}
               </span>
             </div>
           </Link>
