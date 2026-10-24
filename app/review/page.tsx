@@ -9,6 +9,7 @@ import topikIntermediate from '@/data/topikIntermediateReading.json';
 import topikAdvanced from '@/data/topikAdvancedReading.json';
 import listening from '@/data/listeningTopik.json';
 import listeningIntermediate from '@/data/listeningIntermediate.json';
+import listeningAdvanced from '@/data/listeningAdvanced.json';
 import ci from '@/data/ciBeginner.json';
 
 type ChoiceItem = {
@@ -56,9 +57,9 @@ function buildItem(row: MistakeRow): ReviewItem | null {
     return { key, kind: 'choice', prompt: stemOf(q.prompt), options: q.options, correct: q.correct, explanation: q.explanation, audio: [] };
   }
 
-  if (key.startsWith('listening-') || key.startsWith('listening34-')) {
-    const id = key.replace(/^listening(34)?-/, '');
-    const source = key.startsWith('listening34-') ? listeningIntermediate : listening;
+  if (/^listening(34|56)?-/.test(key)) {
+    const id = key.replace(/^listening(34|56)?-/, '');
+    const source = key.startsWith('listening56-') ? listeningAdvanced : key.startsWith('listening34-') ? listeningIntermediate : listening;
     const q = source.lessons.flatMap((l) => l.questions).find((x) => x.id === id);
     if (!q) return null;
     return {

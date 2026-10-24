@@ -17,8 +17,9 @@ export default function ListeningListPage() {
 
   useEffect(() => {
     getProfile().then((p) => {
-      if (p?.goal === 'topik_3_4') {
-        router.replace('/listening/intermediate');
+      const track = p?.goal === 'topik_3_4' ? '/listening/intermediate' : p?.goal === 'topik_5_6' ? '/listening/advanced' : null;
+      if (track) {
+        router.replace(track);
         return;
       }
       setGoal(p?.goal ?? null);
