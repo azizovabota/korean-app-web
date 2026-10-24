@@ -50,6 +50,7 @@ export default function ListeningSetPage() {
   const [phase, setPhase] = useState<Phase>('rule');
   const [ruleEnded, setRuleEnded] = useState(false);
   const [selected, setSelected] = useState<number | null>(null);
+  const [showStudy, setShowStudy] = useState(false);
   const [correctCount, setCorrectCount] = useState(0);
   const audioRef = useRef<HTMLAudioElement | null>(null);
 
@@ -126,6 +127,7 @@ export default function ListeningSetPage() {
     setPhase('question');
     setQIdx(0);
     setSelected(null);
+    setShowStudy(false);
   };
 
   const answer = (i: number) => {
@@ -148,6 +150,7 @@ export default function ListeningSetPage() {
   const next = () => {
     if (!section) return;
     setSelected(null);
+    setShowStudy(false);
     if (qIdx < sectionQuestions.length - 1) {
       setQIdx(qIdx + 1);
       return;
@@ -291,6 +294,26 @@ export default function ListeningSetPage() {
               {isRight ? 'Правильно!' : 'Неправильно'}
             </p>
             <p style={{ fontSize: typography.sizes.sm, color: colors.black, lineHeight: '1.6', margin: 0 }}>{question.explanation}</p>
+          </div>
+        )}
+
+        {answered && (
+          <button
+            onClick={() => setShowStudy(!showStudy)}
+            style={{ width: '100%', backgroundColor: colors.white, color: colors.primary, border: `2px solid ${colors.primary}`, borderRadius: '12px', padding: spacing.md, fontWeight: '600', cursor: 'pointer', marginBottom: spacing.md }}
+          >
+            {showStudy ? 'Скрыть тему' : '📖 Изучить тему'}
+          </button>
+        )}
+
+        {answered && showStudy && (
+          <div style={{ ...cardStyle, borderLeft: `4px solid ${colors.primary}` }}>
+            <p style={{ fontSize: typography.sizes.sm, fontWeight: 'bold', color: colors.primary, margin: `0 0 ${spacing.sm} 0` }}>Текст аудио</p>
+            <div style={{ display: 'flex', flexDirection: 'column', gap: spacing.xs }}>
+              {question.display.map((line, i) => (
+                <p key={i} style={{ fontSize: typography.sizes.sm, color: colors.black, lineHeight: '1.6', margin: 0 }}>{line}</p>
+              ))}
+            </div>
           </div>
         )}
 
