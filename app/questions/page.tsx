@@ -24,7 +24,7 @@ const sections: LessonSection[] = [
     title: 'Topik',
     cards: [
       { id: 'listening', title: '듣기', korean: 'Понимание на слух', icon: '🎧', href: '/listening' },
-      { id: 'reading', title: '읽기', korean: 'Понимание текста', icon: '📖', href: '/topik/beginner' },
+      { id: 'reading', title: '읽기', korean: 'Понимание текста', icon: '📖', href: '/reading' },
       { id: 'writing', title: '쓰기', korean: 'Практика письма', icon: '✍️' },
     ],
   },
