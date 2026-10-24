@@ -3,6 +3,7 @@
 import { useEffect, useState, type ReactNode } from 'react';
 import { usePathname, useRouter } from 'next/navigation';
 import { supabase } from '@/lib/supabase';
+import { isLevelChosen } from '@/lib/levelSession';
 
 export function AuthGate({ children }: { children: ReactNode }) {
   const pathname = usePathname();
@@ -20,6 +21,8 @@ export function AuthGate({ children }: { children: ReactNode }) {
       if (!active) return;
       if (!data.session) {
         router.replace('/auth/login');
+      } else if (pathname !== '/choose-level' && !isLevelChosen()) {
+        router.replace('/choose-level');
       } else {
         setReady(true);
       }

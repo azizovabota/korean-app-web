@@ -16,6 +16,7 @@ const navItems = [
 
 const sourceLabels: Record<string, string> = {
   topik12: 'TOPIK 1–2 · чтение',
+  topik34: 'TOPIK 3–4 · чтение',
   listening: 'TOPIK 1–2 · аудирование',
   ci: 'CI',
 };
@@ -24,9 +25,10 @@ function lessonTitle(key: string) {
   const partMatch = key.match(/^listening-(\d+)-p(\d+)$/);
   if (partMatch) return `Listening ${partMatch[1]} · Question-${partMatch[2]}`;
   if (key.startsWith('listening-')) return `Listening ${key.replace('listening-', '')}`;
-  const match = key.match(/^topik12-(\d+)-s(\d+)$/);
-  if (match) return `Reading Lesson ${match[1]} · Question-${match[2]}`;
-  return `Reading Lesson ${key.replace('topik12-', '')}`;
+  const match = key.match(/^topik(12|34)-(\d+)-s(\d+)$/);
+  if (match) return `Reading Lesson ${match[2]} · Question-${match[3]}`;
+  const prefix = key.startsWith('topik34-') ? 'topik34-' : 'topik12-';
+  return `Reading Lesson ${key.replace(prefix, '')}`;
 }
 
 function formatDate(iso: string) {

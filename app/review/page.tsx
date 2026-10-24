@@ -5,6 +5,7 @@ import Link from 'next/link';
 import { colors, typography, spacing } from '@/constants/colors';
 import { getDueMistakes, recordReviewResult, type MistakeRow } from '@/lib/account';
 import topik from '@/data/topikBeginnerReading.json';
+import topikIntermediate from '@/data/topikIntermediateReading.json';
 import listening from '@/data/listeningTopik.json';
 import ci from '@/data/ciBeginner.json';
 
@@ -44,9 +45,10 @@ function stemOf(text: string) {
 function buildItem(row: MistakeRow): ReviewItem | null {
   const key = row.question_key;
 
-  if (key.startsWith('topik12-')) {
+  if (key.startsWith('topik12-') || key.startsWith('topik34-')) {
     const [, lessonNo, questionNo] = key.split('-');
-    const lesson = topik.lessons.find((l) => l.number === Number(lessonNo));
+    const source = key.startsWith('topik34-') ? topikIntermediate : topik;
+    const lesson = source.lessons.find((l) => l.number === Number(lessonNo));
     const q = lesson?.questions.find((x) => x.number === Number(questionNo));
     if (!q) return null;
     return { key, kind: 'choice', prompt: stemOf(q.prompt), options: q.options, correct: q.correct, explanation: q.explanation, audio: [] };
