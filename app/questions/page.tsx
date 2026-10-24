@@ -37,7 +37,13 @@ const sections: LessonSection[] = [
       { id: 'ci-advanced', title: 'Продвинутый', korean: 'Продвинутый', icon: '🌳', href: '/ci/advanced' },
     ],
   },
-  { id: 'vocabulary', title: 'Практика слов', cards: [] },
+  {
+    id: 'vocabulary',
+    title: 'Практика слов',
+    cards: [
+      { id: 'cheatsheets', title: 'Шпаргалки', korean: '요약 정리', icon: '📝', href: '/cheatsheets' },
+    ],
+  },
 ];
 
 const navItems = [

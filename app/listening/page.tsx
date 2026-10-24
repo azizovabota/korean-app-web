@@ -5,6 +5,7 @@ import Link from 'next/link';
 import { colors, typography, spacing } from '@/constants/colors';
 import { getLessonProgress, getProfile, type Goal } from '@/lib/account';
 import data from '@/data/listeningTopik.json';
+import { LISTENING_PART_RANGES } from '@/lib/listeningParts';
 
 const RIGHT = '#10B981';
 
@@ -36,7 +37,7 @@ export default function ListeningListPage() {
 
         {(goal === 'topik_1_2' || goal === undefined) &&
           data.lessons.map((lesson) => {
-            const done = completed.has(`listening-${lesson.number}`);
+            const done = LISTENING_PART_RANGES.every((_, i) => completed.has(`listening-${lesson.number}-p${i + 1}`));
             return (
               <Link key={lesson.number} href={`/listening/${lesson.number}`} style={{ textDecoration: 'none' }}>
                 <div style={{ backgroundColor: colors.white, borderRadius: '16px', padding: spacing.lg, display: 'flex', justifyContent: 'space-between', alignItems: 'center', boxShadow: '0 4px 12px rgba(0, 180, 216, 0.1)' }}>

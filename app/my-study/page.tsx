@@ -21,6 +21,8 @@ const sourceLabels: Record<string, string> = {
 };
 
 function lessonTitle(key: string) {
+  const partMatch = key.match(/^listening-(\d+)-p(\d+)$/);
+  if (partMatch) return `Listening ${partMatch[1]} · Question-${partMatch[2]}`;
   if (key.startsWith('listening-')) return `Listening ${key.replace('listening-', '')}`;
   const match = key.match(/^topik12-(\d+)-s(\d+)$/);
   if (match) return `Reading Lesson ${match[1]} · Question-${match[2]}`;
