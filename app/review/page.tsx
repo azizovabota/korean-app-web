@@ -6,7 +6,9 @@ import { colors, typography, spacing } from '@/constants/colors';
 import { getDueMistakes, recordReviewResult, type MistakeRow } from '@/lib/account';
 import topik from '@/data/topikBeginnerReading.json';
 import topikIntermediate from '@/data/topikIntermediateReading.json';
+import topikAdvanced from '@/data/topikAdvancedReading.json';
 import listening from '@/data/listeningTopik.json';
+import listeningIntermediate from '@/data/listeningIntermediate.json';
 import ci from '@/data/ciBeginner.json';
 
 type ChoiceItem = {
@@ -45,18 +47,19 @@ function stemOf(text: string) {
 function buildItem(row: MistakeRow): ReviewItem | null {
   const key = row.question_key;
 
-  if (key.startsWith('topik12-') || key.startsWith('topik34-')) {
+  if (/^topik(12|34|56)-/.test(key)) {
     const [, lessonNo, questionNo] = key.split('-');
-    const source = key.startsWith('topik34-') ? topikIntermediate : topik;
+    const source = key.startsWith('topik56-') ? topikAdvanced : key.startsWith('topik34-') ? topikIntermediate : topik;
     const lesson = source.lessons.find((l) => l.number === Number(lessonNo));
     const q = lesson?.questions.find((x) => x.number === Number(questionNo));
     if (!q) return null;
     return { key, kind: 'choice', prompt: stemOf(q.prompt), options: q.options, correct: q.correct, explanation: q.explanation, audio: [] };
   }
 
-  if (key.startsWith('listening-')) {
-    const id = key.replace('listening-', '');
-    const q = listening.lessons.flatMap((l) => l.questions).find((x) => x.id === id);
+  if (key.startsWith('listening-') || key.startsWith('listening34-')) {
+    const id = key.replace(/^listening(34)?-/, '');
+    const source = key.startsWith('listening34-') ? listeningIntermediate : listening;
+    const q = source.lessons.flatMap((l) => l.questions).find((x) => x.id === id);
     if (!q) return null;
     return {
       key,
