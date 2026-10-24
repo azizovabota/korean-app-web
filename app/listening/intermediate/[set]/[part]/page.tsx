@@ -7,6 +7,10 @@ import { colors, typography, spacing } from '@/constants/colors';
 import { getProfile, recordLessonCompleted, recordMistake, type Goal } from '@/lib/account';
 import data from '@/data/listeningIntermediate.json';
 import { LISTENING_PART_RANGES } from '@/lib/listeningParts';
+import studyRaw from '@/data/listeningStudy.json';
+import type { ListeningStudyData } from '@/lib/readingData';
+
+const studyData = studyRaw as ListeningStudyData;
 
 const RIGHT = '#10B981';
 
@@ -312,6 +316,40 @@ export default function ListeningSetPage() {
             <div style={{ display: 'flex', flexDirection: 'column', gap: spacing.xs }}>
               {question.display.map((line, i) => (
                 <p key={i} style={{ fontSize: typography.sizes.sm, color: colors.black, lineHeight: '1.6', margin: 0 }}>{line}</p>
+              ))}
+            </div>
+          </div>
+        )}
+
+        {answered && showStudy && studyData[question.id]?.grammar.length > 0 && (
+          <div style={{ ...cardStyle, borderLeft: `4px solid ${colors.primary}` }}>
+            <p style={{ fontSize: typography.sizes.sm, fontWeight: 'bold', color: colors.primary, margin: `0 0 ${spacing.sm} 0` }}>Грамматика</p>
+            <div style={{ display: 'flex', flexDirection: 'column', gap: spacing.md }}>
+              {studyData[question.id].grammar.map((g) => (
+                <div key={g.pattern}>
+                  <p style={{ fontSize: typography.sizes.sm, margin: 0, color: colors.black, lineHeight: '1.5' }}>
+                    <strong>{g.pattern}</strong> — {g.meaning}
+                  </p>
+                  {g.examples.map((ex) => (
+                    <div key={ex.ko} style={{ marginTop: spacing.sm, marginLeft: spacing.sm, paddingLeft: spacing.md, borderLeft: `2px solid ${colors.primaryLight}` }}>
+                      <p style={{ fontSize: typography.sizes.sm, margin: 0, color: colors.black }}>{ex.ko}</p>
+                      <p style={{ fontSize: typography.sizes.xs, margin: '2px 0 0 0', color: colors.darkGray }}>{ex.ru}</p>
+                    </div>
+                  ))}
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
+
+        {answered && showStudy && studyData[question.id]?.words.length > 0 && (
+          <div style={{ ...cardStyle, borderLeft: `4px solid ${colors.primary}` }}>
+            <p style={{ fontSize: typography.sizes.sm, fontWeight: 'bold', color: colors.primary, margin: `0 0 ${spacing.sm} 0` }}>Слова</p>
+            <div style={{ display: 'flex', flexDirection: 'column', gap: spacing.xs }}>
+              {studyData[question.id].words.map((w) => (
+                <p key={w.word} style={{ fontSize: typography.sizes.sm, margin: 0, color: colors.black }}>
+                  <strong>{w.word}</strong> — {w.translation}
+                </p>
               ))}
             </div>
           </div>
