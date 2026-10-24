@@ -1,6 +1,7 @@
 'use client';
 
 import { useEffect, useState } from 'react';
+import { useRouter } from 'next/navigation';
 import Link from 'next/link';
 import { colors, typography, spacing } from '@/constants/colors';
 import { getLessonProgress, getProfile, type Goal } from '@/lib/account';
@@ -10,13 +11,20 @@ import { LISTENING_PART_RANGES } from '@/lib/listeningParts';
 const RIGHT = '#10B981';
 
 export default function ListeningListPage() {
+  const router = useRouter();
   const [goal, setGoal] = useState<Goal | null | undefined>(undefined);
   const [completed, setCompleted] = useState<Set<string>>(new Set());
 
   useEffect(() => {
-    getProfile().then((p) => setGoal(p?.goal ?? null));
+    getProfile().then((p) => {
+      if (p?.goal === 'topik_3_4') {
+        router.replace('/listening/intermediate');
+        return;
+      }
+      setGoal(p?.goal ?? null);
+    });
     getLessonProgress().then((rows) => setCompleted(new Set(rows.map((r) => r.lesson_key))));
-  }, []);
+  }, [router]);
 
   return (
     <div style={{ minHeight: '100vh', backgroundColor: colors.lightGray, paddingBottom: '80px' }}>

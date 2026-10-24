@@ -8,6 +8,7 @@ import { getProfile, type Goal } from '@/lib/account';
 const READING_BY_GOAL: Partial<Record<Goal, string>> = {
   topik_1_2: '/topik/beginner',
   topik_3_4: '/topik/intermediate',
+  topik_5_6: '/topik/advanced',
 };
 
 export default function ReadingPage() {

@@ -17,17 +17,20 @@ const navItems = [
 const sourceLabels: Record<string, string> = {
   topik12: 'TOPIK 1–2 · чтение',
   topik34: 'TOPIK 3–4 · чтение',
+  topik56: 'TOPIK 5–6 · чтение',
   listening: 'TOPIK 1–2 · аудирование',
+  listening34: 'TOPIK 3–4 · аудирование',
   ci: 'CI',
 };
 
 function lessonTitle(key: string) {
-  const partMatch = key.match(/^listening-(\d+)-p(\d+)$/);
-  if (partMatch) return `Listening ${partMatch[1]} · Question-${partMatch[2]}`;
+  const partMatch = key.match(/^listening(34)?-(\d+)-p(\d+)$/);
+  if (partMatch) return `Listening ${partMatch[2]} · Question-${partMatch[3]}`;
+  if (key.startsWith('listening34-')) return `Listening ${key.replace('listening34-', '')}`;
   if (key.startsWith('listening-')) return `Listening ${key.replace('listening-', '')}`;
-  const match = key.match(/^topik(12|34)-(\d+)-s(\d+)$/);
+  const match = key.match(/^topik(12|34|56)-(\d+)-s(\d+)$/);
   if (match) return `Reading Lesson ${match[2]} · Question-${match[3]}`;
-  const prefix = key.startsWith('topik34-') ? 'topik34-' : 'topik12-';
+  const prefix = key.match(/^topik(12|34|56)-/)?.[0] ?? 'topik12-';
   return `Reading Lesson ${key.replace(prefix, '')}`;
 }
 
