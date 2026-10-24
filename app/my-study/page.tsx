@@ -20,13 +20,15 @@ const sourceLabels: Record<string, string> = {
   topik56: 'TOPIK 5–6 · чтение',
   listening: 'TOPIK 1–2 · аудирование',
   listening34: 'TOPIK 3–4 · аудирование',
+  listening56: 'TOPIK 5–6 · аудирование',
   ci: 'CI',
 };
 
 function lessonTitle(key: string) {
-  const partMatch = key.match(/^listening(34)?-(\d+)-p(\d+)$/);
+  const partMatch = key.match(/^listening(34|56)?-(\d+)-p(\d+)$/);
   if (partMatch) return `Listening ${partMatch[2]} · Question-${partMatch[3]}`;
-  if (key.startsWith('listening34-')) return `Listening ${key.replace('listening34-', '')}`;
+  const trackPrefix = key.match(/^listening(34|56)-/)?.[0];
+  if (trackPrefix) return `Listening ${key.replace(trackPrefix, '')}`;
   if (key.startsWith('listening-')) return `Listening ${key.replace('listening-', '')}`;
   const match = key.match(/^topik(12|34|56)-(\d+)-s(\d+)$/);
   if (match) return `Reading Lesson ${match[2]} · Question-${match[3]}`;

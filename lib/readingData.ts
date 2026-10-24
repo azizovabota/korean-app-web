@@ -36,3 +36,11 @@ export interface ReadingData {
   lessons: ReadingLesson[];
   readingRules: Record<string, string>;
 }
+
+export interface ListeningStudyItem {
+  grammar: GrammarPoint[];
+  words: WordEntry[];
+}
+
+// Ключ — id вопроса аудирования (L1-1, M1-1, A1-1 и т.д.)
+export type ListeningStudyData = Record<string, ListeningStudyItem>;
