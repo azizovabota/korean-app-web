@@ -105,6 +105,13 @@ export default function Home() {
             <p style={{ fontSize: typography.sizes.lg, fontWeight: 'bold', margin: 0 }}>
               👑 ЦЕЛЬ {goal ? goalLabels[goal] : 'не выбрана'}
             </p>
+            {goal && (
+              <Link href="/questions" style={{ display: 'block', marginTop: spacing.md, textDecoration: 'none' }}>
+                <button style={{ width: '100%', background: colors.gradient, color: colors.white, border: 'none', borderRadius: '12px', padding: spacing.md, fontSize: typography.sizes.sm, fontWeight: '600', cursor: 'pointer' }}>
+                  Материалы для {goalLabels[goal]} →
+                </button>
+              </Link>
+            )}
           </div>
 
           {/* Daily Streak */}

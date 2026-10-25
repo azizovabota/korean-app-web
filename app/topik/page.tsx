@@ -88,7 +88,7 @@ export default function PlacementTestPage() {
     try {
       await saveGoal(LEVEL_TO_GOAL[level]);
       markLevelChosen();
-      router.replace('/questions');
+      router.replace('/');
     } catch (err) {
       setSaveError(err instanceof Error ? err.message : 'Не удалось сохранить уровень');
       setSaving(false);
