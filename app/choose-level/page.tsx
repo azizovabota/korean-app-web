@@ -51,7 +51,7 @@ export default function ChooseLevelPage() {
             <p style={{ fontSize: typography.sizes.sm, color: colors.darkGray, margin: `0 0 ${spacing.lg} 0` }}>Как определить ваш уровень корейского?</p>
             <div style={{ display: 'flex', flexDirection: 'column', gap: spacing.md }}>
               <button onClick={() => setMode('choose')} style={cardButton}>Выбрать уровень самостоятельно</button>
-              <button onClick={() => router.push('/topik')} style={{ ...cardButton, backgroundColor: colors.gradient, color: colors.white, border: 'none' }}>Пройти тест уровня</button>
+              <button onClick={() => router.push('/topik')} style={{ ...cardButton, background: colors.gradient, color: colors.white, border: 'none' }}>Пройти тест уровня</button>
             </div>
           </>
         )}
