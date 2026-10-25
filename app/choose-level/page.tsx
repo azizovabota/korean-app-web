@@ -21,7 +21,7 @@ export default function ChooseLevelPage() {
     try {
       await saveGoal(goal);
       markLevelChosen();
-      router.replace('/questions');
+      router.replace('/');
     } catch (err) {
       setError(err instanceof Error ? err.message : 'Не удалось сохранить уровень');
       setSaving(null);
