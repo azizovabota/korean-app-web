@@ -6,6 +6,7 @@ import { useRouter } from 'next/navigation';
 import { colors, typography, spacing } from '@/constants/colors';
 import data from '@/data/placementTest.json';
 import { goalLabels, saveGoal, type Goal } from '@/lib/account';
+import { markLevelChosen } from '@/lib/levelSession';
 
 const RIGHT = '#10B981';
 const WRONG = '#EF4444';
@@ -86,7 +87,8 @@ export default function PlacementTestPage() {
     setSaveError('');
     try {
       await saveGoal(LEVEL_TO_GOAL[level]);
-      router.replace('/');
+      markLevelChosen();
+      router.replace('/questions');
     } catch (err) {
       setSaveError(err instanceof Error ? err.message : 'Не удалось сохранить уровень');
       setSaving(false);
