@@ -5,38 +5,30 @@ import Link from 'next/link';
 import { useParams } from 'next/navigation';
 import { colors, typography, spacing } from '@/constants/colors';
 import { recordMistake } from '@/lib/account';
-import { cardKey, countSessions, getSessionWords, getWordCategory, type WordCard } from '@/lib/wordCards';
+import { buildTest, cardKey, countLeft, getWordCategory, markWord, type WordCard } from '@/lib/wordCards';
 
 const KNOW = { color: '#059669', background: '#ECFDF5', border: '#A7F3D0' };
 const DONT_KNOW = { color: '#B7791F', background: '#FEF9E7', border: '#F6E7B0' };
 
-export default function WordCardsSessionPage() {
+export default function WordCardsTestPage() {
   const params = useParams();
-  const categoryId = String(params.category);
-  const session = Number(params.batch);
-  const category = getWordCategory(categoryId);
+  const category = getWordCategory(String(params.category));
 
-  const validSession = Boolean(category) && Number.isInteger(session) && session >= 1 && session <= countSessions(category!);
-  const initialWords = validSession ? getSessionWords(category!, session) : [];
-
-  // Очередь текущей порции; «не знаю» возвращает слово в конец очереди
-  const [queue, setQueue] = useState<WordCard[]>(initialWords);
+  const [cards, setCards] = useState<WordCard[]>(() => (category ? buildTest(category) : []));
   const [index, setIndex] = useState(0);
   const [flipped, setFlipped] = useState(false);
   const [knownCount, setKnownCount] = useState(0);
   const [unknownCount, setUnknownCount] = useState(0);
 
-  if (!category || !validSession) {
-    return <p style={{ padding: spacing.lg }}>Слова не найдены</p>;
+  if (!category) {
+    return <p style={{ padding: spacing.lg }}>Папка не найдена</p>;
   }
 
-  const words = queue;
-  const finished = index >= words.length;
-  const card = words[index];
-  const hasNextSession = session < countSessions(category);
+  const finished = index >= cards.length;
+  const card = cards[index];
 
-  const restart = () => {
-    setQueue(getSessionWords(category, session));
+  const startNextTest = () => {
+    setCards(buildTest(category));
     setIndex(0);
     setFlipped(false);
     setKnownCount(0);
@@ -44,15 +36,16 @@ export default function WordCardsSessionPage() {
   };
 
   const handleKnow = () => {
+    markWord(category.id, card.id, true);
     setKnownCount((c) => c + 1);
     setFlipped(false);
     setIndex((i) => i + 1);
   };
 
   const handleDontKnow = () => {
-    // Слово возвращается в конец текущей порции и попадает в повторение
+    // Слово останется в списке «не знаю» и попадёт в следующий тест
+    markWord(category.id, card.id, false);
     setUnknownCount((c) => c + 1);
-    setQueue([...words, card]);
     setFlipped(false);
     setIndex((i) => i + 1);
     recordMistake({
@@ -64,6 +57,7 @@ export default function WordCardsSessionPage() {
     }).catch(() => undefined);
   };
 
+  const left = countLeft(category);
   const buttonBase = {
     flex: 1,
     padding: spacing.lg,
@@ -78,29 +72,26 @@ export default function WordCardsSessionPage() {
       <div style={{ background: colors.gradient, color: colors.white, padding: `${spacing.xl} ${spacing.lg}`, borderRadius: '0 0 24px 24px' }}>
         <div style={{ maxWidth: '600px', margin: '0 auto', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
           <Link href="/cards" style={{ color: colors.white, textDecoration: 'none', fontSize: typography.sizes.sm }}>← Карточки</Link>
-          {!finished && (
-            <span style={{ fontSize: typography.sizes.sm, opacity: 0.9 }}>
-              Знаю {knownCount} из {initialWords.length} · повтор {words.length - index - (initialWords.length - knownCount)}
-            </span>
-          )}
+          {!finished && <span style={{ fontSize: typography.sizes.sm, opacity: 0.9 }}>{index + 1} / {cards.length}</span>}
         </div>
       </div>
 
       <div style={{ maxWidth: '600px', margin: '0 auto', padding: spacing.lg }}>
         {finished ? (
           <div style={{ backgroundColor: colors.white, borderRadius: '16px', padding: spacing.xl, textAlign: 'center', boxShadow: '0 4px 12px rgba(0, 180, 216, 0.1)' }}>
-            <p style={{ fontSize: typography.sizes['2xl'], fontWeight: 'bold', color: colors.black, margin: `0 0 ${spacing.md} 0` }}>Порция пройдена</p>
-            <p style={{ fontSize: typography.sizes.sm, color: colors.darkGray, margin: `0 0 ${spacing.xl} 0` }}>
-              Знаю: {knownCount} · Не знаю: {unknownCount}
+            <p style={{ fontSize: typography.sizes['2xl'], fontWeight: 'bold', color: colors.black, margin: `0 0 ${spacing.md} 0` }}>
+              {cards.length === 0 ? 'Все слова пройдены' : 'Тест пройден'}
             </p>
-            {hasNextSession && (
-              <Link href={`/cards/${category.id}/${session + 1}`} style={{ display: 'block', textDecoration: 'none', marginBottom: spacing.md }}>
-                <div style={{ background: colors.gradient, color: colors.white, borderRadius: '12px', padding: spacing.lg, fontWeight: '600' }}>Следующие слова →</div>
-              </Link>
+            {cards.length > 0 && (
+              <p style={{ fontSize: typography.sizes.sm, color: colors.darkGray, margin: `0 0 ${spacing.xl} 0` }}>
+                Знаю: {knownCount} · Не знаю: {unknownCount}
+              </p>
             )}
-            <button onClick={restart} style={{ width: '100%', backgroundColor: colors.white, color: colors.primary, border: `2px solid ${colors.primary}`, borderRadius: '12px', padding: spacing.md, fontWeight: '600', cursor: 'pointer', marginBottom: spacing.md }}>
-              Пройти заново
-            </button>
+            {left > 0 && (
+              <button onClick={startNextTest} style={{ width: '100%', background: colors.gradient, color: colors.white, border: 'none', borderRadius: '12px', padding: spacing.lg, fontWeight: '600', cursor: 'pointer', marginBottom: spacing.md }}>
+                Следующий тест →
+              </button>
+            )}
             <Link href="/cards" style={{ color: colors.primary, fontSize: typography.sizes.sm, textDecoration: 'none' }}>← Все папки</Link>
           </div>
         ) : (
