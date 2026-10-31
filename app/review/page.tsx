@@ -11,6 +11,7 @@ import listening from '@/data/listeningTopik.json';
 import listeningIntermediate from '@/data/listeningIntermediate.json';
 import listeningAdvanced from '@/data/listeningAdvanced.json';
 import ci from '@/data/ciBeginner.json';
+import { getWordCard, parseCardKey } from '@/lib/wordCards';
 
 type ChoiceItem = {
   key: string;
@@ -33,7 +34,14 @@ type TypedItem = {
   audio: string;
 };
 
-type ReviewItem = ChoiceItem | TypedItem;
+type FlipItem = {
+  key: string;
+  kind: 'flip';
+  word: string;
+  translation: string;
+};
+
+type ReviewItem = ChoiceItem | TypedItem | FlipItem;
 
 const RIGHT = '#10B981';
 const WRONG = '#EF4444';
@@ -71,6 +79,13 @@ function buildItem(row: MistakeRow): ReviewItem | null {
       explanation: q.explanation,
       audio: q.segments.map((s) => `/audio/listening/q/${s.file}`),
     };
+  }
+
+  const card = parseCardKey(key);
+  if (card) {
+    const word = getWordCard(card.categoryId, card.wordId);
+    if (!word) return null;
+    return { key, kind: 'flip', word: word.word, translation: word.translation };
   }
 
   if (key.startsWith('ci-')) {
@@ -252,6 +267,44 @@ export default function ReviewPage() {
           )}
 
           {answered && <button onClick={next} style={primaryButton}>Далее →</button>}
+        </div>
+      </div>
+    );
+  }
+
+  if (item.kind === 'flip') {
+    const grade = (remembered: boolean) => {
+      if (remembered) setCorrectCount((c) => c + 1);
+      recordReviewResult(item.key, remembered);
+      next();
+    };
+
+    return (
+      <div style={{ minHeight: '100vh', backgroundColor: colors.lightGray, paddingBottom: '80px' }}>
+        {header}
+        <div style={{ maxWidth: '600px', margin: '0 auto', padding: spacing.lg }}>
+          <div
+            onClick={() => setChecked(true)}
+            style={{ ...cardStyle, minHeight: '260px', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', textAlign: 'center', cursor: checked ? 'default' : 'pointer' }}
+          >
+            <p style={{ fontSize: '40px', fontWeight: 'bold', color: colors.black, margin: 0 }}>{item.word}</p>
+            {checked ? (
+              <p style={{ fontSize: typography.sizes.lg, color: colors.darkGray, margin: `${spacing.lg} 0 0 0` }}>{item.translation}</p>
+            ) : (
+              <p style={{ fontSize: typography.sizes.sm, color: colors.darkGray, margin: `${spacing.lg} 0 0 0` }}>Нажмите на карточку, чтобы показать перевод</p>
+            )}
+          </div>
+
+          {checked && (
+            <div style={{ display: 'flex', gap: spacing.md }}>
+              <button onClick={() => grade(false)} style={{ flex: 1, padding: spacing.lg, borderRadius: '999px', backgroundColor: '#FEF9E7', color: '#B7791F', border: '2px solid #F6E7B0', fontWeight: '600', cursor: 'pointer' }}>
+                ✕ Не вспомнил
+              </button>
+              <button onClick={() => grade(true)} style={{ flex: 1, padding: spacing.lg, borderRadius: '999px', backgroundColor: '#ECFDF5', color: '#059669', border: '2px solid #A7F3D0', fontWeight: '600', cursor: 'pointer' }}>
+                ✓ Вспомнил
+              </button>
+            </div>
+          )}
         </div>
       </div>
     );

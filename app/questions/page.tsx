@@ -42,6 +42,7 @@ const sections: LessonSection[] = [
     title: 'Практика слов',
     cards: [
       { id: 'cheatsheets', title: 'Шпаргалки', korean: '요약 정리', icon: '📝', href: '/cheatsheets' },
+      { id: 'word-cards', title: 'Карточки', korean: '단어 카드', icon: '🃏', href: '/cards' },
     ],
   },
 ];
