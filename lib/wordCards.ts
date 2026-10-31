@@ -31,6 +31,17 @@ export const WORD_LEVELS: WordLevel[] = [
 
 export const WORD_CATEGORIES: WordCategory[] = WORD_LEVELS.flatMap((level) => level.categories);
 
+// Папка — это тема (например, «Еда и напитки»), которая есть на обоих уровнях.
+// Её id совпадает с id папки первого уровня; у второго уровня к нему добавляется ii-.
+export function folderCategoryId(folderId: string, levelId: string): string {
+  return levelId === 'intermediate-advanced' ? `ii-${folderId}` : folderId;
+}
+
+export function getLevelCategory(folderId: string, levelId: string): WordCategory | undefined {
+  const level = WORD_LEVELS.find((item) => item.id === levelId);
+  return level?.categories.find((category) => category.id === folderCategoryId(folderId, levelId));
+}
+
 export const CARDS_PER_SESSION = 20;
 
 export function getWordCategory(id: string): WordCategory | undefined {
