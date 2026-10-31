@@ -1,4 +1,6 @@
 import wordData from '@/data/topikIWords.json';
+import { supabase } from '@/lib/supabase';
+import { getUserId } from '@/lib/account';
 
 export interface WordCard {
   id: string;
@@ -38,58 +40,55 @@ export function parseCardKey(key: string): { categoryId: string; wordId: string 
   return { categoryId: match[1], wordId: match[2] };
 }
 
-// Прогресс хранится в браузере: слова «знаю» больше не показываются,
-// слова «не знаю» попадают в следующие тесты.
 interface CategoryProgress {
-  known: string[];
+  known: Set<string>;
   unknown: string[];
 }
 
-const PROGRESS_KEY = 'wordCards.progress';
-
-function readProgress(): Record<string, CategoryProgress> {
-  try {
-    return JSON.parse(localStorage.getItem(PROGRESS_KEY) ?? '{}');
-  } catch {
-    return {};
-  }
+// Прогресс хранится в таблице word_card_progress (см. supabase/schema.sql)
+async function getCategoryProgress(categoryId: string): Promise<CategoryProgress> {
+  const userId = await getUserId();
+  if (!userId) return { known: new Set(), unknown: [] };
+  const { data } = await supabase
+    .from('word_card_progress')
+    .select('word_id, status')
+    .eq('user_id', userId)
+    .eq('category_id', categoryId)
+    .order('updated_at', { ascending: true });
+  const rows = (data as { word_id: string; status: 'known' | 'unknown' }[]) ?? [];
+  return {
+    known: new Set(rows.filter((row) => row.status === 'known').map((row) => row.word_id)),
+    unknown: rows.filter((row) => row.status === 'unknown').map((row) => row.word_id),
+  };
 }
 
-function writeProgress(progress: Record<string, CategoryProgress>) {
-  try {
-    localStorage.setItem(PROGRESS_KEY, JSON.stringify(progress));
-  } catch {
-    // Хранилище недоступно: прогресс не сохранится, тест продолжит работать
-  }
-}
-
-function getCategoryProgress(categoryId: string): CategoryProgress {
-  const entry = readProgress()[categoryId];
-  return { known: entry?.known ?? [], unknown: entry?.unknown ?? [] };
-}
-
-export function markWord(categoryId: string, wordId: string, known: boolean) {
-  const progress = readProgress();
-  const current = progress[categoryId] ?? { known: [], unknown: [] };
-  const without = (list: string[]) => list.filter((id) => id !== wordId);
-  progress[categoryId] = known
-    ? { known: [...without(current.known), wordId], unknown: without(current.unknown) }
-    : { known: without(current.known), unknown: [...without(current.unknown), wordId] };
-  writeProgress(progress);
+export async function markWord(categoryId: string, wordId: string, known: boolean) {
+  const userId = await getUserId();
+  if (!userId) return;
+  await supabase.from('word_card_progress').upsert({
+    user_id: userId,
+    category_id: categoryId,
+    word_id: wordId,
+    status: known ? 'known' : 'unknown',
+    updated_at: new Date().toISOString(),
+  });
 }
 
 // Следующий тест: сначала слова «не знаю» из прошлых тестов, затем новые слова.
 // Слова «знаю» не попадают в тест.
-export function buildTest(category: WordCategory): WordCard[] {
-  const { known, unknown } = getCategoryProgress(category.id);
+export async function loadTest(category: WordCategory): Promise<{ cards: WordCard[]; left: number }> {
+  const { known, unknown } = await getCategoryProgress(category.id);
   const byId = new Map(category.words.map((word) => [word.id, word]));
   const pending = unknown.map((id) => byId.get(id)).filter((word): word is WordCard => Boolean(word));
   const seen = new Set([...known, ...unknown]);
   const fresh = category.words.filter((word) => !seen.has(word.id));
-  return [...pending, ...fresh].slice(0, CARDS_PER_SESSION);
+  return {
+    cards: [...pending, ...fresh].slice(0, CARDS_PER_SESSION),
+    left: category.words.length - known.size,
+  };
 }
 
-export function countLeft(category: WordCategory): number {
-  const { known } = getCategoryProgress(category.id);
-  return category.words.length - known.length;
+export async function countLeft(category: WordCategory): Promise<number> {
+  const { known } = await getCategoryProgress(category.id);
+  return category.words.length - known.size;
 }

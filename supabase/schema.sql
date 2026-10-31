@@ -39,3 +39,17 @@ create policy "own mistakes" on public.mistakes for all
 alter table public.mistakes add column if not exists due_at timestamptz not null default now();
 alter table public.mistakes add column if not exists interval_days integer not null default 1;
 alter table public.mistakes add column if not exists reps integer not null default 0;
+
+create table if not exists public.word_card_progress (
+  user_id uuid not null references auth.users(id) on delete cascade,
+  category_id text not null,
+  word_id text not null,
+  status text not null check (status in ('known', 'unknown')),
+  updated_at timestamptz not null default now(),
+  primary key (user_id, category_id, word_id)
+);
+
+alter table public.word_card_progress enable row level security;
+
+create policy "own word card progress" on public.word_card_progress for all
+  using (auth.uid() = user_id) with check (auth.uid() = user_id);
