@@ -78,7 +78,11 @@ export default function WordCardsSessionPage() {
       <div style={{ background: colors.gradient, color: colors.white, padding: `${spacing.xl} ${spacing.lg}`, borderRadius: '0 0 24px 24px' }}>
         <div style={{ maxWidth: '600px', margin: '0 auto', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
           <Link href="/cards" style={{ color: colors.white, textDecoration: 'none', fontSize: typography.sizes.sm }}>← Карточки</Link>
-          {!finished && <span style={{ fontSize: typography.sizes.sm, opacity: 0.9 }}>{index + 1} / {words.length}</span>}
+          {!finished && (
+            <span style={{ fontSize: typography.sizes.sm, opacity: 0.9 }}>
+              Знаю {knownCount} из {initialWords.length} · повтор {words.length - index - (initialWords.length - knownCount)}
+            </span>
+          )}
         </div>
       </div>
 
