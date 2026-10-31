@@ -1,4 +1,5 @@
 import wordData from '@/data/topikIWords.json';
+import wordDataII from '@/data/topikIIWords.json';
 import { supabase } from '@/lib/supabase';
 import { getUserId } from '@/lib/account';
 
@@ -16,8 +17,19 @@ export interface WordCategory {
   words: WordCard[];
 }
 
-// Папки категорий слов. Данные TOPIK I (1671 слово) лежат в data/topikIWords.json.
-export const WORD_CATEGORIES: WordCategory[] = wordData.categories;
+export interface WordLevel {
+  id: string;
+  title: string;
+  categories: WordCategory[];
+}
+
+// Два уровня словаря. Id папок уникальны: у второго уровня префикс ii-.
+export const WORD_LEVELS: WordLevel[] = [
+  { id: 'beginner-intermediate', title: 'Beginner-Intermediate', categories: wordData.categories },
+  { id: 'intermediate-advanced', title: 'Intermediate-Advanced', categories: wordDataII.categories },
+];
+
+export const WORD_CATEGORIES: WordCategory[] = WORD_LEVELS.flatMap((level) => level.categories);
 
 export const CARDS_PER_SESSION = 20;
 
