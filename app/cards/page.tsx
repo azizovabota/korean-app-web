@@ -22,7 +22,7 @@ export default function WordCategoriesPage() {
         )}
 
         {WORD_CATEGORIES.map((category) => (
-          <Link key={category.id} href={`/cards/${category.id}/1`} style={{ textDecoration: 'none' }}>
+          <Link key={category.id} href={`/cards/${category.id}`} style={{ textDecoration: 'none' }}>
             <div style={{ backgroundColor: colors.white, borderRadius: '16px', padding: spacing.lg, display: 'flex', justifyContent: 'space-between', alignItems: 'center', boxShadow: '0 4px 12px rgba(0, 180, 216, 0.1)' }}>
               <div style={{ display: 'flex', alignItems: 'center', gap: spacing.lg }}>
                 <div style={{ fontSize: '32px' }}>{category.icon}</div>
