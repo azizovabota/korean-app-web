@@ -77,7 +77,7 @@ export default function WordCardsSessionPage() {
     <div style={{ minHeight: '100vh', backgroundColor: colors.lightGray, paddingBottom: '80px' }}>
       <div style={{ background: colors.gradient, color: colors.white, padding: `${spacing.xl} ${spacing.lg}`, borderRadius: '0 0 24px 24px' }}>
         <div style={{ maxWidth: '600px', margin: '0 auto', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-          <Link href={`/cards/${category.id}`} style={{ color: colors.white, textDecoration: 'none', fontSize: typography.sizes.sm }}>← {category.title}</Link>
+          <Link href="/cards" style={{ color: colors.white, textDecoration: 'none', fontSize: typography.sizes.sm }}>← Карточки</Link>
           {!finished && <span style={{ fontSize: typography.sizes.sm, opacity: 0.9 }}>{index + 1} / {words.length}</span>}
         </div>
       </div>
@@ -97,7 +97,7 @@ export default function WordCardsSessionPage() {
             <button onClick={restart} style={{ width: '100%', backgroundColor: colors.white, color: colors.primary, border: `2px solid ${colors.primary}`, borderRadius: '12px', padding: spacing.md, fontWeight: '600', cursor: 'pointer', marginBottom: spacing.md }}>
               Пройти заново
             </button>
-            <Link href={`/cards/${category.id}`} style={{ color: colors.primary, fontSize: typography.sizes.sm, textDecoration: 'none' }}>← К списку порций</Link>
+            <Link href="/cards" style={{ color: colors.primary, fontSize: typography.sizes.sm, textDecoration: 'none' }}>← Все папки</Link>
           </div>
         ) : (
           <>
