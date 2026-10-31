@@ -12,8 +12,10 @@ export interface WordCategory {
   words: WordCard[];
 }
 
-// Папки категорий слов. Слова добавляются сюда по списку, который присылает пользователь.
-export const WORD_CATEGORIES: WordCategory[] = [];
+import wordData from '@/data/topikIWords.json';
+
+// Папки категорий слов. Данные TOPIK I (1671 слово) лежат в data/topikIWords.json.
+export const WORD_CATEGORIES: WordCategory[] = wordData.categories;
 
 export const CARDS_PER_SESSION = 20;
 
