@@ -43,6 +43,7 @@ const sections: LessonSection[] = [
     cards: [
       { id: 'cheatsheets', title: 'Шпаргалки', korean: '요약 정리', icon: '📝', href: '/cheatsheets' },
       { id: 'word-cards', title: 'Карточки', korean: '단어 카드', icon: '🃏', href: '/cards' },
+      { id: 'word-translate', title: 'Перевод слов', korean: '단어 번역', icon: '✍️', href: '/translate' },
     ],
   },
 ];
