@@ -99,7 +99,7 @@ export default function WordCardsTestPage() {
     <div style={{ minHeight: '100vh', backgroundColor: colors.lightGray, paddingBottom: '80px' }}>
       <div style={{ background: colors.gradient, color: colors.white, padding: `${spacing.xl} ${spacing.lg}`, borderRadius: '0 0 24px 24px' }}>
         <div style={{ maxWidth: '600px', margin: '0 auto', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-          <Link href={`/cards/${folderId}`} style={{ color: colors.white, textDecoration: 'none', fontSize: typography.sizes.sm }}>← Назад</Link>
+          <Link href="/cards" style={{ color: colors.white, textDecoration: 'none', fontSize: typography.sizes.sm }}>← Карточки</Link>
           {loaded && !finished && <span style={{ fontSize: typography.sizes.sm, opacity: 0.9 }}>{index + 1} / {cards.length}</span>}
         </div>
       </div>
@@ -124,7 +124,7 @@ export default function WordCardsTestPage() {
                 Следующий тест →
               </button>
             )}
-            <Link href={`/cards/${folderId}`} style={{ color: colors.primary, fontSize: typography.sizes.sm, textDecoration: 'none' }}>← Назад к уровням</Link>
+            <Link href="/cards" style={{ color: colors.primary, fontSize: typography.sizes.sm, textDecoration: 'none' }}>← Все папки</Link>
           </div>
         )}
 
