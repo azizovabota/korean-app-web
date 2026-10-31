@@ -4,6 +4,7 @@ import { useEffect, useState } from 'react';
 import Link from 'next/link';
 import { colors, typography, spacing } from '@/constants/colors';
 import { getDueMistakes, getLessonProgress, getMistakes, type LessonProgressRow, type MistakeRow } from '@/lib/account';
+import { getWordCard, parseCardKey } from '@/lib/wordCards';
 
 type StudyTab = 'learning' | 'incorrect';
 
@@ -22,9 +23,12 @@ const sourceLabels: Record<string, string> = {
   listening34: 'TOPIK 3–4 · аудирование',
   listening56: 'TOPIK 5–6 · аудирование',
   ci: 'CI',
+  cards: 'Карточки',
 };
 
 function lessonTitle(key: string) {
+  const card = parseCardKey(key);
+  if (card) return getWordCard(card.categoryId, card.wordId)?.word ?? key;
   const partMatch = key.match(/^listening(34|56)?-(\d+)-p(\d+)$/);
   if (partMatch) return `Listening ${partMatch[2]} · Question-${partMatch[3]}`;
   const trackPrefix = key.match(/^listening(34|56)-/)?.[0];
