@@ -115,3 +115,19 @@ export async function countLeft(category: WordCategory): Promise<number> {
   const { known } = await getCategoryProgress(category.id);
   return category.words.length - known.size;
 }
+
+export function getLevelWords(levelId: string): WordCard[] {
+  const level = WORD_LEVELS.find((item) => item.id === levelId);
+  return level ? level.categories.flatMap((category) => category.words) : [];
+}
+
+// Ответ засчитывается, если совпадает с одним из вариантов перевода.
+// Варианты разделены запятой или точкой с запятой, пояснения в скобках не учитываются.
+export function isTranslationCorrect(answer: string, translation: string): boolean {
+  const normalize = (text: string) => text.toLowerCase().replace(/ё/g, 'е').replace(/\s+/g, ' ').trim();
+  const given = normalize(answer);
+  if (!given) return false;
+  const withoutBrackets = translation.replace(/\([^)]*\)/g, '');
+  const variants = withoutBrackets.split(/[,;]/).map(normalize).filter(Boolean);
+  return variants.includes(given) || normalize(withoutBrackets) === given;
+}
