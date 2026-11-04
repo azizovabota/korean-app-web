@@ -47,6 +47,13 @@ const sections: LessonSection[] = [
       { id: 'word-sprint', title: 'Спринт', korean: '단어 스프린트', icon: '⏱️', href: '/sprint' },
     ],
   },
+  {
+    id: 'grammar',
+    title: 'Грамматика',
+    cards: [
+      { id: 'grammar-training', title: 'Тренировки', korean: '문법 연습', icon: '📐', href: '/grammar' },
+    ],
+  },
 ];
 
 const navItems = [

@@ -1,0 +1,2742 @@
+{
+  "chapter_id": "connectors_time",
+  "title_ru": "Соединители и конструкции времени",
+  "topics": [
+    {
+      "id": "t1-035",
+      "korean": "(으)ㄴ 후에",
+      "russian": "после того, как",
+      "level_ru": "Начальный (TOPIK I)",
+      "exercise_count": 15,
+      "exercises": [
+        {
+          "exercise_number": 1,
+          "prompt_korean": "먹다",
+          "prompt_russian": "есть",
+          "sentence_before": "점심을 ",
+          "sentence_after": " 커피를 마셨어요.",
+          "correct_answer": "먹은 후에",
+          "translation_ru": "После того как я поел(а), я выпил(а) кофе."
+        },
+        {
+          "exercise_number": 2,
+          "prompt_korean": "가다",
+          "prompt_russian": "идти",
+          "sentence_before": "은행에 ",
+          "sentence_after": " 마트에 갔어요.",
+          "correct_answer": "간 후에",
+          "translation_ru": "После того как я пошёл(пошла) в банк, я пошёл(пошла) в магазин."
+        },
+        {
+          "exercise_number": 3,
+          "prompt_korean": "보다",
+          "prompt_russian": "смотреть",
+          "sentence_before": "영화를 ",
+          "sentence_after": " 저녁을 먹었어요.",
+          "correct_answer": "본 후에",
+          "translation_ru": "После того как я посмотрел(а) фильм, я поужинал(а)."
+        },
+        {
+          "exercise_number": 4,
+          "prompt_korean": "자다",
+          "prompt_russian": "спать",
+          "sentence_before": "낮잠을 ",
+          "sentence_after": " 기분이 좋아졌어요.",
+          "correct_answer": "잔 후에",
+          "translation_ru": "После того как я поспал(а) днём, настроение улучшилось."
+        },
+        {
+          "exercise_number": 5,
+          "prompt_korean": "읽다",
+          "prompt_russian": "читать",
+          "sentence_before": "책을 ",
+          "sentence_after": " 불을 껐어요.",
+          "correct_answer": "읽은 후에",
+          "translation_ru": "После того как я прочитал(а) книгу, я выключил(а) свет."
+        },
+        {
+          "exercise_number": 6,
+          "prompt_korean": "청소하다",
+          "prompt_russian": "убирать(ся)",
+          "sentence_before": "집을 ",
+          "sentence_after": " 샤워를 했어요.",
+          "correct_answer": "청소한 후에",
+          "translation_ru": "После того как я убрал(а) дом, я принял(а) душ."
+        },
+        {
+          "exercise_number": 7,
+          "prompt_korean": "운동하다",
+          "prompt_russian": "заниматься спортом",
+          "sentence_before": "저는 ",
+          "sentence_after": " 물을 많이 마셨어요.",
+          "correct_answer": "운동한 후에",
+          "translation_ru": "После того как я потренировался(лась), я выпил(а) много воды."
+        },
+        {
+          "exercise_number": 8,
+          "prompt_korean": "숙제하다",
+          "prompt_russian": "делать домашнее задание",
+          "sentence_before": "저는 ",
+          "sentence_after": " 게임을 해도 돼요.",
+          "correct_answer": "숙제한 후에",
+          "translation_ru": "После того как я сделаю домашнее задание, мне можно поиграть."
+        },
+        {
+          "exercise_number": 9,
+          "prompt_korean": "만들다",
+          "prompt_russian": "делать/готовить",
+          "sentence_before": "음식을 ",
+          "sentence_after": " 친구들을 초대했어요.",
+          "correct_answer": "만든 후에",
+          "translation_ru": "После того как я приготовил(а) еду, я пригласил(а) друзей."
+        },
+        {
+          "exercise_number": 10,
+          "prompt_korean": "듣다",
+          "prompt_russian": "слушать",
+          "sentence_before": "그 이야기를 ",
+          "sentence_after": " 마음이 아팠어요.",
+          "correct_answer": "들은 후에",
+          "translation_ru": "После того как я услышал(а) эту историю, мне стало больно на душе."
+        },
+        {
+          "exercise_number": 11,
+          "prompt_korean": "돕다",
+          "prompt_russian": "помогать",
+          "sentence_before": "친구를 ",
+          "sentence_after": " 기분이 좋았어요.",
+          "correct_answer": "도운 후에",
+          "translation_ru": "После того как я помог(ла) другу, у меня было хорошее настроение."
+        },
+        {
+          "exercise_number": 12,
+          "prompt_korean": "짓다",
+          "prompt_russian": "строить",
+          "sentence_before": "이 집을 ",
+          "sentence_after": " 할아버지가 이사했어요.",
+          "correct_answer": "지은 후에",
+          "translation_ru": "После того как построили этот дом, дедушка переехал."
+        },
+        {
+          "exercise_number": 13,
+          "prompt_korean": "걷다",
+          "prompt_russian": "идти пешком",
+          "sentence_before": "공원을 ",
+          "sentence_after": " 커피숍에 갔어요.",
+          "correct_answer": "걸은 후에",
+          "translation_ru": "После того как я прошёлся(прошлась) по парку, я пошёл(пошла) в кофейню."
+        },
+        {
+          "exercise_number": 14,
+          "prompt_korean": "마시다",
+          "prompt_russian": "пить",
+          "sentence_before": "커피를 ",
+          "sentence_after": " 잠이 안 왔어요.",
+          "correct_answer": "마신 후에",
+          "translation_ru": "После того как я выпил(а) кофе, не мог(ла) заснуть."
+        },
+        {
+          "exercise_number": 15,
+          "prompt_korean": "씻다",
+          "prompt_russian": "мыть(ся)",
+          "sentence_before": "손을 ",
+          "sentence_after": " 밥을 먹었어요.",
+          "correct_answer": "씻은 후에",
+          "translation_ru": "После того как я помыл(а) руки, я поел(а)."
+        }
+      ]
+    },
+    {
+      "id": "t1-040",
+      "korean": "(으)ㄹ 때",
+      "russian": "когда",
+      "level_ru": "Начальный (TOPIK I)",
+      "exercise_count": 15,
+      "exercises": [
+        {
+          "exercise_number": 1,
+          "prompt_korean": "먹다",
+          "prompt_russian": "есть",
+          "sentence_before": "밥을 ",
+          "sentence_after": " 휴대폰을 보지 마세요.",
+          "correct_answer": "먹을 때",
+          "translation_ru": "Когда ешь, не смотри в телефон."
+        },
+        {
+          "exercise_number": 2,
+          "prompt_korean": "가다",
+          "prompt_russian": "идти",
+          "sentence_before": "회사에 ",
+          "sentence_after": " 지하철을 타요.",
+          "correct_answer": "갈 때",
+          "translation_ru": "Когда иду на работу, я езжу на метро."
+        },
+        {
+          "exercise_number": 3,
+          "prompt_korean": "보다",
+          "prompt_russian": "смотреть",
+          "sentence_before": "드라마를 ",
+          "sentence_after": " 과자를 먹어요.",
+          "correct_answer": "볼 때",
+          "translation_ru": "Когда смотрю дораму, я ем снеки."
+        },
+        {
+          "exercise_number": 4,
+          "prompt_korean": "자다",
+          "prompt_russian": "спать",
+          "sentence_before": "저는 ",
+          "sentence_after": " 창문을 닫아요.",
+          "correct_answer": "잘 때",
+          "translation_ru": "Когда я сплю, я закрываю окно."
+        },
+        {
+          "exercise_number": 5,
+          "prompt_korean": "읽다",
+          "prompt_russian": "читать",
+          "sentence_before": "책을 ",
+          "sentence_after": " 안경을 써요.",
+          "correct_answer": "읽을 때",
+          "translation_ru": "Когда читаю книгу, я надеваю очки."
+        },
+        {
+          "exercise_number": 6,
+          "prompt_korean": "춥다",
+          "prompt_russian": "быть холодным (о погоде)",
+          "sentence_before": "날씨가 ",
+          "sentence_after": " 따뜻한 차를 마셔요.",
+          "correct_answer": "추울 때",
+          "translation_ru": "Когда холодно, я пью тёплый чай."
+        },
+        {
+          "exercise_number": 7,
+          "prompt_korean": "덥다",
+          "prompt_russian": "быть жарким (о погоде)",
+          "sentence_before": "날씨가 ",
+          "sentence_after": " 에어컨을 켜요.",
+          "correct_answer": "더울 때",
+          "translation_ru": "Когда жарко, я включаю кондиционер."
+        },
+        {
+          "exercise_number": 8,
+          "prompt_korean": "듣다",
+          "prompt_russian": "слушать",
+          "sentence_before": "음악을 ",
+          "sentence_after": " 마음이 편해져요.",
+          "correct_answer": "들을 때",
+          "translation_ru": "Когда слушаю музыку, становится легче на душе."
+        },
+        {
+          "exercise_number": 9,
+          "prompt_korean": "만들다",
+          "prompt_russian": "делать/готовить",
+          "sentence_before": "음식을 ",
+          "sentence_after": " 손을 씻어요.",
+          "correct_answer": "만들 때",
+          "translation_ru": "Когда готовлю еду, я мою руки."
+        },
+        {
+          "exercise_number": 10,
+          "prompt_korean": "모르다",
+          "prompt_russian": "не знать",
+          "sentence_before": "단어를 ",
+          "sentence_after": " 사전을 찾아봐요.",
+          "correct_answer": "모를 때",
+          "translation_ru": "Когда не знаю слова, я смотрю в словаре."
+        },
+        {
+          "exercise_number": 11,
+          "prompt_korean": "짓다",
+          "prompt_russian": "строить",
+          "sentence_before": "집을 ",
+          "sentence_after": " 돈이 많이 들어요.",
+          "correct_answer": "지을 때",
+          "translation_ru": "Когда строят дом, уходит много денег."
+        },
+        {
+          "exercise_number": 12,
+          "prompt_korean": "걷다",
+          "prompt_russian": "идти пешком",
+          "sentence_before": "길을 ",
+          "sentence_after": " 음악을 들어요.",
+          "correct_answer": "걸을 때",
+          "translation_ru": "Когда иду по улице, я слушаю музыку."
+        },
+        {
+          "exercise_number": 13,
+          "prompt_korean": "타다",
+          "prompt_russian": "ехать (на транспорте)",
+          "sentence_before": "택시를 ",
+          "sentence_after": " 전화가 왔어요.",
+          "correct_answer": "탔을 때",
+          "translation_ru": "Когда я ехал(а) на такси, позвонили."
+        },
+        {
+          "exercise_number": 14,
+          "prompt_korean": "오다",
+          "prompt_russian": "приходить",
+          "sentence_before": "집에 ",
+          "sentence_after": " 아무도 없었어요.",
+          "correct_answer": "왔을 때",
+          "translation_ru": "Когда я пришёл(пришла) домой, никого не было."
+        },
+        {
+          "exercise_number": 15,
+          "prompt_korean": "어리다",
+          "prompt_russian": "быть молодым/маленьким",
+          "sentence_before": "저는 ",
+          "sentence_after": " 피아노를 배웠어요.",
+          "correct_answer": "어릴 때",
+          "translation_ru": "В детстве я учился(лась) играть на пианино."
+        }
+      ]
+    },
+    {
+      "id": "t1-054",
+      "korean": "(으)면서",
+      "russian": "в то время как, одновременно",
+      "level_ru": "Начальный (TOPIK I)",
+      "exercise_count": 15,
+      "exercises": [
+        {
+          "exercise_number": 1,
+          "prompt_korean": "먹다",
+          "prompt_russian": "есть",
+          "sentence_before": "밥을 ",
+          "sentence_after": " 뉴스를 봐요.",
+          "correct_answer": "먹으면서",
+          "translation_ru": "Во время еды я смотрю новости."
+        },
+        {
+          "exercise_number": 2,
+          "prompt_korean": "보다",
+          "prompt_russian": "смотреть",
+          "sentence_before": "텔레비전을 ",
+          "sentence_after": " 숙제를 해요.",
+          "correct_answer": "보면서",
+          "translation_ru": "Смотря телевизор, делаю домашнее задание."
+        },
+        {
+          "exercise_number": 3,
+          "prompt_korean": "걷다",
+          "prompt_russian": "идти пешком",
+          "sentence_before": "길을 ",
+          "sentence_after": " 전화를 했어요.",
+          "correct_answer": "걸으면서",
+          "translation_ru": "Идя по улице, я разговаривал(а) по телефону."
+        },
+        {
+          "exercise_number": 4,
+          "prompt_korean": "듣다",
+          "prompt_russian": "слушать",
+          "sentence_before": "음악을 ",
+          "sentence_after": " 운동해요.",
+          "correct_answer": "들으면서",
+          "translation_ru": "Слушая музыку, занимаюсь спортом."
+        },
+        {
+          "exercise_number": 5,
+          "prompt_korean": "웃다",
+          "prompt_russian": "смеяться",
+          "sentence_before": "친구가 ",
+          "sentence_after": " 이야기했어요.",
+          "correct_answer": "웃으면서",
+          "translation_ru": "Друг, смеясь, рассказывал(а)."
+        },
+        {
+          "exercise_number": 6,
+          "prompt_korean": "울다",
+          "prompt_russian": "плакать",
+          "sentence_before": "아기가 ",
+          "sentence_after": " 엄마를 찾았어요.",
+          "correct_answer": "울면서",
+          "translation_ru": "Малыш, плача, искал маму."
+        },
+        {
+          "exercise_number": 7,
+          "prompt_korean": "부르다",
+          "prompt_russian": "петь",
+          "sentence_before": "노래를 ",
+          "sentence_after": " 설거지를 해요.",
+          "correct_answer": "부르면서",
+          "translation_ru": "Напевая песню, мою посуду."
+        },
+        {
+          "exercise_number": 8,
+          "prompt_korean": "운전하다",
+          "prompt_russian": "водить машину",
+          "sentence_before": "저는 ",
+          "sentence_after": " 전화하지 않아요.",
+          "correct_answer": "운전하면서",
+          "translation_ru": "Я не разговариваю по телефону, когда веду машину."
+        },
+        {
+          "exercise_number": 9,
+          "prompt_korean": "통화하다",
+          "prompt_russian": "разговаривать по телефону",
+          "sentence_before": "친구와 ",
+          "sentence_after": " 걸었어요.",
+          "correct_answer": "통화하면서",
+          "translation_ru": "Разговаривая по телефону с другом, я шёл(шла)."
+        },
+        {
+          "exercise_number": 10,
+          "prompt_korean": "요리하다",
+          "prompt_russian": "готовить",
+          "sentence_before": "저는 ",
+          "sentence_after": " 음악을 들어요.",
+          "correct_answer": "요리하면서",
+          "translation_ru": "Готовя, я слушаю музыку."
+        },
+        {
+          "exercise_number": 11,
+          "prompt_korean": "춤추다",
+          "prompt_russian": "танцевать",
+          "sentence_before": "아이들이 ",
+          "sentence_after": " 노래를 불렀어요.",
+          "correct_answer": "춤추면서",
+          "translation_ru": "Дети, танцуя, пели песню."
+        },
+        {
+          "exercise_number": 12,
+          "prompt_korean": "걸다",
+          "prompt_russian": "звонить (по телефону)",
+          "sentence_before": "전화를 ",
+          "sentence_after": " 메모를 했어요.",
+          "correct_answer": "걸면서",
+          "translation_ru": "Звоня по телефону, я делал(а) заметки."
+        },
+        {
+          "exercise_number": 13,
+          "prompt_korean": "돕다",
+          "prompt_russian": "помогать",
+          "sentence_before": "친구를 ",
+          "sentence_after": " 많이 배웠어요.",
+          "correct_answer": "도우면서",
+          "translation_ru": "Помогая другу, я многому научился(лась)."
+        },
+        {
+          "exercise_number": 14,
+          "prompt_korean": "공부하다",
+          "prompt_russian": "учиться/заниматься",
+          "sentence_before": "저는 ",
+          "sentence_after": " 커피를 마셔요.",
+          "correct_answer": "공부하면서",
+          "translation_ru": "Во время учёбы я пью кофе."
+        },
+        {
+          "exercise_number": 15,
+          "prompt_korean": "마시다",
+          "prompt_russian": "пить",
+          "sentence_before": "커피를 ",
+          "sentence_after": " 책을 읽어요.",
+          "correct_answer": "마시면서",
+          "translation_ru": "Попивая кофе, я читаю книгу."
+        }
+      ]
+    },
+    {
+      "id": "t1-062",
+      "korean": "고",
+      "russian": "и (затем)",
+      "level_ru": "Начальный (TOPIK I)",
+      "exercise_count": 15,
+      "exercises": [
+        {
+          "exercise_number": 1,
+          "prompt_korean": "먹다",
+          "prompt_russian": "есть",
+          "sentence_before": "아침을 ",
+          "sentence_after": " 학교에 가요.",
+          "correct_answer": "먹고",
+          "translation_ru": "Поем завтрак и пойду в школу."
+        },
+        {
+          "exercise_number": 2,
+          "prompt_korean": "가다",
+          "prompt_russian": "идти",
+          "sentence_before": "도서관에 ",
+          "sentence_after": " 책을 빌렸어요.",
+          "correct_answer": "가고",
+          "translation_ru": "Пошёл(пошла) в библиотеку и взял(а) книгу."
+        },
+        {
+          "exercise_number": 3,
+          "prompt_korean": "보다",
+          "prompt_russian": "смотреть",
+          "sentence_before": "영화를 ",
+          "sentence_after": " 저녁을 먹었어요.",
+          "correct_answer": "보고",
+          "translation_ru": "Посмотрел(а) фильм и поужинал(а)."
+        },
+        {
+          "exercise_number": 4,
+          "prompt_korean": "자다",
+          "prompt_russian": "спать",
+          "sentence_before": "일찍 ",
+          "sentence_after": " 일찍 일어나요.",
+          "correct_answer": "자고",
+          "translation_ru": "Рано ложусь спать и рано встаю."
+        },
+        {
+          "exercise_number": 5,
+          "prompt_korean": "씻다",
+          "prompt_russian": "мыть(ся)",
+          "sentence_before": "손을 ",
+          "sentence_after": " 밥을 먹어요.",
+          "correct_answer": "씻고",
+          "translation_ru": "Мою руки и ем."
+        },
+        {
+          "exercise_number": 6,
+          "prompt_korean": "일어나다",
+          "prompt_russian": "вставать",
+          "sentence_before": "아침에 ",
+          "sentence_after": " 운동을 해요.",
+          "correct_answer": "일어나고",
+          "translation_ru": "Встаю утром и занимаюсь спортом."
+        },
+        {
+          "exercise_number": 7,
+          "prompt_korean": "공부하다",
+          "prompt_russian": "учиться/заниматься",
+          "sentence_before": "한국어를 ",
+          "sentence_after": " 시험을 봤어요.",
+          "correct_answer": "공부하고",
+          "translation_ru": "Поучил(а) корейский и сдал(а) экзамен."
+        },
+        {
+          "exercise_number": 8,
+          "prompt_korean": "듣다",
+          "prompt_russian": "слушать",
+          "sentence_before": "노래를 ",
+          "sentence_after": " 춤을 췄어요.",
+          "correct_answer": "듣고",
+          "translation_ru": "Послушал(а) песню и потанцевал(а)."
+        },
+        {
+          "exercise_number": 9,
+          "prompt_korean": "걷다",
+          "prompt_russian": "идти пешком",
+          "sentence_before": "공원을 ",
+          "sentence_after": " 커피를 마셨어요.",
+          "correct_answer": "걷고",
+          "translation_ru": "Прогулялся(прогулялась) по парку и выпил(а) кофе."
+        },
+        {
+          "exercise_number": 10,
+          "prompt_korean": "돕다",
+          "prompt_russian": "помогать",
+          "sentence_before": "엄마를 ",
+          "sentence_after": " 쉬었어요.",
+          "correct_answer": "돕고",
+          "translation_ru": "Помог(ла) маме и отдохнул(а)."
+        },
+        {
+          "exercise_number": 11,
+          "prompt_korean": "짓다",
+          "prompt_russian": "строить",
+          "sentence_before": "집을 ",
+          "sentence_after": " 이사했어요.",
+          "correct_answer": "짓고",
+          "translation_ru": "Построили дом и переехали."
+        },
+        {
+          "exercise_number": 12,
+          "prompt_korean": "모르다",
+          "prompt_russian": "не знать",
+          "sentence_before": "지하철 노선을 ",
+          "sentence_after": " 다른 역에서 내렸어요.",
+          "correct_answer": "모르고",
+          "translation_ru": "Не зная линию метро, я вышел(вышла) на другой станции."
+        },
+        {
+          "exercise_number": 13,
+          "prompt_korean": "만들다",
+          "prompt_russian": "делать/готовить",
+          "sentence_before": "케이크를 ",
+          "sentence_after": " 사진을 찍었어요.",
+          "correct_answer": "만들고",
+          "translation_ru": "Приготовил(а) торт и сделал(а) фото."
+        },
+        {
+          "exercise_number": 14,
+          "prompt_korean": "마시다",
+          "prompt_russian": "пить",
+          "sentence_before": "물을 ",
+          "sentence_after": " 약을 먹었어요.",
+          "correct_answer": "마시고",
+          "translation_ru": "Выпил(а) воду и принял(а) лекарство."
+        },
+        {
+          "exercise_number": 15,
+          "prompt_korean": "청소하다",
+          "prompt_russian": "убирать(ся)",
+          "sentence_before": "방을 ",
+          "sentence_after": " 친구를 초대했어요.",
+          "correct_answer": "청소하고",
+          "translation_ru": "Убрал(а) комнату и пригласил(а) друга."
+        }
+      ]
+    },
+    {
+      "id": "t1-067",
+      "korean": "기 전에",
+      "russian": "перед тем, как",
+      "level_ru": "Начальный (TOPIK I)",
+      "exercise_count": 15,
+      "exercises": [
+        {
+          "exercise_number": 1,
+          "prompt_korean": "먹다",
+          "prompt_russian": "есть",
+          "sentence_before": "밥을 ",
+          "sentence_after": " 손을 씻어요.",
+          "correct_answer": "먹기 전에",
+          "translation_ru": "Перед тем как есть, мою руки."
+        },
+        {
+          "exercise_number": 2,
+          "prompt_korean": "가다",
+          "prompt_russian": "идти",
+          "sentence_before": "학교에 ",
+          "sentence_after": " 아침을 먹어요.",
+          "correct_answer": "가기 전에",
+          "translation_ru": "Перед тем как идти в школу, ем завтрак."
+        },
+        {
+          "exercise_number": 3,
+          "prompt_korean": "자다",
+          "prompt_russian": "спать",
+          "sentence_before": "저는 ",
+          "sentence_after": " 책을 읽어요.",
+          "correct_answer": "자기 전에",
+          "translation_ru": "Перед тем как заснуть, читаю книгу."
+        },
+        {
+          "exercise_number": 4,
+          "prompt_korean": "나가다",
+          "prompt_russian": "выходить",
+          "sentence_before": "집을 ",
+          "sentence_after": " 우산을 챙겼어요.",
+          "correct_answer": "나가기 전에",
+          "translation_ru": "Перед тем как выйти из дома, я взял(а) зонт."
+        },
+        {
+          "exercise_number": 5,
+          "prompt_korean": "주문하다",
+          "prompt_russian": "заказывать",
+          "sentence_before": "음식을 ",
+          "sentence_after": " 메뉴를 봤어요.",
+          "correct_answer": "주문하기 전에",
+          "translation_ru": "Перед тем как заказать еду, я посмотрел(а) меню."
+        },
+        {
+          "exercise_number": 6,
+          "prompt_korean": "운동하다",
+          "prompt_russian": "заниматься спортом",
+          "sentence_before": "저는 ",
+          "sentence_after": " 스트레칭을 해요.",
+          "correct_answer": "운동하기 전에",
+          "translation_ru": "Перед тренировкой я делаю растяжку."
+        },
+        {
+          "exercise_number": 7,
+          "prompt_korean": "듣다",
+          "prompt_russian": "слушать",
+          "sentence_before": "그 말을 ",
+          "sentence_after": " 몰랐어요.",
+          "correct_answer": "듣기 전에",
+          "translation_ru": "Перед тем как услышать это, я не знал(а)."
+        },
+        {
+          "exercise_number": 8,
+          "prompt_korean": "걷다",
+          "prompt_russian": "идти пешком",
+          "sentence_before": "길을 ",
+          "sentence_after": " 신발을 신었어요.",
+          "correct_answer": "걷기 전에",
+          "translation_ru": "Перед тем как идти пешком, я надел(а) обувь."
+        },
+        {
+          "exercise_number": 9,
+          "prompt_korean": "돕다",
+          "prompt_russian": "помогать",
+          "sentence_before": "친구를 ",
+          "sentence_after": " 상황을 물어봤어요.",
+          "correct_answer": "돕기 전에",
+          "translation_ru": "Перед тем как помочь другу, я спросил(а) о ситуации."
+        },
+        {
+          "exercise_number": 10,
+          "prompt_korean": "짓다",
+          "prompt_russian": "строить",
+          "sentence_before": "집을 ",
+          "sentence_after": " 설계도를 그렸어요.",
+          "correct_answer": "짓기 전에",
+          "translation_ru": "Перед тем как построить дом, нарисовали план."
+        },
+        {
+          "exercise_number": 11,
+          "prompt_korean": "고르다",
+          "prompt_russian": "выбирать",
+          "sentence_before": "옷을 ",
+          "sentence_after": " 가격을 확인했어요.",
+          "correct_answer": "고르기 전에",
+          "translation_ru": "Перед тем как выбрать одежду, я проверил(а) цену."
+        },
+        {
+          "exercise_number": 12,
+          "prompt_korean": "만들다",
+          "prompt_russian": "делать/готовить",
+          "sentence_before": "케이크를 ",
+          "sentence_after": " 재료를 샀어요.",
+          "correct_answer": "만들기 전에",
+          "translation_ru": "Перед тем как приготовить торт, я купил(а) ингредиенты."
+        },
+        {
+          "exercise_number": 13,
+          "prompt_korean": "마시다",
+          "prompt_russian": "пить",
+          "sentence_before": "차를 ",
+          "sentence_after": " 식혔어요.",
+          "correct_answer": "마시기 전에",
+          "translation_ru": "Перед тем как выпить чай, я его остудил(а)."
+        },
+        {
+          "exercise_number": 14,
+          "prompt_korean": "청소하다",
+          "prompt_russian": "убирать(ся)",
+          "sentence_before": "방을 ",
+          "sentence_after": " 창문을 열었어요.",
+          "correct_answer": "청소하기 전에",
+          "translation_ru": "Перед тем как убрать комнату, я открыл(а) окно."
+        },
+        {
+          "exercise_number": 15,
+          "prompt_korean": "출발하다",
+          "prompt_russian": "отправляться",
+          "sentence_before": "우리는 ",
+          "sentence_after": " 짐을 확인했어요.",
+          "correct_answer": "출발하기 전에",
+          "translation_ru": "Перед тем как отправиться, мы проверили багаж."
+        }
+      ]
+    },
+    {
+      "id": "t2-001",
+      "korean": "-(으)ㄴ 채(로)",
+      "russian": "в состоянии, оставаясь в том же положении (не меняя его)",
+      "level_ru": "Средний (TOPIK II)",
+      "exercise_count": 15,
+      "exercises": [
+        {
+          "exercise_number": 1,
+          "prompt_korean": "앉다",
+          "prompt_russian": "сидеть",
+          "sentence_before": "할아버지는 소파에",
+          "sentence_after": "깜빡 잠이 드셨다.",
+          "correct_answer": "앉은 채로",
+          "translation_ru": "Дедушка задремал, сидя на диване (не меняя позы)."
+        },
+        {
+          "exercise_number": 2,
+          "prompt_korean": "서다",
+          "prompt_russian": "стоять",
+          "sentence_before": "그는 문 앞에",
+          "sentence_after": "한참을 기다렸다.",
+          "correct_answer": "선 채로",
+          "translation_ru": "Он долго ждал, стоя перед дверью."
+        },
+        {
+          "exercise_number": 3,
+          "prompt_korean": "눕다",
+          "prompt_russian": "лежать",
+          "sentence_before": "침대에",
+          "sentence_after": "텔레비전을 봤다.",
+          "correct_answer": "누운 채로",
+          "translation_ru": "Я смотрел(а) телевизор, лёжа в постели."
+        },
+        {
+          "exercise_number": 4,
+          "prompt_korean": "입다",
+          "prompt_russian": "носить (одежду)",
+          "sentence_before": "그는 옷을",
+          "sentence_after": "그대로 침대에 쓰러졌다.",
+          "correct_answer": "입은 채로",
+          "translation_ru": "Он рухнул на кровать, не раздеваясь (так и в одежде)."
+        },
+        {
+          "exercise_number": 5,
+          "prompt_korean": "신다",
+          "prompt_russian": "носить (обувь)",
+          "sentence_before": "신발을",
+          "sentence_after": "방에 들어오지 마세요.",
+          "correct_answer": "신은 채로",
+          "translation_ru": "Не заходите в комнату в обуви, не снимая её."
+        },
+        {
+          "exercise_number": 6,
+          "prompt_korean": "쓰다",
+          "prompt_russian": "носить (очки)",
+          "sentence_before": "안경을",
+          "sentence_after": "눈을 비볐더니 안경이 깨졌다.",
+          "correct_answer": "쓴 채로",
+          "translation_ru": "Я потёр(ла) глаза, не снимая очков, и они разбились."
+        },
+        {
+          "exercise_number": 7,
+          "prompt_korean": "켜다",
+          "prompt_russian": "включать",
+          "sentence_before": "에어컨을",
+          "sentence_after": "잠들어서 감기에 걸렸다.",
+          "correct_answer": "켠 채로",
+          "translation_ru": "Я простудился(лась), потому что заснул(а), не выключив кондиционер."
+        },
+        {
+          "exercise_number": 8,
+          "prompt_korean": "끄다",
+          "prompt_russian": "выключать",
+          "sentence_before": "휴대폰을",
+          "sentence_after": "하루 종일 돌아다녔다.",
+          "correct_answer": "끈 채로",
+          "translation_ru": "Я целый день гулял(а) с выключенным телефоном."
+        },
+        {
+          "exercise_number": 9,
+          "prompt_korean": "열다",
+          "prompt_russian": "открывать",
+          "sentence_before": "창문을",
+          "sentence_after": "외출해서 비가 들어왔다.",
+          "correct_answer": "연 채로",
+          "translation_ru": "Я вышел(ла), не закрыв окно, и дождь залил комнату."
+        },
+        {
+          "exercise_number": 10,
+          "prompt_korean": "닫다",
+          "prompt_russian": "закрывать",
+          "sentence_before": "문을",
+          "sentence_after": "이야기하면 답답해요.",
+          "correct_answer": "닫은 채로",
+          "translation_ru": "Разговаривать с закрытой дверью, не открывая её, неприятно."
+        },
+        {
+          "exercise_number": 11,
+          "prompt_korean": "매다",
+          "prompt_russian": "завязывать (галстук)",
+          "sentence_before": "넥타이를",
+          "sentence_after": "소파에서 잠이 들었다.",
+          "correct_answer": "맨 채로",
+          "translation_ru": "Я заснул(а) на диване, так и не сняв галстук."
+        },
+        {
+          "exercise_number": 12,
+          "prompt_korean": "웃다",
+          "prompt_russian": "улыбаться",
+          "sentence_before": "그녀는",
+          "sentence_after": "아무 말도 하지 않았다.",
+          "correct_answer": "웃은 채로",
+          "translation_ru": "Она молчала, продолжая улыбаться."
+        },
+        {
+          "exercise_number": 13,
+          "prompt_korean": "울다",
+          "prompt_russian": "плакать",
+          "sentence_before": "아이는",
+          "sentence_after": "엄마 품에 안겼다.",
+          "correct_answer": "운 채로",
+          "translation_ru": "Ребёнок, продолжая плакать, прижался к маме."
+        },
+        {
+          "exercise_number": 14,
+          "prompt_korean": "감다",
+          "prompt_russian": "закрывать (глаза)",
+          "sentence_before": "눈을",
+          "sentence_after": "음악을 들었다.",
+          "correct_answer": "감은 채로",
+          "translation_ru": "Я слушал(а) музыку с закрытыми глазами."
+        },
+        {
+          "exercise_number": 15,
+          "prompt_korean": "벗다",
+          "prompt_russian": "снимать (обувь/одежду)",
+          "sentence_before": "신발을",
+          "sentence_after": "밖으로 뛰어나갔다.",
+          "correct_answer": "벗은 채로",
+          "translation_ru": "Я выбежал(а) на улицу разутым(ой), не надев обувь."
+        }
+      ]
+    },
+    {
+      "id": "t2-003",
+      "korean": "-(으)ㄴ/는 김에",
+      "russian": "заодно, пользуясь случаем",
+      "level_ru": "Средний (TOPIK II)",
+      "exercise_count": 15,
+      "exercises": [
+        {
+          "exercise_number": 1,
+          "prompt_korean": "가다",
+          "prompt_russian": "идти/ехать",
+          "sentence_before": "서울에",
+          "sentence_after": "친구도 만났다.",
+          "correct_answer": "가는 김에",
+          "translation_ru": "Заодно, когда ехал(а) в Сеул, я встретился(лась) и с другом."
+        },
+        {
+          "exercise_number": 2,
+          "prompt_korean": "오다",
+          "prompt_russian": "приходить",
+          "sentence_before": "이미",
+          "sentence_after": "여기서 저녁까지 먹고 가자.",
+          "correct_answer": "온 김에",
+          "translation_ru": "Раз уж я (ты) уже пришёл(шла), давай останемся здесь и поужинаем."
+        },
+        {
+          "exercise_number": 3,
+          "prompt_korean": "청소하다",
+          "prompt_russian": "убирать",
+          "sentence_before": "집을",
+          "sentence_after": "창문도 닦았다.",
+          "correct_answer": "청소하는 김에",
+          "translation_ru": "Заодно с уборкой дома я помыл(а) и окна."
+        },
+        {
+          "exercise_number": 4,
+          "prompt_korean": "씻다",
+          "prompt_russian": "мыть",
+          "sentence_before": "손을",
+          "sentence_after": "머리도 감았다.",
+          "correct_answer": "씻는 김에",
+          "translation_ru": "Заодно, когда мыл(а) руки, я вымыл(а) и голову."
+        },
+        {
+          "exercise_number": 5,
+          "prompt_korean": "나오다",
+          "prompt_russian": "выходить",
+          "sentence_before": "밖에",
+          "sentence_after": "편의점에 들렀다.",
+          "correct_answer": "나온 김에",
+          "translation_ru": "Раз уж я вышел(ла) на улицу, заглянул(а) в магазин."
+        },
+        {
+          "exercise_number": 6,
+          "prompt_korean": "만들다",
+          "prompt_russian": "делать/готовить",
+          "sentence_before": "쿠키를",
+          "sentence_after": "케이크도 만들었다.",
+          "correct_answer": "만드는 김에",
+          "translation_ru": "Заодно, когда готовил(а) печенье, я сделал(а) и торт."
+        },
+        {
+          "exercise_number": 7,
+          "prompt_korean": "사다",
+          "prompt_russian": "покупать",
+          "sentence_before": "우산을",
+          "sentence_after": "장갑도 샀다.",
+          "correct_answer": "산 김에",
+          "translation_ru": "Раз уж купил(а) зонт, купил(а) ещё и перчатки."
+        },
+        {
+          "exercise_number": 8,
+          "prompt_korean": "일어나다",
+          "prompt_russian": "вставать",
+          "sentence_before": "일찍",
+          "sentence_after": "아침 운동도 했다.",
+          "correct_answer": "일어난 김에",
+          "translation_ru": "Раз уж встал(а) рано, сделал(а) и утреннюю зарядку."
+        },
+        {
+          "exercise_number": 9,
+          "prompt_korean": "나가다",
+          "prompt_russian": "выходить",
+          "sentence_before": "쓰레기 버리러",
+          "sentence_after": "우편물도 확인했다.",
+          "correct_answer": "나가는 김에",
+          "translation_ru": "Заодно, когда выходил(а) выбросить мусор, проверил(а) и почту."
+        },
+        {
+          "exercise_number": 10,
+          "prompt_korean": "쉬다",
+          "prompt_russian": "отдыхать",
+          "sentence_before": "집에서",
+          "sentence_after": "밀린 드라마도 봤다.",
+          "correct_answer": "쉬는 김에",
+          "translation_ru": "Заодно, отдыхая дома, я посмотрел(а) и накопившиеся серии дорамы."
+        },
+        {
+          "exercise_number": 11,
+          "prompt_korean": "운동하다",
+          "prompt_russian": "заниматься спортом",
+          "sentence_before": "헬스장에서",
+          "sentence_after": "사우나도 했다.",
+          "correct_answer": "운동하는 김에",
+          "translation_ru": "Заодно, тренируясь в зале, я сходил(а) и в сауну."
+        },
+        {
+          "exercise_number": 12,
+          "prompt_korean": "듣다",
+          "prompt_russian": "слушать",
+          "sentence_before": "강의를",
+          "sentence_after": "노트도 정리했다.",
+          "correct_answer": "들은 김에",
+          "translation_ru": "Раз уж прослушал(а) лекцию, привёл(а) в порядок и конспект."
+        },
+        {
+          "exercise_number": 13,
+          "prompt_korean": "걷다",
+          "prompt_russian": "идти пешком",
+          "sentence_before": "공원까지",
+          "sentence_after": "좀 더 산책했다.",
+          "correct_answer": "걸은 김에",
+          "translation_ru": "Раз уж дошёл(шла) пешком до парка, прогулялся(лась) ещё немного."
+        },
+        {
+          "exercise_number": 14,
+          "prompt_korean": "눕다",
+          "prompt_russian": "лежать",
+          "sentence_before": "잠깐",
+          "sentence_after": "눈을 좀 감았다.",
+          "correct_answer": "누운 김에",
+          "translation_ru": "Раз уж ненадолго лёг(ла), я ещё и прикрыл(а) глаза."
+        },
+        {
+          "exercise_number": 15,
+          "prompt_korean": "전화하다",
+          "prompt_russian": "звонить",
+          "sentence_before": "엄마한테",
+          "sentence_after": "안부도 물었다.",
+          "correct_answer": "전화하는 김에",
+          "translation_ru": "Заодно, звоня маме, я и спросил(а), как у неё дела."
+        }
+      ]
+    },
+    {
+      "id": "t2-038",
+      "korean": "-(으)려다가",
+      "russian": "собирался сделать, но (вместо этого случилось другое)",
+      "level_ru": "Средний (TOPIK II)",
+      "exercise_count": 15,
+      "exercises": [
+        {
+          "exercise_number": 1,
+          "prompt_korean": "전화하다",
+          "prompt_russian": "звонить",
+          "sentence_before": "친구에게",
+          "sentence_after": "문자로 메시지를 보냈다.",
+          "correct_answer": "전화하려다가",
+          "translation_ru": "Я собирался(лась) позвонить другу, но вместо этого отправил(а) сообщение."
+        },
+        {
+          "exercise_number": 2,
+          "prompt_korean": "자다",
+          "prompt_russian": "спать",
+          "sentence_before": "일찍",
+          "sentence_after": "갑자기 전화가 와서 깼다.",
+          "correct_answer": "자려다가",
+          "translation_ru": "Я собирался(лась) лечь спать пораньше, но зазвонил телефон, и я проснулся(лась)."
+        },
+        {
+          "exercise_number": 3,
+          "prompt_korean": "먹다",
+          "prompt_russian": "есть",
+          "sentence_before": "라면을",
+          "sentence_after": "배가 아파서 그만두었다.",
+          "correct_answer": "먹으려다가",
+          "translation_ru": "Я собирался(лась) съесть лапшу, но у меня заболел живот, и я остановился(лась)."
+        },
+        {
+          "exercise_number": 4,
+          "prompt_korean": "가다",
+          "prompt_russian": "идти/ехать",
+          "sentence_before": "혼자 여행을",
+          "sentence_after": "친구가 같이 가겠다고 했다.",
+          "correct_answer": "가려다가",
+          "translation_ru": "Я собирался(лась) поехать в путешествие один(одна), но друг сказал, что поедет со мной."
+        },
+        {
+          "exercise_number": 5,
+          "prompt_korean": "쓰다",
+          "prompt_russian": "писать",
+          "sentence_before": "일기를",
+          "sentence_after": "너무 졸려서 그냥 잤다.",
+          "correct_answer": "쓰려다가",
+          "translation_ru": "Я собирался(лась) написать в дневнике, но было слишком сонно, и я просто лёг(легла) спать."
+        },
+        {
+          "exercise_number": 6,
+          "prompt_korean": "사다",
+          "prompt_russian": "покупать",
+          "sentence_before": "새 가방을",
+          "sentence_after": "너무 비싸서 포기했다.",
+          "correct_answer": "사려다가",
+          "translation_ru": "Я собирался(лась) купить новую сумку, но она оказалась слишком дорогой, и я отказался(лась)."
+        },
+        {
+          "exercise_number": 7,
+          "prompt_korean": "묻다",
+          "prompt_russian": "спрашивать",
+          "sentence_before": "선생님께 질문을",
+          "sentence_after": "수업이 끝나 버렸다.",
+          "correct_answer": "물으려다가",
+          "translation_ru": "Я собирался(лась) задать вопрос учителю, но урок закончился раньше."
+        },
+        {
+          "exercise_number": 8,
+          "prompt_korean": "입다",
+          "prompt_russian": "надевать",
+          "sentence_before": "그 치마를",
+          "sentence_after": "사이즈가 안 맞아서 다른 옷으로 갈아입었다.",
+          "correct_answer": "입으려다가",
+          "translation_ru": "Я хотел(а) надеть ту юбку, но размер не подошёл, и я сменил(а) одежду."
+        },
+        {
+          "exercise_number": 9,
+          "prompt_korean": "만들다",
+          "prompt_russian": "делать/готовить",
+          "sentence_before": "저녁을 직접",
+          "sentence_after": "시간이 없어서 배달을 시켰다.",
+          "correct_answer": "만들려다가",
+          "translation_ru": "Я собирался(лась) сам(а) приготовить ужин, но не было времени, и я заказал(а) доставку."
+        },
+        {
+          "exercise_number": 10,
+          "prompt_korean": "돕다",
+          "prompt_russian": "помогать",
+          "sentence_before": "이삿짐을",
+          "sentence_after": "허리를 다칠까 봐 그만두었다.",
+          "correct_answer": "도우려다가",
+          "translation_ru": "Я хотел(а) помочь с переездом, но испугался(лась) повредить спину и отказался(лась)."
+        },
+        {
+          "exercise_number": 11,
+          "prompt_korean": "읽다",
+          "prompt_russian": "читать",
+          "sentence_before": "그 책을",
+          "sentence_after": "너무 두꺼워서 다른 책을 골랐다.",
+          "correct_answer": "읽으려다가",
+          "translation_ru": "Я собирался(лась) прочитать эту книгу, но она оказалась слишком толстой, и я выбрал(а) другую."
+        },
+        {
+          "exercise_number": 12,
+          "prompt_korean": "자르다",
+          "prompt_russian": "стричь/резать",
+          "sentence_before": "머리를 짧게",
+          "sentence_after": "미용사가 말려서 그대로 두었다.",
+          "correct_answer": "자르려다가",
+          "translation_ru": "Я хотел(а) коротко постричься, но парикмахер отговорил(а), и я оставил(а) как есть."
+        },
+        {
+          "exercise_number": 13,
+          "prompt_korean": "쉬다",
+          "prompt_russian": "отдыхать",
+          "sentence_before": "주말에 집에서",
+          "sentence_after": "갑자기 일이 생겨서 출근했다.",
+          "correct_answer": "쉬려다가",
+          "translation_ru": "Я собирался(лась) отдохнуть дома на выходных, но внезапно появилось дело, и я пошёл(шла) на работу."
+        },
+        {
+          "exercise_number": 14,
+          "prompt_korean": "열다",
+          "prompt_russian": "открывать",
+          "sentence_before": "창문을",
+          "sentence_after": "밖이 너무 추워서 그냥 두었다.",
+          "correct_answer": "열려다가",
+          "translation_ru": "Я хотел(а) открыть окно, но снаружи было слишком холодно, и я оставил(а) его закрытым."
+        },
+        {
+          "exercise_number": 15,
+          "prompt_korean": "눕다",
+          "prompt_russian": "лежать",
+          "sentence_before": "소파에",
+          "sentence_after": "전화벨이 울려서 다시 일어났다.",
+          "correct_answer": "누우려다가",
+          "translation_ru": "Я хотел(а) лечь на диван, но зазвонил телефон, и я снова встал(а)."
+        }
+      ]
+    },
+    {
+      "id": "t2-049",
+      "korean": "-고 나니(까)",
+      "russian": "после того как сделал(а), (обнаружил/понял, что)",
+      "level_ru": "Средний (TOPIK II)",
+      "exercise_count": 15,
+      "exercises": [
+        {
+          "exercise_number": 1,
+          "prompt_korean": "먹다",
+          "prompt_russian": "есть",
+          "sentence_before": "밥을",
+          "sentence_after": "힘이 났다.",
+          "correct_answer": "먹고 나니",
+          "translation_ru": "После того как я поел(а), у меня появились силы."
+        },
+        {
+          "exercise_number": 2,
+          "prompt_korean": "운동하다",
+          "prompt_russian": "заниматься спортом",
+          "sentence_before": "아침에",
+          "sentence_after": "몸이 가벼워졌다.",
+          "correct_answer": "운동하고 나니까",
+          "translation_ru": "После того как я позанимался(лась) спортом утром, тело стало лёгким."
+        },
+        {
+          "exercise_number": 3,
+          "prompt_korean": "울다",
+          "prompt_russian": "плакать",
+          "sentence_before": "한참",
+          "sentence_after": "마음이 편해졌다.",
+          "correct_answer": "울고 나니",
+          "translation_ru": "После того как я долго поплакал(а), на душе стало легче."
+        },
+        {
+          "exercise_number": 4,
+          "prompt_korean": "자다",
+          "prompt_russian": "спать",
+          "sentence_before": "한잠",
+          "sentence_after": "정신이 맑아졌다.",
+          "correct_answer": "자고 나니까",
+          "translation_ru": "После того как я немного поспал(а), голова стала ясной."
+        },
+        {
+          "exercise_number": 5,
+          "prompt_korean": "청소하다",
+          "prompt_russian": "убирать",
+          "sentence_before": "집을",
+          "sentence_after": "기분이 좋아졌다.",
+          "correct_answer": "청소하고 나니",
+          "translation_ru": "После того как я убрал(а) дом, настроение улучшилось."
+        },
+        {
+          "exercise_number": 6,
+          "prompt_korean": "일하다",
+          "prompt_russian": "работать",
+          "sentence_before": "하루 종일",
+          "sentence_after": "피곤이 몰려왔다.",
+          "correct_answer": "일하고 나니까",
+          "translation_ru": "После того как я поработал(а) целый день, навалилась усталость."
+        },
+        {
+          "exercise_number": 7,
+          "prompt_korean": "공부하다",
+          "prompt_russian": "учиться/заниматься",
+          "sentence_before": "밤새",
+          "sentence_after": "머리가 아팠다.",
+          "correct_answer": "공부하고 나니",
+          "translation_ru": "После того как я проучился(лась) всю ночь, заболела голова."
+        },
+        {
+          "exercise_number": 8,
+          "prompt_korean": "듣다",
+          "prompt_russian": "слушать",
+          "sentence_before": "그 이야기를",
+          "sentence_after": "이해가 됐다.",
+          "correct_answer": "듣고 나니까",
+          "translation_ru": "После того как я услышал(а) эту историю, мне стало понятно."
+        },
+        {
+          "exercise_number": 9,
+          "prompt_korean": "걷다",
+          "prompt_russian": "идти пешком",
+          "sentence_before": "한 시간을",
+          "sentence_after": "다리가 아팠다.",
+          "correct_answer": "걷고 나니",
+          "translation_ru": "После того как я прошёл(шла) пешком час, заболели ноги."
+        },
+        {
+          "exercise_number": 10,
+          "prompt_korean": "말하다",
+          "prompt_russian": "говорить",
+          "sentence_before": "솔직하게",
+          "sentence_after": "속이 후련했다.",
+          "correct_answer": "말하고 나니까",
+          "translation_ru": "После того как я честно всё высказал(а), стало легче на душе."
+        },
+        {
+          "exercise_number": 11,
+          "prompt_korean": "생각하다",
+          "prompt_russian": "думать",
+          "sentence_before": "곰곰이",
+          "sentence_after": "답이 보였다.",
+          "correct_answer": "생각하고 나니",
+          "translation_ru": "После того как я хорошо всё обдумал(а), стал виден ответ."
+        },
+        {
+          "exercise_number": 12,
+          "prompt_korean": "씻다",
+          "prompt_russian": "мыться/мыть",
+          "sentence_before": "찬물로",
+          "sentence_after": "정신이 들었다.",
+          "correct_answer": "씻고 나니까",
+          "translation_ru": "После того как я умылся(умылась) холодной водой, я пришёл(пришла) в себя."
+        },
+        {
+          "exercise_number": 13,
+          "prompt_korean": "참다",
+          "prompt_russian": "терпеть/сдерживать",
+          "sentence_before": "화를",
+          "sentence_after": "오히려 후회가 됐다.",
+          "correct_answer": "참고 나니",
+          "translation_ru": "После того как я сдержал(а) гнев, я, наоборот, пожалел(а) об этом."
+        },
+        {
+          "exercise_number": 14,
+          "prompt_korean": "끊다",
+          "prompt_russian": "бросать (привычку)",
+          "sentence_before": "담배를",
+          "sentence_after": "숨쉬기가 편해졌다.",
+          "correct_answer": "끊고 나니까",
+          "translation_ru": "После того как я бросил(а) курить, стало легче дышать."
+        },
+        {
+          "exercise_number": 15,
+          "prompt_korean": "이기다",
+          "prompt_russian": "выигрывать",
+          "sentence_before": "경기에서",
+          "sentence_after": "모든 피로가 풀렸다.",
+          "correct_answer": "이기고 나니",
+          "translation_ru": "После того как я выиграл(а) матч, вся усталость прошла."
+        }
+      ]
+    },
+    {
+      "id": "t2-050",
+      "korean": "-고 나면",
+      "russian": "после того как (сделаю/сделаешь)",
+      "level_ru": "Средний (TOPIK II)",
+      "exercise_count": 15,
+      "exercises": [
+        {
+          "exercise_number": 1,
+          "prompt_korean": "자다",
+          "prompt_russian": "спать",
+          "sentence_before": "잠을",
+          "sentence_after": "기운이 난다.",
+          "correct_answer": "자고 나면",
+          "translation_ru": "После того как посплю, появляются силы."
+        },
+        {
+          "exercise_number": 2,
+          "prompt_korean": "먹다",
+          "prompt_russian": "есть",
+          "sentence_before": "밥을",
+          "sentence_after": "졸리다.",
+          "correct_answer": "먹고 나면",
+          "translation_ru": "После еды меня тянет в сон."
+        },
+        {
+          "exercise_number": 3,
+          "prompt_korean": "운동하다",
+          "prompt_russian": "заниматься спортом",
+          "sentence_before": "매일",
+          "sentence_after": "몸이 상쾌해진다.",
+          "correct_answer": "운동하고 나면",
+          "translation_ru": "После того как позанимаюсь спортом, тело становится бодрым."
+        },
+        {
+          "exercise_number": 4,
+          "prompt_korean": "씻다",
+          "prompt_russian": "мыться/мыть",
+          "sentence_before": "손을",
+          "sentence_after": "마음이 놓인다.",
+          "correct_answer": "씻고 나면",
+          "translation_ru": "После того как вымою руки, становится спокойнее."
+        },
+        {
+          "exercise_number": 5,
+          "prompt_korean": "울다",
+          "prompt_russian": "плакать",
+          "sentence_before": "실컷",
+          "sentence_after": "속이 후련해진다.",
+          "correct_answer": "울고 나면",
+          "translation_ru": "После того как хорошенько поплачу, становится легче."
+        },
+        {
+          "exercise_number": 6,
+          "prompt_korean": "쉬다",
+          "prompt_russian": "отдыхать",
+          "sentence_before": "충분히",
+          "sentence_after": "다시 힘이 생긴다.",
+          "correct_answer": "쉬고 나면",
+          "translation_ru": "После того как хорошенько отдохну, снова появляются силы."
+        },
+        {
+          "exercise_number": 7,
+          "prompt_korean": "읽다",
+          "prompt_russian": "читать",
+          "sentence_before": "책을 다",
+          "sentence_after": "뿌듯한 기분이 든다.",
+          "correct_answer": "읽고 나면",
+          "translation_ru": "Когда дочитаю книгу, чувствую удовлетворение."
+        },
+        {
+          "exercise_number": 8,
+          "prompt_korean": "끝내다",
+          "prompt_russian": "заканчивать",
+          "sentence_before": "이 일을",
+          "sentence_after": "마음이 홀가분해질 것이다.",
+          "correct_answer": "끝내고 나면",
+          "translation_ru": "Когда закончу эту работу, на душе станет легко."
+        },
+        {
+          "exercise_number": 9,
+          "prompt_korean": "걷다",
+          "prompt_russian": "идти пешком",
+          "sentence_before": "공원을",
+          "sentence_after": "머리가 맑아진다.",
+          "correct_answer": "걷고 나면",
+          "translation_ru": "После прогулки по парку в голове становится ясно."
+        },
+        {
+          "exercise_number": 10,
+          "prompt_korean": "연습하다",
+          "prompt_russian": "тренироваться",
+          "sentence_before": "매일",
+          "sentence_after": "실력이 좋아질 것이다.",
+          "correct_answer": "연습하고 나면",
+          "translation_ru": "Если каждый день практиковаться, навык улучшится."
+        },
+        {
+          "exercise_number": 11,
+          "prompt_korean": "마시다",
+          "prompt_russian": "пить",
+          "sentence_before": "물을 한 잔",
+          "sentence_after": "속이 편해진다.",
+          "correct_answer": "마시고 나면",
+          "translation_ru": "После того как выпью стакан воды, становится легче в животе."
+        },
+        {
+          "exercise_number": 12,
+          "prompt_korean": "샤워하다",
+          "prompt_russian": "принимать душ",
+          "sentence_before": "따뜻한 물로",
+          "sentence_after": "피곤이 풀린다.",
+          "correct_answer": "샤워하고 나면",
+          "translation_ru": "После тёплого душа усталость проходит."
+        },
+        {
+          "exercise_number": 13,
+          "prompt_korean": "풀다",
+          "prompt_russian": "решать (задачи)",
+          "sentence_before": "수학 문제를 다",
+          "sentence_after": "성취감이 든다.",
+          "correct_answer": "풀고 나면",
+          "translation_ru": "Когда решу все задачи по математике, появляется чувство удовлетворения."
+        },
+        {
+          "exercise_number": 14,
+          "prompt_korean": "이야기하다",
+          "prompt_russian": "разговаривать",
+          "sentence_before": "친구와",
+          "sentence_after": "마음이 가벼워진다.",
+          "correct_answer": "이야기하고 나면",
+          "translation_ru": "После разговора с другом на душе становится легче."
+        },
+        {
+          "exercise_number": 15,
+          "prompt_korean": "명상하다",
+          "prompt_russian": "медитировать",
+          "sentence_before": "매일 아침",
+          "sentence_after": "마음이 차분해진다.",
+          "correct_answer": "명상하고 나면",
+          "translation_ru": "После утренней медитации душа становится спокойной."
+        }
+      ]
+    },
+    {
+      "id": "t2-051",
+      "korean": "-고 나서",
+      "russian": "сначала..., а потом (после завершения действия)",
+      "level_ru": "Средний (TOPIK II)",
+      "exercise_count": 15,
+      "exercises": [
+        {
+          "exercise_number": 1,
+          "prompt_korean": "먹다",
+          "prompt_russian": "есть, кушать",
+          "sentence_before": "밥을 ",
+          "sentence_after": " 설거지를 할게요.",
+          "correct_answer": "먹고 나서",
+          "translation_ru": "Сначала поем, а потом помою посуду."
+        },
+        {
+          "exercise_number": 2,
+          "prompt_korean": "숙제하다",
+          "prompt_russian": "делать домашнее задание",
+          "sentence_before": "저는 ",
+          "sentence_after": " 텔레비전을 볼 거예요.",
+          "correct_answer": "숙제하고 나서",
+          "translation_ru": "Сначала я сделаю домашнее задание, а потом посмотрю телевизор."
+        },
+        {
+          "exercise_number": 3,
+          "prompt_korean": "씻다",
+          "prompt_russian": "мыть, умываться",
+          "sentence_before": "손을 ",
+          "sentence_after": " 밥을 먹어요.",
+          "correct_answer": "씻고 나서",
+          "translation_ru": "Сначала помою руки, а потом поем."
+        },
+        {
+          "exercise_number": 4,
+          "prompt_korean": "운동하다",
+          "prompt_russian": "заниматься спортом",
+          "sentence_before": "저는 ",
+          "sentence_after": " 샤워를 해요.",
+          "correct_answer": "운동하고 나서",
+          "translation_ru": "Сначала потренируюсь, а потом приму душ."
+        },
+        {
+          "exercise_number": 5,
+          "prompt_korean": "끝내다",
+          "prompt_russian": "заканчивать",
+          "sentence_before": "일을 ",
+          "sentence_after": " 쉴 거예요.",
+          "correct_answer": "끝내고 나서",
+          "translation_ru": "Сначала закончу работу, а потом отдохну."
+        },
+        {
+          "exercise_number": 6,
+          "prompt_korean": "만들다",
+          "prompt_russian": "делать, готовить",
+          "sentence_before": "음식을 ",
+          "sentence_after": " 친구를 초대했어요.",
+          "correct_answer": "만들고 나서",
+          "translation_ru": "Сначала приготовила еду, а потом пригласила друга."
+        },
+        {
+          "exercise_number": 7,
+          "prompt_korean": "읽다",
+          "prompt_russian": "читать",
+          "sentence_before": "책을 ",
+          "sentence_after": " 감상을 써요.",
+          "correct_answer": "읽고 나서",
+          "translation_ru": "Сначала прочитаю книгу, а потом напишу отзыв."
+        },
+        {
+          "exercise_number": 8,
+          "prompt_korean": "청소하다",
+          "prompt_russian": "убирать",
+          "sentence_before": "방을 ",
+          "sentence_after": " 나갔어요.",
+          "correct_answer": "청소하고 나서",
+          "translation_ru": "Сначала убралась в комнате, а потом ушла."
+        },
+        {
+          "exercise_number": 9,
+          "prompt_korean": "도착하다",
+          "prompt_russian": "прибывать",
+          "sentence_before": "공항에 ",
+          "sentence_after": " 전화할게요.",
+          "correct_answer": "도착하고 나서",
+          "translation_ru": "Сначала доберусь до аэропорта, а потом позвоню."
+        },
+        {
+          "exercise_number": 10,
+          "prompt_korean": "졸업하다",
+          "prompt_russian": "заканчивать учёбу, выпускаться",
+          "sentence_before": "대학교를 ",
+          "sentence_after": " 취직했어요.",
+          "correct_answer": "졸업하고 나서",
+          "translation_ru": "Сначала окончил университет, а потом нашёл работу."
+        },
+        {
+          "exercise_number": 11,
+          "prompt_korean": "자다",
+          "prompt_russian": "спать",
+          "sentence_before": "잠을 ",
+          "sentence_after": " 기분이 좋아졌어요.",
+          "correct_answer": "자고 나서",
+          "translation_ru": "Сначала поспала, а потом настроение улучшилось."
+        },
+        {
+          "exercise_number": 12,
+          "prompt_korean": "걷다",
+          "prompt_russian": "идти пешком",
+          "sentence_before": "한참 ",
+          "sentence_after": " 앉아서 쉬었어요.",
+          "correct_answer": "걷고 나서",
+          "translation_ru": "Сначала долго шли, а потом сели отдохнуть."
+        },
+        {
+          "exercise_number": 13,
+          "prompt_korean": "통화하다",
+          "prompt_russian": "разговаривать по телефону",
+          "sentence_before": "친구와 ",
+          "sentence_after": " 메모를 했어요.",
+          "correct_answer": "통화하고 나서",
+          "translation_ru": "Сначала поговорила по телефону с другом, а потом сделала заметку."
+        },
+        {
+          "exercise_number": 14,
+          "prompt_korean": "고치다",
+          "prompt_russian": "ремонтировать, исправлять",
+          "sentence_before": "자동차를 ",
+          "sentence_after": " 다시 운전했어요.",
+          "correct_answer": "고치고 나서",
+          "translation_ru": "Сначала отремонтировал машину, а потом снова поехал."
+        },
+        {
+          "exercise_number": 15,
+          "prompt_korean": "정리하다",
+          "prompt_russian": "наводить порядок, убирать",
+          "sentence_before": "책상을 ",
+          "sentence_after": " 공부를 시작했어요.",
+          "correct_answer": "정리하고 나서",
+          "translation_ru": "Сначала навела порядок на столе, а потом начала учиться."
+        }
+      ]
+    },
+    {
+      "id": "t2-054",
+      "korean": "-고 보면",
+      "russian": "если разобраться/вникнуть, то на самом деле",
+      "level_ru": "Средний (TOPIK II)",
+      "exercise_count": 15,
+      "exercises": [
+        {
+          "exercise_number": 1,
+          "prompt_korean": "살다",
+          "prompt_russian": "жить",
+          "sentence_before": "이 동네에서 ",
+          "sentence_after": " 이웃들이 다 친절해요.",
+          "correct_answer": "살고 보면",
+          "translation_ru": "Если пожить в этом районе, окажется, что все соседи дружелюбные."
+        },
+        {
+          "exercise_number": 2,
+          "prompt_korean": "먹다",
+          "prompt_russian": "есть, попробовать",
+          "sentence_before": "이 음식을 ",
+          "sentence_after": " 맛이 괜찮아요.",
+          "correct_answer": "먹고 보면",
+          "translation_ru": "Если попробовать эту еду, на вкус она вполне нормальная."
+        },
+        {
+          "exercise_number": 3,
+          "prompt_korean": "만나다",
+          "prompt_russian": "встречаться, знакомиться",
+          "sentence_before": "그 사람을 직접 ",
+          "sentence_after": " 생각보다 친절해요.",
+          "correct_answer": "만나고 보면",
+          "translation_ru": "Если лично познакомиться с этим человеком, он окажется добрее, чем кажется."
+        },
+        {
+          "exercise_number": 4,
+          "prompt_korean": "일하다",
+          "prompt_russian": "работать",
+          "sentence_before": "이 회사에서 ",
+          "sentence_after": " 분위기가 좋아요.",
+          "correct_answer": "일하고 보면",
+          "translation_ru": "Если поработать в этой компании, окажется, что атмосфера хорошая."
+        },
+        {
+          "exercise_number": 5,
+          "prompt_korean": "사용하다",
+          "prompt_russian": "использовать",
+          "sentence_before": "이 프로그램을 ",
+          "sentence_after": " 생각보다 편리해요.",
+          "correct_answer": "사용하고 보면",
+          "translation_ru": "Если попользоваться этой программой, она окажется удобнее, чем думалось."
+        },
+        {
+          "exercise_number": 6,
+          "prompt_korean": "겪다",
+          "prompt_russian": "переживать, испытывать",
+          "sentence_before": "어려움을 직접 ",
+          "sentence_after": " 사람이 더 강해져요.",
+          "correct_answer": "겪고 보면",
+          "translation_ru": "Если пережить трудности на себе, человек становится сильнее."
+        },
+        {
+          "exercise_number": 7,
+          "prompt_korean": "가르치다",
+          "prompt_russian": "учить, преподавать",
+          "sentence_before": "아이들을 ",
+          "sentence_after": " 보람을 느껴요.",
+          "correct_answer": "가르치고 보면",
+          "translation_ru": "Если поработать учителем для детей, чувствуешь удовлетворение."
+        },
+        {
+          "exercise_number": 8,
+          "prompt_korean": "운전하다",
+          "prompt_russian": "водить машину",
+          "sentence_before": "이 차를 직접 ",
+          "sentence_after": " 성능이 좋다는 걸 알아요.",
+          "correct_answer": "운전하고 보면",
+          "translation_ru": "Если самому поводить эту машину, понимаешь, что у неё хорошие характеристики."
+        },
+        {
+          "exercise_number": 9,
+          "prompt_korean": "읽다",
+          "prompt_russian": "читать",
+          "sentence_before": "그 소설을 ",
+          "sentence_after": " 정말 재미있어요.",
+          "correct_answer": "읽고 보면",
+          "translation_ru": "Если прочитать этот роман, окажется, что он очень интересный."
+        },
+        {
+          "exercise_number": 10,
+          "prompt_korean": "여행하다",
+          "prompt_russian": "путешествовать",
+          "sentence_before": "혼자 ",
+          "sentence_after": " 더 자신감이 생겨요.",
+          "correct_answer": "여행하고 보면",
+          "translation_ru": "Если попутешествовать одному, появляется больше уверенности в себе."
+        },
+        {
+          "exercise_number": 11,
+          "prompt_korean": "요리하다",
+          "prompt_russian": "готовить",
+          "sentence_before": "직접 ",
+          "sentence_after": " 재료의 맛을 더 잘 알게 돼요.",
+          "correct_answer": "요리하고 보면",
+          "translation_ru": "Если сам приготовишь, лучше узнаёшь вкус ингредиентов."
+        },
+        {
+          "exercise_number": 12,
+          "prompt_korean": "듣다",
+          "prompt_russian": "слушать",
+          "sentence_before": "그 노래를 여러 번 ",
+          "sentence_after": " 가사가 더 좋아져요.",
+          "correct_answer": "듣고 보면",
+          "translation_ru": "Если прослушать эту песню несколько раз, текст начинает нравиться больше."
+        },
+        {
+          "exercise_number": 13,
+          "prompt_korean": "쓰다",
+          "prompt_russian": "писать",
+          "sentence_before": "일기를 매일 ",
+          "sentence_after": " 생각이 정리돼요.",
+          "correct_answer": "쓰고 보면",
+          "translation_ru": "Если вести дневник каждый день, мысли упорядочиваются."
+        },
+        {
+          "exercise_number": 14,
+          "prompt_korean": "풀다",
+          "prompt_russian": "решать (задачу)",
+          "sentence_before": "문제를 직접 ",
+          "sentence_after": " 원리를 이해하게 돼요.",
+          "correct_answer": "풀고 보면",
+          "translation_ru": "Если самому порешать задачи, начинаешь понимать принцип."
+        },
+        {
+          "exercise_number": 15,
+          "prompt_korean": "키우다",
+          "prompt_russian": "выращивать, растить",
+          "sentence_before": "강아지를 직접 ",
+          "sentence_after": " 책임감을 배워요.",
+          "correct_answer": "키우고 보면",
+          "translation_ru": "Если самому вырастить щенка, учишься ответственности."
+        }
+      ]
+    },
+    {
+      "id": "t2-084",
+      "korean": "-는 (도)중에",
+      "russian": "в процессе…, в то время как…",
+      "level_ru": "Средний (TOPIK II)",
+      "exercise_count": 15,
+      "exercises": [
+        {
+          "exercise_number": 1,
+          "prompt_korean": "운전하다",
+          "prompt_russian": "водить машину",
+          "sentence_before": "고속도로에서 ",
+          "sentence_after": " 갑자기 전화가 왔어요.",
+          "correct_answer": "운전하는 중에",
+          "translation_ru": "Когда я вёл машину по автостраде, внезапно позвонил телефон."
+        },
+        {
+          "exercise_number": 2,
+          "prompt_korean": "요리하다",
+          "prompt_russian": "готовить",
+          "sentence_before": "저녁을 ",
+          "sentence_after": " 손을 데었어요.",
+          "correct_answer": "요리하는 중에",
+          "translation_ru": "Готовя ужин, я обжёг руку."
+        },
+        {
+          "exercise_number": 3,
+          "prompt_korean": "회의하다",
+          "prompt_russian": "совещаться, проводить совещание",
+          "sentence_before": "팀장님과 ",
+          "sentence_after": " 중요한 아이디어가 떠올랐어요.",
+          "correct_answer": "회의하는 중에",
+          "translation_ru": "В процессе совещания с руководителем группы мне пришла в голову важная идея."
+        },
+        {
+          "exercise_number": 4,
+          "prompt_korean": "공부하다",
+          "prompt_russian": "учиться, заниматься",
+          "sentence_before": "도서관에서 ",
+          "sentence_after": " 친구를 만났어요.",
+          "correct_answer": "공부하는 중에",
+          "translation_ru": "Пока я учился в библиотеке, встретил друга."
+        },
+        {
+          "exercise_number": 5,
+          "prompt_korean": "걷다",
+          "prompt_russian": "идти пешком",
+          "sentence_before": "공원을 ",
+          "sentence_after": " 비가 오기 시작했어요.",
+          "correct_answer": "걷는 중에",
+          "translation_ru": "Пока я шёл по парку, начался дождь."
+        },
+        {
+          "exercise_number": 6,
+          "prompt_korean": "자다",
+          "prompt_russian": "спать",
+          "sentence_before": "낮잠을 ",
+          "sentence_after": " 전화벨 소리에 깼어요.",
+          "correct_answer": "자는 중에",
+          "translation_ru": "Пока я спал днём, проснулся от звонка телефона."
+        },
+        {
+          "exercise_number": 7,
+          "prompt_korean": "만들다",
+          "prompt_russian": "делать, готовить",
+          "sentence_before": "케이크를 ",
+          "sentence_after": " 설탕이 떨어졌어요.",
+          "correct_answer": "만드는 중에",
+          "translation_ru": "В процессе приготовления торта у меня закончился сахар."
+        },
+        {
+          "exercise_number": 8,
+          "prompt_korean": "씻다",
+          "prompt_russian": "мыть, мыться",
+          "sentence_before": "그릇을 ",
+          "sentence_after": " 컵을 깨뜨렸어요.",
+          "correct_answer": "씻는 중에",
+          "translation_ru": "Пока мыл посуду, разбил чашку."
+        },
+        {
+          "exercise_number": 9,
+          "prompt_korean": "놀다",
+          "prompt_russian": "играть",
+          "sentence_before": "아이들이 밖에서 ",
+          "sentence_after": " 비가 내리기 시작했어요.",
+          "correct_answer": "노는 중에",
+          "translation_ru": "Пока дети играли на улице, начал идти дождь."
+        },
+        {
+          "exercise_number": 10,
+          "prompt_korean": "청소하다",
+          "prompt_russian": "убирать",
+          "sentence_before": "집을 ",
+          "sentence_after": " 예전 사진을 발견했어요.",
+          "correct_answer": "청소하는 중에",
+          "translation_ru": "Убираясь в доме, я нашёл старую фотографию."
+        },
+        {
+          "exercise_number": 11,
+          "prompt_korean": "쇼핑하다",
+          "prompt_russian": "делать покупки",
+          "sentence_before": "백화점에서 ",
+          "sentence_after": " 아는 사람을 만났어요.",
+          "correct_answer": "쇼핑하는 중에",
+          "translation_ru": "Пока я делал покупки в универмаге, встретил знакомого."
+        },
+        {
+          "exercise_number": 12,
+          "prompt_korean": "통화하다",
+          "prompt_russian": "разговаривать по телефону",
+          "sentence_before": "친구와 ",
+          "sentence_after": " 배터리가 다 됐어요.",
+          "correct_answer": "통화하는 중에",
+          "translation_ru": "В процессе разговора по телефону с другом у меня разрядилась батарея."
+        },
+        {
+          "exercise_number": 13,
+          "prompt_korean": "발표하다",
+          "prompt_russian": "выступать с докладом",
+          "sentence_before": "학생이 ",
+          "sentence_after": " 마이크가 꺼졌어요.",
+          "correct_answer": "발표하는 중에",
+          "translation_ru": "Пока студент выступал с докладом, микрофон отключился."
+        },
+        {
+          "exercise_number": 14,
+          "prompt_korean": "들다",
+          "prompt_russian": "поднимать, нести",
+          "sentence_before": "무거운 짐을 ",
+          "sentence_after": " 허리를 다쳤어요.",
+          "correct_answer": "드는 중에",
+          "translation_ru": "Поднимая тяжёлый груз, я повредил спину."
+        },
+        {
+          "exercise_number": 15,
+          "prompt_korean": "쓰다",
+          "prompt_russian": "писать",
+          "sentence_before": "이메일을 ",
+          "sentence_after": " 컴퓨터가 꺼졌어요.",
+          "correct_answer": "쓰는 중에",
+          "translation_ru": "Пока я писал имейл, компьютер выключился."
+        }
+      ]
+    },
+    {
+      "id": "t2-085",
+      "korean": "-는 길에",
+      "russian": "по пути, когда…",
+      "level_ru": "Средний (TOPIK II)",
+      "exercise_count": 15,
+      "exercises": [
+        {
+          "exercise_number": 1,
+          "prompt_korean": "가다",
+          "prompt_russian": "идти, ехать",
+          "sentence_before": "학교에 ",
+          "sentence_after": " 편의점에 들렀어요.",
+          "correct_answer": "가는 길에",
+          "translation_ru": "По пути в школу я зашёл в магазин у дома."
+        },
+        {
+          "exercise_number": 2,
+          "prompt_korean": "오다",
+          "prompt_russian": "приходить",
+          "sentence_before": "집에 ",
+          "sentence_after": " 비를 맞았어요.",
+          "correct_answer": "오는 길에",
+          "translation_ru": "По пути домой я попал под дождь."
+        },
+        {
+          "exercise_number": 3,
+          "prompt_korean": "나가다",
+          "prompt_russian": "выходить",
+          "sentence_before": "밖으로 ",
+          "sentence_after": " 우산을 챙겼어요.",
+          "correct_answer": "나가는 길에",
+          "translation_ru": "Выходя на улицу, я взял зонт."
+        },
+        {
+          "exercise_number": 4,
+          "prompt_korean": "돌아오다",
+          "prompt_russian": "возвращаться",
+          "sentence_before": "회사에서 ",
+          "sentence_after": " 마트에서 장을 봤어요.",
+          "correct_answer": "돌아오는 길에",
+          "translation_ru": "По пути обратно с работы я сходил за продуктами в супермаркет."
+        },
+        {
+          "exercise_number": 5,
+          "prompt_korean": "퇴근하다",
+          "prompt_russian": "уходить с работы",
+          "sentence_before": "오늘 ",
+          "sentence_after": " 동료를 만났어요.",
+          "correct_answer": "퇴근하는 길에",
+          "translation_ru": "Сегодня по пути домой с работы я встретил коллегу."
+        },
+        {
+          "exercise_number": 6,
+          "prompt_korean": "출근하다",
+          "prompt_russian": "идти на работу",
+          "sentence_before": "아침에 ",
+          "sentence_after": " 커피를 샀어요.",
+          "correct_answer": "출근하는 길에",
+          "translation_ru": "Утром по пути на работу я купил кофе."
+        },
+        {
+          "exercise_number": 7,
+          "prompt_korean": "등교하다",
+          "prompt_russian": "идти в школу",
+          "sentence_before": "학생들이 ",
+          "sentence_after": " 노래를 불렀어요.",
+          "correct_answer": "등교하는 길에",
+          "translation_ru": "Ученики по пути в школу пели песню."
+        },
+        {
+          "exercise_number": 8,
+          "prompt_korean": "들어가다",
+          "prompt_russian": "входить",
+          "sentence_before": "건물 안으로 ",
+          "sentence_after": " 경비원을 만났어요.",
+          "correct_answer": "들어가는 길에",
+          "translation_ru": "Входя в здание, я встретил охранника."
+        },
+        {
+          "exercise_number": 9,
+          "prompt_korean": "올라가다",
+          "prompt_russian": "подниматься",
+          "sentence_before": "산을 ",
+          "sentence_after": " 사진을 많이 찍었어요.",
+          "correct_answer": "올라가는 길에",
+          "translation_ru": "Поднимаясь в гору, я сделал много фотографий."
+        },
+        {
+          "exercise_number": 10,
+          "prompt_korean": "내려가다",
+          "prompt_russian": "спускаться",
+          "sentence_before": "계단을 ",
+          "sentence_after": " 넘어질 뻔했어요.",
+          "correct_answer": "내려가는 길에",
+          "translation_ru": "Спускаясь по лестнице, я чуть не упал."
+        },
+        {
+          "exercise_number": 11,
+          "prompt_korean": "산책하다",
+          "prompt_russian": "прогуливаться",
+          "sentence_before": "공원을 ",
+          "sentence_after": " 꽃을 봤어요.",
+          "correct_answer": "산책하는 길에",
+          "translation_ru": "Гуляя по парку, я увидел цветы."
+        },
+        {
+          "exercise_number": 12,
+          "prompt_korean": "운전하다",
+          "prompt_russian": "водить машину",
+          "sentence_before": "회사로 ",
+          "sentence_after": " 라디오를 들었어요.",
+          "correct_answer": "운전하는 길에",
+          "translation_ru": "Ведя машину на работу, я слушал радио."
+        },
+        {
+          "exercise_number": 13,
+          "prompt_korean": "뛰다",
+          "prompt_russian": "бежать",
+          "sentence_before": "공원에서 ",
+          "sentence_after": " 친구를 만났어요.",
+          "correct_answer": "뛰는 길에",
+          "translation_ru": "Бегая в парке, я встретил друга."
+        },
+        {
+          "exercise_number": 14,
+          "prompt_korean": "날다",
+          "prompt_russian": "летать",
+          "sentence_before": "새들이 하늘을 ",
+          "sentence_after": " 폭풍을 만났어요.",
+          "correct_answer": "나는 길에",
+          "translation_ru": "Птицы, летя по небу, попали в шторм."
+        },
+        {
+          "exercise_number": 15,
+          "prompt_korean": "돌다",
+          "prompt_russian": "поворачивать, огибать",
+          "sentence_before": "모퉁이를 ",
+          "sentence_after": " 자전거와 부딪힐 뻔했어요.",
+          "correct_answer": "도는 길에",
+          "translation_ru": "Поворачивая за угол, я чуть не столкнулся с велосипедом."
+        }
+      ]
+    },
+    {
+      "id": "t2-090",
+      "korean": "-는 사이에",
+      "russian": "пока…, в то время как…",
+      "level_ru": "Средний (TOPIK II)",
+      "exercise_count": 15,
+      "exercises": [
+        {
+          "exercise_number": 1,
+          "prompt_korean": "자다",
+          "prompt_russian": "спать",
+          "sentence_before": "아이가 ",
+          "sentence_after": " 설거지를 다 했어요.",
+          "correct_answer": "자는 사이에",
+          "translation_ru": "Пока ребёнок спал, я успела вымыть всю посуду."
+        },
+        {
+          "exercise_number": 2,
+          "prompt_korean": "없다",
+          "prompt_russian": "не быть, отсутствовать",
+          "sentence_before": "제가 ",
+          "sentence_after": " 손님이 왔다 갔어요.",
+          "correct_answer": "없는 사이에",
+          "translation_ru": "Пока меня не было, приходил и ушёл гость."
+        },
+        {
+          "exercise_number": 3,
+          "prompt_korean": "청소하다",
+          "prompt_russian": "убирать",
+          "sentence_before": "엄마가 방을 ",
+          "sentence_after": " 저는 숙제를 했어요.",
+          "correct_answer": "청소하는 사이에",
+          "translation_ru": "Пока мама убиралась в комнате, я делала домашнее задание."
+        },
+        {
+          "exercise_number": 4,
+          "prompt_korean": "샤워하다",
+          "prompt_russian": "принимать душ",
+          "sentence_before": "제가 ",
+          "sentence_after": " 전화가 여러 번 왔어요.",
+          "correct_answer": "샤워하는 사이에",
+          "translation_ru": "Пока я принимал душ, несколько раз звонил телефон."
+        },
+        {
+          "exercise_number": 5,
+          "prompt_korean": "통화하다",
+          "prompt_russian": "разговаривать по телефону",
+          "sentence_before": "그가 ",
+          "sentence_after": " 음식이 다 식었어요.",
+          "correct_answer": "통화하는 사이에",
+          "translation_ru": "Пока он разговаривал по телефону, еда совсем остыла."
+        },
+        {
+          "exercise_number": 6,
+          "prompt_korean": "쇼핑하다",
+          "prompt_russian": "делать покупки",
+          "sentence_before": "친구가 ",
+          "sentence_after": " 저는 카페에서 기다렸어요.",
+          "correct_answer": "쇼핑하는 사이에",
+          "translation_ru": "Пока подруга делала покупки, я ждала в кафе."
+        },
+        {
+          "exercise_number": 7,
+          "prompt_korean": "운동하다",
+          "prompt_russian": "заниматься спортом",
+          "sentence_before": "남편이 ",
+          "sentence_after": " 저는 저녁을 준비했어요.",
+          "correct_answer": "운동하는 사이에",
+          "translation_ru": "Пока муж тренировался, я готовила ужин."
+        },
+        {
+          "exercise_number": 8,
+          "prompt_korean": "졸다",
+          "prompt_russian": "дремать",
+          "sentence_before": "학생이 수업 중에 ",
+          "sentence_after": " 선생님이 질문을 하셨어요.",
+          "correct_answer": "조는 사이에",
+          "translation_ru": "Пока ученик дремал на уроке, учитель задал вопрос."
+        },
+        {
+          "exercise_number": 9,
+          "prompt_korean": "외출하다",
+          "prompt_russian": "выходить из дома",
+          "sentence_before": "부모님이 ",
+          "sentence_after": " 동생이 혼자 집을 봤어요.",
+          "correct_answer": "외출하는 사이에",
+          "translation_ru": "Пока родители были в отъезде, младший брат один оставался дома."
+        },
+        {
+          "exercise_number": 10,
+          "prompt_korean": "기다리다",
+          "prompt_russian": "ждать",
+          "sentence_before": "제가 버스를 ",
+          "sentence_after": " 비가 그쳤어요.",
+          "correct_answer": "기다리는 사이에",
+          "translation_ru": "Пока я ждал автобус, дождь прекратился."
+        },
+        {
+          "exercise_number": 11,
+          "prompt_korean": "회의하다",
+          "prompt_russian": "совещаться",
+          "sentence_before": "팀원들이 ",
+          "sentence_after": " 중요한 메일이 도착했어요.",
+          "correct_answer": "회의하는 사이에",
+          "translation_ru": "Пока члены команды совещались, пришло важное письмо."
+        },
+        {
+          "exercise_number": 12,
+          "prompt_korean": "놀다",
+          "prompt_russian": "играть",
+          "sentence_before": "아이들이 공원에서 ",
+          "sentence_after": " 엄마들은 커피를 마셨어요.",
+          "correct_answer": "노는 사이에",
+          "translation_ru": "Пока дети играли в парке, мамы пили кофе."
+        },
+        {
+          "exercise_number": 13,
+          "prompt_korean": "수리하다",
+          "prompt_russian": "ремонтировать",
+          "sentence_before": "기사님이 세탁기를 ",
+          "sentence_after": " 저는 다른 집안일을 했어요.",
+          "correct_answer": "수리하는 사이에",
+          "translation_ru": "Пока мастер ремонтировал стиральную машину, я занималась другими домашними делами."
+        },
+        {
+          "exercise_number": 14,
+          "prompt_korean": "공부하다",
+          "prompt_russian": "учиться",
+          "sentence_before": "동생이 ",
+          "sentence_after": " 저는 설거지를 끝냈어요.",
+          "correct_answer": "공부하는 사이에",
+          "translation_ru": "Пока братик учился, я закончила мыть посуду."
+        },
+        {
+          "exercise_number": 15,
+          "prompt_korean": "씻다",
+          "prompt_russian": "мыть, мыться",
+          "sentence_before": "아이가 ",
+          "sentence_after": " 저는 침대를 정리했어요.",
+          "correct_answer": "씻는 사이에",
+          "translation_ru": "Пока ребёнок мылся, я убрала постель."
+        }
+      ]
+    },
+    {
+      "id": "t2-102",
+      "korean": "-다(가) 보니(까)",
+      "russian": "занимаясь чем-то, обнаружить, что уже…",
+      "level_ru": "Средний (TOPIK II)",
+      "exercise_count": 15,
+      "exercises": [
+        {
+          "exercise_number": 1,
+          "prompt_korean": "공부하다",
+          "prompt_russian": "учиться / заниматься",
+          "sentence_before": "저는 ",
+          "sentence_after": "시간이 많이 지났어요.",
+          "correct_answer": "공부하다 보니까",
+          "translation_ru": "Занимаясь, я не заметил, как прошло много времени."
+        },
+        {
+          "exercise_number": 2,
+          "prompt_korean": "걷다",
+          "prompt_russian": "идти пешком",
+          "sentence_before": "공원을 ",
+          "sentence_after": "다리가 아팠어요.",
+          "correct_answer": "걷다 보니까",
+          "translation_ru": "Пока я гулял по парку, у меня незаметно разболелись ноги."
+        },
+        {
+          "exercise_number": 3,
+          "prompt_korean": "듣다",
+          "prompt_russian": "слушать",
+          "sentence_before": "그 노래를 ",
+          "sentence_after": "가사를 다 외우게 됐어요.",
+          "correct_answer": "듣다 보니까",
+          "translation_ru": "Слушая эту песню, я незаметно выучил все слова наизусть."
+        },
+        {
+          "exercise_number": 4,
+          "prompt_korean": "요리하다",
+          "prompt_russian": "готовить",
+          "sentence_before": "저녁을 ",
+          "sentence_after": "시간이 벌써 늦어졌어요.",
+          "correct_answer": "요리하다 보니까",
+          "translation_ru": "Пока я готовил ужин, уже незаметно стало поздно."
+        },
+        {
+          "exercise_number": 5,
+          "prompt_korean": "이야기하다",
+          "prompt_russian": "разговаривать",
+          "sentence_before": "친구와 ",
+          "sentence_after": "두 시간이나 지나 있었어요.",
+          "correct_answer": "이야기하다 보니까",
+          "translation_ru": "Пока мы разговаривали с другом, незаметно прошло целых два часа."
+        },
+        {
+          "exercise_number": 6,
+          "prompt_korean": "운동하다",
+          "prompt_russian": "заниматься спортом",
+          "sentence_before": "매일 ",
+          "sentence_after": "몸이 많이 가벼워졌어요.",
+          "correct_answer": "운동하다 보니까",
+          "translation_ru": "Занимаясь спортом каждый день, я незаметно почувствовал, что тело стало легче."
+        },
+        {
+          "exercise_number": 7,
+          "prompt_korean": "쓰다",
+          "prompt_russian": "писать",
+          "sentence_before": "일기를 꾸준히 ",
+          "sentence_after": "글쓰기가 좋아졌어요.",
+          "correct_answer": "쓰다 보니까",
+          "translation_ru": "Регулярно ведя дневник, я незаметно стал лучше писать."
+        },
+        {
+          "exercise_number": 8,
+          "prompt_korean": "운전하다",
+          "prompt_russian": "водить машину",
+          "sentence_before": "그 길로 자주 ",
+          "sentence_after": "길을 다 외우게 됐어요.",
+          "correct_answer": "운전하다 보니까",
+          "translation_ru": "Часто проезжая по этой дороге, я незаметно выучил весь маршрут."
+        },
+        {
+          "exercise_number": 9,
+          "prompt_korean": "돕다",
+          "prompt_russian": "помогать",
+          "sentence_before": "사람들을 꾸준히 ",
+          "sentence_after": "보람을 느끼게 됐어요.",
+          "correct_answer": "돕다 보니까",
+          "translation_ru": "Помогая людям, я незаметно почувствовал удовлетворение."
+        },
+        {
+          "exercise_number": 10,
+          "prompt_korean": "기다리다",
+          "prompt_russian": "ждать",
+          "sentence_before": "너무 오래 ",
+          "sentence_after": "저도 모르게 잠이 들었어요.",
+          "correct_answer": "기다리다 보니까",
+          "translation_ru": "Пока я так долго ждал, я незаметно для себя заснул."
+        },
+        {
+          "exercise_number": 11,
+          "prompt_korean": "그리다",
+          "prompt_russian": "рисовать",
+          "sentence_before": "그림을 ",
+          "sentence_after": "시간 가는 줄도 몰랐어요.",
+          "correct_answer": "그리다 보니까",
+          "translation_ru": "Пока я рисовал, я совсем не заметил, как прошло время."
+        },
+        {
+          "exercise_number": 12,
+          "prompt_korean": "짓다",
+          "prompt_russian": "строить",
+          "sentence_before": "집을 여러 번 ",
+          "sentence_after": "전문가가 다 됐어요.",
+          "correct_answer": "짓다 보니까",
+          "translation_ru": "Построив дома несколько раз, я незаметно стал чуть ли не специалистом."
+        },
+        {
+          "exercise_number": 13,
+          "prompt_korean": "참다",
+          "prompt_russian": "терпеть",
+          "sentence_before": "화가 나도 계속 ",
+          "sentence_after": "어느새 화가 다 풀렸어요.",
+          "correct_answer": "참다 보니까",
+          "translation_ru": "Продолжая сдерживаться, даже когда злился, я незаметно успокоился."
+        },
+        {
+          "exercise_number": 14,
+          "prompt_korean": "먹다",
+          "prompt_russian": "есть",
+          "sentence_before": "맛있어서 계속 ",
+          "sentence_after": "배가 너무 불러졌어요.",
+          "correct_answer": "먹다 보니까",
+          "translation_ru": "Продолжая есть, потому что было вкусно, я незаметно переел."
+        },
+        {
+          "exercise_number": 15,
+          "prompt_korean": "연습하다",
+          "prompt_russian": "тренироваться / практиковаться",
+          "sentence_before": "매일 ",
+          "sentence_after": "실력이 눈에 띄게 좋아졌어요.",
+          "correct_answer": "연습하다 보니까",
+          "translation_ru": "Практикуясь каждый день, я незаметно заметно улучшил свои навыки."
+        }
+      ]
+    },
+    {
+      "id": "t2-103",
+      "korean": "-다(가) 보면",
+      "russian": "если продолжать делать…, то со временем…",
+      "level_ru": "Средний (TOPIK II)",
+      "exercise_count": 15,
+      "exercises": [
+        {
+          "exercise_number": 1,
+          "prompt_korean": "연습하다",
+          "prompt_russian": "тренироваться / практиковаться",
+          "sentence_before": "매일 ",
+          "sentence_after": "실력이 좋아질 거예요.",
+          "correct_answer": "연습하다 보면",
+          "translation_ru": "Если каждый день практиковаться, то со временем навыки улучшатся."
+        },
+        {
+          "exercise_number": 2,
+          "prompt_korean": "운동하다",
+          "prompt_russian": "заниматься спортом",
+          "sentence_before": "꾸준히 ",
+          "sentence_after": "몸이 건강해집니다.",
+          "correct_answer": "운동하다 보면",
+          "translation_ru": "Если регулярно заниматься спортом, то со временем становишься здоровее."
+        },
+        {
+          "exercise_number": 3,
+          "prompt_korean": "걷다",
+          "prompt_russian": "идти пешком",
+          "sentence_before": "공원을 천천히 ",
+          "sentence_after": "기분이 좋아져요.",
+          "correct_answer": "걷다 보면",
+          "translation_ru": "Если медленно гулять по парку, то со временем настроение улучшается."
+        },
+        {
+          "exercise_number": 4,
+          "prompt_korean": "듣다",
+          "prompt_russian": "слушать",
+          "sentence_before": "한국 노래를 많이 ",
+          "sentence_after": "듣기 실력이 늘어요.",
+          "correct_answer": "듣다 보면",
+          "translation_ru": "Если много слушать корейские песни, то со временем навык восприятия на слух улучшается."
+        },
+        {
+          "exercise_number": 5,
+          "prompt_korean": "참다",
+          "prompt_russian": "терпеть",
+          "sentence_before": "힘들어도 계속 ",
+          "sentence_after": "언젠가 좋은 날이 올 거예요.",
+          "correct_answer": "참다 보면",
+          "translation_ru": "Если продолжать терпеть, даже когда тяжело, то когда-нибудь придёт хороший день."
+        },
+        {
+          "exercise_number": 6,
+          "prompt_korean": "노력하다",
+          "prompt_russian": "стараться",
+          "sentence_before": "포기하지 않고 ",
+          "sentence_after": "꿈을 이룰 수 있어요.",
+          "correct_answer": "노력하다 보면",
+          "translation_ru": "Если стараться, не сдаваясь, то со временем можно осуществить мечту."
+        },
+        {
+          "exercise_number": 7,
+          "prompt_korean": "살다",
+          "prompt_russian": "жить",
+          "sentence_before": "외국에서 오래 ",
+          "sentence_after": "그 나라 문화에 익숙해져요.",
+          "correct_answer": "살다 보면",
+          "translation_ru": "Если долго жить за границей, то со временем привыкаешь к культуре этой страны."
+        },
+        {
+          "exercise_number": 8,
+          "prompt_korean": "요리하다",
+          "prompt_russian": "готовить",
+          "sentence_before": "집에서 자주 ",
+          "sentence_after": "요리 솜씨가 늘어요.",
+          "correct_answer": "요리하다 보면",
+          "translation_ru": "Если часто готовить дома, то со временем кулинарное мастерство растёт."
+        },
+        {
+          "exercise_number": 9,
+          "prompt_korean": "돕다",
+          "prompt_russian": "помогать",
+          "sentence_before": "다른 사람을 자주 ",
+          "sentence_after": "마음이 따뜻해집니다.",
+          "correct_answer": "돕다 보면",
+          "translation_ru": "Если часто помогать другим, то со временем становится теплее на душе."
+        },
+        {
+          "exercise_number": 10,
+          "prompt_korean": "쓰다",
+          "prompt_russian": "писать",
+          "sentence_before": "매일 일기를 ",
+          "sentence_after": "글솜씨가 좋아져요.",
+          "correct_answer": "쓰다 보면",
+          "translation_ru": "Если каждый день писать дневник, то со временем навык письма улучшается."
+        },
+        {
+          "exercise_number": 11,
+          "prompt_korean": "만나다",
+          "prompt_russian": "встречаться",
+          "sentence_before": "자주 ",
+          "sentence_after": "자연스럽게 친해져요.",
+          "correct_answer": "만나다 보면",
+          "translation_ru": "Если часто встречаться, то со временем естественным образом становишься ближе."
+        },
+        {
+          "exercise_number": 12,
+          "prompt_korean": "기다리다",
+          "prompt_russian": "ждать",
+          "sentence_before": "조급해하지 않고 ",
+          "sentence_after": "좋은 기회가 올 거예요.",
+          "correct_answer": "기다리다 보면",
+          "translation_ru": "Если подождать, не торопясь, то придёт хорошая возможность."
+        },
+        {
+          "exercise_number": 13,
+          "prompt_korean": "짓다",
+          "prompt_russian": "строить",
+          "sentence_before": "집을 여러 채 ",
+          "sentence_after": "노하우가 생겨요.",
+          "correct_answer": "짓다 보면",
+          "translation_ru": "Если построить несколько домов, то со временем появляется опыт."
+        },
+        {
+          "exercise_number": 14,
+          "prompt_korean": "그리다",
+          "prompt_russian": "рисовать",
+          "sentence_before": "매일 그림을 ",
+          "sentence_after": "실력이 쌓입니다.",
+          "correct_answer": "그리다 보면",
+          "translation_ru": "Если каждый день рисовать, то со временем навык накапливается."
+        },
+        {
+          "exercise_number": 15,
+          "prompt_korean": "일하다",
+          "prompt_russian": "работать",
+          "sentence_before": "이 분야에서 오래 ",
+          "sentence_after": "전문가가 됩니다.",
+          "correct_answer": "일하다 보면",
+          "translation_ru": "Если долго работать в этой сфере, то со временем становишься специалистом."
+        }
+      ]
+    },
+    {
+      "id": "t2-104",
+      "korean": "-다가",
+      "russian": "в процессе одного действия (происходит смена/прерывание)",
+      "level_ru": "Средний (TOPIK II)",
+      "exercise_count": 15,
+      "exercises": [
+        {
+          "exercise_number": 1,
+          "prompt_korean": "걷다",
+          "prompt_russian": "идти пешком",
+          "sentence_before": "길을 ",
+          "sentence_after": "우연히 옛 친구를 만났어요.",
+          "correct_answer": "걷다가",
+          "translation_ru": "Идя по улице, я случайно встретил старого друга."
+        },
+        {
+          "exercise_number": 2,
+          "prompt_korean": "자다",
+          "prompt_russian": "спать",
+          "sentence_before": "낮잠을 ",
+          "sentence_after": "전화벨 소리에 깼어요.",
+          "correct_answer": "자다가",
+          "translation_ru": "Я спал днём, но проснулся от звонка телефона."
+        },
+        {
+          "exercise_number": 3,
+          "prompt_korean": "운전하다",
+          "prompt_russian": "водить машину",
+          "sentence_before": "고속도로에서 ",
+          "sentence_after": "갑자기 비가 내리기 시작했어요.",
+          "correct_answer": "운전하다가",
+          "translation_ru": "Во время вождения по шоссе внезапно начался дождь."
+        },
+        {
+          "exercise_number": 4,
+          "prompt_korean": "읽다",
+          "prompt_russian": "читать",
+          "sentence_before": "책을 ",
+          "sentence_after": "너무 피곤해서 그냥 잠이 들었어요.",
+          "correct_answer": "읽다가",
+          "translation_ru": "Читая книгу, я так устал, что просто заснул."
+        },
+        {
+          "exercise_number": 5,
+          "prompt_korean": "먹다",
+          "prompt_russian": "есть",
+          "sentence_before": "밥을 ",
+          "sentence_after": "중요한 전화를 받았어요.",
+          "correct_answer": "먹다가",
+          "translation_ru": "Во время еды мне позвонили по важному делу, и я ответил."
+        },
+        {
+          "exercise_number": 6,
+          "prompt_korean": "이야기하다",
+          "prompt_russian": "разговаривать",
+          "sentence_before": "친구와 ",
+          "sentence_after": "갑자기 좋은 생각이 떠올랐어요.",
+          "correct_answer": "이야기하다가",
+          "translation_ru": "Во время разговора с другом мне внезапно пришла в голову хорошая идея."
+        },
+        {
+          "exercise_number": 7,
+          "prompt_korean": "쓰다",
+          "prompt_russian": "писать",
+          "sentence_before": "편지를 ",
+          "sentence_after": "마음이 바뀌어서 그만뒀어요.",
+          "correct_answer": "쓰다가",
+          "translation_ru": "Во время написания письма я передумал и бросил это."
+        },
+        {
+          "exercise_number": 8,
+          "prompt_korean": "요리하다",
+          "prompt_russian": "готовить",
+          "sentence_before": "저녁을 ",
+          "sentence_after": "손을 살짝 다쳤어요.",
+          "correct_answer": "요리하다가",
+          "translation_ru": "Во время приготовления ужина я слегка поранил руку."
+        },
+        {
+          "exercise_number": 9,
+          "prompt_korean": "듣다",
+          "prompt_russian": "слушать",
+          "sentence_before": "음악을 ",
+          "sentence_after": "볼륨을 줄였어요.",
+          "correct_answer": "듣다가",
+          "translation_ru": "Слушая музыку, я убавил громкость."
+        },
+        {
+          "exercise_number": 10,
+          "prompt_korean": "공부하다",
+          "prompt_russian": "учиться / заниматься",
+          "sentence_before": "밤늦게까지 ",
+          "sentence_after": "머리가 아파서 잠깐 쉬었어요.",
+          "correct_answer": "공부하다가",
+          "translation_ru": "Занимаясь допоздна, у меня заболела голова, и я сделал небольшой перерыв."
+        },
+        {
+          "exercise_number": 11,
+          "prompt_korean": "청소하다",
+          "prompt_russian": "убирать(ся)",
+          "sentence_before": "방을 ",
+          "sentence_after": "옛날 사진을 발견했어요.",
+          "correct_answer": "청소하다가",
+          "translation_ru": "Во время уборки комнаты я обнаружил старые фотографии."
+        },
+        {
+          "exercise_number": 12,
+          "prompt_korean": "짓다",
+          "prompt_russian": "строить",
+          "sentence_before": "집을 ",
+          "sentence_after": "돈이 부족해서 공사가 중단됐어요.",
+          "correct_answer": "짓다가",
+          "translation_ru": "Во время строительства дома не хватило денег, и строительство остановили."
+        },
+        {
+          "exercise_number": 13,
+          "prompt_korean": "샤워하다",
+          "prompt_russian": "принимать душ",
+          "sentence_before": "아침에 ",
+          "sentence_after": "갑자기 전화벨이 울렸어요.",
+          "correct_answer": "샤워하다가",
+          "translation_ru": "Во время утреннего душа внезапно зазвонил телефон."
+        },
+        {
+          "exercise_number": 14,
+          "prompt_korean": "돕다",
+          "prompt_russian": "помогать",
+          "sentence_before": "이삿짐을 나르는 친구를 ",
+          "sentence_after": "허리를 다쳤어요.",
+          "correct_answer": "돕다가",
+          "translation_ru": "Помогая другу переносить вещи при переезде, я повредил спину."
+        },
+        {
+          "exercise_number": 15,
+          "prompt_korean": "운동하다",
+          "prompt_russian": "заниматься спортом",
+          "sentence_before": "체육관에서 ",
+          "sentence_after": "다리를 삐었어요.",
+          "correct_answer": "운동하다가",
+          "translation_ru": "Во время тренировки в спортзале я подвернул ногу."
+        }
+      ]
+    },
+    {
+      "id": "t2-140",
+      "korean": "-자마자",
+      "russian": "немедленное следование одного действия за другим — «как только»",
+      "level_ru": "Средний (TOPIK II)",
+      "exercise_count": 15,
+      "exercises": [
+        {
+          "exercise_number": 1,
+          "prompt_korean": "일어나다",
+          "prompt_russian": "вставать / просыпаться",
+          "sentence_before": "아침에 ",
+          "sentence_after": "창문을 열었어요.",
+          "correct_answer": "일어나자마자",
+          "translation_ru": "Как только я встал утром, я открыл окно."
+        },
+        {
+          "exercise_number": 2,
+          "prompt_korean": "도착하다",
+          "prompt_russian": "прибывать",
+          "sentence_before": "집에 ",
+          "sentence_after": "바로 샤워를 했어요.",
+          "correct_answer": "도착하자마자",
+          "translation_ru": "Как только я добрался домой, я сразу принял душ."
+        },
+        {
+          "exercise_number": 3,
+          "prompt_korean": "보다",
+          "prompt_russian": "смотреть / видеть",
+          "sentence_before": "그 영화를 ",
+          "sentence_after": "눈물이 났어요.",
+          "correct_answer": "보자마자",
+          "translation_ru": "Как только я увидел этот фильм, у меня появились слёзы."
+        },
+        {
+          "exercise_number": 4,
+          "prompt_korean": "먹다",
+          "prompt_russian": "есть",
+          "sentence_before": "아침을 ",
+          "sentence_after": "학교로 뛰어갔어요.",
+          "correct_answer": "먹자마자",
+          "translation_ru": "Как только я поел завтрак, я побежал в школу."
+        },
+        {
+          "exercise_number": 5,
+          "prompt_korean": "끝나다",
+          "prompt_russian": "заканчиваться",
+          "sentence_before": "수업이 ",
+          "sentence_after": "친구들과 운동장으로 나갔어요.",
+          "correct_answer": "끝나자마자",
+          "translation_ru": "Как только закончился урок, я вышел с друзьями на спортплощадку."
+        },
+        {
+          "exercise_number": 6,
+          "prompt_korean": "받다",
+          "prompt_russian": "получать",
+          "sentence_before": "편지를 ",
+          "sentence_after": "봉투를 뜯어서 읽었어요.",
+          "correct_answer": "받자마자",
+          "translation_ru": "Как только я получил письмо, я вскрыл конверт и прочитал его."
+        },
+        {
+          "exercise_number": 7,
+          "prompt_korean": "만나다",
+          "prompt_russian": "встречать(ся)",
+          "sentence_before": "그 사람을 ",
+          "sentence_after": "첫눈에 사랑에 빠졌어요.",
+          "correct_answer": "만나자마자",
+          "translation_ru": "Как только я встретила этого человека, я влюбилась с первого взгляда."
+        },
+        {
+          "exercise_number": 8,
+          "prompt_korean": "듣다",
+          "prompt_russian": "слушать / слышать",
+          "sentence_before": "그 소식을 ",
+          "sentence_after": "너무 놀랐어요.",
+          "correct_answer": "듣자마자",
+          "translation_ru": "Как только я услышал эту новость, я очень удивился."
+        },
+        {
+          "exercise_number": 9,
+          "prompt_korean": "눕다",
+          "prompt_russian": "лежать / ложиться",
+          "sentence_before": "침대에 ",
+          "sentence_after": "바로 잠이 들었어요.",
+          "correct_answer": "눕자마자",
+          "translation_ru": "Как только я лёг в постель, я сразу заснул."
+        },
+        {
+          "exercise_number": 10,
+          "prompt_korean": "열다",
+          "prompt_russian": "открывать",
+          "sentence_before": "문을 ",
+          "sentence_after": "찬 바람이 들어왔어요.",
+          "correct_answer": "열자마자",
+          "translation_ru": "Как только я открыл дверь, ворвался холодный ветер."
+        },
+        {
+          "exercise_number": 11,
+          "prompt_korean": "졸업하다",
+          "prompt_russian": "заканчивать учёбу / выпускаться",
+          "sentence_before": "대학을 ",
+          "sentence_after": "바로 취직했어요.",
+          "correct_answer": "졸업하자마자",
+          "translation_ru": "Как только я окончил университет, я сразу нашёл работу."
+        },
+        {
+          "exercise_number": 12,
+          "prompt_korean": "앉다",
+          "prompt_russian": "садиться",
+          "sentence_before": "자리에 ",
+          "sentence_after": "수업 종이 울렸어요.",
+          "correct_answer": "앉자마자",
+          "translation_ru": "Как только я сел на место, прозвенел звонок на урок."
+        },
+        {
+          "exercise_number": 13,
+          "prompt_korean": "시작하다",
+          "prompt_russian": "начинать(ся)",
+          "sentence_before": "시험이 ",
+          "sentence_after": "답이 하나도 생각나지 않았어요.",
+          "correct_answer": "시작하자마자",
+          "translation_ru": "Как только начался экзамен, я совсем не мог вспомнить ответы."
+        },
+        {
+          "exercise_number": 14,
+          "prompt_korean": "알다",
+          "prompt_russian": "узнавать / знать",
+          "sentence_before": "그 사실을 ",
+          "sentence_after": "친구에게 바로 전화했어요.",
+          "correct_answer": "알자마자",
+          "translation_ru": "Как только я узнал об этом, я сразу позвонил другу."
+        },
+        {
+          "exercise_number": 15,
+          "prompt_korean": "나가다",
+          "prompt_russian": "выходить",
+          "sentence_before": "집을 ",
+          "sentence_after": "비가 오기 시작했어요.",
+          "correct_answer": "나가자마자",
+          "translation_ru": "Как только я вышел из дома, начался дождь."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1300 @@
+{
+  "topics": [
+    {
+      "id": "t1-080",
+      "korean": "지 말다",
+      "russian": "не делай(те)",
+      "level_ru": "Начальный (TOPIK I)",
+      "exercise_count": 15,
+      "exercises": [
+        {
+          "exercise_number": 1,
+          "prompt_korean": "가다",
+          "prompt_russian": "идти",
+          "sentence_before": "혼자 거기에 ",
+          "sentence_after": ".",
+          "correct_answer": "가지 마세요",
+          "translation_ru": "Не ходите туда одна."
+        },
+        {
+          "exercise_number": 2,
+          "prompt_korean": "먹다",
+          "prompt_russian": "есть",
+          "sentence_before": "매운 음식을 ",
+          "sentence_after": ".",
+          "correct_answer": "먹지 마세요",
+          "translation_ru": "Не ешьте острую еду."
+        },
+        {
+          "exercise_number": 3,
+          "prompt_korean": "마시다",
+          "prompt_russian": "пить",
+          "sentence_before": "커피를 너무 많이 ",
+          "sentence_after": ".",
+          "correct_answer": "마시지 마세요",
+          "translation_ru": "Не пейте слишком много кофе."
+        },
+        {
+          "exercise_number": 4,
+          "prompt_korean": "울다",
+          "prompt_russian": "плакать",
+          "sentence_before": "아가야, ",
+          "sentence_after": ".",
+          "correct_answer": "울지 마",
+          "translation_ru": "Малыш, не плачь."
+        },
+        {
+          "exercise_number": 5,
+          "prompt_korean": "걱정하다",
+          "prompt_russian": "беспокоиться",
+          "sentence_before": "제 일에 대해 ",
+          "sentence_after": ".",
+          "correct_answer": "걱정하지 마세요",
+          "translation_ru": "Не беспокойтесь о моих делах."
+        },
+        {
+          "exercise_number": 6,
+          "prompt_korean": "담배를 피우다",
+          "prompt_russian": "курить",
+          "sentence_before": "여기서 ",
+          "sentence_after": ".",
+          "correct_answer": "담배를 피우지 마세요",
+          "translation_ru": "Не курите здесь."
+        },
+        {
+          "exercise_number": 7,
+          "prompt_korean": "떠들다",
+          "prompt_russian": "шуметь, болтать",
+          "sentence_before": "수업 시간에 ",
+          "sentence_after": ".",
+          "correct_answer": "떠들지 마세요",
+          "translation_ru": "Не шумите на уроке."
+        },
+        {
+          "exercise_number": 8,
+          "prompt_korean": "만지다",
+          "prompt_russian": "трогать",
+          "sentence_before": "그림을 손으로 ",
+          "sentence_after": ".",
+          "correct_answer": "만지지 마세요",
+          "translation_ru": "Не трогайте картину руками."
+        },
+        {
+          "exercise_number": 9,
+          "prompt_korean": "늦다",
+          "prompt_russian": "опаздывать",
+          "sentence_before": "내일 회의에 ",
+          "sentence_after": ".",
+          "correct_answer": "늦지 마세요",
+          "translation_ru": "Не опаздывайте завтра на встречу."
+        },
+        {
+          "exercise_number": 10,
+          "prompt_korean": "뛰다",
+          "prompt_russian": "бегать",
+          "sentence_before": "복도에서 ",
+          "sentence_after": ".",
+          "correct_answer": "뛰지 마세요",
+          "translation_ru": "Не бегайте в коридоре."
+        },
+        {
+          "exercise_number": 11,
+          "prompt_korean": "싸우다",
+          "prompt_russian": "драться, ссориться",
+          "sentence_before": "친구랑 ",
+          "sentence_after": ".",
+          "correct_answer": "싸우지 마세요",
+          "translation_ru": "Не ссорьтесь с другом."
+        },
+        {
+          "exercise_number": 12,
+          "prompt_korean": "거짓말하다",
+          "prompt_russian": "лгать, врать",
+          "sentence_before": "저한테 ",
+          "sentence_after": ".",
+          "correct_answer": "거짓말하지 마",
+          "translation_ru": "Не ври мне."
+        },
+        {
+          "exercise_number": 13,
+          "prompt_korean": "잊다",
+          "prompt_russian": "забывать",
+          "sentence_before": "약속을 ",
+          "sentence_after": ".",
+          "correct_answer": "잊지 마세요",
+          "translation_ru": "Не забывайте об обещании."
+        },
+        {
+          "exercise_number": 14,
+          "prompt_korean": "포기하다",
+          "prompt_russian": "сдаваться, бросать",
+          "sentence_before": "꿈을 ",
+          "sentence_after": ".",
+          "correct_answer": "포기하지 마세요",
+          "translation_ru": "Не бросайте свою мечту."
+        },
+        {
+          "exercise_number": 15,
+          "prompt_korean": "서두르다",
+          "prompt_russian": "спешить",
+          "sentence_before": "너무 ",
+          "sentence_after": ".",
+          "correct_answer": "서두르지 마세요",
+          "translation_ru": "Не спешите слишком сильно."
+        }
+      ]
+    },
+    {
+      "id": "t1-081",
+      "korean": "지 못하다",
+      "russian": "не смочь",
+      "level_ru": "Начальный (TOPIK I)",
+      "exercise_count": 15,
+      "exercises": [
+        {
+          "exercise_number": 1,
+          "prompt_korean": "가다",
+          "prompt_russian": "идти / ехать",
+          "sentence_before": "길이 너무 막혀서 회의에 제시간에 ",
+          "sentence_after": ".",
+          "correct_answer": "가지 못했어요",
+          "translation_ru": "Дороги были такими загруженными, что я не смог приехать на встречу вовремя."
+        },
+        {
+          "exercise_number": 2,
+          "prompt_korean": "먹다",
+          "prompt_russian": "есть",
+          "sentence_before": "배가 너무 아파서 아침을 ",
+          "sentence_after": ".",
+          "correct_answer": "먹지 못했어요",
+          "translation_ru": "У меня так сильно болел живот, что я не смог позавтракать."
+        },
+        {
+          "exercise_number": 3,
+          "prompt_korean": "자다",
+          "prompt_russian": "спать",
+          "sentence_before": "옆집이 너무 시끄러워서 밤새 ",
+          "sentence_after": ".",
+          "correct_answer": "자지 못했어요",
+          "translation_ru": "Соседи так сильно шумели, что я не мог спать всю ночь."
+        },
+        {
+          "exercise_number": 4,
+          "prompt_korean": "운전하다",
+          "prompt_russian": "водить машину",
+          "sentence_before": "눈이 너무 많이 와서 오늘은 ",
+          "sentence_after": ".",
+          "correct_answer": "운전하지 못해요",
+          "translation_ru": "Сегодня идёт такой сильный снег, что я не могу водить машину."
+        },
+        {
+          "exercise_number": 5,
+          "prompt_korean": "수영하다",
+          "prompt_russian": "плавать",
+          "sentence_before": "물이 너무 차가워서 바다에서 ",
+          "sentence_after": ".",
+          "correct_answer": "수영하지 못했어요",
+          "translation_ru": "Вода была слишком холодной, поэтому я не смог поплавать в море."
+        },
+        {
+          "exercise_number": 6,
+          "prompt_korean": "끝내다",
+          "prompt_russian": "заканчивать",
+          "sentence_before": "시간이 부족해서 숙제를 오늘 ",
+          "sentence_after": ".",
+          "correct_answer": "끝내지 못했어요",
+          "translation_ru": "Времени не хватило, поэтому я не смог закончить домашнее задание сегодня."
+        },
+        {
+          "exercise_number": 7,
+          "prompt_korean": "참다",
+          "prompt_russian": "терпеть",
+          "sentence_before": "너무 아파서 더 이상 ",
+          "sentence_after": ".",
+          "correct_answer": "참지 못했어요",
+          "translation_ru": "Было так больно, что я больше не мог терпеть."
+        },
+        {
+          "exercise_number": 8,
+          "prompt_korean": "만나다",
+          "prompt_russian": "встречаться",
+          "sentence_before": "갑자기 일이 생겨서 어제 친구를 ",
+          "sentence_after": ".",
+          "correct_answer": "만나지 못했어요",
+          "translation_ru": "Неожиданно появились дела, поэтому вчера я не смог встретиться с другом."
+        },
+        {
+          "exercise_number": 9,
+          "prompt_korean": "이해하다",
+          "prompt_russian": "понимать",
+          "sentence_before": "설명이 너무 어려워서 그 내용을 ",
+          "sentence_after": ".",
+          "correct_answer": "이해하지 못했어요",
+          "translation_ru": "Объяснение было слишком сложным, поэтому я не смог понять этот материал."
+        },
+        {
+          "exercise_number": 10,
+          "prompt_korean": "고치다",
+          "prompt_russian": "ремонтировать",
+          "sentence_before": "부품이 없어서 자동차를 아직 ",
+          "sentence_after": ".",
+          "correct_answer": "고치지 못했어요",
+          "translation_ru": "Запчасти не было, поэтому я до сих пор не смог отремонтировать машину."
+        },
+        {
+          "exercise_number": 11,
+          "prompt_korean": "도와주다",
+          "prompt_russian": "помогать",
+          "sentence_before": "너무 바빠서 동생을 ",
+          "sentence_after": ".",
+          "correct_answer": "도와주지 못했어요",
+          "translation_ru": "Я был очень занят, поэтому не смог помочь младшему брату."
+        },
+        {
+          "exercise_number": 12,
+          "prompt_korean": "찾다",
+          "prompt_russian": "искать / находить",
+          "sentence_before": "집 안이 너무 어두워서 열쇠를 ",
+          "sentence_after": ".",
+          "correct_answer": "찾지 못했어요",
+          "translation_ru": "В доме было слишком темно, поэтому я не смог найти ключи."
+        },
+        {
+          "exercise_number": 13,
+          "prompt_korean": "연락하다",
+          "prompt_russian": "связываться",
+          "sentence_before": "휴대폰이 꺼져서 친구에게 ",
+          "sentence_after": ".",
+          "correct_answer": "연락하지 못했어요",
+          "translation_ru": "Телефон выключился, поэтому я не смог связаться с другом."
+        },
+        {
+          "exercise_number": 14,
+          "prompt_korean": "외우다",
+          "prompt_russian": "учить наизусть",
+          "sentence_before": "단어가 너무 많아서 다 ",
+          "sentence_after": ".",
+          "correct_answer": "외우지 못했어요",
+          "translation_ru": "Слов было слишком много, поэтому я не смог выучить их все наизусть."
+        },
+        {
+          "exercise_number": 15,
+          "prompt_korean": "참석하다",
+          "prompt_russian": "присутствовать / участвовать",
+          "sentence_before": "몸이 아파서 오늘 회의에 ",
+          "sentence_after": ".",
+          "correct_answer": "참석하지 못했어요",
+          "translation_ru": "Я заболел, поэтому не смог присутствовать на сегодняшнем собрании."
+        }
+      ]
+    },
+    {
+      "id": "t1-082",
+      "korean": "지 않다",
+      "russian": "не (делать)",
+      "level_ru": "Начальный (TOPIK I)",
+      "exercise_count": 15,
+      "exercises": [
+        {
+          "exercise_number": 1,
+          "prompt_korean": "가다",
+          "prompt_russian": "идти",
+          "sentence_before": "저는 오늘 학교에 ",
+          "sentence_after": ".",
+          "correct_answer": "가지 않아요",
+          "translation_ru": "Я сегодня не иду в школу."
+        },
+        {
+          "exercise_number": 2,
+          "prompt_korean": "먹다",
+          "prompt_russian": "есть",
+          "sentence_before": "저는 어제 저녁에 고기를 ",
+          "sentence_after": ".",
+          "correct_answer": "먹지 않았어요",
+          "translation_ru": "Вчера вечером я не ела мясо."
+        },
+        {
+          "exercise_number": 3,
+          "prompt_korean": "자다",
+          "prompt_russian": "спать",
+          "sentence_before": "민수는 어젯밤에 전혀 ",
+          "sentence_after": ".",
+          "correct_answer": "자지 않았어요",
+          "translation_ru": "Минсу прошлой ночью совсем не спал."
+        },
+        {
+          "exercise_number": 4,
+          "prompt_korean": "웃다",
+          "prompt_russian": "смеяться",
+          "sentence_before": "수진이는 그 농담을 듣고도 ",
+          "sentence_after": ".",
+          "correct_answer": "웃지 않았어요",
+          "translation_ru": "Суджин не засмеялась, даже услышав эту шутку."
+        },
+        {
+          "exercise_number": 5,
+          "prompt_korean": "믿다",
+          "prompt_russian": "верить",
+          "sentence_before": "저는 그의 말을 ",
+          "sentence_after": ".",
+          "correct_answer": "믿지 않아요",
+          "translation_ru": "Я не верю его словам."
+        },
+        {
+          "exercise_number": 6,
+          "prompt_korean": "울다",
+          "prompt_russian": "плакать",
+          "sentence_before": "아이는 넘어졌지만 ",
+          "sentence_after": ".",
+          "correct_answer": "울지 않았어요",
+          "translation_ru": "Ребёнок упал, но не заплакал."
+        },
+        {
+          "exercise_number": 7,
+          "prompt_korean": "변하다",
+          "prompt_russian": "меняться",
+          "sentence_before": "그의 마음은 10년이 지나도 ",
+          "sentence_after": ".",
+          "correct_answer": "변하지 않았어요",
+          "translation_ru": "Его чувства не изменились даже спустя 10 лет."
+        },
+        {
+          "exercise_number": 8,
+          "prompt_korean": "포기하다",
+          "prompt_russian": "сдаваться",
+          "sentence_before": "그녀는 어려운 상황에서도 ",
+          "sentence_after": ".",
+          "correct_answer": "포기하지 않았어요",
+          "translation_ru": "Она не сдалась даже в трудной ситуации."
+        },
+        {
+          "exercise_number": 9,
+          "prompt_korean": "연락하다",
+          "prompt_russian": "связываться",
+          "sentence_before": "그는 헤어진 후에 저에게 ",
+          "sentence_after": ".",
+          "correct_answer": "연락하지 않았어요",
+          "translation_ru": "После расставания он не связывался со мной."
+        },
+        {
+          "exercise_number": 10,
+          "prompt_korean": "기다리다",
+          "prompt_russian": "ждать",
+          "sentence_before": "버스가 늦어서 저는 더 이상 ",
+          "sentence_after": ".",
+          "correct_answer": "기다리지 않았어요",
+          "translation_ru": "Автобус опаздывал, и я больше не стал(а) ждать."
+        },
+        {
+          "exercise_number": 11,
+          "prompt_korean": "크다",
+          "prompt_russian": "быть большим",
+          "sentence_before": "이 가방은 생각보다 ",
+          "sentence_after": ".",
+          "correct_answer": "크지 않아요",
+          "translation_ru": "Эта сумка не такая большая, как я думал(а)."
+        },
+        {
+          "exercise_number": 12,
+          "prompt_korean": "비싸다",
+          "prompt_russian": "быть дорогим",
+          "sentence_before": "이 식당 음식은 맛있지만 ",
+          "sentence_after": ".",
+          "correct_answer": "비싸지 않아요",
+          "translation_ru": "Еда в этом ресторане вкусная, но не дорогая."
+        },
+        {
+          "exercise_number": 13,
+          "prompt_korean": "어렵다",
+          "prompt_russian": "быть трудным",
+          "sentence_before": "이번 시험은 생각보다 ",
+          "sentence_after": ".",
+          "correct_answer": "어렵지 않았어요",
+          "translation_ru": "Этот экзамен оказался не таким трудным, как я думал(а)."
+        },
+        {
+          "exercise_number": 14,
+          "prompt_korean": "춥다",
+          "prompt_russian": "быть холодным",
+          "sentence_before": "오늘 날씨는 어제보다 ",
+          "sentence_after": ".",
+          "correct_answer": "춥지 않아요",
+          "translation_ru": "Погода сегодня не такая холодная, как вчера."
+        },
+        {
+          "exercise_number": 15,
+          "prompt_korean": "바쁘다",
+          "prompt_russian": "быть занятым",
+          "sentence_before": "요즘 저는 예전만큼 ",
+          "sentence_after": ".",
+          "correct_answer": "바쁘지 않아요",
+          "translation_ru": "В последнее время я не так занят(а), как раньше."
+        }
+      ]
+    },
+    {
+      "id": "t1-084",
+      "korean": "이/가 아니다",
+      "russian": "не являться",
+      "level_ru": "Начальный (TOPIK I)",
+      "exercise_count": 15,
+      "exercises": [
+        {
+          "exercise_number": 1,
+          "prompt_korean": "학생",
+          "prompt_russian": "студент",
+          "sentence_before": "이 사람은 ",
+          "sentence_after": ".",
+          "correct_answer": "학생이 아니에요",
+          "translation_ru": "Этот человек не студент."
+        },
+        {
+          "exercise_number": 2,
+          "prompt_korean": "선생님",
+          "prompt_russian": "учитель",
+          "sentence_before": "저분은 ",
+          "sentence_after": ".",
+          "correct_answer": "선생님이 아니에요",
+          "translation_ru": "Тот человек (вежливо) не учитель."
+        },
+        {
+          "exercise_number": 3,
+          "prompt_korean": "회사원",
+          "prompt_russian": "офисный работник",
+          "sentence_before": "그는 ",
+          "sentence_after": ".",
+          "correct_answer": "회사원이 아니에요",
+          "translation_ru": "Он не офисный работник."
+        },
+        {
+          "exercise_number": 4,
+          "prompt_korean": "미국 사람",
+          "prompt_russian": "американец",
+          "sentence_before": "그녀는 ",
+          "sentence_after": ".",
+          "correct_answer": "미국 사람이 아니에요",
+          "translation_ru": "Она не американка."
+        },
+        {
+          "exercise_number": 5,
+          "prompt_korean": "거짓말",
+          "prompt_russian": "ложь",
+          "sentence_before": "이건 ",
+          "sentence_after": ".",
+          "correct_answer": "거짓말이 아니에요",
+          "translation_ru": "Это не ложь."
+        },
+        {
+          "exercise_number": 6,
+          "prompt_korean": "농담",
+          "prompt_russian": "шутка",
+          "sentence_before": "그건 ",
+          "sentence_after": ".",
+          "correct_answer": "농담이 아니에요",
+          "translation_ru": "Это не шутка."
+        },
+        {
+          "exercise_number": 7,
+          "prompt_korean": "비밀",
+          "prompt_russian": "секрет",
+          "sentence_before": "이건 ",
+          "sentence_after": ".",
+          "correct_answer": "비밀이 아니에요",
+          "translation_ru": "Это не секрет."
+        },
+        {
+          "exercise_number": 8,
+          "prompt_korean": "월요일",
+          "prompt_russian": "понедельник",
+          "sentence_before": "오늘은 ",
+          "sentence_after": ".",
+          "correct_answer": "월요일이 아니에요",
+          "translation_ru": "Сегодня не понедельник."
+        },
+        {
+          "exercise_number": 9,
+          "prompt_korean": "의사",
+          "prompt_russian": "врач",
+          "sentence_before": "저는 ",
+          "sentence_after": ".",
+          "correct_answer": "의사가 아니에요",
+          "translation_ru": "Я не врач."
+        },
+        {
+          "exercise_number": 10,
+          "prompt_korean": "실수",
+          "prompt_russian": "ошибка",
+          "sentence_before": "이건 ",
+          "sentence_after": ".",
+          "correct_answer": "실수가 아니에요",
+          "translation_ru": "Это не ошибка."
+        },
+        {
+          "exercise_number": 11,
+          "prompt_korean": "문제",
+          "prompt_russian": "проблема",
+          "sentence_before": "그건 ",
+          "sentence_after": ".",
+          "correct_answer": "문제가 아니에요",
+          "translation_ru": "Это не проблема."
+        },
+        {
+          "exercise_number": 12,
+          "prompt_korean": "내 친구",
+          "prompt_russian": "мой друг",
+          "sentence_before": "저 사람은 ",
+          "sentence_after": ".",
+          "correct_answer": "내 친구가 아니에요",
+          "translation_ru": "Тот человек не мой друг."
+        },
+        {
+          "exercise_number": 13,
+          "prompt_korean": "가수",
+          "prompt_russian": "певец",
+          "sentence_before": "저는 ",
+          "sentence_after": ".",
+          "correct_answer": "가수가 아니에요",
+          "translation_ru": "Я не певец."
+        },
+        {
+          "exercise_number": 14,
+          "prompt_korean": "요리사",
+          "prompt_russian": "повар",
+          "sentence_before": "제 동생은 ",
+          "sentence_after": ".",
+          "correct_answer": "요리사가 아니에요",
+          "translation_ru": "Мой брат (сестра) не повар."
+        },
+        {
+          "exercise_number": 15,
+          "prompt_korean": "기자",
+          "prompt_russian": "журналист",
+          "sentence_before": "그 남자는 ",
+          "sentence_after": ".",
+          "correct_answer": "기자가 아니에요",
+          "translation_ru": "Тот мужчина не журналист."
+        }
+      ]
+    },
+    {
+      "id": "t2-018",
+      "korean": "-(으)나 마나",
+      "russian": "без толку делать что-л., результат предрешён и так",
+      "level_ru": "Средний (TOPIK II)",
+      "exercise_count": 15,
+      "exercises": [
+        {
+          "exercise_number": 1,
+          "prompt_korean": "물어보다",
+          "prompt_russian": "спросить",
+          "sentence_before": "그 사람 성격을 아니까 ",
+          "sentence_after": ".",
+          "correct_answer": "물어보나 마나예요",
+          "translation_ru": "Я знаю характер этого человека, так что спрашивать бесполезно — всё и так понятно."
+        },
+        {
+          "exercise_number": 2,
+          "prompt_korean": "말하다",
+          "prompt_russian": "сказать",
+          "sentence_before": "사장님 성격을 아니까 ",
+          "sentence_after": " 화를 낼 거예요.",
+          "correct_answer": "말하나 마나",
+          "translation_ru": "Я знаю характер начальника, так что хоть говори, хоть нет — он всё равно разозлится."
+        },
+        {
+          "exercise_number": 3,
+          "prompt_korean": "먹어보다",
+          "prompt_russian": "попробовать поесть",
+          "sentence_before": "이 집 떡볶이는 항상 맛있어서 ",
+          "sentence_after": ".",
+          "correct_answer": "먹어보나 마나예요",
+          "translation_ru": "Токпокки в этом заведении всегда вкусные, так что можно даже не пробовать — и так ясно, что будет вкусно."
+        },
+        {
+          "exercise_number": 4,
+          "prompt_korean": "가보다",
+          "prompt_russian": "съездить, пойти посмотреть",
+          "sentence_before": "거기는 매년 가는 곳이라서 ",
+          "sentence_after": ".",
+          "correct_answer": "가보나 마나예요",
+          "translation_ru": "Мы ездим туда каждый год, так что ехать смотреть бессмысленно — там всё одинаково."
+        },
+        {
+          "exercise_number": 5,
+          "prompt_korean": "해보다",
+          "prompt_russian": "попробовать сделать",
+          "sentence_before": "이 방법은 전에 실패했으니까 ",
+          "sentence_after": " 또 안 될 거예요.",
+          "correct_answer": "해보나 마나",
+          "translation_ru": "Этот способ уже провалился раньше, так что хоть пробуй, хоть нет — снова не получится."
+        },
+        {
+          "exercise_number": 6,
+          "prompt_korean": "설명하다",
+          "prompt_russian": "объяснить",
+          "sentence_before": "그는 워낙 이해가 느려서 ",
+          "sentence_after": ".",
+          "correct_answer": "설명하나 마나예요",
+          "translation_ru": "Он соображает очень медленно, так что объяснять бесполезно — он всё равно не поймёт."
+        },
+        {
+          "exercise_number": 7,
+          "prompt_korean": "시험을 보다",
+          "prompt_russian": "сдавать экзамен",
+          "sentence_before": "하나도 공부를 안 했으니까 시험을 ",
+          "sentence_after": " 떨어질 거예요.",
+          "correct_answer": "보나 마나",
+          "translation_ru": "Он совсем не готовился, так что хоть сдавай экзамен, хоть нет — он всё равно провалится."
+        },
+        {
+          "exercise_number": 8,
+          "prompt_korean": "연습하다",
+          "prompt_russian": "тренироваться, практиковаться",
+          "sentence_before": "민수는 노래를 원래 잘해서 ",
+          "sentence_after": ".",
+          "correct_answer": "연습하나 마나예요",
+          "translation_ru": "Минсу и так прекрасно поёт, так что хоть тренируйся, хоть нет — результат не изменится."
+        },
+        {
+          "exercise_number": 9,
+          "prompt_korean": "기다리다",
+          "prompt_russian": "ждать",
+          "sentence_before": "버스가 끊겼으니까 ",
+          "sentence_after": " 오지 않을 거예요.",
+          "correct_answer": "기다리나 마나",
+          "translation_ru": "Автобусы уже не ходят, так что хоть жди, хоть нет — он всё равно не придёт."
+        },
+        {
+          "exercise_number": 10,
+          "prompt_korean": "전화하다",
+          "prompt_russian": "позвонить",
+          "sentence_before": "그는 항상 휴대폰을 꺼 놓으니까 ",
+          "sentence_after": ".",
+          "correct_answer": "전화하나 마나예요",
+          "translation_ru": "Он всегда держит телефон выключенным, так что звонить бесполезно — он всё равно не ответит."
+        },
+        {
+          "exercise_number": 11,
+          "prompt_korean": "걱정하다",
+          "prompt_russian": "беспокоиться",
+          "sentence_before": "이미 끝난 일이니까 ",
+          "sentence_after": ".",
+          "correct_answer": "걱정하나 마나예요",
+          "translation_ru": "Это дело уже завершено, так что волноваться бесполезно — ничего уже не изменить."
+        },
+        {
+          "exercise_number": 12,
+          "prompt_korean": "확인하다",
+          "prompt_russian": "проверить",
+          "sentence_before": "지난번에도 똑같았으니까 ",
+          "sentence_after": " 결과는 같을 거예요.",
+          "correct_answer": "확인하나 마나",
+          "translation_ru": "В прошлый раз было точно так же, так что хоть проверяй, хоть нет — результат будет тот же."
+        },
+        {
+          "exercise_number": 13,
+          "prompt_korean": "찾다",
+          "prompt_russian": "искать",
+          "sentence_before": "열쇠는 항상 같은 자리에 두니까 ",
+          "sentence_after": ".",
+          "correct_answer": "찾으나 마나예요",
+          "translation_ru": "Ключи всегда лежат на одном и том же месте, так что искать их бесполезно — они точно там."
+        },
+        {
+          "exercise_number": 14,
+          "prompt_korean": "다이어트하다",
+          "prompt_russian": "сидеть на диете",
+          "sentence_before": "그렇게 밤마다 야식을 먹으면 ",
+          "sentence_after": ".",
+          "correct_answer": "다이어트하나 마나예요",
+          "translation_ru": "Если так каждую ночь есть на ночь, то сидеть на диете бессмысленно — вес не уйдёт."
+        },
+        {
+          "exercise_number": 15,
+          "prompt_korean": "변명하다",
+          "prompt_russian": "оправдываться, отмазываться",
+          "sentence_before": "증거가 이렇게 명확한데 ",
+          "sentence_after": " 다 들통날 거예요.",
+          "correct_answer": "변명하나 마나",
+          "translation_ru": "Доказательства настолько очевидны, что хоть оправдывайся, хоть нет — всё равно всё раскроется."
+        }
+      ]
+    },
+    {
+      "id": "t2-022",
+      "korean": "-(으)ㄹ 리가 없다",
+      "russian": "не может быть, чтобы...",
+      "level_ru": "Средний (TOPIK II)",
+      "exercise_count": 15,
+      "exercises": [
+        {
+          "exercise_number": 1,
+          "prompt_korean": "부족하다",
+          "prompt_russian": "быть недостаточным, не хватать",
+          "sentence_before": "그는 월급을 많이 받으니까 생활비가 ",
+          "sentence_after": ".",
+          "correct_answer": "부족할 리가 없어요",
+          "translation_ru": "Он получает большую зарплату, поэтому не может быть, чтобы ему не хватало денег на жизнь."
+        },
+        {
+          "exercise_number": 2,
+          "prompt_korean": "늦다",
+          "prompt_russian": "опаздывать, быть поздним",
+          "sentence_before": "민수는 항상 일찍 출발하니까 약속 시간에 ",
+          "sentence_after": ".",
+          "correct_answer": "늦을 리가 없어요",
+          "translation_ru": "Минсу всегда выходит заранее, поэтому не может быть, чтобы он опоздал на встречу."
+        },
+        {
+          "exercise_number": 3,
+          "prompt_korean": "거짓말하다",
+          "prompt_russian": "лгать, врать",
+          "sentence_before": "그는 아주 솔직한 사람이니까 저한테 ",
+          "sentence_after": ".",
+          "correct_answer": "거짓말할 리가 없어요",
+          "translation_ru": "Он очень честный человек, поэтому не может быть, чтобы он мне врал."
+        },
+        {
+          "exercise_number": 4,
+          "prompt_korean": "모르다",
+          "prompt_russian": "не знать",
+          "sentence_before": "그 선생님은 이 분야 전문가니까 답을 ",
+          "sentence_after": ".",
+          "correct_answer": "모를 리가 없어요",
+          "translation_ru": "Этот учитель — эксперт в этой области, поэтому не может быть, чтобы он не знал ответа."
+        },
+        {
+          "exercise_number": 5,
+          "prompt_korean": "틀리다",
+          "prompt_russian": "быть неправильным, ошибочным",
+          "sentence_before": "이 계산은 전문가가 확인했으니까 ",
+          "sentence_after": ".",
+          "correct_answer": "틀릴 리가 없어요",
+          "translation_ru": "Эти расчёты проверил специалист, поэтому не может быть, чтобы они были неправильными."
+        },
+        {
+          "exercise_number": 6,
+          "prompt_korean": "잊다",
+          "prompt_russian": "забывать",
+          "sentence_before": "그는 메모를 항상 적어 놓으니까 약속을 ",
+          "sentence_after": ".",
+          "correct_answer": "잊을 리가 없어요",
+          "translation_ru": "Он всегда всё записывает, поэтому не может быть, чтобы он забыл о встрече."
+        },
+        {
+          "exercise_number": 7,
+          "prompt_korean": "포기하다",
+          "prompt_russian": "сдаваться, отказываться",
+          "sentence_before": "그는 책임감이 강한 사람이니까 이 일을 ",
+          "sentence_after": ".",
+          "correct_answer": "포기할 리가 없어요",
+          "translation_ru": "Он очень ответственный человек, поэтому не может быть, чтобы он бросил это дело."
+        },
+        {
+          "exercise_number": 8,
+          "prompt_korean": "화나다",
+          "prompt_russian": "сердиться, разгневаться",
+          "sentence_before": "그녀는 성격이 느긋하니까 그런 일로 ",
+          "sentence_after": ".",
+          "correct_answer": "화날 리가 없어요",
+          "translation_ru": "У неё спокойный характер, поэтому не может быть, чтобы она разозлилась из-за такой мелочи."
+        },
+        {
+          "exercise_number": 9,
+          "prompt_korean": "비싸다",
+          "prompt_russian": "быть дорогим",
+          "sentence_before": "이 가게는 항상 세일을 하니까 가격이 ",
+          "sentence_after": ".",
+          "correct_answer": "비쌀 리가 없어요",
+          "translation_ru": "В этом магазине всегда скидки, поэтому не может быть, чтобы цены были высокими."
+        },
+        {
+          "exercise_number": 10,
+          "prompt_korean": "어렵다",
+          "prompt_russian": "быть трудным",
+          "sentence_before": "그 시험은 기초 수준이니까 ",
+          "sentence_after": ".",
+          "correct_answer": "어려울 리가 없어요",
+          "translation_ru": "Этот экзамен базового уровня, поэтому не может быть, чтобы он был трудным."
+        },
+        {
+          "exercise_number": 11,
+          "prompt_korean": "힘들다",
+          "prompt_russian": "быть тяжёлым, трудным",
+          "sentence_before": "요즘 기계가 다 해 주니까 농사일이 ",
+          "sentence_after": ".",
+          "correct_answer": "힘들 리가 없어요",
+          "translation_ru": "Сейчас всё делают машины, поэтому не может быть, чтобы работа в поле была тяжёлой."
+        },
+        {
+          "exercise_number": 12,
+          "prompt_korean": "실패하다",
+          "prompt_russian": "терпеть неудачу, провалиться",
+          "sentence_before": "그는 몇 년 동안 철저히 준비했으니까 이번 사업이 ",
+          "sentence_after": ".",
+          "correct_answer": "실패할 리가 없어요",
+          "translation_ru": "Он несколько лет тщательно готовился, поэтому не может быть, чтобы этот бизнес провалился."
+        },
+        {
+          "exercise_number": 13,
+          "prompt_korean": "아프다",
+          "prompt_russian": "болеть",
+          "sentence_before": "그는 매일 운동하고 건강을 잘 챙기니까 ",
+          "sentence_after": ".",
+          "correct_answer": "아플 리가 없어요",
+          "translation_ru": "Он каждый день тренируется и хорошо следит за здоровьем, поэтому не может быть, чтобы он заболел."
+        },
+        {
+          "exercise_number": 14,
+          "prompt_korean": "바쁘다",
+          "prompt_russian": "быть занятым",
+          "sentence_before": "그는 지금 휴가 중이니까 ",
+          "sentence_after": ".",
+          "correct_answer": "바쁠 리가 없어요",
+          "translation_ru": "Он сейчас в отпуске, поэтому не может быть, чтобы он был занят."
+        },
+        {
+          "exercise_number": 15,
+          "prompt_korean": "가난하다",
+          "prompt_russian": "быть бедным",
+          "sentence_before": "그 집은 건물을 몇 채나 가지고 있으니까 ",
+          "sentence_after": ".",
+          "correct_answer": "가난할 리가 없어요",
+          "translation_ru": "У этой семьи несколько зданий в собственности, поэтому не может быть, чтобы они были бедными."
+        }
+      ]
+    },
+    {
+      "id": "t2-026",
+      "korean": "-(으)ㄹ 뿐이다",
+      "russian": "просто, только лишь (и ничего больше)",
+      "level_ru": "Средний (TOPIK II)",
+      "exercise_count": 15,
+      "exercises": [
+        {
+          "exercise_number": 1,
+          "prompt_korean": "웃다",
+          "prompt_russian": "смеяться",
+          "sentence_before": "저는 그냥 ",
+          "sentence_after": ", 다른 뜻은 없어요.",
+          "correct_answer": "웃을 뿐이에요",
+          "translation_ru": "Я просто смеюсь, другого смысла нет."
+        },
+        {
+          "exercise_number": 2,
+          "prompt_korean": "다르다",
+          "prompt_russian": "отличаться",
+          "sentence_before": "우리는 성격이 조금 ",
+          "sentence_after": ", 사이가 나쁜 건 아니에요.",
+          "correct_answer": "다를 뿐이에요",
+          "translation_ru": "Мы просто немного отличаемся по характеру, это не значит, что мы не ладим."
+        },
+        {
+          "exercise_number": 3,
+          "prompt_korean": "좋아하다",
+          "prompt_russian": "нравиться, любить",
+          "sentence_before": "저는 그 가수를 ",
+          "sentence_after": ", 팬클럽에 가입한 건 아니에요.",
+          "correct_answer": "좋아할 뿐이에요",
+          "translation_ru": "Мне просто нравится этот певец, я не состою в фан-клубе."
+        },
+        {
+          "exercise_number": 4,
+          "prompt_korean": "걱정하다",
+          "prompt_russian": "волноваться, беспокоиться",
+          "sentence_before": "저는 친구의 건강을 ",
+          "sentence_after": ", 다른 이유는 없어요.",
+          "correct_answer": "걱정할 뿐이에요",
+          "translation_ru": "Я просто беспокоюсь о здоровье друга, других причин нет."
+        },
+        {
+          "exercise_number": 5,
+          "prompt_korean": "돕다",
+          "prompt_russian": "помогать",
+          "sentence_before": "저는 동료를 ",
+          "sentence_after": ", 대가를 바라는 건 아니에요.",
+          "correct_answer": "도울 뿐이에요",
+          "translation_ru": "Я просто помогаю коллеге, не ожидая никакой награды."
+        },
+        {
+          "exercise_number": 6,
+          "prompt_korean": "기다리다",
+          "prompt_russian": "ждать",
+          "sentence_before": "저는 그냥 여기서 ",
+          "sentence_after": ", 급한 일은 없어요.",
+          "correct_answer": "기다릴 뿐이에요",
+          "translation_ru": "Я просто жду здесь, срочных дел нет."
+        },
+        {
+          "exercise_number": 7,
+          "prompt_korean": "믿다",
+          "prompt_russian": "верить",
+          "sentence_before": "저는 그의 말을 ",
+          "sentence_after": ", 증거는 필요 없어요.",
+          "correct_answer": "믿을 뿐이에요",
+          "translation_ru": "Я просто верю его словам, доказательства мне не нужны."
+        },
+        {
+          "exercise_number": 8,
+          "prompt_korean": "바라다",
+          "prompt_russian": "желать, надеяться",
+          "sentence_before": "저는 가족의 행복을 ",
+          "sentence_after": ", 다른 욕심은 없어요.",
+          "correct_answer": "바랄 뿐이에요",
+          "translation_ru": "Я просто желаю счастья семье, других желаний у меня нет."
+        },
+        {
+          "exercise_number": 9,
+          "prompt_korean": "노력하다",
+          "prompt_russian": "стараться",
+          "sentence_before": "저는 최선을 다해 ",
+          "sentence_after": ", 결과는 알 수 없어요.",
+          "correct_answer": "노력할 뿐이에요",
+          "translation_ru": "Я просто стараюсь изо всех сил, а результат предсказать не могу."
+        },
+        {
+          "exercise_number": 10,
+          "prompt_korean": "궁금하다",
+          "prompt_russian": "быть любопытным",
+          "sentence_before": "저는 시험 결과가 ",
+          "sentence_after": ", 걱정하는 건 아니에요.",
+          "correct_answer": "궁금할 뿐이에요",
+          "translation_ru": "Мне просто любопытны результаты экзамена, я не волнуюсь."
+        },
+        {
+          "exercise_number": 11,
+          "prompt_korean": "피곤하다",
+          "prompt_russian": "быть усталым",
+          "sentence_before": "저는 요즘 조금 ",
+          "sentence_after": ", 아픈 건 아니에요.",
+          "correct_answer": "피곤할 뿐이에요",
+          "translation_ru": "Я просто немного устал последнее время, не болею."
+        },
+        {
+          "exercise_number": 12,
+          "prompt_korean": "심심하다",
+          "prompt_russian": "скучать (быть скучающим)",
+          "sentence_before": "저는 지금 조금 ",
+          "sentence_after": ", 슬픈 건 아니에요.",
+          "correct_answer": "심심할 뿐이에요",
+          "translation_ru": "Мне сейчас просто немного скучно, я не грущу."
+        },
+        {
+          "exercise_number": 13,
+          "prompt_korean": "부끄럽다",
+          "prompt_russian": "стесняться, стыдиться",
+          "sentence_before": "저는 사람들 앞에서 말하는 게 ",
+          "sentence_after": ", 싫어하는 건 아니에요.",
+          "correct_answer": "부끄러울 뿐이에요",
+          "translation_ru": "Мне просто неловко говорить перед людьми, а не то что я это не люблю."
+        },
+        {
+          "exercise_number": 14,
+          "prompt_korean": "서투르다",
+          "prompt_russian": "быть неумелым, неловким",
+          "sentence_before": "저는 아직 한국어가 ",
+          "sentence_after": ", 포기한 건 아니에요.",
+          "correct_answer": "서투를 뿐이에요",
+          "translation_ru": "Я просто пока слабо владею корейским, но не сдаюсь."
+        },
+        {
+          "exercise_number": 15,
+          "prompt_korean": "평범하다",
+          "prompt_russian": "быть обычным",
+          "sentence_before": "제 하루는 그냥 ",
+          "sentence_after": ", 특별한 일은 없었어요.",
+          "correct_answer": "평범할 뿐이에요",
+          "translation_ru": "Мой день был просто обычным, ничего особенного не произошло."
+        }
+      ]
+    },
+    {
+      "id": "t2-099",
+      "korean": "-는/은커녕",
+      "russian": "не говоря уже о…; тем более не…",
+      "level_ru": "Средний (TOPIK II)",
+      "exercise_count": 15,
+      "exercises": [
+        {
+          "exercise_number": 1,
+          "prompt_korean": "커피",
+          "prompt_russian": "кофе",
+          "sentence_before": "오늘 너무 바빠서 ",
+          "sentence_after": " 물도 못 마셨어요.",
+          "correct_answer": "커피는커녕",
+          "translation_ru": "Сегодня я был(а) так занят(а), что не то что кофе — я даже воды не выпил(а)."
+        },
+        {
+          "exercise_number": 2,
+          "prompt_korean": "식사",
+          "prompt_russian": "приём пищи",
+          "sentence_before": "회의가 길어져서 ",
+          "sentence_after": " 간식도 못 먹었어요.",
+          "correct_answer": "식사는커녕",
+          "translation_ru": "Совещание затянулось, так что не то что поесть — я даже закуску не смог(ла) съесть."
+        },
+        {
+          "exercise_number": 3,
+          "prompt_korean": "휴가",
+          "prompt_russian": "отпуск",
+          "sentence_before": "요즘 너무 바빠서 ",
+          "sentence_after": " 주말도 못 쉬었어요.",
+          "correct_answer": "휴가는커녕",
+          "translation_ru": "В последнее время я так занят(а), что не то что об отпуске — я даже в выходные не смог(ла) отдохнуть."
+        },
+        {
+          "exercise_number": 4,
+          "prompt_korean": "월급",
+          "prompt_russian": "зарплата",
+          "sentence_before": "회사 사정이 안 좋아서 ",
+          "sentence_after": " 보너스도 못 받았어요.",
+          "correct_answer": "월급은커녕",
+          "translation_ru": "Дела в компании были плохи, так что не то что зарплату — я даже бонус не получил(а)."
+        },
+        {
+          "exercise_number": 5,
+          "prompt_korean": "칭찬",
+          "prompt_russian": "похвала",
+          "sentence_before": "열심히 했는데 ",
+          "sentence_after": " 격려도 못 들었어요.",
+          "correct_answer": "칭찬은커녕",
+          "translation_ru": "Я старался/старалась, но не то что похвалы — я даже слов поддержки не услышал(а)."
+        },
+        {
+          "exercise_number": 6,
+          "prompt_korean": "선물",
+          "prompt_russian": "подарок",
+          "sentence_before": "생일인데 ",
+          "sentence_after": " 축하 전화도 못 받았어요.",
+          "correct_answer": "선물은커녕",
+          "translation_ru": "У меня был день рождения, но не то что подарка — я даже поздравительного звонка не получил(а)."
+        },
+        {
+          "exercise_number": 7,
+          "prompt_korean": "사과",
+          "prompt_russian": "извинение",
+          "sentence_before": "그 사람은 ",
+          "sentence_after": " 설명도 안 했어요.",
+          "correct_answer": "사과는커녕",
+          "translation_ru": "Этот человек не то что не извинился — он даже объяснения не дал."
+        },
+        {
+          "exercise_number": 8,
+          "prompt_korean": "인사",
+          "prompt_russian": "приветствие",
+          "sentence_before": "복도에서 만났는데 ",
+          "sentence_after": " 눈도 안 마주쳤어요.",
+          "correct_answer": "인사는커녕",
+          "translation_ru": "Мы встретились в коридоре, но не то что поздоровались — он даже взглядом не встретился со мной."
+        },
+        {
+          "exercise_number": 9,
+          "prompt_korean": "밥",
+          "prompt_russian": "еда",
+          "sentence_before": "너무 피곤해서 ",
+          "sentence_after": " 세수도 못 했어요.",
+          "correct_answer": "밥은커녕",
+          "translation_ru": "Я был(а) так устал(а), что не то что поесть — я даже умыться не смог(ла)."
+        },
+        {
+          "exercise_number": 10,
+          "prompt_korean": "잠",
+          "prompt_russian": "сон",
+          "sentence_before": "시험 때문에 ",
+          "sentence_after": " 눈도 못 감았어요.",
+          "correct_answer": "잠은커녕",
+          "translation_ru": "Из-за экзамена я не то что не поспал(а) — я даже глаз не смог(ла) сомкнуть."
+        },
+        {
+          "exercise_number": 11,
+          "prompt_korean": "운동",
+          "prompt_russian": "физическая нагрузка",
+          "sentence_before": "요즘 바빠서 ",
+          "sentence_after": " 산책도 못 했어요.",
+          "correct_answer": "운동은커녕",
+          "translation_ru": "В последнее время я так занят(а), что не то что заниматься спортом — я даже на прогулку не смог(ла) выйти."
+        },
+        {
+          "exercise_number": 12,
+          "prompt_korean": "공부",
+          "prompt_russian": "учёба",
+          "sentence_before": "아이가 아파서 ",
+          "sentence_after": " 숙제도 못 했어요.",
+          "correct_answer": "공부는커녕",
+          "translation_ru": "Ребёнок заболел, так что не то что об учёбе — он даже домашнее задание не смог сделать."
+        },
+        {
+          "exercise_number": 13,
+          "prompt_korean": "연락",
+          "prompt_russian": "связь",
+          "sentence_before": "그는 ",
+          "sentence_after": " 문자 한 통도 안 보냈어요.",
+          "correct_answer": "연락은커녕",
+          "translation_ru": "Он не то что не связался со мной — он даже одного сообщения не отправил."
+        },
+        {
+          "exercise_number": 14,
+          "prompt_korean": "대답",
+          "prompt_russian": "ответ",
+          "sentence_before": "질문했는데 ",
+          "sentence_after": " 반응도 없었어요.",
+          "correct_answer": "대답은커녕",
+          "translation_ru": "Я задал(а) вопрос, но не то что ответа — даже реакции не было."
+        },
+        {
+          "exercise_number": 15,
+          "prompt_korean": "수리",
+          "prompt_russian": "ремонт",
+          "sentence_before": "고장 신고했는데 ",
+          "sentence_after": " 연락도 없었어요.",
+          "correct_answer": "수리는커녕",
+          "translation_ru": "Я сообщил(а) о поломке, но не то что ремонта — даже звонка не было."
+        }
+      ]
+    },
+    {
+      "id": "t2-145",
+      "korean": "아무 -도",
+      "russian": "полное отрицание — «никакой, совсем никто/ничто»",
+      "level_ru": "Средний (TOPIK II)",
+      "exercise_count": 15,
+      "exercises": [
+        {
+          "exercise_number": 1,
+          "prompt_korean": "걱정",
+          "prompt_russian": "беспокойство, тревога",
+          "sentence_before": "저는 요즘 ",
+          "sentence_after": " 없어요.",
+          "correct_answer": "아무 걱정도",
+          "translation_ru": "У меня в последнее время нет никаких забот."
+        },
+        {
+          "exercise_number": 2,
+          "prompt_korean": "문제",
+          "prompt_russian": "проблема",
+          "sentence_before": "이 일에는 ",
+          "sentence_after": " 없어요.",
+          "correct_answer": "아무 문제도",
+          "translation_ru": "В этом деле нет никаких проблем."
+        },
+        {
+          "exercise_number": 3,
+          "prompt_korean": "소리",
+          "prompt_russian": "звук",
+          "sentence_before": "방 안에서는 ",
+          "sentence_after": " 안 들려요.",
+          "correct_answer": "아무 소리도",
+          "translation_ru": "В комнате совсем не слышно ни звука."
+        },
+        {
+          "exercise_number": 4,
+          "prompt_korean": "생각",
+          "prompt_russian": "мысль",
+          "sentence_before": "지금은 ",
+          "sentence_after": " 안 나요.",
+          "correct_answer": "아무 생각도",
+          "translation_ru": "Сейчас мне вообще ничего не приходит в голову."
+        },
+        {
+          "exercise_number": 5,
+          "prompt_korean": "이유",
+          "prompt_russian": "причина",
+          "sentence_before": "그는 화를 냈지만 ",
+          "sentence_after": " 없었어요.",
+          "correct_answer": "아무 이유도",
+          "translation_ru": "Он разозлился, но для этого совершенно не было никакой причины."
+        },
+        {
+          "exercise_number": 6,
+          "prompt_korean": "느낌",
+          "prompt_russian": "ощущение, чувство",
+          "sentence_before": "주사를 맞았는데 ",
+          "sentence_after": " 없었어요.",
+          "correct_answer": "아무 느낌도",
+          "translation_ru": "Мне сделали укол, но я совсем ничего не почувствовал(а)."
+        },
+        {
+          "exercise_number": 7,
+          "prompt_korean": "흥미",
+          "prompt_russian": "интерес",
+          "sentence_before": "저는 그 영화에 ",
+          "sentence_after": " 없어요.",
+          "correct_answer": "아무 흥미도",
+          "translation_ru": "У меня нет никакого интереса к этому фильму."
+        },
+        {
+          "exercise_number": 8,
+          "prompt_korean": "불만",
+          "prompt_russian": "недовольство, жалоба",
+          "sentence_before": "직원들은 ",
+          "sentence_after": " 없어요.",
+          "correct_answer": "아무 불만도",
+          "translation_ru": "У сотрудников нет никаких претензий."
+        },
+        {
+          "exercise_number": 9,
+          "prompt_korean": "계획",
+          "prompt_russian": "план",
+          "sentence_before": "저는 주말에 ",
+          "sentence_after": " 없어요.",
+          "correct_answer": "아무 계획도",
+          "translation_ru": "У меня на выходные нет никаких планов."
+        },
+        {
+          "exercise_number": 10,
+          "prompt_korean": "할 일",
+          "prompt_russian": "дело (то, что нужно сделать)",
+          "sentence_before": "오늘은 ",
+          "sentence_after": " 없어요.",
+          "correct_answer": "아무 할 일도",
+          "translation_ru": "Сегодня у меня совсем нет никаких дел."
+        },
+        {
+          "exercise_number": 11,
+          "prompt_korean": "변화",
+          "prompt_russian": "изменение",
+          "sentence_before": "그의 태도에는 ",
+          "sentence_after": " 없어요.",
+          "correct_answer": "아무 변화도",
+          "translation_ru": "В его поведении нет никаких изменений."
+        },
+        {
+          "exercise_number": 12,
+          "prompt_korean": "의미",
+          "prompt_russian": "смысл, значение",
+          "sentence_before": "그 말은 저에게 ",
+          "sentence_after": " 없어요.",
+          "correct_answer": "아무 의미도",
+          "translation_ru": "Эти слова для меня совершенно не имеют смысла."
+        },
+        {
+          "exercise_number": 13,
+          "prompt_korean": "효과",
+          "prompt_russian": "эффект",
+          "sentence_before": "이 약은 ",
+          "sentence_after": " 없었어요.",
+          "correct_answer": "아무 효과도",
+          "translation_ru": "Это лекарство вообще не дало никакого эффекта."
+        },
+        {
+          "exercise_number": 14,
+          "prompt_korean": "연락",
+          "prompt_russian": "связь, сообщение",
+          "sentence_before": "일주일 동안 ",
+          "sentence_after": " 못 받았어요.",
+          "correct_answer": "아무 연락도",
+          "translation_ru": "За целую неделю я не получил(а) ни одного сообщения."
+        },
+        {
+          "exercise_number": 15,
+          "prompt_korean": "반응",
+          "prompt_russian": "реакция",
+          "sentence_before": "사람들은 ",
+          "sentence_after": " 안 보였어요.",
+          "correct_answer": "아무 반응도",
+          "translation_ru": "Люди вообще никак не отреагировали."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1302 @@
+{
+  "chapter_id": "requests_wishes",
+  "title_ru": "Просьбы, предложения и пожелания",
+  "topics": [
+    {
+      "id": "t1-046",
+      "korean": "(으)ㄹ까요?",
+      "russian": "не...ли нам",
+      "level_ru": "Начальный (TOPIK I)",
+      "exercise_count": 15,
+      "exercises": [
+        {
+          "exercise_number": 1,
+          "prompt_korean": "가다",
+          "prompt_russian": "идти",
+          "sentence_before": "같이 영화관에 ",
+          "sentence_after": "?",
+          "correct_answer": "갈까요",
+          "translation_ru": "Не пойти ли нам вместе в кино?"
+        },
+        {
+          "exercise_number": 2,
+          "prompt_korean": "먹다",
+          "prompt_russian": "есть",
+          "sentence_before": "저녁은 뭐 ",
+          "sentence_after": "?",
+          "correct_answer": "먹을까요",
+          "translation_ru": "Что бы нам поесть на ужин?"
+        },
+        {
+          "exercise_number": 3,
+          "prompt_korean": "마시다",
+          "prompt_russian": "пить",
+          "sentence_before": "커피 한 잔 ",
+          "sentence_after": "?",
+          "correct_answer": "마실까요",
+          "translation_ru": "Не выпить ли нам по чашке кофе?"
+        },
+        {
+          "exercise_number": 4,
+          "prompt_korean": "듣다",
+          "prompt_russian": "слушать",
+          "sentence_before": "음악을 좀 ",
+          "sentence_after": "?",
+          "correct_answer": "들을까요",
+          "translation_ru": "Не послушать ли нам немного музыки?"
+        },
+        {
+          "exercise_number": 5,
+          "prompt_korean": "걷다",
+          "prompt_russian": "идти пешком",
+          "sentence_before": "공원에서 좀 ",
+          "sentence_after": "?",
+          "correct_answer": "걸을까요",
+          "translation_ru": "Не погулять ли нам немного в парке?"
+        },
+        {
+          "exercise_number": 6,
+          "prompt_korean": "만들다",
+          "prompt_russian": "делать",
+          "sentence_before": "김밥을 같이 ",
+          "sentence_after": "?",
+          "correct_answer": "만들까요",
+          "translation_ru": "Не сделать ли нам кимбап вместе?"
+        },
+        {
+          "exercise_number": 7,
+          "prompt_korean": "열다",
+          "prompt_russian": "открывать",
+          "sentence_before": "창문을 ",
+          "sentence_after": "?",
+          "correct_answer": "열까요",
+          "translation_ru": "Не открыть ли нам окно?"
+        },
+        {
+          "exercise_number": 8,
+          "prompt_korean": "놀다",
+          "prompt_russian": "играть, отдыхать",
+          "sentence_before": "주말에 같이 ",
+          "sentence_after": "?",
+          "correct_answer": "놀까요",
+          "translation_ru": "Не провести ли нам выходные вместе?"
+        },
+        {
+          "exercise_number": 9,
+          "prompt_korean": "돕다",
+          "prompt_russian": "помогать",
+          "sentence_before": "제가 ",
+          "sentence_after": "?",
+          "correct_answer": "도울까요",
+          "translation_ru": "Мне вам помочь?"
+        },
+        {
+          "exercise_number": 10,
+          "prompt_korean": "부르다",
+          "prompt_russian": "звать",
+          "sentence_before": "택시를 ",
+          "sentence_after": "?",
+          "correct_answer": "부를까요",
+          "translation_ru": "Не вызвать ли нам такси?"
+        },
+        {
+          "exercise_number": 11,
+          "prompt_korean": "고르다",
+          "prompt_russian": "выбирать",
+          "sentence_before": "선물을 같이 ",
+          "sentence_after": "?",
+          "correct_answer": "고를까요",
+          "translation_ru": "Не выбрать ли нам подарок вместе?"
+        },
+        {
+          "exercise_number": 12,
+          "prompt_korean": "자르다",
+          "prompt_russian": "резать, стричь",
+          "sentence_before": "머리를 짧게 ",
+          "sentence_after": "?",
+          "correct_answer": "자를까요",
+          "translation_ru": "Не постричь ли волосы покороче?"
+        },
+        {
+          "exercise_number": 13,
+          "prompt_korean": "씻다",
+          "prompt_russian": "мыть",
+          "sentence_before": "손을 먼저 ",
+          "sentence_after": "?",
+          "correct_answer": "씻을까요",
+          "translation_ru": "Не помыть ли нам сначала руки?"
+        },
+        {
+          "exercise_number": 14,
+          "prompt_korean": "켜다",
+          "prompt_russian": "включать",
+          "sentence_before": "불을 ",
+          "sentence_after": "?",
+          "correct_answer": "켤까요",
+          "translation_ru": "Не включить ли нам свет?"
+        },
+        {
+          "exercise_number": 15,
+          "prompt_korean": "쉬다",
+          "prompt_russian": "отдыхать",
+          "sentence_before": "여기서 잠깐 ",
+          "sentence_after": "?",
+          "correct_answer": "쉴까요",
+          "translation_ru": "Не отдохнуть ли нам здесь немного?"
+        }
+      ]
+    },
+    {
+      "id": "t1-048",
+      "korean": "(으)ㄹ래요?",
+      "russian": "не хотите ли",
+      "level_ru": "Начальный (TOPIK I)",
+      "exercise_count": 15,
+      "exercises": [
+        {
+          "exercise_number": 1,
+          "prompt_korean": "가다",
+          "prompt_russian": "идти",
+          "sentence_before": "저랑 같이 ",
+          "sentence_after": "?",
+          "correct_answer": "갈래요",
+          "translation_ru": "Не хотите пойти со мной?"
+        },
+        {
+          "exercise_number": 2,
+          "prompt_korean": "먹다",
+          "prompt_russian": "есть",
+          "sentence_before": "떡볶이 ",
+          "sentence_after": "?",
+          "correct_answer": "먹을래요",
+          "translation_ru": "Не хотите поесть токпокки?"
+        },
+        {
+          "exercise_number": 3,
+          "prompt_korean": "보다",
+          "prompt_russian": "смотреть",
+          "sentence_before": "이 영화 ",
+          "sentence_after": "?",
+          "correct_answer": "볼래요",
+          "translation_ru": "Не хотите посмотреть этот фильм?"
+        },
+        {
+          "exercise_number": 4,
+          "prompt_korean": "마시다",
+          "prompt_russian": "пить",
+          "sentence_before": "차 한잔 ",
+          "sentence_after": "?",
+          "correct_answer": "마실래요",
+          "translation_ru": "Не хотите выпить чашку чая?"
+        },
+        {
+          "exercise_number": 5,
+          "prompt_korean": "듣다",
+          "prompt_russian": "слушать",
+          "sentence_before": "제 얘기 좀 ",
+          "sentence_after": "?",
+          "correct_answer": "들을래요",
+          "translation_ru": "Не хотите выслушать меня немного?"
+        },
+        {
+          "exercise_number": 6,
+          "prompt_korean": "만들다",
+          "prompt_russian": "делать",
+          "sentence_before": "쿠키를 같이 ",
+          "sentence_after": "?",
+          "correct_answer": "만들래요",
+          "translation_ru": "Не хотите вместе приготовить печенье?"
+        },
+        {
+          "exercise_number": 7,
+          "prompt_korean": "놀다",
+          "prompt_russian": "играть, отдыхать",
+          "sentence_before": "주말에 같이 ",
+          "sentence_after": "?",
+          "correct_answer": "놀래요",
+          "translation_ru": "Не хотите провести выходные вместе?"
+        },
+        {
+          "exercise_number": 8,
+          "prompt_korean": "도와주다",
+          "prompt_russian": "помогать (кому-то)",
+          "sentence_before": "저 좀 ",
+          "sentence_after": "?",
+          "correct_answer": "도와줄래요",
+          "translation_ru": "Не поможете мне немного?"
+        },
+        {
+          "exercise_number": 9,
+          "prompt_korean": "부르다",
+          "prompt_russian": "петь",
+          "sentence_before": "노래 한 곡 ",
+          "sentence_after": "?",
+          "correct_answer": "부를래요",
+          "translation_ru": "Не хотите спеть одну песню?"
+        },
+        {
+          "exercise_number": 10,
+          "prompt_korean": "고르다",
+          "prompt_russian": "выбирать",
+          "sentence_before": "메뉴 좀 ",
+          "sentence_after": "?",
+          "correct_answer": "고를래요",
+          "translation_ru": "Не хотите выбрать меню?"
+        },
+        {
+          "exercise_number": 11,
+          "prompt_korean": "쉬다",
+          "prompt_russian": "отдыхать",
+          "sentence_before": "잠깐 ",
+          "sentence_after": "?",
+          "correct_answer": "쉴래요",
+          "translation_ru": "Не хотите немного отдохнуть?"
+        },
+        {
+          "exercise_number": 12,
+          "prompt_korean": "눕다",
+          "prompt_russian": "лежать",
+          "sentence_before": "좀 ",
+          "sentence_after": "?",
+          "correct_answer": "누울래요",
+          "translation_ru": "Не хотите немного полежать?"
+        },
+        {
+          "exercise_number": 13,
+          "prompt_korean": "입다",
+          "prompt_russian": "надевать",
+          "sentence_before": "이 옷 ",
+          "sentence_after": "?",
+          "correct_answer": "입을래요",
+          "translation_ru": "Не хотите надеть эту одежду?"
+        },
+        {
+          "exercise_number": 14,
+          "prompt_korean": "타다",
+          "prompt_russian": "садиться (в транспорт)",
+          "sentence_before": "지하철 ",
+          "sentence_after": "?",
+          "correct_answer": "탈래요",
+          "translation_ru": "Не хотите поехать на метро?"
+        },
+        {
+          "exercise_number": 15,
+          "prompt_korean": "닫다",
+          "prompt_russian": "закрывать",
+          "sentence_before": "창문 ",
+          "sentence_after": "?",
+          "correct_answer": "닫을래요",
+          "translation_ru": "Не хотите закрыть окно?"
+        }
+      ]
+    },
+    {
+      "id": "t1-055",
+      "korean": "(으)ㅂ시다",
+      "russian": "давайте",
+      "level_ru": "Начальный (TOPIK I)",
+      "exercise_count": 15,
+      "exercises": [
+        {
+          "exercise_number": 1,
+          "prompt_korean": "가다",
+          "prompt_russian": "идти",
+          "sentence_before": "이제 ",
+          "sentence_after": ".",
+          "correct_answer": "갑시다",
+          "translation_ru": "Давайте пойдём уже."
+        },
+        {
+          "exercise_number": 2,
+          "prompt_korean": "먹다",
+          "prompt_russian": "есть",
+          "sentence_before": "같이 점심을 ",
+          "sentence_after": ".",
+          "correct_answer": "먹읍시다",
+          "translation_ru": "Давайте вместе пообедаем."
+        },
+        {
+          "exercise_number": 3,
+          "prompt_korean": "시작하다",
+          "prompt_russian": "начинать",
+          "sentence_before": "회의를 ",
+          "sentence_after": ".",
+          "correct_answer": "시작합시다",
+          "translation_ru": "Давайте начнём совещание."
+        },
+        {
+          "exercise_number": 4,
+          "prompt_korean": "만들다",
+          "prompt_russian": "делать",
+          "sentence_before": "발표 자료를 ",
+          "sentence_after": ".",
+          "correct_answer": "만듭시다",
+          "translation_ru": "Давайте подготовим материалы для презентации."
+        },
+        {
+          "exercise_number": 5,
+          "prompt_korean": "열다",
+          "prompt_russian": "открывать",
+          "sentence_before": "창문을 ",
+          "sentence_after": ".",
+          "correct_answer": "엽시다",
+          "translation_ru": "Давайте откроем окно."
+        },
+        {
+          "exercise_number": 6,
+          "prompt_korean": "듣다",
+          "prompt_russian": "слушать",
+          "sentence_before": "선생님 말씀을 ",
+          "sentence_after": ".",
+          "correct_answer": "들읍시다",
+          "translation_ru": "Давайте послушаем, что скажет учитель."
+        },
+        {
+          "exercise_number": 7,
+          "prompt_korean": "걷다",
+          "prompt_russian": "идти пешком",
+          "sentence_before": "공원에서 ",
+          "sentence_after": ".",
+          "correct_answer": "걸읍시다",
+          "translation_ru": "Давайте прогуляемся в парке."
+        },
+        {
+          "exercise_number": 8,
+          "prompt_korean": "돕다",
+          "prompt_russian": "помогать",
+          "sentence_before": "어려운 사람들을 ",
+          "sentence_after": ".",
+          "correct_answer": "도웁시다",
+          "translation_ru": "Давайте поможем тем, кому трудно."
+        },
+        {
+          "exercise_number": 9,
+          "prompt_korean": "짓다",
+          "prompt_russian": "придумывать (имя), строить",
+          "sentence_before": "아기 이름을 ",
+          "sentence_after": ".",
+          "correct_answer": "지읍시다",
+          "translation_ru": "Давайте придумаем имя малышу."
+        },
+        {
+          "exercise_number": 10,
+          "prompt_korean": "부르다",
+          "prompt_russian": "петь",
+          "sentence_before": "노래를 한 곡 ",
+          "sentence_after": ".",
+          "correct_answer": "부릅시다",
+          "translation_ru": "Давайте споём одну песню."
+        },
+        {
+          "exercise_number": 11,
+          "prompt_korean": "고르다",
+          "prompt_russian": "выбирать",
+          "sentence_before": "메뉴를 ",
+          "sentence_after": ".",
+          "correct_answer": "고릅시다",
+          "translation_ru": "Давайте выберем меню."
+        },
+        {
+          "exercise_number": 12,
+          "prompt_korean": "쉬다",
+          "prompt_russian": "отдыхать",
+          "sentence_before": "여기서 잠깐 ",
+          "sentence_after": ".",
+          "correct_answer": "쉽시다",
+          "translation_ru": "Давайте немного отдохнём здесь."
+        },
+        {
+          "exercise_number": 13,
+          "prompt_korean": "앉다",
+          "prompt_russian": "сидеть, садиться",
+          "sentence_before": "자리에 ",
+          "sentence_after": ".",
+          "correct_answer": "앉읍시다",
+          "translation_ru": "Давайте займём свои места."
+        },
+        {
+          "exercise_number": 14,
+          "prompt_korean": "청소하다",
+          "prompt_russian": "убирать",
+          "sentence_before": "방을 같이 ",
+          "sentence_after": ".",
+          "correct_answer": "청소합시다",
+          "translation_ru": "Давайте вместе уберём комнату."
+        },
+        {
+          "exercise_number": 15,
+          "prompt_korean": "모이다",
+          "prompt_russian": "собираться",
+          "sentence_before": "내일 다 같이 ",
+          "sentence_after": ".",
+          "correct_answer": "모입시다",
+          "translation_ru": "Давайте завтра все вместе соберёмся."
+        }
+      ]
+    },
+    {
+      "id": "t1-056",
+      "korean": "(으)세요",
+      "russian": "пожалуйста (вежливая просьба)",
+      "level_ru": "Начальный (TOPIK I)",
+      "exercise_count": 15,
+      "exercises": [
+        {
+          "exercise_number": 1,
+          "prompt_korean": "앉다",
+          "prompt_russian": "сидеть, садиться",
+          "sentence_before": "여기 ",
+          "sentence_after": ".",
+          "correct_answer": "앉으세요",
+          "translation_ru": "Пожалуйста, садитесь здесь."
+        },
+        {
+          "exercise_number": 2,
+          "prompt_korean": "오다",
+          "prompt_russian": "приходить",
+          "sentence_before": "내일 또 ",
+          "sentence_after": ".",
+          "correct_answer": "오세요",
+          "translation_ru": "Пожалуйста, приходите снова завтра."
+        },
+        {
+          "exercise_number": 3,
+          "prompt_korean": "기다리다",
+          "prompt_russian": "ждать",
+          "sentence_before": "잠깐만 ",
+          "sentence_after": ".",
+          "correct_answer": "기다리세요",
+          "translation_ru": "Пожалуйста, подождите минутку."
+        },
+        {
+          "exercise_number": 4,
+          "prompt_korean": "읽다",
+          "prompt_russian": "читать",
+          "sentence_before": "이 문장을 ",
+          "sentence_after": ".",
+          "correct_answer": "읽으세요",
+          "translation_ru": "Пожалуйста, прочитайте это предложение."
+        },
+        {
+          "exercise_number": 5,
+          "prompt_korean": "듣다",
+          "prompt_russian": "слушать",
+          "sentence_before": "제 말을 잘 ",
+          "sentence_after": ".",
+          "correct_answer": "들으세요",
+          "translation_ru": "Пожалуйста, внимательно слушайте меня."
+        },
+        {
+          "exercise_number": 6,
+          "prompt_korean": "걷다",
+          "prompt_russian": "идти пешком",
+          "sentence_before": "천천히 ",
+          "sentence_after": ".",
+          "correct_answer": "걸으세요",
+          "translation_ru": "Пожалуйста, идите медленно."
+        },
+        {
+          "exercise_number": 7,
+          "prompt_korean": "만들다",
+          "prompt_russian": "делать",
+          "sentence_before": "이 서류를 ",
+          "sentence_after": ".",
+          "correct_answer": "만드세요",
+          "translation_ru": "Пожалуйста, составьте этот документ."
+        },
+        {
+          "exercise_number": 8,
+          "prompt_korean": "열다",
+          "prompt_russian": "открывать",
+          "sentence_before": "문을 ",
+          "sentence_after": ".",
+          "correct_answer": "여세요",
+          "translation_ru": "Пожалуйста, откройте дверь."
+        },
+        {
+          "exercise_number": 9,
+          "prompt_korean": "살다",
+          "prompt_russian": "жить",
+          "sentence_before": "건강하게 오래 ",
+          "sentence_after": ".",
+          "correct_answer": "사세요",
+          "translation_ru": "Пожалуйста, живите долго и в здравии."
+        },
+        {
+          "exercise_number": 10,
+          "prompt_korean": "돕다",
+          "prompt_russian": "помогать",
+          "sentence_before": "어려운 사람을 ",
+          "sentence_after": ".",
+          "correct_answer": "도우세요",
+          "translation_ru": "Пожалуйста, помогайте тому, кому трудно."
+        },
+        {
+          "exercise_number": 11,
+          "prompt_korean": "낫다",
+          "prompt_russian": "выздоравливать",
+          "sentence_before": "빨리 ",
+          "sentence_after": ".",
+          "correct_answer": "나으세요",
+          "translation_ru": "Поправляйтесь скорее."
+        },
+        {
+          "exercise_number": 12,
+          "prompt_korean": "짓다",
+          "prompt_russian": "придумывать (имя), строить",
+          "sentence_before": "아기 이름을 예쁘게 ",
+          "sentence_after": ".",
+          "correct_answer": "지으세요",
+          "translation_ru": "Пожалуйста, придумайте малышу красивое имя."
+        },
+        {
+          "exercise_number": 13,
+          "prompt_korean": "쓰다",
+          "prompt_russian": "писать",
+          "sentence_before": "여기에 이름을 ",
+          "sentence_after": ".",
+          "correct_answer": "쓰세요",
+          "translation_ru": "Пожалуйста, напишите здесь имя."
+        },
+        {
+          "exercise_number": 14,
+          "prompt_korean": "끄다",
+          "prompt_russian": "выключать",
+          "sentence_before": "핸드폰을 ",
+          "sentence_after": ".",
+          "correct_answer": "끄세요",
+          "translation_ru": "Пожалуйста, выключите телефон."
+        },
+        {
+          "exercise_number": 15,
+          "prompt_korean": "입다",
+          "prompt_russian": "надевать",
+          "sentence_before": "따뜻하게 ",
+          "sentence_after": ".",
+          "correct_answer": "입으세요",
+          "translation_ru": "Пожалуйста, одевайтесь теплее."
+        }
+      ]
+    },
+    {
+      "id": "t1-057",
+      "korean": "(으)십시오",
+      "russian": "пожалуйста (формальная просьба)",
+      "level_ru": "Начальный (TOPIK I)",
+      "exercise_count": 15,
+      "exercises": [
+        {
+          "exercise_number": 1,
+          "prompt_korean": "앉다",
+          "prompt_russian": "сидеть, садиться",
+          "sentence_before": "이쪽으로 ",
+          "sentence_after": ".",
+          "correct_answer": "앉으십시오",
+          "translation_ru": "Пожалуйста, садитесь сюда."
+        },
+        {
+          "exercise_number": 2,
+          "prompt_korean": "가다",
+          "prompt_russian": "идти",
+          "sentence_before": "안전하게 ",
+          "sentence_after": ".",
+          "correct_answer": "가십시오",
+          "translation_ru": "Пожалуйста, доберитесь благополучно."
+        },
+        {
+          "exercise_number": 3,
+          "prompt_korean": "기다리다",
+          "prompt_russian": "ждать",
+          "sentence_before": "잠시만 ",
+          "sentence_after": ".",
+          "correct_answer": "기다리십시오",
+          "translation_ru": "Пожалуйста, подождите немного."
+        },
+        {
+          "exercise_number": 4,
+          "prompt_korean": "확인하다",
+          "prompt_russian": "проверять",
+          "sentence_before": "내용을 다시 ",
+          "sentence_after": ".",
+          "correct_answer": "확인하십시오",
+          "translation_ru": "Пожалуйста, ещё раз проверьте содержание."
+        },
+        {
+          "exercise_number": 5,
+          "prompt_korean": "주의하다",
+          "prompt_russian": "быть осторожным",
+          "sentence_before": "계단에서 ",
+          "sentence_after": ".",
+          "correct_answer": "주의하십시오",
+          "translation_ru": "Пожалуйста, будьте осторожны на лестнице."
+        },
+        {
+          "exercise_number": 6,
+          "prompt_korean": "듣다",
+          "prompt_russian": "слушать",
+          "sentence_before": "안내 방송을 ",
+          "sentence_after": ".",
+          "correct_answer": "들으십시오",
+          "translation_ru": "Пожалуйста, слушайте объявление."
+        },
+        {
+          "exercise_number": 7,
+          "prompt_korean": "걷다",
+          "prompt_russian": "идти пешком",
+          "sentence_before": "줄을 서서 천천히 ",
+          "sentence_after": ".",
+          "correct_answer": "걸으십시오",
+          "translation_ru": "Пожалуйста, идите медленно, стоя в очереди."
+        },
+        {
+          "exercise_number": 8,
+          "prompt_korean": "만들다",
+          "prompt_russian": "делать",
+          "sentence_before": "계획을 미리 ",
+          "sentence_after": ".",
+          "correct_answer": "만드십시오",
+          "translation_ru": "Пожалуйста, составьте план заранее."
+        },
+        {
+          "exercise_number": 9,
+          "prompt_korean": "열다",
+          "prompt_russian": "открывать",
+          "sentence_before": "비상시에는 이 문을 ",
+          "sentence_after": ".",
+          "correct_answer": "여십시오",
+          "translation_ru": "Пожалуйста, в случае чрезвычайной ситуации открывайте эту дверь."
+        },
+        {
+          "exercise_number": 10,
+          "prompt_korean": "살다",
+          "prompt_russian": "жить",
+          "sentence_before": "건강하게 오래 ",
+          "sentence_after": ".",
+          "correct_answer": "사십시오",
+          "translation_ru": "Пожалуйста, живите долго и в добром здравии."
+        },
+        {
+          "exercise_number": 11,
+          "prompt_korean": "돕다",
+          "prompt_russian": "помогать",
+          "sentence_before": "어려운 분들을 ",
+          "sentence_after": ".",
+          "correct_answer": "도우십시오",
+          "translation_ru": "Пожалуйста, помогайте тем, кому трудно."
+        },
+        {
+          "exercise_number": 12,
+          "prompt_korean": "낫다",
+          "prompt_russian": "выздоравливать",
+          "sentence_before": "얼른 ",
+          "sentence_after": ".",
+          "correct_answer": "나으십시오",
+          "translation_ru": "Пожалуйста, поправляйтесь скорее."
+        },
+        {
+          "exercise_number": 13,
+          "prompt_korean": "쓰다",
+          "prompt_russian": "писать",
+          "sentence_before": "여기에 성함을 ",
+          "sentence_after": ".",
+          "correct_answer": "쓰십시오",
+          "translation_ru": "Пожалуйста, напишите здесь ваше имя."
+        },
+        {
+          "exercise_number": 14,
+          "prompt_korean": "입다",
+          "prompt_russian": "надевать",
+          "sentence_before": "교복을 단정하게 ",
+          "sentence_after": ".",
+          "correct_answer": "입으십시오",
+          "translation_ru": "Пожалуйста, носите школьную форму опрятно."
+        },
+        {
+          "exercise_number": 15,
+          "prompt_korean": "지키다",
+          "prompt_russian": "соблюдать",
+          "sentence_before": "안전 규칙을 ",
+          "sentence_after": ".",
+          "correct_answer": "지키십시오",
+          "translation_ru": "Пожалуйста, соблюдайте правила безопасности."
+        }
+      ]
+    },
+    {
+      "id": "t1-070",
+      "korean": "는 게 좋겠다",
+      "russian": "лучше бы",
+      "level_ru": "Начальный (TOPIK I)",
+      "exercise_count": 15,
+      "exercises": [
+        {
+          "exercise_number": 1,
+          "prompt_korean": "먹다",
+          "prompt_russian": "есть/кушать",
+          "sentence_before": "지금 너무 배가 아프니까 죽을 ",
+          "sentence_after": ".",
+          "correct_answer": "먹는 게 좋겠어요",
+          "translation_ru": "Сейчас живот очень болит, так что лучше съесть кашу."
+        },
+        {
+          "exercise_number": 2,
+          "prompt_korean": "쉬다",
+          "prompt_russian": "отдыхать",
+          "sentence_before": "많이 피곤해 보이니까 오늘은 집에서 ",
+          "sentence_after": ".",
+          "correct_answer": "쉬는 게 좋겠어요",
+          "translation_ru": "Ты выглядишь очень усталым, так что сегодня лучше отдохнуть дома."
+        },
+        {
+          "exercise_number": 3,
+          "prompt_korean": "자다",
+          "prompt_russian": "спать",
+          "sentence_before": "내일 일찍 일어나야 하니까 지금 ",
+          "sentence_after": ".",
+          "correct_answer": "자는 게 좋겠어요",
+          "translation_ru": "Завтра нужно встать рано, так что лучше поспать сейчас."
+        },
+        {
+          "exercise_number": 4,
+          "prompt_korean": "걷다",
+          "prompt_russian": "идти пешком",
+          "sentence_before": "날씨가 좋으니까 공원까지 ",
+          "sentence_after": ".",
+          "correct_answer": "걷는 게 좋겠어요",
+          "translation_ru": "Погода хорошая, так что лучше дойти до парка пешком."
+        },
+        {
+          "exercise_number": 5,
+          "prompt_korean": "말하다",
+          "prompt_russian": "говорить",
+          "sentence_before": "선생님께 사실대로 ",
+          "sentence_after": ".",
+          "correct_answer": "말하는 게 좋겠어요",
+          "translation_ru": "Лучше сказать учителю правду."
+        },
+        {
+          "exercise_number": 6,
+          "prompt_korean": "만들다",
+          "prompt_russian": "делать",
+          "sentence_before": "재료가 남았으니까 반찬을 좀 더 ",
+          "sentence_after": ".",
+          "correct_answer": "만드는 게 좋겠어요",
+          "translation_ru": "Продукты остались, так что лучше приготовить ещё немного закусок."
+        },
+        {
+          "exercise_number": 7,
+          "prompt_korean": "살다",
+          "prompt_russian": "жить",
+          "sentence_before": "직장이 가까우니까 이 동네에서 ",
+          "sentence_after": ".",
+          "correct_answer": "사는 게 좋겠어요",
+          "translation_ru": "Работа близко, так что лучше жить в этом районе."
+        },
+        {
+          "exercise_number": 8,
+          "prompt_korean": "팔다",
+          "prompt_russian": "продавать",
+          "sentence_before": "안 쓰는 물건이니까 중고로 ",
+          "sentence_after": ".",
+          "correct_answer": "파는 게 좋겠어요",
+          "translation_ru": "Это вещь, которой не пользуешься, так что лучше продать её как б/у."
+        },
+        {
+          "exercise_number": 9,
+          "prompt_korean": "걸다",
+          "prompt_russian": "звонить",
+          "sentence_before": "급한 일이니까 지금 바로 전화를 ",
+          "sentence_after": ".",
+          "correct_answer": "거는 게 좋겠어요",
+          "translation_ru": "Это срочное дело, так что лучше позвонить прямо сейчас."
+        },
+        {
+          "exercise_number": 10,
+          "prompt_korean": "놀다",
+          "prompt_russian": "играть/гулять",
+          "sentence_before": "아이가 심심해하니까 밖에서 ",
+          "sentence_after": ".",
+          "correct_answer": "노는 게 좋겠어요",
+          "translation_ru": "Ребёнку скучно, так что лучше поиграть на улице."
+        },
+        {
+          "exercise_number": 11,
+          "prompt_korean": "웃다",
+          "prompt_russian": "смеяться/улыбаться",
+          "sentence_before": "사진 찍을 때는 자연스럽게 ",
+          "sentence_after": ".",
+          "correct_answer": "웃는 게 좋겠어요",
+          "translation_ru": "Когда фотографируешься, лучше улыбаться естественно."
+        },
+        {
+          "exercise_number": 12,
+          "prompt_korean": "읽다",
+          "prompt_russian": "читать",
+          "sentence_before": "이해가 안 되면 그 부분을 다시 ",
+          "sentence_after": ".",
+          "correct_answer": "읽는 게 좋겠어요",
+          "translation_ru": "Если непонятно, лучше перечитать эту часть."
+        },
+        {
+          "exercise_number": 13,
+          "prompt_korean": "쓰다",
+          "prompt_russian": "писать",
+          "sentence_before": "나중에 잊어버릴 수 있으니까 메모를 ",
+          "sentence_after": ".",
+          "correct_answer": "쓰는 게 좋겠어요",
+          "translation_ru": "Можно потом забыть, так что лучше написать заметку."
+        },
+        {
+          "exercise_number": 14,
+          "prompt_korean": "듣다",
+          "prompt_russian": "слушать",
+          "sentence_before": "운전할 때는 음악을 ",
+          "sentence_after": ".",
+          "correct_answer": "듣는 게 좋겠어요",
+          "translation_ru": "Когда водишь машину, лучше слушать музыку."
+        },
+        {
+          "exercise_number": 15,
+          "prompt_korean": "입다",
+          "prompt_russian": "надевать",
+          "sentence_before": "밖이 추우니까 따뜻한 옷을 ",
+          "sentence_after": ".",
+          "correct_answer": "입는 게 좋겠어요",
+          "translation_ru": "На улице холодно, так что лучше надеть тёплую одежду."
+        }
+      ]
+    },
+    {
+      "id": "t2-123",
+      "korean": "-아/어라",
+      "russian": "повелительное наклонение, прямой приказ или просьба — «сделай(те)»",
+      "level_ru": "Средний (TOPIK II)",
+      "exercise_count": 15,
+      "exercises": [
+        {
+          "exercise_number": 1,
+          "prompt_korean": "가다",
+          "prompt_russian": "идти",
+          "sentence_before": "늦었으니까 지금 바로 ",
+          "sentence_after": "!",
+          "correct_answer": "가라",
+          "translation_ru": "Уже поздно, так что иди прямо сейчас!"
+        },
+        {
+          "exercise_number": 2,
+          "prompt_korean": "오다",
+          "prompt_russian": "приходить",
+          "sentence_before": "내일 아침 9시까지 여기로 ",
+          "sentence_after": "!",
+          "correct_answer": "와라",
+          "translation_ru": "Приходи сюда завтра к 9 утра!"
+        },
+        {
+          "exercise_number": 3,
+          "prompt_korean": "먹다",
+          "prompt_russian": "есть",
+          "sentence_before": "음식이 식기 전에 얼른 ",
+          "sentence_after": "!",
+          "correct_answer": "먹어라",
+          "translation_ru": "Ешь быстрее, пока еда не остыла!"
+        },
+        {
+          "exercise_number": 4,
+          "prompt_korean": "앉다",
+          "prompt_russian": "сидеть",
+          "sentence_before": "다리 아프니까 여기 ",
+          "sentence_after": "!",
+          "correct_answer": "앉아라",
+          "translation_ru": "Ноги устали, так что сядь здесь!"
+        },
+        {
+          "exercise_number": 5,
+          "prompt_korean": "열다",
+          "prompt_russian": "открывать",
+          "sentence_before": "답답하니까 창문을 ",
+          "sentence_after": "!",
+          "correct_answer": "열어라",
+          "translation_ru": "Тут душно, так что открой окно!"
+        },
+        {
+          "exercise_number": 6,
+          "prompt_korean": "만들다",
+          "prompt_russian": "делать",
+          "sentence_before": "숙제로 발표 자료를 ",
+          "sentence_after": "!",
+          "correct_answer": "만들어라",
+          "translation_ru": "Сделай материалы для презентации в качестве домашнего задания!"
+        },
+        {
+          "exercise_number": 7,
+          "prompt_korean": "듣다",
+          "prompt_russian": "слушать",
+          "sentence_before": "엄마 말을 잘 ",
+          "sentence_after": "!",
+          "correct_answer": "들어라",
+          "translation_ru": "Слушай внимательно, что говорит мама!"
+        },
+        {
+          "exercise_number": 8,
+          "prompt_korean": "돕다",
+          "prompt_russian": "помогать",
+          "sentence_before": "동생이 힘들어 보이니까 좀 ",
+          "sentence_after": "!",
+          "correct_answer": "도와라",
+          "translation_ru": "Братишка выглядит усталым, так что помоги ему немного!"
+        },
+        {
+          "exercise_number": 9,
+          "prompt_korean": "짓다",
+          "prompt_russian": "строить",
+          "sentence_before": "여기에 작은 집을 ",
+          "sentence_after": "!",
+          "correct_answer": "지어라",
+          "translation_ru": "Построй здесь маленький дом!"
+        },
+        {
+          "exercise_number": 10,
+          "prompt_korean": "부르다",
+          "prompt_russian": "звать/петь",
+          "sentence_before": "노래방에서 신나는 노래를 ",
+          "sentence_after": "!",
+          "correct_answer": "불러라",
+          "translation_ru": "Спой весёлую песню в караоке!"
+        },
+        {
+          "exercise_number": 11,
+          "prompt_korean": "쓰다",
+          "prompt_russian": "писать",
+          "sentence_before": "틀린 단어는 공책에 다시 ",
+          "sentence_after": "!",
+          "correct_answer": "써라",
+          "translation_ru": "Неправильные слова напиши в тетради ещё раз!"
+        },
+        {
+          "exercise_number": 12,
+          "prompt_korean": "자다",
+          "prompt_russian": "спать",
+          "sentence_before": "너무 늦었으니까 이제 그만 ",
+          "sentence_after": "!",
+          "correct_answer": "자라",
+          "translation_ru": "Уже слишком поздно, так что ложись спать!"
+        },
+        {
+          "exercise_number": 13,
+          "prompt_korean": "하다",
+          "prompt_russian": "делать",
+          "sentence_before": "변명하지 말고 숙제부터 ",
+          "sentence_after": "!",
+          "correct_answer": "해라",
+          "translation_ru": "Не оправдывайся, а сначала сделай домашнее задание!"
+        },
+        {
+          "exercise_number": 14,
+          "prompt_korean": "입다",
+          "prompt_russian": "надевать",
+          "sentence_before": "밖에 눈이 오니까 두꺼운 옷을 ",
+          "sentence_after": "!",
+          "correct_answer": "입어라",
+          "translation_ru": "На улице идёт снег, так что надень тёплую одежду!"
+        },
+        {
+          "exercise_number": 15,
+          "prompt_korean": "웃다",
+          "prompt_russian": "смеяться",
+          "sentence_before": "사진 찍을 테니까 활짝 ",
+          "sentence_after": "!",
+          "correct_answer": "웃어라",
+          "translation_ru": "Я сейчас сфотографирую, так что широко улыбнись!"
+        }
+      ]
+    },
+    {
+      "id": "t2-129",
+      "korean": "-았/었으면 하다",
+      "russian": "желание или надежда на определённый исход — «хотелось бы, чтобы»",
+      "level_ru": "Средний (TOPIK II)",
+      "exercise_count": 15,
+      "exercises": [
+        {
+          "exercise_number": 1,
+          "prompt_korean": "오다",
+          "prompt_russian": "приходить",
+          "sentence_before": "내일은 비가 안 ",
+          "sentence_after": ".",
+          "correct_answer": "왔으면 해요",
+          "translation_ru": "Хотелось бы, чтобы завтра не было дождя."
+        },
+        {
+          "exercise_number": 2,
+          "prompt_korean": "끝나다",
+          "prompt_russian": "заканчиваться",
+          "sentence_before": "회의가 빨리 ",
+          "sentence_after": ".",
+          "correct_answer": "끝났으면 해요",
+          "translation_ru": "Хотелось бы, чтобы совещание закончилось быстрее."
+        },
+        {
+          "exercise_number": 3,
+          "prompt_korean": "이기다",
+          "prompt_russian": "выигрывать/побеждать",
+          "sentence_before": "이번 경기는 우리 팀이 ",
+          "sentence_after": ".",
+          "correct_answer": "이겼으면 해요",
+          "translation_ru": "Хотелось бы, чтобы в этом матче победила наша команда."
+        },
+        {
+          "exercise_number": 4,
+          "prompt_korean": "낫다",
+          "prompt_russian": "выздоравливать",
+          "sentence_before": "감기가 빨리 ",
+          "sentence_after": ".",
+          "correct_answer": "나았으면 해요",
+          "translation_ru": "Хотелось бы, чтобы простуда быстрее прошла."
+        },
+        {
+          "exercise_number": 5,
+          "prompt_korean": "빠르다",
+          "prompt_russian": "быть быстрым",
+          "sentence_before": "다음에 탈 기차는 좀 더 ",
+          "sentence_after": ".",
+          "correct_answer": "빨랐으면 해요",
+          "translation_ru": "Хотелось бы, чтобы следующий поезд был побыстрее."
+        },
+        {
+          "exercise_number": 6,
+          "prompt_korean": "크다",
+          "prompt_russian": "быть большим",
+          "sentence_before": "이사 갈 집은 지금보다 ",
+          "sentence_after": ".",
+          "correct_answer": "컸으면 해요",
+          "translation_ru": "Хотелось бы, чтобы дом, в который переедем, был больше, чем сейчас."
+        },
+        {
+          "exercise_number": 7,
+          "prompt_korean": "바쁘다",
+          "prompt_russian": "быть занятым",
+          "sentence_before": "다음 달에는 안 ",
+          "sentence_after": ".",
+          "correct_answer": "바빴으면 해요",
+          "translation_ru": "Хотелось бы, чтобы в следующем месяце не быть занятым."
+        },
+        {
+          "exercise_number": 8,
+          "prompt_korean": "듣다",
+          "prompt_russian": "слушать",
+          "sentence_before": "아이가 선생님 말씀을 잘 ",
+          "sentence_after": ".",
+          "correct_answer": "들었으면 해요",
+          "translation_ru": "Хотелось бы, чтобы ребёнок внимательно слушал слова учителя."
+        },
+        {
+          "exercise_number": 9,
+          "prompt_korean": "돕다",
+          "prompt_russian": "помогать",
+          "sentence_before": "힘들 때 친구가 나를 좀 ",
+          "sentence_after": ".",
+          "correct_answer": "도왔으면 해요",
+          "translation_ru": "Хотелось бы, чтобы в трудную минуту друг мне немного помог."
+        },
+        {
+          "exercise_number": 10,
+          "prompt_korean": "이해하다",
+          "prompt_russian": "понимать",
+          "sentence_before": "부모님이 제 마음을 ",
+          "sentence_after": ".",
+          "correct_answer": "이해했으면 해요",
+          "translation_ru": "Хотелось бы, чтобы родители поняли мои чувства."
+        },
+        {
+          "exercise_number": 11,
+          "prompt_korean": "가다",
+          "prompt_russian": "идти/ехать",
+          "sentence_before": "이번 휴가는 바다로 ",
+          "sentence_after": ".",
+          "correct_answer": "갔으면 해요",
+          "translation_ru": "Хотелось бы, чтобы в этот отпуск мы поехали к морю."
+        },
+        {
+          "exercise_number": 12,
+          "prompt_korean": "합격하다",
+          "prompt_russian": "сдать экзамен",
+          "sentence_before": "이번 시험에 꼭 ",
+          "sentence_after": ".",
+          "correct_answer": "합격했으면 해요",
+          "translation_ru": "Хотелось бы обязательно сдать этот экзамен."
+        },
+        {
+          "exercise_number": 13,
+          "prompt_korean": "좋아지다",
+          "prompt_russian": "улучшаться",
+          "sentence_before": "요즘 날씨가 빨리 ",
+          "sentence_after": ".",
+          "correct_answer": "좋아졌으면 해요",
+          "translation_ru": "Хотелось бы, чтобы погода на днях быстрее улучшилась."
+        },
+        {
+          "exercise_number": 14,
+          "prompt_korean": "맞다",
+          "prompt_russian": "быть верным/совпадать",
+          "sentence_before": "이번에는 제 예상이 ",
+          "sentence_after": ".",
+          "correct_answer": "맞았으면 해요",
+          "translation_ru": "Хотелось бы, чтобы на этот раз мой прогноз оказался верным."
+        },
+        {
+          "exercise_number": 15,
+          "prompt_korean": "늘다",
+          "prompt_russian": "расти/увеличиваться",
+          "sentence_before": "이번 학기에는 실력이 좀 더 ",
+          "sentence_after": ".",
+          "correct_answer": "늘었으면 해요",
+          "translation_ru": "Хотелось бы, чтобы в этом семестре навык улучшился побольше."
+        }
+      ]
+    },
+    {
+      "id": "t2-138",
+      "korean": "-자",
+      "russian": "предложение совместного действия — «давай(те)»",
+      "level_ru": "Средний (TOPIK II)",
+      "exercise_count": 15,
+      "exercises": [
+        {
+          "exercise_number": 1,
+          "prompt_korean": "가다",
+          "prompt_russian": "идти",
+          "sentence_before": "오늘 저녁에 같이 영화 보러 ",
+          "sentence_after": ".",
+          "correct_answer": "가자",
+          "translation_ru": "Давай сегодня вечером вместе пойдём смотреть фильм."
+        },
+        {
+          "exercise_number": 2,
+          "prompt_korean": "먹다",
+          "prompt_russian": "есть",
+          "sentence_before": "배고프니까 라면을 ",
+          "sentence_after": ".",
+          "correct_answer": "먹자",
+          "translation_ru": "Есть хочется, так что давай поедим рамён."
+        },
+        {
+          "exercise_number": 3,
+          "prompt_korean": "쉬다",
+          "prompt_russian": "отдыхать",
+          "sentence_before": "너무 힘드니까 잠깐 ",
+          "sentence_after": ".",
+          "correct_answer": "쉬자",
+          "translation_ru": "Очень тяжело, так что давай немного отдохнём."
+        },
+        {
+          "exercise_number": 4,
+          "prompt_korean": "만들다",
+          "prompt_russian": "делать",
+          "sentence_before": "선물로 카드를 직접 ",
+          "sentence_after": ".",
+          "correct_answer": "만들자",
+          "translation_ru": "Давай сделаем карточку сами в подарок."
+        },
+        {
+          "exercise_number": 5,
+          "prompt_korean": "놀다",
+          "prompt_russian": "играть/гулять",
+          "sentence_before": "심심한데 같이 ",
+          "sentence_after": ".",
+          "correct_answer": "놀자",
+          "translation_ru": "Скучно, давай поиграем вместе."
+        },
+        {
+          "exercise_number": 6,
+          "prompt_korean": "열다",
+          "prompt_russian": "открывать",
+          "sentence_before": "날이 더우니까 창문을 ",
+          "sentence_after": ".",
+          "correct_answer": "열자",
+          "translation_ru": "Жарко, давай откроем окно."
+        },
+        {
+          "exercise_number": 7,
+          "prompt_korean": "쓰다",
+          "prompt_russian": "писать",
+          "sentence_before": "오늘 배운 단어를 공책에 ",
+          "sentence_after": ".",
+          "correct_answer": "쓰자",
+          "translation_ru": "Давай запишем в тетрадь слова, которые выучили сегодня."
+        },
+        {
+          "exercise_number": 8,
+          "prompt_korean": "보다",
+          "prompt_russian": "смотреть",
+          "sentence_before": "주말에 새로 나온 영화를 ",
+          "sentence_after": ".",
+          "correct_answer": "보자",
+          "translation_ru": "Давай на выходных посмотрим новый фильм."
+        },
+        {
+          "exercise_number": 9,
+          "prompt_korean": "읽다",
+          "prompt_russian": "читать",
+          "sentence_before": "이 책을 같이 ",
+          "sentence_after": ".",
+          "correct_answer": "읽자",
+          "translation_ru": "Давай вместе почитаем эту книгу."
+        },
+        {
+          "exercise_number": 10,
+          "prompt_korean": "찍다",
+          "prompt_russian": "фотографировать",
+          "sentence_before": "여기서 사진을 ",
+          "sentence_after": ".",
+          "correct_answer": "찍자",
+          "translation_ru": "Давай сделаем фото здесь."
+        },
+        {
+          "exercise_number": 11,
+          "prompt_korean": "걷다",
+          "prompt_russian": "идти пешком",
+          "sentence_before": "운동 삼아 공원까지 ",
+          "sentence_after": ".",
+          "correct_answer": "걷자",
+          "translation_ru": "Давай ради тренировки пройдёмся пешком до парка."
+        },
+        {
+          "exercise_number": 12,
+          "prompt_korean": "듣다",
+          "prompt_russian": "слушать",
+          "sentence_before": "이 노래 같이 ",
+          "sentence_after": ".",
+          "correct_answer": "듣자",
+          "translation_ru": "Давай вместе послушаем эту песню."
+        },
+        {
+          "exercise_number": 13,
+          "prompt_korean": "짓다",
+          "prompt_russian": "строить",
+          "sentence_before": "마당에 작은 창고를 ",
+          "sentence_after": ".",
+          "correct_answer": "짓자",
+          "translation_ru": "Давай построим в саду маленький сарай."
+        },
+        {
+          "exercise_number": 14,
+          "prompt_korean": "공부하다",
+          "prompt_russian": "учиться/заниматься",
+          "sentence_before": "시험이 얼마 안 남았으니까 같이 ",
+          "sentence_after": ".",
+          "correct_answer": "공부하자",
+          "translation_ru": "До экзамена осталось немного времени, так что давай поучимся вместе."
+        },
+        {
+          "exercise_number": 15,
+          "prompt_korean": "싸우다",
+          "prompt_russian": "ссориться",
+          "sentence_before": "별일도 아닌데 우리 ",
+          "sentence_after": ".",
+          "correct_answer": "싸우지 말자",
+          "translation_ru": "Это не такое уж важное дело, давай не будем ссориться."
+        }
+      ]
+    }
+  ]
+}

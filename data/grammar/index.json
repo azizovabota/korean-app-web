@@ -1,0 +1,1326 @@
+{
+  "groups": [
+    {
+      "id": "negation_restriction",
+      "title": "Запрет и ограничение",
+      "topics": [
+        {
+          "id": "t1-080",
+          "korean": "지 말다",
+          "russian": "не делай(те)",
+          "level_ru": "Начальный (TOPIK I)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t1-081",
+          "korean": "지 못하다",
+          "russian": "не смочь",
+          "level_ru": "Начальный (TOPIK I)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t1-082",
+          "korean": "지 않다",
+          "russian": "не (делать)",
+          "level_ru": "Начальный (TOPIK I)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t1-084",
+          "korean": "이/가 아니다",
+          "russian": "не являться",
+          "level_ru": "Начальный (TOPIK I)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t2-018",
+          "korean": "-(으)나 마나",
+          "russian": "без толку делать что-л., результат предрешён и так",
+          "level_ru": "Средний (TOPIK II)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t2-022",
+          "korean": "-(으)ㄹ 리가 없다",
+          "russian": "не может быть, чтобы...",
+          "level_ru": "Средний (TOPIK II)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t2-026",
+          "korean": "-(으)ㄹ 뿐이다",
+          "russian": "просто, только лишь (и ничего больше)",
+          "level_ru": "Средний (TOPIK II)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t2-099",
+          "korean": "-는/은커녕",
+          "russian": "не говоря уже о…; тем более не…",
+          "level_ru": "Средний (TOPIK II)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t2-145",
+          "korean": "아무 -도",
+          "russian": "полное отрицание — «никакой, совсем никто/ничто»",
+          "level_ru": "Средний (TOPIK II)",
+          "exercise_count": 15
+        }
+      ]
+    },
+    {
+      "id": "connectors_time",
+      "title": "Соединители: время",
+      "topics": [
+        {
+          "id": "t1-035",
+          "korean": "(으)ㄴ 후에",
+          "russian": "после того, как",
+          "level_ru": "Начальный (TOPIK I)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t1-040",
+          "korean": "(으)ㄹ 때",
+          "russian": "когда",
+          "level_ru": "Начальный (TOPIK I)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t1-054",
+          "korean": "(으)면서",
+          "russian": "в то время как, одновременно",
+          "level_ru": "Начальный (TOPIK I)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t1-062",
+          "korean": "고",
+          "russian": "и (затем)",
+          "level_ru": "Начальный (TOPIK I)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t1-067",
+          "korean": "기 전에",
+          "russian": "перед тем, как",
+          "level_ru": "Начальный (TOPIK I)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t2-001",
+          "korean": "-(으)ㄴ 채(로)",
+          "russian": "в состоянии, оставаясь в том же положении (не меняя его)",
+          "level_ru": "Средний (TOPIK II)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t2-003",
+          "korean": "-(으)ㄴ/는 김에",
+          "russian": "заодно, пользуясь случаем",
+          "level_ru": "Средний (TOPIK II)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t2-038",
+          "korean": "-(으)려다가",
+          "russian": "собирался сделать, но (вместо этого случилось другое)",
+          "level_ru": "Средний (TOPIK II)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t2-049",
+          "korean": "-고 나니(까)",
+          "russian": "после того как сделал(а), (обнаружил/понял, что)",
+          "level_ru": "Средний (TOPIK II)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t2-050",
+          "korean": "-고 나면",
+          "russian": "после того как (сделаю/сделаешь)",
+          "level_ru": "Средний (TOPIK II)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t2-051",
+          "korean": "-고 나서",
+          "russian": "сначала..., а потом (после завершения действия)",
+          "level_ru": "Средний (TOPIK II)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t2-054",
+          "korean": "-고 보면",
+          "russian": "если разобраться/вникнуть, то на самом деле",
+          "level_ru": "Средний (TOPIK II)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t2-084",
+          "korean": "-는 (도)중에",
+          "russian": "в процессе…, в то время как…",
+          "level_ru": "Средний (TOPIK II)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t2-085",
+          "korean": "-는 길에",
+          "russian": "по пути, когда…",
+          "level_ru": "Средний (TOPIK II)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t2-090",
+          "korean": "-는 사이에",
+          "russian": "пока…, в то время как…",
+          "level_ru": "Средний (TOPIK II)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t2-102",
+          "korean": "-다(가) 보니(까)",
+          "russian": "занимаясь чем-то, обнаружить, что уже…",
+          "level_ru": "Средний (TOPIK II)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t2-103",
+          "korean": "-다(가) 보면",
+          "russian": "если продолжать делать…, то со временем…",
+          "level_ru": "Средний (TOPIK II)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t2-104",
+          "korean": "-다가",
+          "russian": "в процессе одного действия (происходит смена/прерывание)",
+          "level_ru": "Средний (TOPIK II)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t2-140",
+          "korean": "-자마자",
+          "russian": "немедленное следование одного действия за другим — «как только»",
+          "level_ru": "Средний (TOPIK II)",
+          "exercise_count": 15
+        }
+      ]
+    },
+    {
+      "id": "connectors_logical",
+      "title": "Соединители: логика",
+      "topics": [
+        {
+          "id": "t1-036",
+          "korean": "(으)ㄴ데(요)",
+          "russian": "хотя",
+          "level_ru": "Начальный (TOPIK I)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t1-037",
+          "korean": "(으)ㄴ데(요)",
+          "russian": "но",
+          "level_ru": "Начальный (TOPIK I)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t1-038",
+          "korean": "(으)니까",
+          "russian": "потому что",
+          "level_ru": "Начальный (TOPIK I)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t1-053",
+          "korean": "(으)면",
+          "russian": "если",
+          "level_ru": "Начальный (TOPIK I)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t1-059",
+          "korean": "거나",
+          "russian": "или",
+          "level_ru": "Начальный (TOPIK I)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t1-066",
+          "korean": "기 때문에",
+          "russian": "из-за того, что",
+          "level_ru": "Начальный (TOPIK I)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t1-071",
+          "korean": "는데",
+          "russian": "а (вводное, контекстное)",
+          "level_ru": "Начальный (TOPIK I)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t1-083",
+          "korean": "지만",
+          "russian": "но, однако",
+          "level_ru": "Начальный (TOPIK I)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t2-005",
+          "korean": "-(으)ㄴ/는 반면(에)",
+          "russian": "в то время как, тогда как (противопоставление)",
+          "level_ru": "Средний (TOPIK II)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t2-007",
+          "korean": "-(으)ㄴ/는 탓에",
+          "russian": "из-за (негативной причины)",
+          "level_ru": "Средний (TOPIK II)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t2-015",
+          "korean": "-(으)ㄴ/는들",
+          "russian": "даже если (бы), пусть даже",
+          "level_ru": "Средний (TOPIK II)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t2-019",
+          "korean": "-(으)니까(요)",
+          "russian": "потому что, ведь (нейтральная причина)",
+          "level_ru": "Средний (TOPIK II)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t2-020",
+          "korean": "-(으)니만큼",
+          "russian": "поскольку, в той мере, в какой...",
+          "level_ru": "Средний (TOPIK II)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t2-025",
+          "korean": "-(으)ㄹ 뿐만 아니라",
+          "russian": "не только..., но и...",
+          "level_ru": "Средний (TOPIK II)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t2-036",
+          "korean": "-(으)ㄹ지라도",
+          "russian": "даже если, как бы ни... (уступка)",
+          "level_ru": "Средний (TOPIK II)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t2-040",
+          "korean": "-(으)려면",
+          "russian": "если собираешься/хочешь сделать, то (нужно)",
+          "level_ru": "Средний (TOPIK II)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t2-041",
+          "korean": "-(으)로 인해(서)",
+          "russian": "из-за, по причине",
+          "level_ru": "Средний (TOPIK II)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t2-043",
+          "korean": "-(으)며",
+          "russian": "и, а также (соединяет действия/состояния)",
+          "level_ru": "Средний (TOPIK II)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t2-045",
+          "korean": "-(으)므로",
+          "russian": "так как, поскольку (причина)",
+          "level_ru": "Средний (TOPIK II)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t2-047",
+          "korean": "-거든",
+          "russian": "потому что, дело в том, что (объяснение причины)",
+          "level_ru": "Средний (TOPIK II)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t2-061",
+          "korean": "-기는 하지만",
+          "russian": "хоть и..., но",
+          "level_ru": "Средний (TOPIK II)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t2-063",
+          "korean": "-기만 하면 (되다)",
+          "russian": "достаточно только, стоит только",
+          "level_ru": "Средний (TOPIK II)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t2-065",
+          "korean": "-길래",
+          "russian": "так как, поскольку (увидел/заметил, и поэтому)",
+          "level_ru": "Средний (TOPIK II)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t2-069",
+          "korean": "-ㄴ/는다고 치다",
+          "russian": "если предположить, что; допустим, что",
+          "level_ru": "Средний (TOPIK II)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t2-071",
+          "korean": "-ㄴ/는다고 해도",
+          "russian": "даже если",
+          "level_ru": "Средний (TOPIK II)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t2-078",
+          "korean": "-ㄴ/는다면",
+          "russian": "если бы…; если…",
+          "level_ru": "Средний (TOPIK II)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t2-083",
+          "korean": "-느라고",
+          "russian": "из-за того, что был(а) занят(а) (чем-то)",
+          "level_ru": "Средний (TOPIK II)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t2-086",
+          "korean": "-는 대로",
+          "russian": "так, как…; как только…",
+          "level_ru": "Средний (TOPIK II)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t2-087",
+          "korean": "-는 대신(에)",
+          "russian": "вместо того, чтобы…",
+          "level_ru": "Средний (TOPIK II)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t2-088",
+          "korean": "-는 덕분에",
+          "russian": "благодаря тому, что…",
+          "level_ru": "Средний (TOPIK II)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t2-089",
+          "korean": "-는 바람에",
+          "russian": "из-за того, что… (негативный результат)",
+          "level_ru": "Средний (TOPIK II)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t2-095",
+          "korean": "-는 통에",
+          "russian": "из-за того, что… (суматоха, помеха)",
+          "level_ru": "Средний (TOPIK II)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t2-097",
+          "korean": "-는 한",
+          "russian": "пока…; в той мере, в какой…",
+          "level_ru": "Средний (TOPIK II)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t2-098",
+          "korean": "-는 한편",
+          "russian": "с одной стороны…, а также одновременно…",
+          "level_ru": "Средний (TOPIK II)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t2-105",
+          "korean": "-다시피",
+          "russian": "как… (видно, известно)",
+          "level_ru": "Средний (TOPIK II)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t2-106",
+          "korean": "-대로",
+          "russian": "так, как…; согласно…",
+          "level_ru": "Средний (TOPIK II)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t2-111",
+          "korean": "-더라도",
+          "russian": "даже если…",
+          "level_ru": "Средний (TOPIK II)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t2-115",
+          "korean": "-도록",
+          "russian": "цель или результат действия («так, чтобы…», «для того чтобы…»)",
+          "level_ru": "Средний (TOPIK II)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t2-116",
+          "korean": "-든지",
+          "russian": "перечисление вариантов без разницы, какой из них («что бы ни…», «или… или…»)",
+          "level_ru": "Средний (TOPIK II)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t2-117",
+          "korean": "-듯이",
+          "russian": "сравнение, похожесть действия на что-то («как будто…», «словно…»)",
+          "level_ru": "Средний (TOPIK II)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t2-121",
+          "korean": "-아/어서 그런지",
+          "russian": "неуверенное предположение о причине — «может быть, потому что…»",
+          "level_ru": "Средний (TOPIK II)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t2-122",
+          "korean": "-아/어도",
+          "russian": "уступка — действие происходит, несмотря на условие («даже если…», «хотя…»)",
+          "level_ru": "Средний (TOPIK II)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t2-124",
+          "korean": "-아/어야",
+          "russian": "необходимое условие — «только если…», «нужно, чтобы…»",
+          "level_ru": "Средний (TOPIK II)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t2-127",
+          "korean": "-았/었더라면",
+          "russian": "предположение о нереализованном прошлом условии — «если бы… (то бы)»",
+          "level_ru": "Средний (TOPIK II)",
+          "exercise_count": 15
+        }
+      ]
+    },
+    {
+      "id": "requests_wishes",
+      "title": "Просьбы и желания",
+      "topics": [
+        {
+          "id": "t1-046",
+          "korean": "(으)ㄹ까요?",
+          "russian": "не...ли нам",
+          "level_ru": "Начальный (TOPIK I)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t1-048",
+          "korean": "(으)ㄹ래요?",
+          "russian": "не хотите ли",
+          "level_ru": "Начальный (TOPIK I)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t1-055",
+          "korean": "(으)ㅂ시다",
+          "russian": "давайте",
+          "level_ru": "Начальный (TOPIK I)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t1-056",
+          "korean": "(으)세요",
+          "russian": "пожалуйста (вежливая просьба)",
+          "level_ru": "Начальный (TOPIK I)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t1-057",
+          "korean": "(으)십시오",
+          "russian": "пожалуйста (формальная просьба)",
+          "level_ru": "Начальный (TOPIK I)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t1-070",
+          "korean": "는 게 좋겠다",
+          "russian": "лучше бы",
+          "level_ru": "Начальный (TOPIK I)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t2-123",
+          "korean": "-아/어라",
+          "russian": "повелительное наклонение, прямой приказ или просьба — «сделай(те)»",
+          "level_ru": "Средний (TOPIK II)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t2-129",
+          "korean": "-았/었으면 하다",
+          "russian": "желание или надежда на определённый исход — «хотелось бы, чтобы»",
+          "level_ru": "Средний (TOPIK II)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t2-138",
+          "korean": "-자",
+          "russian": "предложение совместного действия — «давай(те)»",
+          "level_ru": "Средний (TOPIK II)",
+          "exercise_count": 15
+        }
+      ]
+    },
+    {
+      "id": "speculation_evidential",
+      "title": "Предположение и пересказ",
+      "topics": [
+        {
+          "id": "t1-029",
+          "korean": "(으)ㄴ 것 같다",
+          "russian": "кажется, что...",
+          "level_ru": "Начальный (TOPIK I)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t1-030",
+          "korean": "(으)ㄹ 것 같다",
+          "russian": "наверное, будет...",
+          "level_ru": "Начальный (TOPIK I)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t2-002",
+          "korean": "-(으)ㄴ/는 걸 보니(까)",
+          "russian": "судя по тому, что...",
+          "level_ru": "Средний (TOPIK II)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t2-006",
+          "korean": "-(으)ㄴ/는 법이다",
+          "russian": "неизбежно происходит, естественно, что...",
+          "level_ru": "Средний (TOPIK II)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t2-008",
+          "korean": "-(으)ㄴ/는/(으)ㄹ 모양이다",
+          "russian": "похоже, что...",
+          "level_ru": "Средний (TOPIK II)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t2-010",
+          "korean": "-(으)ㄴ/는/(으)ㄹ 줄 몰랐다",
+          "russian": "не знал, что...",
+          "level_ru": "Средний (TOPIK II)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t2-011",
+          "korean": "-(으)ㄴ/는/(으)ㄹ 줄 알았다",
+          "russian": "думал, что... (оказалось иначе)",
+          "level_ru": "Средний (TOPIK II)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t2-012",
+          "korean": "-(으)ㄴ/는/(으)ㄹ지",
+          "russian": "косвенный вопрос: что/кто/где именно...",
+          "level_ru": "Средний (TOPIK II)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t2-016",
+          "korean": "-(으)ㄴ가 보다",
+          "russian": "похоже, что... (предположение по косвенным признакам)",
+          "level_ru": "Средний (TOPIK II)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t2-031",
+          "korean": "-(으)ㄹ 텐데",
+          "russian": "наверное, должно быть (предположение с оттенком ожидания)",
+          "level_ru": "Средний (TOPIK II)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t2-035",
+          "korean": "-(으)ㄹ지(도) 모르다",
+          "russian": "не знаю, возможно...",
+          "level_ru": "Средний (TOPIK II)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t2-037",
+          "korean": "-(으)라고 하다",
+          "russian": "передача чужого приказа/просьбы: велел/сказал сделать",
+          "level_ru": "Средний (TOPIK II)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t2-060",
+          "korean": "-기/게 마련이다",
+          "russian": "неизбежно, естественно бывает так, что",
+          "level_ru": "Средний (TOPIK II)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t2-070",
+          "korean": "-ㄴ/는다고 하다",
+          "russian": "передача чужих слов (говорить, что)",
+          "level_ru": "Средний (TOPIK II)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t2-072",
+          "korean": "-ㄴ/는다고(요)",
+          "russian": "говорят, что; кажется, что (передача услышанной информации)",
+          "level_ru": "Средний (TOPIK II)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t2-073",
+          "korean": "-ㄴ/는다니",
+          "russian": "надо же, что; удивительно, что (реакция на услышанное)",
+          "level_ru": "Средний (TOPIK II)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t2-074",
+          "korean": "-ㄴ/는다니까",
+          "russian": "я же тебе говорю",
+          "level_ru": "Средний (TOPIK II)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t2-075",
+          "korean": "-ㄴ/는다더니",
+          "russian": "говорил(а), что…, но (вышло иначе)",
+          "level_ru": "Средний (TOPIK II)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t2-076",
+          "korean": "-ㄴ/는다더라",
+          "russian": "говорят, что… (слышал)",
+          "level_ru": "Средний (TOPIK II)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t2-077",
+          "korean": "-ㄴ/는다던데",
+          "russian": "слышал(а), что…, (это так)?",
+          "level_ru": "Средний (TOPIK II)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t2-079",
+          "korean": "-ㄴ/는다면서(요)?",
+          "russian": "говорят, что…, это правда?",
+          "level_ru": "Средний (TOPIK II)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t2-080",
+          "korean": "-나 보다",
+          "russian": "похоже, что… (предположение по наблюдению)",
+          "level_ru": "Средний (TOPIK II)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t2-082",
+          "korean": "-냐고 하다",
+          "russian": "передача чужого вопроса: спросить, …ли",
+          "level_ru": "Средний (TOPIK II)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t2-120",
+          "korean": "-아/어 보이다",
+          "russian": "визуальное впечатление, внешнее проявление — «выглядит»",
+          "level_ru": "Средний (TOPIK II)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t2-128",
+          "korean": "-았/었던 것 같다",
+          "russian": "предположение о прошедшем событии — «кажется, было/случилось»",
+          "level_ru": "Средний (TOPIK II)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t2-139",
+          "korean": "-자고 하다",
+          "russian": "передача чужого предложения совершить действие совместно — «предложил(а) сделать»",
+          "level_ru": "Средний (TOPIK II)",
+          "exercise_count": 15
+        }
+      ]
+    },
+    {
+      "id": "speech_styles_endings",
+      "title": "Стили речи и окончания",
+      "topics": [
+        {
+          "id": "t1-058",
+          "korean": "(이)지요?",
+          "russian": "не так ли?",
+          "level_ru": "Начальный (TOPIK I)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t1-065",
+          "korean": "군요",
+          "russian": "вот оно как! (удивление)",
+          "level_ru": "Начальный (TOPIK I)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t1-069",
+          "korean": "네요",
+          "russian": "надо же! (удивление/подтверждение)",
+          "level_ru": "Начальный (TOPIK I)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t1-072",
+          "korean": "ㅂ/습니까?",
+          "russian": "вопросительная форма официально-вежливого стиля",
+          "level_ru": "Начальный (TOPIK I)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t1-073",
+          "korean": "ㅂ/습니다",
+          "russian": "официально-вежливый стиль",
+          "level_ru": "Начальный (TOPIK I)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t1-078",
+          "korean": "아/어요",
+          "russian": "неформально-вежливый стиль",
+          "level_ru": "Начальный (TOPIK I)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t2-013",
+          "korean": "-(으)ㄴ/는걸(요)",
+          "russian": "выражение удивления/несогласия: вот же, а вообще-то",
+          "level_ru": "Средний (TOPIK II)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t2-014",
+          "korean": "-(으)ㄴ/는데(요)",
+          "russian": "но, а вот (смягчённое противопоставление/реакция)",
+          "level_ru": "Средний (TOPIK II)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t2-017",
+          "korean": "-(으)ㄴ가(요)?",
+          "russian": "вопрос в мягкой форме: ...? (а...?)",
+          "level_ru": "Средний (TOPIK II)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t2-052",
+          "korean": "-고 말고(요)",
+          "russian": "конечно же, само собой",
+          "level_ru": "Средний (TOPIK II)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t2-062",
+          "korean": "-기는(요)",
+          "russian": "да ладно, не стоит (вежливое возражение/отрицание)",
+          "level_ru": "Средний (TOPIK II)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t2-067",
+          "korean": "-ㄴ/는다",
+          "russian": "окончание повествовательного настоящего времени",
+          "level_ru": "Средний (TOPIK II)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t2-081",
+          "korean": "-나(요)?",
+          "russian": "…? (мягкий, неформальный вопрос)",
+          "level_ru": "Средний (TOPIK II)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t2-100",
+          "korean": "-는구나",
+          "russian": "надо же, …! (удивление, открытие)",
+          "level_ru": "Средний (TOPIK II)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t2-101",
+          "korean": "-니/냐?",
+          "russian": "…? (непринуждённый, дружеский вопрос)",
+          "level_ru": "Средний (TOPIK II)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t2-141",
+          "korean": "-잖아(요)",
+          "russian": "напоминание собеседнику об очевидном или известном факте — «ведь, же»",
+          "level_ru": "Средний (TOPIK II)",
+          "exercise_count": 15
+        }
+      ]
+    },
+    {
+      "id": "tense_aspect_retrospect",
+      "title": "Время, вид и ретроспекция",
+      "topics": [
+        {
+          "id": "t1-031",
+          "korean": "(으)ㄴ 적이 있다",
+          "russian": "уже приходилось, был опыт",
+          "level_ru": "Начальный (TOPIK I)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t1-032",
+          "korean": "(으)ㄴ 적이 없다",
+          "russian": "ни разу не приходилось",
+          "level_ru": "Начальный (TOPIK I)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t1-033",
+          "korean": "(으)ㄴ 지",
+          "russian": "сколько времени прошло с...",
+          "level_ru": "Начальный (TOPIK I)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t1-034",
+          "korean": "(으)ㄴ 지",
+          "russian": "с тех пор как",
+          "level_ru": "Начальный (TOPIK I)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t1-064",
+          "korean": "고 있다",
+          "russian": "сейчас делаю",
+          "level_ru": "Начальный (TOPIK I)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t2-024",
+          "korean": "-(으)ㄹ 뻔하다",
+          "russian": "чуть не, почти что (едва не случилось)",
+          "level_ru": "Средний (TOPIK II)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t2-029",
+          "korean": "-(으)ㄹ 지경이다",
+          "russian": "дело идёт к тому, что..., почти доходит до того, что",
+          "level_ru": "Средний (TOPIK II)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t2-053",
+          "korean": "-고 말다",
+          "russian": "в итоге, так и получилось, что (нежелательный результат)",
+          "level_ru": "Средний (TOPIK II)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t2-055",
+          "korean": "-곤 하다",
+          "russian": "раньше часто бывало, что",
+          "level_ru": "Средний (TOPIK II)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t2-094",
+          "korean": "-는 중이다",
+          "russian": "сейчас в процессе…; как раз…",
+          "level_ru": "Средний (TOPIK II)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t2-107",
+          "korean": "-더군(요)",
+          "russian": "оказывается, …! (личное наблюдение говорящего)",
+          "level_ru": "Средний (TOPIK II)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t2-108",
+          "korean": "-더니",
+          "russian": "…, а потом (в результате)…",
+          "level_ru": "Средний (TOPIK II)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t2-109",
+          "korean": "-더라",
+          "russian": "говорят, что…; я слышал(а), что…",
+          "level_ru": "Средний (TOPIK II)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t2-110",
+          "korean": "-더라고(요)",
+          "russian": "оказалось, что… (личное наблюдение в прошлом)",
+          "level_ru": "Средний (TOPIK II)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t2-112",
+          "korean": "-던",
+          "russian": "вспоминание о привычном действии или состоянии в прошлом («раньше…»)",
+          "level_ru": "Средний (TOPIK II)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t2-113",
+          "korean": "-던가(요)?",
+          "russian": "вопрос-воспоминание или неуверенное предположение («разве…?»)",
+          "level_ru": "Средний (TOPIK II)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t2-114",
+          "korean": "-던데",
+          "russian": "неожиданное наблюдение, подмеченное ранее, со значением «я заметил, что…»",
+          "level_ru": "Средний (TOPIK II)",
+          "exercise_count": 15
+        }
+      ]
+    },
+    {
+      "id": "verb_modality",
+      "title": "Модальность глагола",
+      "topics": [
+        {
+          "id": "t1-039",
+          "korean": "(으)ㄹ 것이다",
+          "russian": "будет",
+          "level_ru": "Начальный (TOPIK I)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t1-041",
+          "korean": "(으)ㄹ 수 있다",
+          "russian": "мочь",
+          "level_ru": "Начальный (TOPIK I)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t1-042",
+          "korean": "(으)ㄹ 수 없다",
+          "russian": "не мочь",
+          "level_ru": "Начальный (TOPIK I)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t1-043",
+          "korean": "(으)ㄹ게요",
+          "russian": "обязательно сделаю",
+          "level_ru": "Начальный (TOPIK I)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t1-044",
+          "korean": "(으)ㄹ까 하다",
+          "russian": "подумываю о...",
+          "level_ru": "Начальный (TOPIK I)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t1-045",
+          "korean": "(으)ㄹ까 봐",
+          "russian": "боюсь, что",
+          "level_ru": "Начальный (TOPIK I)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t1-047",
+          "korean": "(으)ㄹ래요",
+          "russian": "я собираюсь, хочу",
+          "level_ru": "Начальный (TOPIK I)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t1-049",
+          "korean": "(으)러 가다",
+          "russian": "идти, чтобы...",
+          "level_ru": "Начальный (TOPIK I)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t1-050",
+          "korean": "(으)러 오다",
+          "russian": "прийти, чтобы...",
+          "level_ru": "Начальный (TOPIK I)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t1-051",
+          "korean": "(으)려고",
+          "russian": "собираться (сделать)",
+          "level_ru": "Начальный (TOPIK I)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t1-052",
+          "korean": "(으)려고요",
+          "russian": "собираюсь (в ответ на вопрос)",
+          "level_ru": "Начальный (TOPIK I)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t1-060",
+          "korean": "게",
+          "russian": "делать (каким-то)",
+          "level_ru": "Начальный (TOPIK I)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t1-061",
+          "korean": "게 되다",
+          "russian": "так получилось, что",
+          "level_ru": "Начальный (TOPIK I)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t1-063",
+          "korean": "고 싶다",
+          "russian": "хотеть",
+          "level_ru": "Начальный (TOPIK I)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t1-068",
+          "korean": "기로 하다",
+          "russian": "решить (сделать)",
+          "level_ru": "Начальный (TOPIK I)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t1-074",
+          "korean": "아/어/여 보다",
+          "russian": "пробовать (сделать)",
+          "level_ru": "Начальный (TOPIK I)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t1-075",
+          "korean": "아/어/여 주다",
+          "russian": "сделать для меня/нас",
+          "level_ru": "Начальный (TOPIK I)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t1-076",
+          "korean": "아/어/여야 되다",
+          "russian": "нужно, должен",
+          "level_ru": "Начальный (TOPIK I)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t1-077",
+          "korean": "아/어/여야 하다",
+          "russian": "нужно, должен",
+          "level_ru": "Начальный (TOPIK I)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t1-079",
+          "korean": "았/었/였으면 좋겠다",
+          "russian": "хотелось бы, чтобы",
+          "level_ru": "Начальный (TOPIK I)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t2-009",
+          "korean": "-(으)ㄴ/는/(으)ㄹ 셈이다",
+          "russian": "намереваться, собираться сделать",
+          "level_ru": "Средний (TOPIK II)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t2-021",
+          "korean": "-(으)ㄹ 겸 (해서)",
+          "russian": "и одновременно, а также заодно",
+          "level_ru": "Средний (TOPIK II)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t2-023",
+          "korean": "-(으)ㄹ 만하다",
+          "russian": "стоит сделать, заслуживает того, чтобы",
+          "level_ru": "Средний (TOPIK II)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t2-027",
+          "korean": "-(으)ㄹ 수밖에 (없다)",
+          "russian": "нет другого выхода, кроме как...",
+          "level_ru": "Средний (TOPIK II)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t2-030",
+          "korean": "-(으)ㄹ 테니(까)",
+          "russian": "я сделаю то-то, так что...(ты сделай это)",
+          "level_ru": "Средний (TOPIK II)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t2-032",
+          "korean": "-(으)ㄹ걸 (그랬다)",
+          "russian": "надо было сделать, жаль, что не сделал",
+          "level_ru": "Средний (TOPIK II)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t2-033",
+          "korean": "-(으)ㄹ까 말까",
+          "russian": "колебаться, делать или не делать",
+          "level_ru": "Средний (TOPIK II)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t2-039",
+          "korean": "-(으)려던 참이다",
+          "russian": "как раз собирался(-ась) сделать",
+          "level_ru": "Средний (TOPIK II)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t2-044",
+          "korean": "-(으)면 되다",
+          "russian": "достаточно просто сделать, можно просто",
+          "level_ru": "Средний (TOPIK II)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t2-048",
+          "korean": "-게 하다",
+          "russian": "заставляет, делает так, что (кто-то/что-то становится каким-то)",
+          "level_ru": "Средний (TOPIK II)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t2-056",
+          "korean": "-기 쉽다",
+          "russian": "легко (сделать)",
+          "level_ru": "Средний (TOPIK II)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t2-057",
+          "korean": "-기 십상이다",
+          "russian": "легко может случиться, склонен к тому, что",
+          "level_ru": "Средний (TOPIK II)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t2-058",
+          "korean": "-기 어렵다",
+          "russian": "трудно (сделать)",
+          "level_ru": "Средний (TOPIK II)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t2-059",
+          "korean": "-기 위해(서)",
+          "russian": "для того чтобы, с целью",
+          "level_ru": "Средний (TOPIK II)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t2-064",
+          "korean": "-기에(는)",
+          "russian": "для того чтобы... (не очень подходит/неподходяще)",
+          "level_ru": "Средний (TOPIK II)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t2-066",
+          "korean": "-ㄴ/는 척하다",
+          "russian": "притворяться, делать вид, что",
+          "level_ru": "Средний (TOPIK II)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t2-091",
+          "korean": "-는 셈 치다",
+          "russian": "считать, как будто…; воспринимать как…",
+          "level_ru": "Средний (TOPIK II)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t2-092",
+          "korean": "-는 수(가) 있다",
+          "russian": "бывает, что…; может случиться, что…",
+          "level_ru": "Средний (TOPIK II)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t2-093",
+          "korean": "-는 수밖에 (없다)",
+          "russian": "нет другого выхода, кроме как…",
+          "level_ru": "Средний (TOPIK II)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t2-096",
+          "korean": "-는 편이다",
+          "russian": "скорее…; как правило, склонен(на)…",
+          "level_ru": "Средний (TOPIK II)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t2-125",
+          "korean": "-아/어야지",
+          "russian": "решительное намерение или совет самому себе/собеседнику — «нужно/следует сделать»",
+          "level_ru": "Средний (TOPIK II)",
+          "exercise_count": 15
+        },
+        {
+          "id": "t2-126",
+          "korean": "-아/어지다",
+          "russian": "постепенное изменение состояния — «становиться»",
+          "level_ru": "Средний (TOPIK II)",
+          "exercise_count": 15
+        }
+      ]
+    }
+  ]
+}

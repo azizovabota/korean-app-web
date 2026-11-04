@@ -5,6 +5,7 @@ import Link from 'next/link';
 import { colors, typography, spacing } from '@/constants/colors';
 import { getDueMistakes, getLessonProgress, getMistakes, type LessonProgressRow, type MistakeRow } from '@/lib/account';
 import { getWordCard, parseCardKey } from '@/lib/wordCards';
+import { getGrammarTopicMeta } from '@/lib/grammar';
 
 type StudyTab = 'learning' | 'incorrect';
 
@@ -24,11 +25,14 @@ const sourceLabels: Record<string, string> = {
   listening56: 'TOPIK 5–6 · аудирование',
   ci: 'CI',
   cards: 'Карточки',
+  grammar: 'Грамматика',
 };
 
 function lessonTitle(key: string) {
   const card = parseCardKey(key);
   if (card) return getWordCard(card.categoryId, card.wordId)?.word ?? key;
+  const grammar = key.match(/^grammar-(t\d-\d+)-(\d+)$/);
+  if (grammar) return `${getGrammarTopicMeta(grammar[1])?.korean ?? grammar[1]} · упражнение ${grammar[2]}`;
   const partMatch = key.match(/^listening(34|56)?-(\d+)-p(\d+)$/);
   if (partMatch) return `Listening ${partMatch[2]} · Question-${partMatch[3]}`;
   const trackPrefix = key.match(/^listening(34|56)-/)?.[0];
