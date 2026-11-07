@@ -257,6 +257,31 @@ export default function Home() {
             </Link>
           ))}
         </div>
+
+        <Link href="/grammar" style={{ display: 'block', textDecoration: 'none', marginTop: spacing.md }}>
+          <div
+            style={{
+              backgroundColor: colors.white,
+              borderRadius: '16px',
+              padding: spacing.lg,
+              display: 'flex',
+              alignItems: 'center',
+              gap: spacing.md,
+              boxShadow: '0 4px 12px rgba(0, 0, 0, 0.05)',
+            }}
+          >
+            <p style={{ fontSize: '32px', margin: 0 }}>📐</p>
+            <div style={{ flex: 1 }}>
+              <p style={{ fontSize: typography.sizes.sm, fontWeight: 'bold', color: colors.black, margin: `0 0 ${spacing.xs} 0` }}>
+                Грамматика
+              </p>
+              <p style={{ fontSize: typography.sizes.xs, color: colors.darkGray, margin: 0 }}>
+                문법 연습 · тренировки по темам
+              </p>
+            </div>
+            <span style={{ fontSize: typography.sizes.lg, color: colors.primary }}>→</span>
+          </div>
+        </Link>
       </div>
 
       {/* Bottom Navigation */}
